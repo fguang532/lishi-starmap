@@ -323,6 +323,7 @@ export default function Explorer() {
             </span>
           </button>
           <nav className="main-nav" aria-label="主导航">
+            <a href="/learn" className="learning-nav-link">系统学习</a>
             <button className={!era ? "active" : ""} onClick={goGlobal}>
               文明全景
             </button>

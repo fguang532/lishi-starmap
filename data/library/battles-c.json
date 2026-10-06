@@ -1,0 +1,1032 @@
+{
+  "battles": [
+    {
+      "id": "battle-talas",
+      "kind": "battles",
+      "name": "怛罗斯之战",
+      "title": "怛罗斯之战",
+      "lifeLabel": "751年",
+      "sortYear": 751,
+      "eraIds": [
+        "tang"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "唐与阿拔斯势力在中亚交战。其对造纸术传播和中亚宗教变化的影响，不能简化成一次战斗决定一切。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "中亚地区的远征会战"
+        },
+        {
+          "label": "交战双方",
+          "value": "唐及当地盟军／阿拔斯王朝军及盟友"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "高仙芝、李嗣业等／齐亚德等"
+        },
+        {
+          "label": "战场范围",
+          "value": "怛罗斯河流域，今中亚地区"
+        },
+        {
+          "label": "直接结果",
+          "value": "唐军败退，未造成唐势力当年全面撤出西域"
+        }
+      ],
+      "sections": [
+        {
+          "title": "地方政治与帝国介入",
+          "text": "唐安西军进入中亚地方政权的争端，高仙芝对石国的处置引起反弹。阿拔斯王朝刚取代倭马亚王朝，也在整合东方地区。当地诸国、部落有自身利益，并不是两个帝国之间没有能动性的附属背景。"
+        },
+        {
+          "title": "会战与撤离",
+          "text": "唐军在怛罗斯附近交战后失利，传统叙述强调葛逻禄倒戈等因素，残部在李嗣业等掩护下撤出。中阿史籍对兵力、经过和参战方记载有限且有差异，不能把后世推算写成精确战报。"
+        },
+        {
+          "title": "影响需要拆开讨论",
+          "text": "唐此后仍在西域开展军事活动，安史之乱造成的兵力东调对局势影响更直接。被俘工匠促进造纸技术传播是著名说法，但纸张在中亚的出现更早，传播过程不能只归于一役。中亚伊斯兰化同样是长期社会变化。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 750,
+          "dateLabel": "750年前后",
+          "title": "高仙芝进攻石国",
+          "text": "地区冲突升级，当地势力寻求外援。",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/舊唐書/卷104"
+        },
+        {
+          "year": 751,
+          "dateLabel": "751年",
+          "title": "怛罗斯交战",
+          "text": "唐军败退，高仙芝等返回安西。",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/舊唐書/卷104"
+        },
+        {
+          "year": 755,
+          "dateLabel": "755年以后",
+          "title": "安史之乱改变资源配置",
+          "text": "西域军队东调，边疆格局受到新的影响。",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/舊唐書/卷104"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《旧唐书》高仙芝等传",
+          "url": "https://zh.wikisource.org/zh-hant/舊唐書/卷104",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "怛罗斯之战·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/怛羅斯戰役",
+          "institution": "维基百科·含参考文献"
+        }
+      ],
+      "relatedNames": [
+        "李隆基",
+        "安史之乱"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-anshi",
+      "kind": "battles",
+      "name": "安史之乱",
+      "title": "安史之乱",
+      "lifeLabel": "755—763年",
+      "sortYear": 755,
+      "eraIds": [
+        "tang"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "安史之乱使唐朝政治、财政与地方军事结构发生深刻变化，不能以一场战役概括。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "持续多年的叛乱与内战"
+        },
+        {
+          "label": "交战双方",
+          "value": "唐及回纥等援军／安禄山、史思明等燕政权"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "郭子仪、李光弼等／安禄山、安庆绪、史思明、史朝义"
+        },
+        {
+          "label": "战场范围",
+          "value": "河北、河南、关中等广大地区"
+        },
+        {
+          "label": "直接结果",
+          "value": "唐收复两京，燕政权终结；部分藩镇保留实力"
+        }
+      ],
+      "sections": [
+        {
+          "title": "节度使权力与朝廷失衡",
+          "text": "安禄山兼掌多个边镇，拥有庞大军队，唐朝边防长期倚重职业化边军。中央政治斗争、边将与朝廷关系恶化，使这种权力集中转为危险。玄宗后期的政治环境是背景，但不能用单一宫廷爱情故事解释战争。"
+        },
+        {
+          "title": "反复易手的两京",
+          "text": "安军从范阳起兵，攻占洛阳，又突破潼关进入长安。玄宗西行，肃宗在灵武即位。唐借助朔方军、地方抵抗及回纥援兵反攻，长安、洛阳几经争夺，叛军内部也发生弑父夺位与首领更替。"
+        },
+        {
+          "title": "结束战争不等于恢复旧制",
+          "text": "763年史朝义败亡，部分原叛军将领归唐而保留辖区和兵权。河北藩镇、宦官军事权力与财政重心变化，成为中晚唐政治的重要条件。杜甫等人的诗记录流离与民生创伤，可与官方纪事相互参照，避免只看将相胜负。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 755,
+          "dateLabel": "755年",
+          "title": "安禄山起兵",
+          "text": "范阳军南下，洛阳很快失守。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/舊唐書/卷200上"
+        },
+        {
+          "year": 756,
+          "dateLabel": "756年",
+          "title": "潼关失守、玄宗西行",
+          "text": "长安沦陷，肃宗即位，唐重组指挥。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/舊唐書/卷200上"
+        },
+        {
+          "year": 757,
+          "dateLabel": "757年",
+          "title": "唐收复两京",
+          "text": "战争尚未结束，随后史思明再起。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/舊唐書/卷200上"
+        },
+        {
+          "year": 763,
+          "dateLabel": "763年",
+          "title": "史朝义败亡",
+          "text": "叛乱主体结束，地方军事割据仍延续。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/舊唐書/卷200上"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《舊唐書》卷200上",
+          "url": "https://zh.wikisource.org/wiki/舊唐書/卷200上",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "安史之乱·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/安史之亂",
+          "institution": "维基百科·含参考文献"
+        }
+      ],
+      "relatedNames": [
+        "李隆基",
+        "李亨",
+        "李豫",
+        "杜甫",
+        "李白",
+        "睢阳之战",
+        "怛罗斯之战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-suiyang",
+      "kind": "battles",
+      "name": "睢阳之战",
+      "title": "睢阳之战",
+      "lifeLabel": "757年",
+      "sortYear": 757,
+      "eraIds": [
+        "tang"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "睢阳防守牵制燕军，亦伴随极端饥荒与平民灾难；英雄叙事之外必须看见围城代价。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "安史之乱中的围城战"
+        },
+        {
+          "label": "交战双方",
+          "value": "唐守军／燕军"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "张巡、许远、南霁云／尹子奇"
+        },
+        {
+          "label": "战场范围",
+          "value": "睢阳，今河南商丘一带"
+        },
+        {
+          "label": "直接结果",
+          "value": "守军长期坚持后城陷，张巡等被杀"
+        }
+      ],
+      "sections": [
+        {
+          "title": "江淮通道的战略压力",
+          "text": "安史之乱扩展到河南后，睢阳控制通向江淮地区的重要交通。张巡此前在雍丘作战，随后与许远共同守睢阳。江淮承担唐朝重要财赋供给，守城行动因此具有超出一座城市的意义。"
+        },
+        {
+          "title": "援军不足与粮食耗尽",
+          "text": "燕军反复进攻，守军出击和防御相结合，但长期围困使粮食、兵员和物资枯竭。正史及韩愈文章记极端饥荒中的食人事件，这是战争灾难的记录，不应作为猎奇趣谈或无条件美化为忠义证明。"
+        },
+        {
+          "title": "忠节评价与历史责任",
+          "text": "城陷后张巡等被杀，唐代以后围绕其守城功绩与行为产生讨论。学习时可以分别判断军事牵制作用、援救决策及平民遭遇，不必只接受“忠臣”或“失败者”的单一标签。韩愈的《张中丞传后叙》也有为人物辩诬的写作立场。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 757,
+          "dateLabel": "757年初",
+          "title": "张巡、许远合守睢阳",
+          "text": "唐军在河南重要据点组织抵抗。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/舊唐書/卷187下"
+        },
+        {
+          "year": 757,
+          "dateLabel": "757年春夏至秋",
+          "title": "围困与求援",
+          "text": "守军多次作战，补给持续恶化。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/舊唐書/卷187下"
+        },
+        {
+          "year": 757,
+          "dateLabel": "757年秋",
+          "title": "睢阳陷落",
+          "text": "守军失败，城市付出沉重生命代价。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/舊唐書/卷187下"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《舊唐書》卷187下",
+          "url": "https://zh.wikisource.org/wiki/舊唐書/卷187下",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "韩愈《张中丞传后叙》",
+          "url": "https://zh.wikisource.org/wiki/張中丞傳後敘",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "李亨",
+        "韩愈",
+        "安史之乱"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-gaoliang",
+      "kind": "battles",
+      "name": "高梁河之战",
+      "title": "高梁河之战",
+      "lifeLabel": "979年",
+      "sortYear": 979,
+      "eraIds": [
+        "five-dynasties",
+        "song"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "宋灭北汉后继续北进，疲惫军队在幽州城下遭辽援军反击。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "宋辽战争中的攻城与救援会战"
+        },
+        {
+          "label": "交战双方",
+          "value": "北宋／辽"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "宋太宗赵炅／耶律休哥、耶律斜轸等"
+        },
+        {
+          "label": "战场范围",
+          "value": "幽州及高梁河一带，今北京地区"
+        },
+        {
+          "label": "直接结果",
+          "value": "宋军败退，未能夺取幽州"
+        }
+      ],
+      "sections": [
+        {
+          "title": "灭北汉后的连续进军",
+          "text": "宋太宗攻灭北汉，基本结束五代十国北方残余局面，随即试图夺取燕云地区。燕云不仅具有象征意义，更关系华北防御地形。连续作战消耗军力，补给、休整与攻城准备成为隐患。"
+        },
+        {
+          "title": "城下对峙与辽军救援",
+          "text": "宋军围幽州未能迅速破城，辽军从不同方向援救，利用宋军分散与疲劳发动反击。宋太宗败走，相关受伤与逃离细节在不同叙述中有差异，不能把后世戏谑当作战役的核心解释。"
+        },
+        {
+          "title": "宋辽长期对峙的开端",
+          "text": "宋未能恢复燕云，986年雍熙北伐也告失败，双方随后长期争战与交涉。高梁河提醒读者，灭亡一个较小政权的成功不能直接转化为攻克另一强国重镇的能力。宋辽关系最终还需结合澶渊议和理解。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 979,
+          "dateLabel": "979年",
+          "title": "宋灭北汉",
+          "text": "北汉刘继元投降，宋随后北进。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/宋史/卷004"
+        },
+        {
+          "year": 979,
+          "dateLabel": "979年夏",
+          "title": "围攻幽州",
+          "text": "宋军试图取得燕云地区的关键城池。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/宋史/卷004"
+        },
+        {
+          "year": 979,
+          "dateLabel": "979年战末",
+          "title": "高梁河败退",
+          "text": "辽军解围，宋军退回本境。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/宋史/卷004"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《宋史》卷004",
+          "url": "https://zh.wikisource.org/wiki/宋史/卷004",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "高梁河之战·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/高梁河之戰",
+          "institution": "维基百科·含参考文献"
+        }
+      ],
+      "relatedNames": [
+        "赵炅",
+        "耶律贤",
+        "刘继元"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-jingkang",
+      "kind": "battles",
+      "name": "靖康之役",
+      "title": "靖康之役",
+      "lifeLabel": "1125—1127年",
+      "sortYear": 1125,
+      "eraIds": [
+        "song"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "靖康之变是连续战争、外交失误与首都防御崩溃的结果；南宋随后重建。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "金攻宋的两次南征与首都围困"
+        },
+        {
+          "label": "交战双方",
+          "value": "金／北宋"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "完颜宗翰、完颜宗望等／宋钦宗朝廷、李纲等"
+        },
+        {
+          "label": "战场范围",
+          "value": "太原、黄河渡口至东京开封"
+        },
+        {
+          "label": "直接结果",
+          "value": "北宋中央政权覆亡，徽钦二帝被掳"
+        }
+      ],
+      "sections": [
+        {
+          "title": "宋金联盟破裂",
+          "text": "宋与金联合灭辽后，在燕云交接、人口与边境问题上矛盾加深。宋对辽金实力变化和自身军队状况判断不足。辽作为北方缓冲力量消失，使宋更直接面对金军压力。"
+        },
+        {
+          "title": "两次围城与决策摇摆",
+          "text": "金军首次南下迫近开封，宋徽宗传位钦宗，宋廷在抵抗与求和间反复。金军撤退后再度进攻，太原等地失守，开封防御与外援失效。割地、赔款和人质谈判未能保障城中安全。"
+        },
+        {
+          "title": "王朝断裂与社会后果",
+          "text": "1127年徽、钦二帝及大量宗室、官员、民众被掳北行。赵构在南方即位，继续使用宋国号，史称南宋。城市掠夺、人口流亡和文化财物损失，是理解这一转折不可略去的部分。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1125,
+          "dateLabel": "1125年末",
+          "title": "金军分路南下",
+          "text": "宋金关系转为全面战争。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/宋史/卷023"
+        },
+        {
+          "year": 1126,
+          "dateLabel": "1126年",
+          "title": "两次围困东京",
+          "text": "宋廷和战反复，太原失守后局势恶化。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/宋史/卷023"
+        },
+        {
+          "year": 1127,
+          "dateLabel": "1127年",
+          "title": "北宋覆亡、南宋建立",
+          "text": "徽钦被掳，赵构重建宋廷。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/宋史/卷023"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《宋史》卷023",
+          "url": "https://zh.wikisource.org/wiki/宋史/卷023",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "靖康之变·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/靖康之變",
+          "institution": "维基百科·含参考文献"
+        }
+      ],
+      "relatedNames": [
+        "赵佶",
+        "赵桓",
+        "赵构",
+        "李清照"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-yancheng",
+      "kind": "battles",
+      "name": "郾城之战",
+      "title": "郾城之战",
+      "lifeLabel": "1140年",
+      "sortYear": 1140,
+      "eraIds": [
+        "song"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "岳飞军在河南作战中的一次重要胜利，需与同年的顺昌、颍昌等战事及朝廷政策合看。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "宋金战争中的野战防御"
+        },
+        {
+          "label": "交战双方",
+          "value": "南宋／金"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "岳飞、岳云等／完颜宗弼"
+        },
+        {
+          "label": "战场范围",
+          "value": "郾城一带，今河南漯河附近"
+        },
+        {
+          "label": "直接结果",
+          "value": "宋军击退金军进攻"
+        }
+      ],
+      "sections": [
+        {
+          "title": "战线重新向河南展开",
+          "text": "金在1140年重启进攻，宋军多路迎战，岳飞率军向河南推进。各路军队的行动与南宋朝廷的总体目标并不总是一致。能否保持占领区、与其他军队协同及持续供应粮草，影响胜利的延续。"
+        },
+        {
+          "title": "骑兵与步骑协同",
+          "text": "《宋史·岳飞传》记宋军抵御金骑兵冲击，岳云等参与战斗。后世关于“拐子马”“铁浮图”的解释常混合不同史料，具体战术应谨慎表述，不宜简单宣称靠一种武器便破解所有重装骑兵。"
+        },
+        {
+          "title": "战场成果与政治结局",
+          "text": "同年宋军在多个方向取胜，但之后陆续奉命撤军。岳飞不久被解除兵权并遇害，绍兴和议确定新的宋金关系。郾城不是已经收复全部中原的证明，也不能脱离其他战区和外交决定独立判断。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1140,
+          "dateLabel": "1140年夏",
+          "title": "金再度南侵、宋军反击",
+          "text": "河南成为重要战场。",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/宋史/卷365"
+        },
+        {
+          "year": 1140,
+          "dateLabel": "1140年七月（农历）",
+          "title": "郾城交战",
+          "text": "岳飞军击退完颜宗弼方面的进攻。",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/宋史/卷365"
+        },
+        {
+          "year": 1140,
+          "dateLabel": "1140年稍后",
+          "title": "宋军奉诏撤回",
+          "text": "战场成果未转化为长期占领。",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/宋史/卷365"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《宋史》岳飞传",
+          "url": "https://zh.wikisource.org/zh-hant/宋史/卷365",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "《宋史》卷029",
+          "url": "https://zh.wikisource.org/wiki/宋史/卷029",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "赵构",
+        "完颜亶",
+        "辛弃疾",
+        "陆游"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-caishi",
+      "kind": "battles",
+      "name": "采石之战",
+      "title": "采石之战",
+      "lifeLabel": "1161年",
+      "sortYear": 1161,
+      "eraIds": [
+        "song"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "文臣虞允文组织军队作战的著名战例；金国内部政变也是南侵失败的重要背景。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "金军南侵中的渡江攻防"
+        },
+        {
+          "label": "交战双方",
+          "value": "南宋／金"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "虞允文及宋军将领／完颜亮"
+        },
+        {
+          "label": "战场范围",
+          "value": "采石矶附近长江水域，今安徽马鞍山"
+        },
+        {
+          "label": "直接结果",
+          "value": "宋军阻止金军在采石渡江"
+        }
+      ],
+      "sections": [
+        {
+          "title": "完颜亮南征",
+          "text": "金海陵王完颜亮动员大军南下，试图灭宋。宋部分前线军队败退，长江防御出现危机。虞允文本来奉命犒师，到达采石时需要协调军队重整。危急局面中的组织能力，比“文官天然不懂军事”的成见更值得观察。"
+        },
+        {
+          "title": "利用江面阻击",
+          "text": "宋军组织水军和岸上部队，阻击金军渡江，船只机动与江流条件发挥作用。传世记载强调虞允文的指挥，仍应看到原有将士、舟船和军事经验的基础。不能把胜利说成一名文臣凭空指挥无兵之地。"
+        },
+        {
+          "title": "军事受阻与金的内乱",
+          "text": "完颜亮随后移师其他渡口，金国内部已发生拥立完颜雍的变局，其部将最终杀死完颜亮。采石挫败渡江计划，却不是南宋单凭这一役消灭金朝。战后双方仍继续围绕边境和议和谈判。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1161,
+          "dateLabel": "1161年秋",
+          "title": "金军大举南侵",
+          "text": "宋淮南防线受到冲击。",
+          "sourceUrl": "https://zh.wikisource.org/zh/宋史全文_(四庫全書本)/卷23上"
+        },
+        {
+          "year": 1161,
+          "dateLabel": "1161年十一月（农历）",
+          "title": "采石阻击渡江",
+          "text": "宋军依托水军与长江获胜。",
+          "sourceUrl": "https://zh.wikisource.org/zh/宋史全文_(四庫全書本)/卷23上"
+        },
+        {
+          "year": 1161,
+          "dateLabel": "1161年末",
+          "title": "完颜亮被杀",
+          "text": "军事失败与内部夺位共同终结这次南征。",
+          "sourceUrl": "https://zh.wikisource.org/zh/宋史全文_(四庫全書本)/卷23上"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《宋史全文》卷二十三上",
+          "url": "https://zh.wikisource.org/zh/宋史全文_(四庫全書本)/卷23上",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "采石之战·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/采石之战",
+          "institution": "维基百科·含参考文献"
+        }
+      ],
+      "relatedNames": [
+        "赵构",
+        "完颜亮",
+        "完颜雍"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-yehuling",
+      "kind": "battles",
+      "name": "野狐岭之战",
+      "title": "野狐岭之战",
+      "lifeLabel": "1211年",
+      "sortYear": 1211,
+      "eraIds": [
+        "song",
+        "yuan"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "蒙古利用金军部署与指挥问题打开南下通道，金朝仍继续抵抗二十余年。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "蒙古攻金战争中的会战"
+        },
+        {
+          "label": "交战双方",
+          "value": "蒙古／金"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "成吉思汗、木华黎等／完颜承裕等"
+        },
+        {
+          "label": "战场范围",
+          "value": "野狐岭、会河堡等，今河北张家口一带"
+        },
+        {
+          "label": "直接结果",
+          "value": "金军遭重创，蒙古向华北深入"
+        }
+      ],
+      "sections": [
+        {
+          "title": "蒙古统一后的对外战争",
+          "text": "成吉思汗整合草原诸部后与金的关系日益紧张，金北部防线承受压力。战争既涉及草原政治秩序，也涉及边贸、旧有附属关系及新兴国家的资源需求。金控制华北城镇与人口，仍是一支强大力量。"
+        },
+        {
+          "title": "山口防线被突破",
+          "text": "金军在野狐岭等地集结，却未有效发挥兵力与地形优势。蒙古军集中进攻并持续追击，金军在会河堡等地再次受挫。史籍对双方人数的叙述差距很大，不能直接用极端数字计算所谓以一敌百。"
+        },
+        {
+          "title": "长期战争的开启",
+          "text": "战败使金的野战力量和北方防御受到重大打击，但中都及其他城市还需另行攻取。金迁都、蒙古围城技术发展及地方武装归附，都是之后战争的内容。野狐岭是转折，而非金朝在1211年已经灭亡。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1211,
+          "dateLabel": "1211年",
+          "title": "蒙古南下攻金",
+          "text": "边境战争扩大。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/元史/卷001"
+        },
+        {
+          "year": 1211,
+          "dateLabel": "1211年秋",
+          "title": "野狐岭、会河堡交战",
+          "text": "蒙古军击败金主力。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/元史/卷001"
+        },
+        {
+          "year": 1215,
+          "dateLabel": "1215年",
+          "title": "中都失陷",
+          "text": "蒙古优势继续扩大，金朝仍据河南等地。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/元史/卷001"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《元史》卷001",
+          "url": "https://zh.wikisource.org/wiki/元史/卷001",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "野狐岭之战·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/野狐嶺之戰",
+          "institution": "维基百科·含参考文献"
+        }
+      ],
+      "relatedNames": [
+        "铁木真",
+        "完颜永济",
+        "襄樊之战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-diaoyucheng",
+      "kind": "battles",
+      "name": "钓鱼城之战",
+      "title": "钓鱼城之战",
+      "lifeLabel": "1259年",
+      "sortYear": 1259,
+      "eraIds": [
+        "song",
+        "yuan"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "山城体系使宋军能够长期抵抗；蒙哥死因在不同文献中记载不一。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "蒙古攻宋战争中的山城防御"
+        },
+        {
+          "label": "交战双方",
+          "value": "南宋／蒙古"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "王坚、张珏等／蒙哥"
+        },
+        {
+          "label": "战场范围",
+          "value": "合州钓鱼城，今重庆合川"
+        },
+        {
+          "label": "直接结果",
+          "value": "蒙古未能攻克，蒙哥在战役期间去世"
+        }
+      ],
+      "sections": [
+        {
+          "title": "四川山城防御体系",
+          "text": "蒙古进入四川后，宋军利用山地建城、屯粮与控制水陆交通，钓鱼城是其中重要据点。它并非孤立依靠一块巨石守国，而是区域防御网络的一环。守城需要持续的人口、生产与运输支持。"
+        },
+        {
+          "title": "围攻与坚守",
+          "text": "蒙哥亲率军进攻合州，宋军依托险峻地形和城防反复抵御。围攻期间蒙古军遭遇疾病、气候与补给等困难。蒙哥在军中死亡，有病死、战伤等不同说法，不能把某一炮击故事写成毫无争议的事实。"
+        },
+        {
+          "title": "汗位竞争改变战局",
+          "text": "蒙哥死后，蒙古最高权力继承出现争夺，相关战线调整，为宋提供喘息机会。但蒙古攻宋并未永久停止。钓鱼城一直坚持到1279年才降，1259年的围城与二十年后的终结必须分开记载。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1259,
+          "dateLabel": "1259年初",
+          "title": "蒙哥进攻合州",
+          "text": "蒙古军围攻钓鱼城。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/元史/卷003"
+        },
+        {
+          "year": 1259,
+          "dateLabel": "1259年夏",
+          "title": "蒙哥死于军中",
+          "text": "具体死因存在史料分歧。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/元史/卷003"
+        },
+        {
+          "year": 1279,
+          "dateLabel": "1279年",
+          "title": "钓鱼城最终投降",
+          "text": "该城后续抵抗持续多年，不能与1259年混为一役。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/釣魚城之戰"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《元史》卷003",
+          "url": "https://zh.wikisource.org/wiki/元史/卷003",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "钓鱼城之战·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/釣魚城之戰",
+          "institution": "维基百科·含参考文献"
+        }
+      ],
+      "relatedNames": [
+        "蒙哥",
+        "忽必烈",
+        "赵昀",
+        "襄樊之战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-xiangfan",
+      "kind": "battles",
+      "name": "襄樊之战",
+      "title": "襄樊之战",
+      "lifeLabel": "1267—1273年（围城起点有不同口径）",
+      "sortYear": 1267,
+      "eraIds": [
+        "song",
+        "yuan"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "襄樊是汉水进入长江的门户，其失守为元顺江进攻南宋创造条件。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "持续围城与水陆封锁"
+        },
+        {
+          "label": "交战双方",
+          "value": "南宋／蒙古、元"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "吕文焕等／阿术、刘整、阿里海牙等"
+        },
+        {
+          "label": "战场范围",
+          "value": "襄阳、樊城及汉水，今湖北襄阳"
+        },
+        {
+          "label": "直接结果",
+          "value": "樊城陷落，吕文焕献襄阳降元"
+        }
+      ],
+      "sections": [
+        {
+          "title": "从四川迂回到汉水突破",
+          "text": "蒙古长期攻宋后，逐渐重视沿汉水突破长江防线。襄阳与樊城隔水互相支援，既控制交通，也连接内陆与江汉平原。攻城方必须解决水军、封锁与援军通道，不能只靠草原骑兵冲击城墙。"
+        },
+        {
+          "title": "长期封锁和攻城技术",
+          "text": "围城持续多年，宋军多次输送援助，部分突围成功但难以稳定补给。蒙古方面发展水军并采用大型抛石机，配合工程与封锁攻取樊城。回回炮属于抛石机械，不应误写成现代意义的火炮。"
+        },
+        {
+          "title": "降将与后续征服",
+          "text": "1273年吕文焕降元，元军获得关键通道及熟悉南方防务的人员。随后沿江推进，1276年临安投降。襄樊胜败改变战略态势，但战争仍持续到崖山等地，南宋不同地区也有各自的抵抗过程。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1267,
+          "dateLabel": "1267—1268年起",
+          "title": "围攻、筑垒与封锁",
+          "text": "不同研究对前期行动和正式围城的起点采用不同口径。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/元史/卷128"
+        },
+        {
+          "year": 1273,
+          "dateLabel": "1273年初",
+          "title": "樊城失守、襄阳投降",
+          "text": "长期补给困难与攻城压力达到终点。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/元史/卷128"
+        },
+        {
+          "year": 1276,
+          "dateLabel": "1276年",
+          "title": "元军进入临安",
+          "text": "襄樊失守后的进军最终迫使宋廷投降。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/元史/卷128"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《元史》卷128",
+          "url": "https://zh.wikisource.org/wiki/元史/卷128",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "襄樊之战·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/襄樊之战",
+          "institution": "维基百科·含参考文献"
+        }
+      ],
+      "relatedNames": [
+        "忽必烈",
+        "赵禥",
+        "赵㬎",
+        "钓鱼城之战",
+        "崖山海战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-yamen",
+      "kind": "battles",
+      "name": "崖山海战",
+      "title": "崖山海战",
+      "lifeLabel": "1279年",
+      "sortYear": 1279,
+      "eraIds": [
+        "song",
+        "yuan"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "南宋残余朝廷在海上继续抵抗，最终于崖门失败；政治终结不等于文化在同一天消失。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "南宋最后阶段的海上决战"
+        },
+        {
+          "label": "交战双方",
+          "value": "南宋流亡朝廷／元"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "张世杰、陆秀夫／张弘范、李恒"
+        },
+        {
+          "label": "战场范围",
+          "value": "崖门附近海域，今广东江门"
+        },
+        {
+          "label": "直接结果",
+          "value": "宋军败，赵昺死，南宋政权终结"
+        }
+      ],
+      "sections": [
+        {
+          "title": "临安投降后的南行",
+          "text": "1276年临安投降后，宋宗室及部分官员、军队拥立幼帝，沿东南海岸转移。文天祥在其他地区组织抵抗，后来被俘。海上朝廷依靠船队保存人员，却承受补给、淡水、疾病和航行条件的持续压力。"
+        },
+        {
+          "title": "船队防御与元军攻击",
+          "text": "张世杰将船只集中组织防守，元军利用水道、风潮与分路进攻形成压力。具体船数和死难人数多来自史籍概数，不宜伪装为精确统计。陆秀夫负帝投海是传世叙述的核心，也反映朝廷在败局中无路可退。"
+        },
+        {
+          "title": "如何理解王朝结束",
+          "text": "赵昺死后，宋朝作为政权告终，元继续整合南方社会。后世以崖山寄托忠义、亡国与文化情感，应与真实延续的文人生活、地方社会及文化传承区分。不能将夸张的文化断绝口号当作历史事实。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1276,
+          "dateLabel": "1276年",
+          "title": "临安降元",
+          "text": "部分宋朝力量继续南下抵抗。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/宋史/卷047"
+        },
+        {
+          "year": 1278,
+          "dateLabel": "1278年",
+          "title": "赵昺即位、朝廷移驻崖山",
+          "text": "海上船队成为最后的政治与军事依托。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/宋史/卷047"
+        },
+        {
+          "year": 1279,
+          "dateLabel": "1279年",
+          "title": "崖门决战",
+          "text": "宋军失败，南宋政权终结。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/宋史/卷047"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《宋史》卷047",
+          "url": "https://zh.wikisource.org/wiki/宋史/卷047",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "《元史》卷156",
+          "url": "https://zh.wikisource.org/wiki/元史/卷156",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "崖山海战·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/崖山海戰",
+          "institution": "维基百科·含参考文献"
+        }
+      ],
+      "relatedNames": [
+        "赵昺",
+        "赵昰",
+        "忽必烈",
+        "文天祥",
+        "襄樊之战"
+      ],
+      "legacyNodeIds": []
+    }
+  ]
+}

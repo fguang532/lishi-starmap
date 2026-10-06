@@ -1,0 +1,985 @@
+{
+  "battles": [
+    {
+      "id": "battle-muye",
+      "kind": "battles",
+      "name": "牧野之战",
+      "title": "牧野之战",
+      "lifeLabel": "约前1046年（断代仍有讨论）",
+      "sortYear": -1046,
+      "eraIds": [
+        "shang",
+        "western-zhou"
+      ],
+      "aliases": [],
+      "certainty": "年代存有讨论",
+      "summary": "武王伐商的决定性会战。利簋铭文是接近事件当时的证据，具体绝对年代和兵力不能仅凭后世叙述确定。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "王朝更替中的会战"
+        },
+        {
+          "label": "交战双方",
+          "value": "周及盟军／商王军"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "周武王姬发、吕尚／商王帝辛"
+        },
+        {
+          "label": "战场范围",
+          "value": "商都朝歌附近的牧野，今河南北部"
+        },
+        {
+          "label": "直接结果",
+          "value": "商王朝覆亡，周建立对中原的统治"
+        }
+      ],
+      "sections": [
+        {
+          "title": "商周之际的联盟",
+          "text": "周在渭水流域壮大，文王时期经营与周边部族的关系。武王继承后联合多方势力东进。商晚期的战争动员和内部矛盾为周人提供机会，但“纣王一人暴虐导致亡国”是周及后世典籍的道德解释，不能概括所有社会因素。"
+        },
+        {
+          "title": "决战与证据",
+          "text": "传世《尚书·牧誓》把决战前的誓师置于甲子日，《史记》保存商军倒戈等叙事；出土利簋铭文也提到武王征商与甲子。两类材料可互相参照，却不足以复原整场战斗的细节。商军总人数、阵形以及倒戈规模，存在文献夸饰和解释分歧。"
+        },
+        {
+          "title": "从克商到建立秩序",
+          "text": "牧野胜利并不等于周立刻稳定控制全部原商区域。武王死后仍发生围绕商遗民与周初封建秩序的反抗。周通过分封、宗法和礼制逐步组织统治。学习这场战争，应同时读周初后续政治整合，而非只记一个改朝换代的日期。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": -1046,
+          "dateLabel": "约前1046年·战前",
+          "title": "诸侯会师东进",
+          "text": "武王组织周军及盟军向商的政治中心进军。",
+          "sourceUrl": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202108/t20210802_250931.shtml"
+        },
+        {
+          "year": -1046,
+          "dateLabel": "甲子日·绝对年代待考",
+          "title": "牧野交战",
+          "text": "甲子日为传世文献与利簋可对读的信息；所对应的公历年份仍涉及断代。",
+          "sourceUrl": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202108/t20210802_250931.shtml"
+        },
+        {
+          "year": -1046,
+          "dateLabel": "克商之后",
+          "title": "周朝建立",
+          "text": "帝辛败亡，周开始接收与重组商王朝的政治空间。",
+          "sourceUrl": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202108/t20210802_250931.shtml"
+        }
+      ],
+      "sources": [
+        {
+          "title": "利簋：武王征商的金文证据",
+          "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202108/t20210802_250931.shtml",
+          "institution": "中国国家博物馆"
+        },
+        {
+          "title": "《史记》卷四·周本纪",
+          "url": "https://zh.wikisource.org/wiki/史記/卷004",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "姬发",
+        "帝辛",
+        "姬昌"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-changshao",
+      "kind": "battles",
+      "name": "长勺之战",
+      "title": "长勺之战",
+      "lifeLabel": "前684年",
+      "sortYear": -684,
+      "eraIds": [
+        "spring-autumn"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "《左传》以曹刿论战说明作战中的政治基础、士气和追击判断；这是有鲜明叙事取舍的战例。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "齐鲁战争中的会战"
+        },
+        {
+          "label": "交战双方",
+          "value": "鲁／齐"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "鲁庄公、曹刿（《左传》记载）／齐军"
+        },
+        {
+          "label": "战场范围",
+          "value": "长勺，具体地望有讨论"
+        },
+        {
+          "label": "直接结果",
+          "value": "鲁军击退齐军"
+        }
+      ],
+      "sections": [
+        {
+          "title": "齐鲁关系与战前判断",
+          "text": "齐桓公即位前，齐鲁围绕公子小白与公子纠发生冲突。长勺之战延续了两国的敌对关系。《左传》没有把重点放在两军编制，而写曹刿询问鲁庄公取信于民的依据，把战争的政治条件放在战术之前。"
+        },
+        {
+          "title": "鼓声与追击",
+          "text": "按《左传》叙述，齐军击鼓三次后，曹刿才同意鲁军进攻；齐军溃退时，他又察看车辙和旗帜，再判断可以追击。这些段落分别解释士气消长和防备埋伏。“一鼓作气”是此篇著名概括，不能机械理解为所有战斗都要等待第三次鼓声。"
+        },
+        {
+          "title": "怎样阅读一篇经典战例",
+          "text": "鲁军胜利暂时挫败齐的进攻，没有结束齐国后来的霸业。曹刿论战成为政治与军事教育的经典文本，但原文并不提供精确兵力和完整战场位置。学习时可区分史书所记事实、叙事者强调的道理以及现代人的战术推测。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": -685,
+          "dateLabel": "前685年",
+          "title": "齐国君位之争",
+          "text": "齐鲁干预齐国继承问题，形成随后战争的政治背景。",
+          "sourceUrl": "https://ctext.org/chun-qiu-zuo-zhuan/zhuang-gong-shi-nian/zhs"
+        },
+        {
+          "year": -684,
+          "dateLabel": "前684年春",
+          "title": "齐军攻鲁",
+          "text": "鲁庄公出战，《左传》记曹刿请求随行。",
+          "sourceUrl": "https://ctext.org/chun-qiu-zuo-zhuan/zhuang-gong-shi-nian/zhs"
+        },
+        {
+          "year": -684,
+          "dateLabel": "长勺战后",
+          "title": "鲁军获胜",
+          "text": "叙事以士气判断、察看车辙和旗帜解释胜利。",
+          "sourceUrl": "https://ctext.org/chun-qiu-zuo-zhuan/zhuang-gong-shi-nian/zhs"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《左传》庄公十年",
+          "url": "https://ctext.org/chun-qiu-zuo-zhuan/zhuang-gong-shi-nian/zhs",
+          "institution": "中国哲学书电子化计划·先秦文献"
+        }
+      ],
+      "relatedNames": [
+        "城濮之战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-chengpu",
+      "kind": "battles",
+      "name": "城濮之战",
+      "title": "城濮之战",
+      "lifeLabel": "前632年",
+      "sortYear": -632,
+      "eraIds": [
+        "spring-autumn"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "城濮反映晋楚对中原盟国的争夺；外交、退避与分兵部署同样重要。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "诸侯争霸会战"
+        },
+        {
+          "label": "交战双方",
+          "value": "晋及盟国／楚及盟军"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "晋文公重耳、先轸／楚将子玉"
+        },
+        {
+          "label": "战场范围",
+          "value": "城濮，一般定位于今鲁西南一带，地望有异说"
+        },
+        {
+          "label": "直接结果",
+          "value": "晋军胜利，晋文公取得霸主地位"
+        }
+      ],
+      "sections": [
+        {
+          "title": "宋国求援与晋楚对抗",
+          "text": "晋文公回国即位后整顿政务和军队。楚联合部分中原诸侯围宋，宋向晋求援，使晋必须在避免冒进与维护盟友之间选择。晋还利用齐、秦等国的力量，战争从两国冲突发展为诸侯阵营的较量。"
+        },
+        {
+          "title": "退避与会战",
+          "text": "《左传》把晋军退避三舍联系到晋文公流亡时对楚的承诺，也呈现诱导楚军深入的效果。会战中晋军针对楚左右翼展开攻击，配合佯退等行动。传世记载富于人物言行，需要避免把后世示意图当成可精确复原的真实战场。"
+        },
+        {
+          "title": "霸权建立后的限度",
+          "text": "晋战胜后与诸侯会盟，获得周王认可，成为中原重要霸主。楚并未因此衰亡，后来仍与晋长期争夺诸侯。城濮的意义是改变阶段性的联盟与力量对比，而不是建立一个取代周王朝的统一国家。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": -633,
+          "dateLabel": "前633—前632年",
+          "title": "楚围宋、晋谋救援",
+          "text": "围绕宋国的援救，晋调动外交和军事资源。",
+          "sourceUrl": "https://ctext.org/chun-qiu-zuo-zhuan/xi-gong-er-shi-ba-nian/zhs"
+        },
+        {
+          "year": -632,
+          "dateLabel": "前632年",
+          "title": "晋楚交战于城濮",
+          "text": "晋军击败子玉所部，楚军退却。",
+          "sourceUrl": "https://ctext.org/chun-qiu-zuo-zhuan/xi-gong-er-shi-ba-nian/zhs"
+        },
+        {
+          "year": -632,
+          "dateLabel": "前632年战后",
+          "title": "践土会盟",
+          "text": "晋文公通过会盟巩固其诸侯领袖地位。",
+          "sourceUrl": "https://ctext.org/chun-qiu-zuo-zhuan/xi-gong-er-shi-ba-nian/zhs"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《左传》僖公二十八年",
+          "url": "https://ctext.org/chun-qiu-zuo-zhuan/xi-gong-er-shi-ba-nian/zhs",
+          "institution": "中国哲学书电子化计划·先秦文献"
+        },
+        {
+          "title": "《史记》晋世家",
+          "url": "https://zh.wikisource.org/wiki/史記/卷039",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "长勺之战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-guiling",
+      "kind": "battles",
+      "name": "桂陵之战",
+      "title": "桂陵之战",
+      "lifeLabel": "前353年（通常纪年）",
+      "sortYear": -353,
+      "eraIds": [
+        "warring-states"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "“围魏救赵”成为后世概括其战略的成语。出土《孙膑兵法》与传世《史记》的叙事存在差别。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "齐魏战争中的救援战役"
+        },
+        {
+          "label": "交战双方",
+          "value": "齐／魏"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "田忌、孙膑／魏军"
+        },
+        {
+          "label": "战场范围",
+          "value": "邯郸—大梁方向及桂陵，具体过程有异说"
+        },
+        {
+          "label": "直接结果",
+          "value": "齐军打击魏军，缓解赵国所受压力"
+        }
+      ],
+      "sections": [
+        {
+          "title": "魏攻赵与齐的选择",
+          "text": "魏在战国前期具备强大军事力量，围攻赵都邯郸后，赵向齐求援。直接进攻围城部队，意味着齐军要远道迎击已有阵地的敌军。齐军转向魏国核心区域，使魏必须重新考虑前线与本土的兵力分配。"
+        },
+        {
+          "title": "攻其所必救",
+          "text": "《史记·孙子吴起列传》以孙膑建议进兵大梁来解释战役，把避实击虚与迫使对方回援联系起来。“围魏救赵”是对这一思路的概括，不能据此断言齐军已经攻破魏都。银雀山汉简所见相关叙述提醒我们，战役不是只有一种固定故事版本。"
+        },
+        {
+          "title": "名将故事与长期格局",
+          "text": "桂陵显示魏面对多国竞争时难以兼顾所有战线，但魏国仍保持实力，之后又发生马陵之战。孙膑、庞涓的个人恩怨在后世传播极广，应与能核对的战争目的、路线和结果分开阅读，尤其不能用小说对白填充空白。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": -354,
+          "dateLabel": "前354年前后",
+          "title": "魏围赵都邯郸",
+          "text": "赵国向齐求救，魏赵战争引发其他诸侯介入。",
+          "sourceUrl": "https://ctext.org/shiji/sun-zi-wu-qi-lie-zhuan/zhs"
+        },
+        {
+          "year": -353,
+          "dateLabel": "前353年",
+          "title": "齐军进向魏国腹地",
+          "text": "齐将威胁从赵国前线转移到魏需要保卫的地区。",
+          "sourceUrl": "https://ctext.org/shiji/sun-zi-wu-qi-lie-zhuan/zhs"
+        },
+        {
+          "year": -353,
+          "dateLabel": "桂陵交战",
+          "title": "齐军获得胜利",
+          "text": "战役成为后世讨论间接救援与兵力调动的著名案例。",
+          "sourceUrl": "https://ctext.org/shiji/sun-zi-wu-qi-lie-zhuan/zhs"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《史记》孙子吴起列传",
+          "url": "https://ctext.org/shiji/sun-zi-wu-qi-lie-zhuan/zhs",
+          "institution": "中国哲学书电子化计划·《史记》"
+        },
+        {
+          "title": "桂陵之战·材料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/桂陵之战",
+          "institution": "维基百科·含出土兵书讨论"
+        }
+      ],
+      "relatedNames": [
+        "马陵之战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-maling",
+      "kind": "battles",
+      "name": "马陵之战",
+      "title": "马陵之战",
+      "lifeLabel": "前341年（通常纪年）",
+      "sortYear": -341,
+      "eraIds": [
+        "warring-states"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "齐军在援韩背景下打击魏军。《史记》的减灶诱敌叙事，是理解这场战争及其后世形象的重要材料。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "齐魏争霸会战"
+        },
+        {
+          "label": "交战双方",
+          "value": "齐／魏"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "田忌、孙膑／庞涓、魏太子申"
+        },
+        {
+          "label": "战场范围",
+          "value": "马陵，具体地望有不同说法"
+        },
+        {
+          "label": "直接结果",
+          "value": "魏军大败，魏国霸权受重创"
+        }
+      ],
+      "sections": [
+        {
+          "title": "魏国多线用兵",
+          "text": "魏继续向中原邻国施压，韩国受到攻击后求援于齐。齐魏之间的实力消耗和外交竞争，使这一援助同时具有争霸性质。不能把这场战争仅当作孙膑报复庞涓的私人事件；两国争夺地区主导权才是更大的背景。"
+        },
+        {
+          "title": "诱敌与伏击叙事",
+          "text": "《史记》记齐军逐日减少营灶，让魏军误以为齐兵大量逃亡，庞涓轻军追赶，最终遭到伏击。树上题字、火光齐发等细节具有强烈文学效果，可注明“据《史记》记载”，不应呈现为现代战场调查已经证实的过程。"
+        },
+        {
+          "title": "魏衰齐强并非统一终点",
+          "text": "魏军损失严重，齐的东方强国地位上升；与此同时秦在西方持续扩张。马陵的意义既是战术上的诱敌伏击，也是多国体系中力量转移的一环。其后没有立即出现齐统一天下的局面，纵横外交与兼并战争仍在继续。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": -342,
+          "dateLabel": "前342年前后",
+          "title": "魏攻韩、韩求援",
+          "text": "齐开始讨论出兵时机及救援方向。",
+          "sourceUrl": "https://ctext.org/shiji/sun-zi-wu-qi-lie-zhuan/zhs"
+        },
+        {
+          "year": -341,
+          "dateLabel": "前341年",
+          "title": "齐军诱使魏军追击",
+          "text": "传世记载将减灶与魏军误判联系起来。",
+          "sourceUrl": "https://ctext.org/shiji/sun-zi-wu-qi-lie-zhuan/zhs"
+        },
+        {
+          "year": -341,
+          "dateLabel": "马陵交战",
+          "title": "魏军遭重创",
+          "text": "庞涓死，太子申被俘；具体细节据传世史料。",
+          "sourceUrl": "https://ctext.org/shiji/sun-zi-wu-qi-lie-zhuan/zhs"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《史记》孙子吴起列传",
+          "url": "https://ctext.org/shiji/sun-zi-wu-qi-lie-zhuan/zhs",
+          "institution": "中国哲学书电子化计划·《史记》"
+        }
+      ],
+      "relatedNames": [
+        "桂陵之战",
+        "长平之战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-changping",
+      "kind": "battles",
+      "name": "长平之战",
+      "title": "长平之战",
+      "lifeLabel": "前262—前260年",
+      "sortYear": -262,
+      "eraIds": [
+        "warring-states"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "长平是秦赵围绕上党的重大决战。史籍所载大量降卒被杀，具体人数仍应按文献口径审慎表述。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "秦赵战略决战"
+        },
+        {
+          "label": "交战双方",
+          "value": "秦／赵"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "王龁、白起／廉颇、赵括"
+        },
+        {
+          "label": "战场范围",
+          "value": "上党及长平地区，今山西高平一带"
+        },
+        {
+          "label": "直接结果",
+          "value": "赵军主力惨败，秦优势扩大"
+        }
+      ],
+      "sections": [
+        {
+          "title": "上党归属与长期对峙",
+          "text": "秦进攻韩国使上党与韩本土联系受阻，当地转向赵国，引发秦赵直接冲突。廉颇初期采取防守，战争变为资源、粮食和动员能力的竞赛。赵国是否能够长期支撑阵地防御，是理解换将决策的重要条件。"
+        },
+        {
+          "title": "换将与包围",
+          "text": "赵以赵括代廉颇，秦则秘密任白起统军。按《史记》记载，秦军诱使赵军离开阵地，切断其与壁垒之间的联系，形成包围。赵军久困缺粮，突围失败。“纸上谈兵”的后世概括不能替代对军粮、指挥情报与战略处境的分析。"
+        },
+        {
+          "title": "惨烈后果与史料数字",
+          "text": "《史记》记降卒遭到大规模杀害，以数十万计；实际数字、统计方式和遗址证据仍有讨论。赵国失去大量军事人口，但仍在邯郸保卫战中坚持。长平使秦占优，却没有直接完成统一，秦也承受了严重消耗。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": -262,
+          "dateLabel": "前262年",
+          "title": "上党问题引发冲突",
+          "text": "秦韩战争演变为秦赵争夺。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷073"
+        },
+        {
+          "year": -260,
+          "dateLabel": "前260年",
+          "title": "赵括代廉颇、白起统秦军",
+          "text": "秦赵主帅变化后进入决战阶段。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷073"
+        },
+        {
+          "year": -260,
+          "dateLabel": "前260年战末",
+          "title": "赵军被围与惨败",
+          "text": "赵括战死，降卒被杀的规模须区别史籍记数与现代估计。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷073"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《史记》白起王翦列传",
+          "url": "https://zh.wikisource.org/wiki/史記/卷073",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "《史记》廉颇蔺相如列传",
+          "url": "https://zh.wikisource.org/wiki/史記/卷081",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "邯郸之战",
+        "秦统一六国"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-handan",
+      "kind": "battles",
+      "name": "邯郸之战",
+      "title": "邯郸之战",
+      "lifeLabel": "前259—前257年",
+      "sortYear": -259,
+      "eraIds": [
+        "warring-states"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "长平之后赵国守住国都，魏楚救援改变战局；“窃符救赵”是战争外交与君臣关系的一个切面。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "秦攻赵都与多国救援"
+        },
+        {
+          "label": "交战双方",
+          "value": "秦／赵、魏、楚援军"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "王陵、王龁、郑安平／赵守军、魏无忌等"
+        },
+        {
+          "label": "战场范围",
+          "value": "赵都邯郸，今河北邯郸"
+        },
+        {
+          "label": "直接结果",
+          "value": "秦军围城失败，赵国存续"
+        }
+      ],
+      "sections": [
+        {
+          "title": "秦谋扩大长平成果",
+          "text": "秦希望乘赵军主力受损之际攻取邯郸，但攻城需要持续补给并承担其他诸侯介入的风险。白起对战争条件的判断与秦王发生冲突，最终没有统率邯郸攻城军。胜利后的战略选择与前一次会战的战术优势并不相同。"
+        },
+        {
+          "title": "守城与外援",
+          "text": "赵国坚守并向魏、楚求援。魏公子无忌夺取兵符、接管晋鄙军队的故事见于《史记》，体现国君政策、宗室声望和私人门客在救援决策中的作用。赵的坚守给援军集结争取时间，救援也缓解了单独防守的压力。"
+        },
+        {
+          "title": "秦仍强、赵未亡",
+          "text": "秦军退却说明战国合纵援助仍可能制约秦的扩张。赵没有恢复到长平前的资源状态，秦也并未失去长期优势。把长平和邯郸相连阅读，可以看到战役胜负与最终统一之间存在二十余年的复杂过程。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": -259,
+          "dateLabel": "前259年起",
+          "title": "秦向邯郸进军",
+          "text": "秦试图利用赵国受创的局面扩大战果。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷077"
+        },
+        {
+          "year": -258,
+          "dateLabel": "前258年前后",
+          "title": "围城持续",
+          "text": "赵守军与城市社会共同承担围困，魏楚援赵问题成为关键。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷077"
+        },
+        {
+          "year": -257,
+          "dateLabel": "前257年",
+          "title": "援军解围",
+          "text": "魏、楚军介入，秦的围城行动失败。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷077"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《史记》魏公子列传",
+          "url": "https://zh.wikisource.org/wiki/史記/卷077",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "《史记》白起王翦列传",
+          "url": "https://zh.wikisource.org/wiki/史記/卷073",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "长平之战",
+        "秦统一六国"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-qin-unification",
+      "kind": "battles",
+      "name": "秦统一六国",
+      "title": "秦统一六国",
+      "lifeLabel": "前230—前221年",
+      "sortYear": -230,
+      "eraIds": [
+        "warring-states",
+        "qin"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "统一是多次战争、外交瓦解和长期制度动员共同作用的结果，六国并非在同一年或同一战场灭亡。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "十年兼并战争，非单场战役"
+        },
+        {
+          "label": "交战双方",
+          "value": "秦／韩、赵、魏、楚、燕、齐"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "秦王嬴政；王翦、王贲、李信等"
+        },
+        {
+          "label": "战场范围",
+          "value": "黄河流域、长江中下游及辽东等地"
+        },
+        {
+          "label": "直接结果",
+          "value": "六国相继灭亡，秦建立统一帝国"
+        }
+      ],
+      "sections": [
+        {
+          "title": "长期优势与外交分化",
+          "text": "商鞅变法以来的军政制度、关中和巴蜀的资源，为秦持续发动大规模战争提供条件。秦还运用离间、收买和分化联盟，使六国难以一致行动。地理、人口、财政与各国自身政治问题，都应与名将谋略一起考察。"
+        },
+        {
+          "title": "六国覆亡的次序",
+          "text": "韩最先于前230年亡。赵都邯郸于前228年陷落，代地残余延至前222年；魏亡于前225年；楚主力被王翦击破，通常以前223年楚王被俘记其亡国；燕蓟城先失，辽东政权延至前222年。齐于前221年投降，结束六国格局。"
+        },
+        {
+          "title": "军事统一后的新问题",
+          "text": "嬴政称皇帝，推行郡县管理及书写、度量衡等统一措施，但征服不自动消除地方认同和战争创伤。驻军、徭役、赋税与边疆动员持续消耗社会资源。秦末反抗说明“打下天下”与维持统治是不同任务。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": -230,
+          "dateLabel": "前230年",
+          "title": "灭韩",
+          "text": "秦兼并六国最后阶段开始。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷006"
+        },
+        {
+          "year": -228,
+          "dateLabel": "前228—前222年",
+          "title": "赵、魏、楚、燕相继失国",
+          "text": "部分国家的都城失陷与残余政权终结不在同年。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷006"
+        },
+        {
+          "year": -221,
+          "dateLabel": "前221年",
+          "title": "齐降、秦称帝",
+          "text": "六国格局终结，统一帝国建立。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷006"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《史记》秦始皇本纪",
+          "url": "https://zh.wikisource.org/wiki/史記/卷006",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "《史记》白起王翦列传",
+          "url": "https://zh.wikisource.org/wiki/史記/卷073",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "嬴政",
+        "长平之战",
+        "巨鹿之战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-julu",
+      "kind": "battles",
+      "name": "巨鹿之战",
+      "title": "巨鹿之战",
+      "lifeLabel": "前207年",
+      "sortYear": -207,
+      "eraIds": [
+        "qin"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "项羽援赵击败秦军，是秦末战争的转折。破釜沉舟是《史记》塑造其决绝形象的关键叙述。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "秦末战争中的围城解救与会战"
+        },
+        {
+          "label": "交战双方",
+          "value": "楚及诸侯军／秦军"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "项羽／王离、章邯"
+        },
+        {
+          "label": "战场范围",
+          "value": "巨鹿及漳河一带，今河北地区"
+        },
+        {
+          "label": "直接结果",
+          "value": "王离部覆灭，秦主力优势瓦解"
+        }
+      ],
+      "sections": [
+        {
+          "title": "反秦战争中的赵地危机",
+          "text": "陈胜吴广起事之后，旧六国地区先后形成多支武装。秦军在章邯率领下反击，随后王离围赵于巨鹿，章邯军在外围支援。楚怀王派宋义、项羽等救赵，其他诸侯军也到达附近，指挥与行动并不统一。"
+        },
+        {
+          "title": "渡河决战与粮道",
+          "text": "项羽杀宋义取得统军权，渡河后攻击秦军运输与营垒体系。《史记》以破釜沉舟、持三日粮描述其决战姿态。应区分王离部在巨鹿被击溃与章邯后来投降：二者属于相连却不同阶段，不宜压缩成一次瞬间胜利。"
+        },
+        {
+          "title": "项羽声望上升",
+          "text": "巨鹿使项羽取得诸侯军事领袖地位，秦在东方的控制迅速崩解。秦亡后诸侯分封与政治秩序问题并未解决，项羽的军事实力也不能避免与刘邦的持续竞争。此战可与彭城、垓下相连，比较会战能力与长期战争能力。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": -208,
+          "dateLabel": "前208年末",
+          "title": "秦围巨鹿、楚派援军",
+          "text": "赵地危机促使诸侯聚集救援。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷007"
+        },
+        {
+          "year": -207,
+          "dateLabel": "前207年",
+          "title": "项羽渡河攻秦",
+          "text": "王离部失败，诸侯军承认项羽的军事领导。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷007"
+        },
+        {
+          "year": -207,
+          "dateLabel": "前207年稍后",
+          "title": "章邯降楚",
+          "text": "章邯部的投降进一步瓦解秦主力，不等同于巨鹿战场当天。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷007"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《史记》项羽本纪",
+          "url": "https://zh.wikisource.org/wiki/史記/卷007",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "项羽",
+        "嬴胡亥",
+        "彭城之战",
+        "垓下之战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-pengcheng",
+      "kind": "battles",
+      "name": "彭城之战",
+      "title": "彭城之战",
+      "lifeLabel": "前205年",
+      "sortYear": -205,
+      "eraIds": [
+        "qin",
+        "western-han"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "刘邦攻占彭城后遭项羽快速反击。兵力数字来自古代记载，不能当作经现代核实的精确战报。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "楚汉战争中的会战"
+        },
+        {
+          "label": "交战双方",
+          "value": "刘邦及诸侯联军／项羽楚军"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "刘邦／项羽"
+        },
+        {
+          "label": "战场范围",
+          "value": "彭城及睢水一带，今江苏徐州附近"
+        },
+        {
+          "label": "直接结果",
+          "value": "项羽反击获胜，刘邦联军溃败"
+        }
+      ],
+      "sections": [
+        {
+          "title": "刘邦乘楚军东征进攻",
+          "text": "项羽忙于平定齐地反抗时，刘邦联合诸侯东进，进入楚都彭城。联军虽然在人数和占领城市方面占优，却面临指挥松散、警戒不足和各方利益不一致的问题。攻入都城并不意味着已经摧毁楚的机动军队。"
+        },
+        {
+          "title": "项羽回师与联军溃退",
+          "text": "《史记》记项羽率精兵迅速返回，对刘邦联军发动攻击，败军在水边遭受严重损失。这里可以讨论机动、突然性和追击，但无法仅据“数万破数十万”的文学化对比计算双方真实兵力或伤亡。"
+        },
+        {
+          "title": "败战没有决定楚汉结局",
+          "text": "刘邦退回荥阳方向重整力量，萧何在关中组织后勤，韩信等人在其他战线扩大战果。彭城显示项羽的战场优势，也说明单次大胜不等于消灭对方战争资源。楚汉相争最终由更广范围的政治与军事网络决定。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": -205,
+          "dateLabel": "前205年春",
+          "title": "刘邦联军进入彭城",
+          "text": "乘项羽在齐地作战的机会，联军向楚核心地区推进。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷007"
+        },
+        {
+          "year": -205,
+          "dateLabel": "前205年四月前后",
+          "title": "项羽回师反击",
+          "text": "楚军击败联军，刘邦突围。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷007"
+        },
+        {
+          "year": -205,
+          "dateLabel": "战后",
+          "title": "转入荥阳一线对峙",
+          "text": "刘邦依托关中恢复，战争继续。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷007"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《史记》项羽本纪",
+          "url": "https://zh.wikisource.org/wiki/史記/卷007",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "《史记》高祖本纪",
+          "url": "https://zh.wikisource.org/wiki/史記/卷008",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "刘邦",
+        "项羽",
+        "垓下之战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-gaixia",
+      "kind": "battles",
+      "name": "垓下之战",
+      "title": "垓下之战",
+      "lifeLabel": "前202年",
+      "sortYear": -202,
+      "eraIds": [
+        "western-han"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "垓下终结楚汉战争的主体对抗。“四面楚歌”与“霸王别姬”需区别史籍叙述和后世舞台演绎。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "楚汉战争最后阶段的合围战役"
+        },
+        {
+          "label": "交战双方",
+          "value": "汉及诸侯军／楚军"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "刘邦、韩信等／项羽"
+        },
+        {
+          "label": "战场范围",
+          "value": "垓下及项羽突围南行区域，具体路线与地望有讨论"
+        },
+        {
+          "label": "直接结果",
+          "value": "楚军败，项羽死，汉取得全国性优势"
+        }
+      ],
+      "sections": [
+        {
+          "title": "从鸿沟议和到再战",
+          "text": "长期对峙消耗楚军，汉则逐渐取得北方及后勤优势。鸿沟议和后刘邦再次追击，起初在固陵受挫，随后协调韩信、彭越等诸侯力量。诸军是否合作、封地如何分配，是最终合围的重要政治条件。"
+        },
+        {
+          "title": "合围与突围",
+          "text": "《史记》记楚军兵少粮尽，夜闻四面楚歌，项羽率骑兵突围，最后在乌江一带自刎。虞姬的结局在现存早期记载中并不完整，不能把戏曲情节直接写成确定史实。战役过程也不仅是项羽个人悲剧，而是楚军资源体系崩溃。"
+        },
+        {
+          "title": "帝国重建与功臣关系",
+          "text": "刘邦建立汉朝后仍需解决异姓诸侯王、边地力量与中央关系。垓下形成统一条件，却未一次消除所有武装冲突。韩信的贡献和后来命运，使人能够继续追问开国军事联盟如何转化为皇帝统治。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": -203,
+          "dateLabel": "前203年",
+          "title": "鸿沟议和",
+          "text": "楚汉曾约定分界，随后战争重启。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷007"
+        },
+        {
+          "year": -202,
+          "dateLabel": "前202年初",
+          "title": "诸军会于垓下",
+          "text": "汉与诸侯军形成围攻优势，楚军被击败。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷007"
+        },
+        {
+          "year": -202,
+          "dateLabel": "前202年",
+          "title": "项羽死、刘邦称帝",
+          "text": "主要竞争者消失，汉开始重建统一秩序。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷007"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《史记》项羽本纪",
+          "url": "https://zh.wikisource.org/wiki/史記/卷007",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "《史记》淮阴侯列传",
+          "url": "https://zh.wikisource.org/wiki/史記/卷092",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "刘邦",
+        "项羽",
+        "彭城之战"
+      ],
+      "legacyNodeIds": []
+    }
+  ]
+}

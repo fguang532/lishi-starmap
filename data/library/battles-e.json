@@ -1,0 +1,1028 @@
+{
+  "battles": [
+    {
+      "id": "battle-zheng-taiwan",
+      "kind": "battles",
+      "name": "郑成功攻取台湾",
+      "title": "郑成功攻取台湾",
+      "lifeLabel": "1661—1662年",
+      "sortYear": 1661,
+      "eraIds": [
+        "ming",
+        "qing"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "郑成功为延续抗清力量转向台湾，在长期围城后迫使荷方交出据点。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "跨海登陆与围城战争"
+        },
+        {
+          "label": "交战双方",
+          "value": "郑成功军／荷兰东印度公司驻军"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "郑成功／揆一等"
+        },
+        {
+          "label": "战场范围",
+          "value": "台湾西南部、普罗民遮城与热兰遮城"
+        },
+        {
+          "label": "直接结果",
+          "value": "荷方投降撤离，郑氏建立台湾统治据点"
+        }
+      ],
+      "sections": [
+        {
+          "title": "大陆战局与海上基地",
+          "text": "南京进攻失败后，郑成功在东南沿海继续面临清的压力，寻求更稳定的人员和粮食基地。荷兰东印度公司控制台湾西南部分地区及贸易据点，岛上同时生活着原住民、汉人移民等群体，不能把台湾视为没有社会历史的空地。"
+        },
+        {
+          "title": "登陆、围城与谈判",
+          "text": "郑军1661年渡海登陆，先取普罗民遮城，再长期围困热兰遮城。荷方获得过海上援助，但未能解除困局，1662年达成投降协议。登陆具体地点与航道在史料研究中仍有讨论，应同时参考郑方记载和荷方城堡日志。"
+        },
+        {
+          "title": "新政权与岛内社会",
+          "text": "郑氏在西南部建立行政和军屯体系，扩大农业开发及人口迁移，也改变原住民的土地与生活空间。郑成功同年去世，继承冲突后由郑经继续经营。此役与1683年澎湖之战相隔二十余年，不能合并为一个统治更替瞬间。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1661,
+          "dateLabel": "1661年",
+          "title": "郑军渡海与登陆",
+          "text": "从福建沿海经澎湖进入台湾西南部。",
+          "sourceUrl": "https://www.th.gov.tw/CP/104/176/"
+        },
+        {
+          "year": 1661,
+          "dateLabel": "1661—1662年",
+          "title": "围困热兰遮城",
+          "text": "攻守、补给和谈判持续数月。",
+          "sourceUrl": "https://www.th.gov.tw/CP/104/176/"
+        },
+        {
+          "year": 1662,
+          "dateLabel": "1662年",
+          "title": "荷方撤出、郑成功去世",
+          "text": "郑氏继续经营台湾，内部继承问题随之发生。",
+          "sourceUrl": "https://www.th.gov.tw/CP/104/176/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "台湾历史展示：荷郑时期",
+          "url": "https://www.th.gov.tw/CP/104/176/",
+          "institution": "国史馆台湾文献馆"
+        },
+        {
+          "title": "郑成功登陆地点的史料新考",
+          "url": "https://www.th.gov.tw/News_Content/128/4309/",
+          "institution": "《台湾文献》研究论文"
+        },
+        {
+          "title": "郑成功攻台·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/郑成功收复台湾",
+          "institution": "维基百科·含参考文献"
+        }
+      ],
+      "relatedNames": [
+        "朱由榔",
+        "郑成功",
+        "郑经",
+        "澎湖海战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-penghu",
+      "kind": "battles",
+      "name": "澎湖海战",
+      "title": "澎湖海战",
+      "lifeLabel": "1683年",
+      "sortYear": 1683,
+      "eraIds": [
+        "qing"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "澎湖失守使郑氏失去重要海上屏障，清此后将台湾部分地区纳入行政体系。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "跨海作战中的海战"
+        },
+        {
+          "label": "交战双方",
+          "value": "清／郑氏政权"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "施琅／刘国轩"
+        },
+        {
+          "label": "战场范围",
+          "value": "澎湖群岛附近海域"
+        },
+        {
+          "label": "直接结果",
+          "value": "郑军败退，郑克塽随后降清"
+        }
+      ],
+      "sections": [
+        {
+          "title": "清郑长期对峙",
+          "text": "清平定三藩后能够集中资源处理东南海上对手。郑经死后，台湾郑氏内部发生继承斗争，郑克塽在位时政局脆弱。施琅熟悉海域与郑军，清廷的水军准备及政治条件共同促成出兵。"
+        },
+        {
+          "title": "海况与舰队作战",
+          "text": "清军从福建出航，在澎湖与刘国轩部激战，郑军失利后退回台湾。风向、潮流、舰队纪律和炮战影响行动，不能把渡海看成地图上一条简单直线。战役日程应区分农历记载与现代公历换算。"
+        },
+        {
+          "title": "投降与行政调整",
+          "text": "郑克塽随后上表投降，清廷讨论台湾的保留与治理，最终设府县并隶福建。清的实际控制范围需要按地区与时间理解，不能推定1683年已以相同方式治理全岛。郑氏官兵、移民和原住民都面临新的政治环境。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1683,
+          "dateLabel": "1683年夏",
+          "title": "清军出航",
+          "text": "施琅率军向澎湖推进。",
+          "sourceUrl": "https://www.th.gov.tw/CP/104/176/"
+        },
+        {
+          "year": 1683,
+          "dateLabel": "1683年七月（公历）",
+          "title": "澎湖交战",
+          "text": "刘国轩军失败，退回台湾。",
+          "sourceUrl": "https://www.th.gov.tw/CP/104/176/"
+        },
+        {
+          "year": 1684,
+          "dateLabel": "1683—1684年",
+          "title": "郑氏投降、设府治理",
+          "text": "军事结束后进行行政安排。",
+          "sourceUrl": "https://www.th.gov.tw/CP/104/176/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "台湾历史展示：郑氏终结与清代建置",
+          "url": "https://www.th.gov.tw/CP/104/176/",
+          "institution": "国史馆台湾文献馆"
+        },
+        {
+          "title": "澎湖海战·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/澎湖海战",
+          "institution": "维基百科·含参考文献"
+        }
+      ],
+      "relatedNames": [
+        "玄烨",
+        "郑克塽",
+        "郑成功攻取台湾"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-albazin",
+      "kind": "battles",
+      "name": "雅克萨之战",
+      "title": "雅克萨之战",
+      "lifeLabel": "1685—1686年；交涉延至1689年",
+      "sortYear": 1685,
+      "eraIds": [
+        "qing"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "黑龙江上游的据点冲突经过两次围城转入外交划界，军事与谈判相互影响。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "中俄边境的两次围城战"
+        },
+        {
+          "label": "交战双方",
+          "value": "清／俄国雅克萨驻军"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "彭春、萨布素、郎坦等／托尔布津等"
+        },
+        {
+          "label": "战场范围",
+          "value": "黑龙江上游雅克萨"
+        },
+        {
+          "label": "直接结果",
+          "value": "清军围攻促成交涉，最终订立《尼布楚条约》"
+        }
+      ],
+      "sections": [
+        {
+          "title": "俄方东进与边地冲突",
+          "text": "俄国向西伯利亚和黑龙江流域扩张，在雅克萨等地建立据点，与清及当地居民发生冲突。清廷在东北布置军政与交通准备。当地达斡尔等人群的生活和迁移，也是边境战争的重要部分。"
+        },
+        {
+          "title": "两次围城并不相同",
+          "text": "1685年清军攻城后俄军撤走，清军退后俄方重建据点。1686年再次围攻，新城防加强，使战争转为长期消耗。驻军受伤病、粮食和围困影响，双方同时通过使节联系，最终停止围攻并进行谈判。"
+        },
+        {
+          "title": "从据点争夺到条约",
+          "text": "1689年《尼布楚条约》约定边界和有关交涉安排，雅克萨据点撤除。不能把后世中俄全部边界问题都投射到这一个条约上，也不宜把17世纪地方社会简单画成现代国界线两侧完全封闭的人群。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1685,
+          "dateLabel": "1685年",
+          "title": "第一次围攻",
+          "text": "俄军投降撤走，后又返回重建。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/雅克萨战役"
+        },
+        {
+          "year": 1686,
+          "dateLabel": "1686年",
+          "title": "第二次围攻",
+          "text": "坚固城防使攻城转为消耗与谈判。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/雅克萨战役"
+        },
+        {
+          "year": 1689,
+          "dateLabel": "1689年",
+          "title": "订立《尼布楚条约》",
+          "text": "双方以外交形式处理边界与据点问题。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/雅克萨战役"
+        }
+      ],
+      "sources": [
+        {
+          "title": "雅克萨之战·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/雅克萨战役",
+          "institution": "维基百科·含参考文献"
+        },
+        {
+          "title": "《清史稿》圣祖本纪",
+          "url": "https://zh.wikisource.org/wiki/清史稿/卷7",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "玄烨"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-zhaomoduo",
+      "kind": "battles",
+      "name": "昭莫多之战",
+      "title": "昭莫多之战",
+      "lifeLabel": "1696年",
+      "sortYear": 1696,
+      "eraIds": [
+        "qing"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "清以分路远征应对噶尔丹，后勤困难和准噶尔内部关系决定了战局的复杂性。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "清与准噶尔战争中的合围会战"
+        },
+        {
+          "label": "交战双方",
+          "value": "清及盟军／准噶尔噶尔丹部"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "康熙帝、费扬古等／噶尔丹"
+        },
+        {
+          "label": "战场范围",
+          "value": "昭莫多，今蒙古国境内"
+        },
+        {
+          "label": "直接结果",
+          "value": "噶尔丹军败退，其政治力量随后瓦解"
+        }
+      ],
+      "sections": [
+        {
+          "title": "草原政治与清的介入",
+          "text": "噶尔丹在准噶尔崛起并向喀尔喀扩展，喀尔喀部分贵族转向清求援。清希望稳定北方秩序，形成军事、宗教与政治联盟交织的局面。冲突不能仅理解为两个固定现代国家之间的边界战争。"
+        },
+        {
+          "title": "分路远征与截击",
+          "text": "康熙亲率一路军推进，费扬古率西路军行动，噶尔丹撤退时在昭莫多遭到截击。长途运粮、马匹损耗和各路会师时间都造成巨大风险，胜利来自多路军队的配合及对手补给困境，而非皇帝亲自在同一战场击败所有敌军。"
+        },
+        {
+          "title": "噶尔丹失败并非准噶尔终结",
+          "text": "噶尔丹败后于1697年去世，准噶尔仍由策妄阿拉布坦等势力维持。清与准噶尔的战争延续到18世纪中叶。需要把个人集团的覆灭、政权延续及后来征服造成的灾难区分，避免把1696年写成全部战争终点。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1690,
+          "dateLabel": "1690年",
+          "title": "乌兰布通交战",
+          "text": "清与噶尔丹的军事对抗先已展开。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/昭莫多之戰"
+        },
+        {
+          "year": 1696,
+          "dateLabel": "1696年",
+          "title": "昭莫多决战",
+          "text": "费扬古部截击噶尔丹军并获胜。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/昭莫多之戰"
+        },
+        {
+          "year": 1697,
+          "dateLabel": "1697年",
+          "title": "噶尔丹去世",
+          "text": "其力量瓦解，准噶尔政权仍延续。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/昭莫多之戰"
+        }
+      ],
+      "sources": [
+        {
+          "title": "昭莫多之战·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/昭莫多之戰",
+          "institution": "维基百科·含参考文献"
+        },
+        {
+          "title": "《清史稿》圣祖本纪",
+          "url": "https://zh.wikisource.org/wiki/清史稿/卷8",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "玄烨"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-opium-first",
+      "kind": "battles",
+      "name": "第一次鸦片战争",
+      "title": "第一次鸦片战争",
+      "lifeLabel": "1840—1842年",
+      "sortYear": 1840,
+      "eraIds": [
+        "late-qing"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "鸦片贸易、禁烟与英国商业和外交扩张引发战争，清的军事和外交应对遭到严重挑战。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "英国对清战争"
+        },
+        {
+          "label": "交战双方",
+          "value": "清／英国"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "林则徐、关天培、陈化成等／懿律、璞鼎查等"
+        },
+        {
+          "label": "战场范围",
+          "value": "珠江口、东南沿海、长江下游"
+        },
+        {
+          "label": "直接结果",
+          "value": "清战败，签订《南京条约》等条约"
+        }
+      ],
+      "sections": [
+        {
+          "title": "鸦片走私与禁烟",
+          "text": "鸦片输入造成白银外流及社会问题，道光帝任林则徐赴广东禁烟，1839年虎门销烟成为冲突的重要节点。英国以维护商业和侨民利益为由诉诸战争，背后涉及贸易结构、市场扩张和外交关系制度。"
+        },
+        {
+          "title": "沿海机动与长江压力",
+          "text": "英军凭海军机动和武器优势进攻沿海据点，并转向长江下游威胁漕运与南京。清军各地防御分散，情报和指挥难以适应新的作战方式。局部抵抗十分激烈，不能用“无人抵抗”概括战争。"
+        },
+        {
+          "title": "条约制度的开启",
+          "text": "1842年《南京条约》规定割让香港岛、赔款与开放五口等，后续条约继续扩展领事裁判权等特权。应区分不同条约条款，不能把后来所有列强权利都算进南京条约一份文本。战争改变对外关系，并未立刻使清朝全部社会制度消失。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1839,
+          "dateLabel": "1839年",
+          "title": "虎门销烟",
+          "text": "禁烟行动使中英冲突升级。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/第一次鸦片战争"
+        },
+        {
+          "year": 1840,
+          "dateLabel": "1840年",
+          "title": "英国发动战争",
+          "text": "舰队沿海北上，战争超出广东范围。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/第一次鸦片战争"
+        },
+        {
+          "year": 1842,
+          "dateLabel": "1842年",
+          "title": "英军入长江、签订条约",
+          "text": "镇江等地失守，清与英订立《南京条约》。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/第一次鸦片战争"
+        }
+      ],
+      "sources": [
+        {
+          "title": "鸦片烟具与鸦片战争背景",
+          "url": "https://www.chnmuseum.cn/zp/zpml/201812/t20181218_25802.shtml",
+          "institution": "中国国家博物馆"
+        },
+        {
+          "title": "第一次鸦片战争·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/第一次鸦片战争",
+          "institution": "维基百科·含参考文献"
+        }
+      ],
+      "relatedNames": [
+        "旻宁",
+        "龚自珍",
+        "第二次鸦片战争"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-taiping",
+      "kind": "battles",
+      "name": "太平天国战争",
+      "title": "太平天国战争",
+      "lifeLabel": "1851—1864年；余部抵抗延续",
+      "sortYear": 1851,
+      "eraIds": [
+        "late-qing"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "这场内战改造了晚清军事与地方权力结构，也给人口和城乡经济造成巨大灾难。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "大规模内战"
+        },
+        {
+          "label": "交战双方",
+          "value": "太平天国／清及地方团练、部分外国武装"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "洪秀全、杨秀清、陈玉成、李秀成等／曾国藩、曾国荃、李鸿章等"
+        },
+        {
+          "label": "战场范围",
+          "value": "广西、长江流域及华东多省"
+        },
+        {
+          "label": "直接结果",
+          "value": "天京陷落，太平天国中央政权覆亡"
+        }
+      ],
+      "sections": [
+        {
+          "title": "社会危机与宗教组织",
+          "text": "广西地区的土地、人口、族群冲突及生计压力，与拜上帝会组织结合，形成反清力量。洪秀全等于1851年起事并建号太平天国。其主张包含宗教秩序、社会平等理想与严格管理，实际制度和政策也随战争变化。"
+        },
+        {
+          "title": "建都、扩张与内部冲突",
+          "text": "太平军1853年占南京并改称天京，开展北伐、西征，清则发展湘军、淮军等地方武装。1856年天京事变严重损耗领导层与组织团结。此后陈玉成、李秀成等继续作战，外部通商环境与列强态度也影响战争。"
+        },
+        {
+          "title": "战争后果与历史评价",
+          "text": "1864年天京陷落，许多地方仍有余部抵抗。战争中围城、杀戮、饥荒和疫病导致巨大人口损失，各种统计估算不能当作确定数字。清依靠地方军队获胜，也使督抚、军费筹措与地方精英的权力进一步上升。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1851,
+          "dateLabel": "1851年",
+          "title": "金田起义",
+          "text": "反清武装建立太平天国。",
+          "sourceUrl": "https://www.chnmuseum.cn/zp/zpml/ysp/202012/t20201214_248369.shtml"
+        },
+        {
+          "year": 1853,
+          "dateLabel": "1853年",
+          "title": "定都天京",
+          "text": "战争重心进入长江下游。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/太平天國之亂"
+        },
+        {
+          "year": 1856,
+          "dateLabel": "1856年",
+          "title": "天京事变",
+          "text": "领导集团内部冲突造成严重损失。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/太平天國之亂"
+        },
+        {
+          "year": 1864,
+          "dateLabel": "1864年",
+          "title": "天京陷落",
+          "text": "中央政权终结，战争余波继续。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/太平天國之亂"
+        }
+      ],
+      "sources": [
+        {
+          "title": "金田起义：历史背景与战争",
+          "url": "https://www.chnmuseum.cn/zp/zpml/ysp/202012/t20201214_248369.shtml",
+          "institution": "中国国家博物馆"
+        },
+        {
+          "title": "中外会同管带常胜军条约",
+          "url": "https://www.chnmuseum.cn/zp/zpml/gmww/202104/t20210402_249500.shtml",
+          "institution": "中国国家博物馆"
+        },
+        {
+          "title": "太平天国战争·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/太平天國之亂",
+          "institution": "维基百科·含参考文献"
+        }
+      ],
+      "relatedNames": [
+        "奕詝",
+        "载淳",
+        "洪秀全",
+        "洪天贵福"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-opium-second",
+      "kind": "battles",
+      "name": "第二次鸦片战争",
+      "title": "第二次鸦片战争",
+      "lifeLabel": "1856—1860年",
+      "sortYear": 1856,
+      "eraIds": [
+        "late-qing"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "列强以扩大通商和外交权利为目标发动战争，战事最终进入北京。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "英法对清战争"
+        },
+        {
+          "label": "交战双方",
+          "value": "清／英国、法国"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "僧格林沁等／额尔金、葛罗等"
+        },
+        {
+          "label": "战场范围",
+          "value": "广州、大沽、天津、北京"
+        },
+        {
+          "label": "直接结果",
+          "value": "清战败，订立《天津条约》《北京条约》等"
+        }
+      ],
+      "sections": [
+        {
+          "title": "条约扩张与战争借口",
+          "text": "第一次鸦片战争后，英国等国要求修改和扩大既有条约权利。亚罗号事件与马神甫事件被用作开战借口，英法联合行动，俄美也在外交过程中谋取利益。应区分参战、调停和条约获利等不同角色。"
+        },
+        {
+          "title": "从广州到京津",
+          "text": "英法先攻广州，随后北上大沽，1858年迫使清签《天津条约》。1859年大沽作战清军曾获胜，次年英法再次进攻并进入北京。咸丰帝离京，清军骑兵在新式火力与组织面前遭受严重损失。"
+        },
+        {
+          "title": "圆明园与条约后果",
+          "text": "英法联军劫掠圆明园，英军随后纵火焚毁，造成重大的文化损失。1860年《北京条约》等落实并扩大开放口岸、使节驻京等安排。清随后设总理衙门，应对外交与军事技术问题，洋务活动在内外危机中展开。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1856,
+          "dateLabel": "1856年",
+          "title": "战争爆发",
+          "text": "亚罗号等事件后，英国首先动武。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/第二次鸦片战争"
+        },
+        {
+          "year": 1858,
+          "dateLabel": "1858年",
+          "title": "签订《天津条约》",
+          "text": "战争迫使清接受新的对外安排。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/第二次鸦片战争"
+        },
+        {
+          "year": 1860,
+          "dateLabel": "1860年",
+          "title": "北京陷落与条约扩大",
+          "text": "圆明园被劫焚，清签订《北京条约》等。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/第二次鸦片战争"
+        }
+      ],
+      "sources": [
+        {
+          "title": "第二次鸦片战争·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/第二次鸦片战争",
+          "institution": "维基百科·含参考文献"
+        },
+        {
+          "title": "《清史稿》文宗本纪",
+          "url": "https://zh.wikisource.org/wiki/清史稿/卷20",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "奕詝",
+        "第一次鸦片战争",
+        "太平天国战争"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-sino-french",
+      "kind": "battles",
+      "name": "中法战争",
+      "title": "中法战争",
+      "lifeLabel": "1884—1885年；冲突始于1883年",
+      "sortYear": 1884,
+      "eraIds": [
+        "late-qing"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "陆上和海上各战区胜负不同，不能仅用镇南关一役或马江一役概括战争。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "围绕越南和东亚势力的战争"
+        },
+        {
+          "label": "交战双方",
+          "value": "清与越南抗法力量／法国"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "冯子材、刘永福、刘铭传等／孤拔等"
+        },
+        {
+          "label": "战场范围",
+          "value": "越南北部、中越边境、福建、台湾与澎湖"
+        },
+        {
+          "label": "直接结果",
+          "value": "签订中法新约，清承认法国对越南的保护权"
+        }
+      ],
+      "sections": [
+        {
+          "title": "法国扩张与越南问题",
+          "text": "法国向越南推进，触动清与越南的传统关系及广西、云南边境安全。刘永福黑旗军等地方力量也卷入冲突。清廷对外交妥协与军事应对的协调不足，局部冲突逐渐扩大为多战区战争。"
+        },
+        {
+          "title": "马江失败与边境反击",
+          "text": "1884年法国舰队袭击马尾，福建水师遭重创；台湾战场上清军抵抗法军登陆。1885年冯子材等在镇南关获胜，清军向越南北部推进，而法军又占澎湖。多条战线呈现不同态势，补给和海权影响战果延续。"
+        },
+        {
+          "title": "议和与台湾建省",
+          "text": "战争以条约收束，清承认法国在越南的保护权，并讨论边界与通商。台湾防务的重要性上升，随后建省。所谓“不败而败”的说法表达对外交结果的不满，但历史判断仍应具体比较各战区、财政压力和谈判条件。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1884,
+          "dateLabel": "1884年",
+          "title": "马江海战、台湾战事",
+          "text": "法国海军打击清沿海与海上力量。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/中法战争"
+        },
+        {
+          "year": 1885,
+          "dateLabel": "1885年三月",
+          "title": "镇南关获胜",
+          "text": "清军在陆上取得重要战果。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/中法战争"
+        },
+        {
+          "year": 1885,
+          "dateLabel": "1885年六月",
+          "title": "签订中法新约",
+          "text": "战争以外交安排结束，清越关系改变。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/中法战争"
+        }
+      ],
+      "sources": [
+        {
+          "title": "中法战争·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/中法战争",
+          "institution": "维基百科·含参考文献"
+        },
+        {
+          "title": "《清史稿》德宗本纪",
+          "url": "https://zh.wikisource.org/wiki/清史稿/卷23",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "载湉",
+        "黄遵宪"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-yellow-sea",
+      "kind": "battles",
+      "name": "黄海海战",
+      "title": "黄海海战",
+      "lifeLabel": "1894年9月17日",
+      "sortYear": 1894,
+      "eraIds": [
+        "late-qing"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "甲午战争中规模最大的舰队交战之一；北洋舰队此时并未全部覆灭。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "甲午战争中的舰队会战"
+        },
+        {
+          "label": "交战双方",
+          "value": "清北洋舰队／日本联合舰队"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "丁汝昌、刘步蟾等／伊东祐亨"
+        },
+        {
+          "label": "战场范围",
+          "value": "鸭绿江口外大东沟附近黄海水域"
+        },
+        {
+          "label": "直接结果",
+          "value": "北洋舰队损失多舰，日本取得进一步海上优势"
+        }
+      ],
+      "sections": [
+        {
+          "title": "朝鲜危机与海上运输",
+          "text": "中日围绕朝鲜的竞争升级为战争，清海军承担护送陆军与维持交通的任务。黄海会战发生在相关护送行动之后，海战与朝鲜陆上战场相互联系。舰船吨位不能直接等同于整体战斗力。"
+        },
+        {
+          "title": "舰队组织与火力差异",
+          "text": "两军在航速、阵形、速射炮、弹药与指挥通讯方面存在差异。北洋舰艇顽强作战但损失严重，日舰也受创。邓世昌随致远舰沉没是重要人物记录；“全部炮弹装沙”等流行说法不能代替对装备采购和具体弹药的证据分析。"
+        },
+        {
+          "title": "由海上失利转向基地防御",
+          "text": "北洋仍保有定远、镇远等舰，后来退守威海卫。黄海失利削弱主动出击能力，接下来的辽东与山东作战使基地也遭陆海夹击。舰队最终覆灭发生于1895年威海卫，两个事件应在时间线上分清。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1894,
+          "dateLabel": "1894年夏",
+          "title": "甲午战争爆发",
+          "text": "朝鲜争端转为中日全面战争。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/黄海海战_(1894年)"
+        },
+        {
+          "year": 1894,
+          "dateLabel": "1894年9月17日",
+          "title": "黄海舰队交战",
+          "text": "北洋损失多舰，日舰亦受损。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/黄海海战_(1894年)"
+        },
+        {
+          "year": 1895,
+          "dateLabel": "1895年初",
+          "title": "威海卫受攻",
+          "text": "剩余舰队在基地面临新的危机。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/黄海海战_(1894年)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "黄海海战·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/黄海海战_(1894年)",
+          "institution": "维基百科·含参考文献"
+        },
+        {
+          "title": "《清史稿》兵志·海军",
+          "url": "https://zh.wikisource.org/wiki/清史稿/卷136",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "载湉",
+        "威海卫之战",
+        "黄遵宪"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-weihaiwei",
+      "kind": "battles",
+      "name": "威海卫之战",
+      "title": "威海卫之战",
+      "lifeLabel": "1895年1—2月",
+      "sortYear": 1895,
+      "eraIds": [
+        "late-qing"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "日军从陆路攻取炮台并配合海上封锁，舰队基地的安全不能只靠港内军舰。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "甲午战争中的陆海联合攻势"
+        },
+        {
+          "label": "交战双方",
+          "value": "清／日本"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "丁汝昌等／大山岩、伊东祐亨等"
+        },
+        {
+          "label": "战场范围",
+          "value": "山东半岛威海卫及刘公岛"
+        },
+        {
+          "label": "直接结果",
+          "value": "北洋舰队覆灭，清在海上战争中失去重要力量"
+        }
+      ],
+      "sections": [
+        {
+          "title": "黄海之后的防御困局",
+          "text": "北洋舰队在黄海受损后缺乏充足修理和补充，辽东战局又使其他基地难以依靠。威海卫有炮台与港湾，却需要陆军、水雷、防御舰队和补给体系共同发挥作用。陆上防线薄弱使海军无法单独保障安全。"
+        },
+        {
+          "title": "炮台易手与港内攻击",
+          "text": "日军在山东登陆，从陆上进攻威海卫炮台，海军封锁港口并以鱼雷艇等展开袭击。定远等舰受损，防守空间不断缩小。丁汝昌在败局中自尽，舰队最终投降和交接的细节需要按具体文献区分。"
+        },
+        {
+          "title": "从军事失败到条约",
+          "text": "北洋覆灭使清在谈判中更加被动，同年《马关条约》规定赔款、割地及其他权益。战争失败暴露的不只是舰船新旧，也包括财政、工业、军政协同和外交判断。它推动后续改革争论，却不应被简化为一两个人的道德失误。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1895,
+          "dateLabel": "1895年1月",
+          "title": "日军登陆山东",
+          "text": "从陆路威胁威海卫基地。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/威海衛之戰"
+        },
+        {
+          "year": 1895,
+          "dateLabel": "1895年1—2月",
+          "title": "炮台与港口受到夹击",
+          "text": "港内舰队失去防御支撑。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/威海衛之戰"
+        },
+        {
+          "year": 1895,
+          "dateLabel": "1895年2月",
+          "title": "北洋舰队覆灭",
+          "text": "甲午战争海上力量对比发生决定性变化。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/威海衛之戰"
+        }
+      ],
+      "sources": [
+        {
+          "title": "威海卫之战·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/威海衛之戰",
+          "institution": "维基百科·含参考文献"
+        },
+        {
+          "title": "《清史稿》丁汝昌等传",
+          "url": "https://zh.wikisource.org/wiki/清史稿/卷460",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "载湉",
+        "黄海海战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-wuchang",
+      "kind": "battles",
+      "name": "武昌起义与阳夏战争",
+      "title": "武昌起义与阳夏战争",
+      "lifeLabel": "1911年10—11月",
+      "sortYear": 1911,
+      "eraIds": [
+        "late-qing"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "武昌首义打开帝制终结的进程，随后阳夏作战与各省响应共同影响政治结果。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "反清起义及保卫武汉的战役"
+        },
+        {
+          "label": "交战双方",
+          "value": "革命军／清军"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "起义新军、黄兴等／冯国璋等"
+        },
+        {
+          "label": "战场范围",
+          "value": "武昌、汉口、汉阳及长江两岸"
+        },
+        {
+          "label": "直接结果",
+          "value": "起义成功并引发各省响应；汉口汉阳后被清军攻占，南北转入谈判"
+        }
+      ],
+      "sections": [
+        {
+          "title": "新政与革命网络",
+          "text": "清末新军、学校和社会组织提供新的政治动员空间，保路运动又加深不满。文学社、共进会在湖北新军中活动，意外爆炸与搜捕使起义计划提前发动。革命不是毫无准备的偶然，也并非所有参与者已有完全一致的共和方案。"
+        },
+        {
+          "title": "首义与保卫武汉",
+          "text": "10月10日新军起事，占领楚望台军械所并控制武昌，汉阳、汉口随后响应。清军反攻，黄兴等组织阳夏作战，革命军最终失去汉口、汉阳但保住武昌方面的政治据点。战场胜负与全国革命形势并不完全同步。"
+        },
+        {
+          "title": "通向清帝退位",
+          "text": "各省陆续宣布独立，清廷重新起用袁世凯，军事压力与政治谈判相互作用。1912年中华民国临时政府成立，2月清帝退位。武昌起义是决定性起点之一，帝制终结仍经历数月的战争、协商与权力重组。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1911,
+          "dateLabel": "1911年10月10日",
+          "title": "武昌起义",
+          "text": "起义新军控制武昌重要据点。",
+          "sourceUrl": "https://www.chnmuseum.cn/zp/zpml/ysp/202012/t20201214_248424.shtml"
+        },
+        {
+          "year": 1911,
+          "dateLabel": "1911年10—11月",
+          "title": "阳夏战争",
+          "text": "汉口、汉阳反复争夺，清军最终攻占两地。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/武昌起义#阳夏保卫战"
+        },
+        {
+          "year": 1912,
+          "dateLabel": "1912年2月12日",
+          "title": "清帝退位",
+          "text": "南北谈判促成帝制终结，本网站历史范围止于此。",
+          "sourceUrl": "https://www.dpm.org.cn/court/lineage/226255.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "武昌起义",
+          "url": "https://www.chnmuseum.cn/zp/zpml/ysp/202012/t20201214_248424.shtml",
+          "institution": "中国国家博物馆"
+        },
+        {
+          "title": "汉口民军炮队之攻击",
+          "url": "https://www.chnmuseum.cn/zp/zpml/201812/t20181218_25817.shtml",
+          "institution": "中国国家博物馆"
+        },
+        {
+          "title": "宣统皇帝与清帝退位",
+          "url": "https://www.dpm.org.cn/court/lineage/226255.html",
+          "institution": "故宫博物院"
+        },
+        {
+          "title": "武昌起义·阳夏保卫战与相关史料",
+          "url": "https://zh.wikipedia.org/wiki/武昌起义#阳夏保卫战",
+          "institution": "维基百科·含参考文献"
+        }
+      ],
+      "relatedNames": [
+        "溥仪",
+        "秋瑾"
+      ],
+      "legacyNodeIds": []
+    }
+  ]
+}

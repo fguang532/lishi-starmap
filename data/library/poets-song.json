@@ -1,0 +1,1048 @@
+{
+  "poets": [
+    {
+      "id": "poet-fan-zhongyan",
+      "kind": "poets",
+      "name": "范仲淹",
+      "title": "范仲淹",
+      "lifeLabel": "989—1052年",
+      "sortYear": 989,
+      "eraIds": [
+        "song"
+      ],
+      "aliases": [
+        "希文",
+        "范文正公"
+      ],
+      "certainty": "史实",
+      "summary": "北宋政治家、边防统帅与文学家，作品把个人情感、士大夫责任和边地生活联系起来。",
+      "sections": [
+        {
+          "title": "求学与地方政务",
+          "text": "范仲淹幼年失父，随母改嫁后曾用朱说之名，后来恢复范姓。1015年登进士第，历任地方官，重视水利、赈济与学校。早年困学的故事在后世教育中广为流传，具体细节应与较可靠的官历材料区分。"
+        },
+        {
+          "title": "边防与庆历新政",
+          "text": "宋夏战争期间，他在陕西参与组织边防，与韩琦等讨论攻守。1043年进入中央主持庆历新政，试图从官员考核、教育等方面改革吏治，但受到利益和政治阻力，改革很快受挫。边事与改革共同塑造其关于公共责任的思考。"
+        },
+        {
+          "title": "文章与词的两种声音",
+          "text": "《岳阳楼记》借楼记表达忧乐观，不应理解为作者必然亲到岳阳楼写景；《渔家傲》则让守边将士的疲惫与乡愁进入词中。其公共理想并未排除个人痛苦，这也是作品耐人寻味之处。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1015,
+          "dateLabel": "1015年",
+          "title": "进士及第",
+          "text": "进入官僚生涯，后来长期参与地方政务。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/范仲淹"
+        },
+        {
+          "year": 1040,
+          "dateLabel": "1040年前后",
+          "title": "经营陕西边防",
+          "text": "在宋夏战争中承担守边任务。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/范仲淹"
+        },
+        {
+          "year": 1043,
+          "dateLabel": "1043年",
+          "title": "推行庆历新政",
+          "text": "推动吏治改革，随后遭遇阻力。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/范仲淹"
+        },
+        {
+          "year": 1046,
+          "dateLabel": "1046年",
+          "title": "作《岳阳楼记》",
+          "text": "应滕子京之请撰文，寄托政治理想。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/范仲淹"
+        }
+      ],
+      "works": [
+        {
+          "title": "渔家傲·秋思",
+          "genre": "词",
+          "dateLabel": "守边时期，确切写作年不详",
+          "text": "塞下秋来风景异，衡阳雁去无留意。\n四面边声连角起，千嶂里，长烟落日孤城闭。\n浊酒一杯家万里，燕然未勒归无计。\n羌管悠悠霜满地，人不寐，将军白发征夫泪。",
+          "context": "此词通常联系作者在西北守边的经历。“燕然未勒”借东汉窦宪勒石燕然的典故，表达边事未平、不能归家的处境，并非范仲淹亲赴燕然山。",
+          "analysis": "上片以雁、边声、落日和闭城构成孤寂空间，下片把一杯酒与万里家乡对置。结尾将将军与征夫放在同一夜里，职责和思乡并存。读词时可注意“异”“闭”“无计”怎样逐步收紧情绪，而非只贴上豪放或婉约的标签。",
+          "source": {
+            "title": "渔家傲·秋思·原文",
+            "url": "https://zh.wikisource.org/wiki/漁家傲_(范仲淹)",
+            "institution": "维基文库·古代作品（公有领域）"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "title": "范仲淹·生平与参考文献",
+          "url": "https://zh.wikipedia.org/wiki/范仲淹",
+          "institution": "维基百科·含原始文献索引"
+        },
+        {
+          "title": "渔家傲·秋思·原文",
+          "url": "https://zh.wikisource.org/wiki/漁家傲_(范仲淹)",
+          "institution": "维基文库·古代作品（公有领域）"
+        }
+      ],
+      "relatedNames": [
+        "欧阳修",
+        "赵祯"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "poet-ouyang-xiu",
+      "kind": "poets",
+      "name": "欧阳修",
+      "title": "欧阳修",
+      "lifeLabel": "1007—1072年",
+      "sortYear": 1007,
+      "eraIds": [
+        "song"
+      ],
+      "aliases": [
+        "永叔",
+        "醉翁",
+        "六一居士"
+      ],
+      "certainty": "史实",
+      "summary": "北宋古文、诗词与史学的重要作者，也是苏轼等后进的识拔者。",
+      "sections": [
+        {
+          "title": "入仕与文章革新",
+          "text": "欧阳修1030年进士及第，在洛阳等地结交文士，提倡平易有内容的古文，反对只追求晦涩形式。其文学主张与公共议论相联系，既写政事，也写个人交游与日常景物。作为官员，他多次因政治争论遭到贬谪。"
+        },
+        {
+          "title": "滁州、史书与选才",
+          "text": "庆历年间出知滁州，作《醉翁亭记》，将地方治理、山水游赏和与民同乐结合。后来参与《新唐书》编修，并著《新五代史》。1057年主持贡举，识拔苏轼等人，成为北宋文学传承的重要节点。"
+        },
+        {
+          "title": "词中的细致观察",
+          "text": "欧阳修的词有宴游、恋情和人生感慨，其颍州西湖组词用船、鸟、水面和歌声描绘游赏经验。这些西湖作品通常指颍州西湖，不应自动配上杭州西湖地图。晚年退居颍州，号六一居士，寄情书籍、金石、琴棋与酒。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1030,
+          "dateLabel": "1030年",
+          "title": "进士及第",
+          "text": "开始仕途及文学交游。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/欧阳修"
+        },
+        {
+          "year": 1045,
+          "dateLabel": "1045年",
+          "title": "出知滁州",
+          "text": "政治受挫后经营地方并写作。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/欧阳修"
+        },
+        {
+          "year": 1057,
+          "dateLabel": "1057年",
+          "title": "主持贡举",
+          "text": "苏轼、苏辙等进入新的文学与政治网络。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/欧阳修"
+        },
+        {
+          "year": 1071,
+          "dateLabel": "1071年",
+          "title": "致仕归颍州",
+          "text": "晚年生活与西湖书写相联系。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/欧阳修"
+        }
+      ],
+      "works": [
+        {
+          "title": "采桑子·轻舟短棹西湖好",
+          "genre": "词",
+          "dateLabel": "颍州西湖组词，具体篇年有讨论",
+          "text": "轻舟短棹西湖好，绿水逶迤。\n芳草长堤，隐隐笙歌处处随。\n无风水面琉璃滑，不觉船移。\n微动涟漪，惊起沙禽掠岸飞。",
+          "context": "写颍州西湖的泛舟体验。这里保留作品中的视听细节，不将组词每首都强行指定到某次可考宴会。",
+          "analysis": "词从船上观察水、岸与歌声，景物随着移动渐次展开。“不觉船移”先给人静止感，涟漪和飞鸟又显出运动。它的精细不在堆砌华丽词语，而在把身体乘船的轻微感觉转化为可见画面。",
+          "source": {
+            "title": "采桑子·轻舟短棹西湖好·原文",
+            "url": "https://zh.wikisource.org/wiki/采桑子_(歐陽修)",
+            "institution": "维基文库·古代作品（公有领域）"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "title": "欧阳修·生平与参考文献",
+          "url": "https://zh.wikipedia.org/wiki/欧阳修",
+          "institution": "维基百科·含原始文献索引"
+        },
+        {
+          "title": "采桑子·轻舟短棹西湖好·原文",
+          "url": "https://zh.wikisource.org/wiki/采桑子_(歐陽修)",
+          "institution": "维基文库·古代作品（公有领域）"
+        }
+      ],
+      "relatedNames": [
+        "苏轼",
+        "王安石",
+        "范仲淹"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "poet-wang-anshi",
+      "kind": "poets",
+      "name": "王安石",
+      "title": "王安石",
+      "lifeLabel": "1021—1086年",
+      "sortYear": 1021,
+      "eraIds": [
+        "song"
+      ],
+      "aliases": [
+        "介甫",
+        "半山",
+        "荆国公"
+      ],
+      "certainty": "史实",
+      "summary": "北宋改革家与诗文作家，政治论说强调实际问题，晚年诗歌长于精细凝练的景物表达。",
+      "sections": [
+        {
+          "title": "地方经验与改革建议",
+          "text": "王安石1042年登进士第，曾在鄞县等地任职，关心水利、赋役和地方财政。1058年上书仁宗，提出系统改革意见。地方行政经验帮助他形成对制度、人才和经济组织的认识，不能将变法仅看成书斋中的理念。"
+        },
+        {
+          "title": "熙宁变法与政见分歧",
+          "text": "神宗即位后重用王安石，1069年起推行青苗、免役、农田水利等新法。改革试图增强财政和组织能力，也引发执行、负担及官员激励等争议。支持者与反对者内部各有差别，文学交往也没有完全按政治阵营截断。"
+        },
+        {
+          "title": "退居后的诗歌",
+          "text": "两次罢相后，他长期居江宁，写作转向山水、日常和佛理，诗风愈加凝练。王安石诗既有改革者的议论，也有对暮年、友谊和故园的感受。读《泊船瓜洲》应保留其年代争议，不把一种系年说成唯一答案。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1042,
+          "dateLabel": "1042年",
+          "title": "进士及第",
+          "text": "开始地方官经历。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/王安石"
+        },
+        {
+          "year": 1058,
+          "dateLabel": "1058年",
+          "title": "上书仁宗",
+          "text": "系统讨论制度和人才问题。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/王安石"
+        },
+        {
+          "year": 1069,
+          "dateLabel": "1069年",
+          "title": "参知政事、推行新法",
+          "text": "改革进入中央政策层面。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/王安石"
+        },
+        {
+          "year": 1076,
+          "dateLabel": "1076年",
+          "title": "再次罢相",
+          "text": "此后主要退居江宁。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/王安石"
+        }
+      ],
+      "works": [
+        {
+          "title": "泊船瓜洲",
+          "genre": "七言绝句",
+          "dateLabel": "北宋；具体作年有不同系年",
+          "text": "京口瓜洲一水间，钟山只隔数重山。\n春风又绿江南岸，明月何时照我还。",
+          "context": "写舟泊瓜洲时对江南和钟山的回望。通常联系作者往返京师与江宁的经历，但具体年次存在不同意见。",
+          "analysis": "前两句用“一水”“数重山”压缩地理距离，后两句却把回乡的时间变得难以确定。“绿”把春风造成的变化写成动作；“还”既是行旅愿望，也可与仕途心境联系。炼字故事属于后世诗话传统，鉴赏首先应从现存文本出发。",
+          "source": {
+            "title": "泊船瓜洲·原文",
+            "url": "https://zh.wikisource.org/zh-hans/王臨川集/卷029",
+            "institution": "维基文库·古代作品（公有领域）"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "title": "王安石·生平与参考文献",
+          "url": "https://zh.wikipedia.org/wiki/王安石",
+          "institution": "维基百科·含原始文献索引"
+        },
+        {
+          "title": "泊船瓜洲·原文",
+          "url": "https://zh.wikisource.org/zh-hans/王臨川集/卷029",
+          "institution": "维基文库·古代作品（公有领域）"
+        }
+      ],
+      "relatedNames": [
+        "赵顼",
+        "欧阳修",
+        "苏轼"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "poet-su-shi",
+      "kind": "poets",
+      "name": "苏轼",
+      "title": "苏轼",
+      "lifeLabel": "1037—1101年",
+      "sortYear": 1037,
+      "eraIds": [
+        "song"
+      ],
+      "aliases": [
+        "子瞻",
+        "东坡居士",
+        "苏东坡"
+      ],
+      "certainty": "史实",
+      "summary": "诗、词、散文、书法与绘画兼擅的北宋文人，其作品连接政治挫折、亲友关系和日常生活。",
+      "sections": [
+        {
+          "title": "科举与政治道路",
+          "text": "苏轼1057年进士及第，与弟苏辙共同受到欧阳修赏识。他反对部分新法的具体做法，也不赞成旧党将一切新法全部废除，政治立场不能用简单的保守标签概括。地方任职中，他参与赈灾、水利等实际事务。"
+        },
+        {
+          "title": "贬谪与写作空间",
+          "text": "1079年乌台诗案后被贬黄州，生活条件和政治身份发生变化，却写出赤壁题材等名篇。晚年又被贬惠州、儋州，作品呈现对困境的调适、幽默与自我反省。“旷达”是努力形成的态度，并不意味着他从无悲伤。"
+        },
+        {
+          "title": "词的表达范围",
+          "text": "苏轼扩大词的题材，将怀古、哲理、亲情和生活经验写入歌词传统。《水调歌头》由想象天上转向承认人间的不圆满，结尾以共享月光连接远方亲人。赏析时应连读词序，辨认“子由”就是苏辙。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1057,
+          "dateLabel": "1057年",
+          "title": "进士及第",
+          "text": "受到欧阳修赏识。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/苏轼"
+        },
+        {
+          "year": 1076,
+          "dateLabel": "1076年",
+          "title": "密州中秋怀弟",
+          "text": "写《水调歌头》，兼怀子由。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/苏轼"
+        },
+        {
+          "year": 1079,
+          "dateLabel": "1079年",
+          "title": "乌台诗案",
+          "text": "随后贬黄州，人生转入重要写作阶段。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/苏轼"
+        },
+        {
+          "year": 1097,
+          "dateLabel": "1097年",
+          "title": "贬儋州",
+          "text": "晚年远谪海南，后获赦北归。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/苏轼"
+        }
+      ],
+      "works": [
+        {
+          "title": "水调歌头·明月几时有",
+          "genre": "词",
+          "dateLabel": "1076年中秋",
+          "text": "明月几时有，把酒问青天。\n不知天上宫阙，今夕是何年。\n我欲乘风归去，又恐琼楼玉宇，高处不胜寒。\n起舞弄清影，何似在人间。\n转朱阁，低绮户，照无眠。\n不应有恨，何事长向别时圆。\n人有悲欢离合，月有阴晴圆缺，此事古难全。\n但愿人长久，千里共婵娟。",
+          "context": "词序写丙辰中秋饮酒，兼怀子由。苏轼时在密州，与弟苏辙分离。本文采用通行的“又恐”“长向”读法，传本另有“惟恐”“偏向”等异文。",
+          "analysis": "上片在向往天上与留恋人间之间往返，下片从月照失眠写到对离合的理解。两次设问并非要得到天文答案，而是让情绪逐步转变。末句没有取消分离，而以共同观看月亮建立关系，因而同时保留遗憾和祝愿。",
+          "source": {
+            "title": "水调歌头·明月几时有·原文",
+            "url": "https://zh.wikisource.org/wiki/水調歌頭_(明月幾時有)",
+            "institution": "维基文库·古代作品（公有领域）"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "title": "苏轼·生平与参考文献",
+          "url": "https://zh.wikipedia.org/wiki/苏轼",
+          "institution": "维基百科·含原始文献索引"
+        },
+        {
+          "title": "水调歌头·明月几时有·原文",
+          "url": "https://zh.wikisource.org/wiki/水調歌頭_(明月幾時有)",
+          "institution": "维基文库·古代作品（公有领域）"
+        }
+      ],
+      "relatedNames": [
+        "欧阳修",
+        "王安石",
+        "黄庭坚",
+        "秦观",
+        "赤壁之战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "poet-huang-tingjian",
+      "kind": "poets",
+      "name": "黄庭坚",
+      "title": "黄庭坚",
+      "lifeLabel": "1045—1105年",
+      "sortYear": 1045,
+      "eraIds": [
+        "song"
+      ],
+      "aliases": [
+        "鲁直",
+        "山谷道人",
+        "涪翁"
+      ],
+      "certainty": "史实",
+      "summary": "北宋诗人与书法家，重视读书、用典和语言锤炼，后世江西诗派奉其为重要宗师。",
+      "sections": [
+        {
+          "title": "仕途与苏门交往",
+          "text": "黄庭坚1067年进士及第，曾任地方官，也在中央参与史书编修，与苏轼关系密切。后世所谓苏门四学士是文学网络的概括，并不意味着几人有完全相同的诗风和政治经历。"
+        },
+        {
+          "title": "党争与贬谪",
+          "text": "新旧党争变化使他受到牵连，被贬黔州、戎州等地，晚年又至宜州。长期迁徙、友人离散和生活困顿影响诗歌。书法和诗学虽彼此呼应，却应分别观察具体作品，不能仅用“瘦硬”一词概括全部成就。"
+        },
+        {
+          "title": "怎样理解江西诗法",
+          "text": "黄庭坚常从前人语言中重新组织意义，强调用典和结构创造，而非简单抄取古句。《登快阁》从公事结束写到开阔江山，再转入知音与归隐愿望；读者可以先感受景象，再查典故，避免让注释遮蔽诗的情绪。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1067,
+          "dateLabel": "1067年",
+          "title": "进士及第",
+          "text": "进入地方与中央官僚系统。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/黄庭坚"
+        },
+        {
+          "year": 1082,
+          "dateLabel": "1082年前后",
+          "title": "太和任内写《登快阁》",
+          "text": "地方生活成为代表诗作的背景。",
+          "sourceUrl": "https://www.classicalchineseliterature.org/article.php?article=登快閣&class=0&lang=cs&p=0"
+        },
+        {
+          "year": 1095,
+          "dateLabel": "1095年",
+          "title": "贬黔州",
+          "text": "政治清算使其长期辗转西南。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/黄庭坚"
+        },
+        {
+          "year": 1105,
+          "dateLabel": "1105年",
+          "title": "卒于宜州",
+          "text": "晚年贬谪生活终结。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/黄庭坚"
+        }
+      ],
+      "works": [
+        {
+          "title": "登快阁",
+          "genre": "七言律诗",
+          "dateLabel": "1082年前后，太和任内",
+          "text": "痴儿了却公家事，快阁东西倚晚晴。\n落木千山天远大，澄江一道月分明。\n朱弦已为佳人绝，青眼聊因美酒横。\n万里归船弄长笛，此心吾与白鸥盟。",
+          "context": "作者在吉州太和任职时登阁所作。诗里的归船带有想象与愿望，不能据此认定写诗当晚已辞官乘船离去。",
+          "analysis": "首句以自嘲卸下官场身份，颔联用“千山”“一道”展开远景；“天远大”“月分明”使视野豁然。伯牙绝弦与阮籍青眼的典故转出知音难觅，末联再将内心从公事引向江湖。景物开阔与人生拘束形成张力。",
+          "source": {
+            "title": "登快阁·原文",
+            "url": "https://zh.wikisource.org/wiki/登快閣",
+            "institution": "维基文库·古代作品（公有领域）"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "title": "黄庭坚·生平与参考文献",
+          "url": "https://zh.wikipedia.org/wiki/黄庭坚",
+          "institution": "维基百科·含原始文献索引"
+        },
+        {
+          "title": "登快阁·原文",
+          "url": "https://zh.wikisource.org/wiki/登快閣",
+          "institution": "维基文库·古代作品（公有领域）"
+        },
+        {
+          "title": "中国古诗文精读·登快阁",
+          "url": "https://www.classicalchineseliterature.org/article.php?article=登快閣&class=0&lang=cs&p=0",
+          "institution": "中国古诗文精读"
+        }
+      ],
+      "relatedNames": [
+        "苏轼",
+        "秦观"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "poet-qin-guan",
+      "kind": "poets",
+      "name": "秦观",
+      "title": "秦观",
+      "lifeLabel": "1049—1100年",
+      "sortYear": 1049,
+      "eraIds": [
+        "song"
+      ],
+      "aliases": [
+        "少游",
+        "太虚",
+        "淮海居士"
+      ],
+      "certainty": "史实",
+      "summary": "北宋词人，擅长将细腻感情与含蓄意象结合，也有政论和诗文传世。",
+      "sections": [
+        {
+          "title": "应举与文学交游",
+          "text": "秦观出身高邮，早年多次应举，1085年进士及第，与苏轼、黄庭坚等往来。他既写词，也关心政事与人才问题。后世常以婉约称其风格，但这一分类不能替代对不同题材和文体的阅读。"
+        },
+        {
+          "title": "宦游与南方贬谪",
+          "text": "元祐时期任职中央，绍圣以后在党争中受到牵连，辗转处州、郴州、横州、雷州等地。离别、迟暮和道路遥远成为词中反复出现的经验。1100年获赦北返途中去世，政治处境为其晚期作品提供深层背景。"
+        },
+        {
+          "title": "爱情词与含蓄表达",
+          "text": "《鹊桥仙》借牛郎织女相会讨论感情持续的方式，不能未经证据就指定为作者与某位女子的实录。作品把短暂相逢与长久关系并置，既承认分离痛苦，也给出超越朝夕相守的想象。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1085,
+          "dateLabel": "1085年",
+          "title": "进士及第",
+          "text": "长期应举后进入仕途。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/秦观"
+        },
+        {
+          "year": 1094,
+          "dateLabel": "1094年起",
+          "title": "遭贬外任",
+          "text": "随党争变化远离中央。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/秦观"
+        },
+        {
+          "year": 1100,
+          "dateLabel": "1100年",
+          "title": "北归途中去世",
+          "text": "晚年贬谪未能以归乡团聚结束。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/秦观"
+        }
+      ],
+      "works": [
+        {
+          "title": "鹊桥仙·纤云弄巧",
+          "genre": "词",
+          "dateLabel": "北宋，具体作年未定",
+          "text": "纤云弄巧，飞星传恨，银汉迢迢暗度。\n金风玉露一相逢，便胜却人间无数。\n柔情似水，佳期如梦，忍顾鹊桥归路。\n两情若是久长时，又岂在朝朝暮暮。",
+          "context": "以七夕牛郎织女传说为题材。具体写作对象与年代存在不同解释，这里不将后人附会的爱情故事定为事实。",
+          "analysis": "上片将相逢放在清秋天地之间，下片马上写离别，使欢乐与不忍同时存在。“如水”“如梦”突出柔情的流动和短暂。结尾是从眼前离愁中提出的愿望，并不是说分离完全不痛苦；前文的“传恨”“忍顾”仍在支撑它。",
+          "source": {
+            "title": "鹊桥仙·纤云弄巧·原文",
+            "url": "https://zh.wikisource.org/wiki/鵲橋仙_(秦觀)",
+            "institution": "维基文库·古代作品（公有领域）"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "title": "秦观·生平与参考文献",
+          "url": "https://zh.wikipedia.org/wiki/秦观",
+          "institution": "维基百科·含原始文献索引"
+        },
+        {
+          "title": "鹊桥仙·纤云弄巧·原文",
+          "url": "https://zh.wikisource.org/wiki/鵲橋仙_(秦觀)",
+          "institution": "维基文库·古代作品（公有领域）"
+        }
+      ],
+      "relatedNames": [
+        "苏轼",
+        "黄庭坚"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "poet-li-qingzhao",
+      "kind": "poets",
+      "name": "李清照",
+      "title": "李清照",
+      "lifeLabel": "1084—约1155年（卒年有异说）",
+      "sortYear": 1084,
+      "eraIds": [
+        "song"
+      ],
+      "aliases": [
+        "易安居士"
+      ],
+      "certainty": "约年",
+      "summary": "跨越两宋的词人，也参与金石收藏与学术整理；南渡使其生活、藏品与写作境遇发生巨变。",
+      "sections": [
+        {
+          "title": "家庭学养与金石生活",
+          "text": "李清照生于士大夫家庭，与赵明诚结婚后共同搜集书画、金石拓本。她在诗文和《词论》中有明确的文学判断，不能仅以“多愁善感的才女”概括。金石整理体现了她在学术劳动中的参与。"
+        },
+        {
+          "title": "南渡与个人损失",
+          "text": "靖康之变后，夫妇南下，收藏在战乱中损失，赵明诚于1129年去世。她此后辗转多地，经历财物散失与生活不安。晚年具体行踪、卒年及部分作品归属有争议，须依文本和资料分别处理。"
+        },
+        {
+          "title": "词中的身体与物件",
+          "text": "李清照善用日常动作、声音和器物表达复杂感受，后期词的愁苦又与家国变动相连。《武陵春》从倦于梳头到想乘舟排遣，再让船承担不了愁绪，抽象情感因此获得重量和形状。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1101,
+          "dateLabel": "1101年",
+          "title": "与赵明诚成婚",
+          "text": "共同的书画金石兴趣进入日常生活。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/李清照"
+        },
+        {
+          "year": 1127,
+          "dateLabel": "1127年后",
+          "title": "南渡",
+          "text": "战乱改变居所与收藏条件。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/李清照"
+        },
+        {
+          "year": 1129,
+          "dateLabel": "1129年",
+          "title": "赵明诚去世",
+          "text": "丧偶与流徙加深生活困境。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/李清照"
+        },
+        {
+          "year": 1135,
+          "dateLabel": "1135年",
+          "title": "寓居金华",
+          "text": "《武陵春》通常系于这一时期。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/李清照"
+        }
+      ],
+      "works": [
+        {
+          "title": "武陵春·风住尘香花已尽",
+          "genre": "词",
+          "dateLabel": "1135年春，通常系年",
+          "text": "风住尘香花已尽，日晚倦梳头。\n物是人非事事休，欲语泪先流。\n闻说双溪春尚好，也拟泛轻舟。\n只恐双溪舴艋舟，载不动许多愁。",
+          "context": "通常认为写于金华避乱期间。双溪是当地水系，轻舟本可游赏，却被词人转化为承载悲愁的想象。",
+          "analysis": "“欲语”而泪先流，让情绪从身体动作中出现。下片“闻说”“也拟”“只恐”连续转折，呈现尝试排遣又退回的心理过程。最后把无法称量的愁写得比小船载重还大，是以具体物象表达心境的典型手法。",
+          "source": {
+            "title": "武陵春·风住尘香花已尽·原文",
+            "url": "https://zh.wikisource.org/wiki/武陵春_(李清照)",
+            "institution": "维基文库·古代作品（公有领域）"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "title": "李清照·生平与参考文献",
+          "url": "https://zh.wikipedia.org/wiki/李清照",
+          "institution": "维基百科·含原始文献索引"
+        },
+        {
+          "title": "武陵春·风住尘香花已尽·原文",
+          "url": "https://zh.wikisource.org/wiki/武陵春_(李清照)",
+          "institution": "维基文库·古代作品（公有领域）"
+        }
+      ],
+      "relatedNames": [
+        "靖康之役",
+        "赵佶",
+        "赵构"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "poet-lu-you",
+      "kind": "poets",
+      "name": "陆游",
+      "title": "陆游",
+      "lifeLabel": "1125—1210年",
+      "sortYear": 1125,
+      "eraIds": [
+        "song"
+      ],
+      "aliases": [
+        "务观",
+        "放翁"
+      ],
+      "certainty": "史实",
+      "summary": "南宋诗人，长期关注恢复中原，也大量书写乡村、读书、衰老和日常生活。",
+      "sections": [
+        {
+          "title": "南渡记忆与仕途",
+          "text": "陆游生于北宋末年，童年经历战乱南迁，恢复失地的愿望贯穿其作品。早年科举与秦桧当政时的政治环境有关，后来入仕又多次遭罢黜。不能把其漫长人生压缩成单纯的爱国口号，他也具体参与地方行政。"
+        },
+        {
+          "title": "入蜀与军幕经历",
+          "text": "1172年到南郑王炎幕府，短暂接近西北前线，成为其后来反复追忆的经历。蜀中山川、边地生活与友人交往扩展诗歌题材。此后虽多居后方，他仍持续讨论战争准备和国家局势。"
+        },
+        {
+          "title": "山阴晚年与丰富诗风",
+          "text": "晚年退居山阴，写下大量农村、家居、读书和病老之诗。他的诗可以平易细密，也可以雄健激昂。《示儿》以家庭祭祀寄托未竟愿望，适合作为理解其个人生命与时代处境关系的入口。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1127,
+          "dateLabel": "1127年前后",
+          "title": "随家避乱",
+          "text": "两宋之际的经历构成早年记忆。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/陆游"
+        },
+        {
+          "year": 1172,
+          "dateLabel": "1172年",
+          "title": "入南郑军幕",
+          "text": "短暂参与前线军事幕府工作。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/陆游"
+        },
+        {
+          "year": 1189,
+          "dateLabel": "1189年",
+          "title": "罢官归山阴",
+          "text": "此后长期在故乡写作。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/陆游"
+        },
+        {
+          "year": 1210,
+          "dateLabel": "1210年",
+          "title": "晚年去世",
+          "text": "《示儿》通常视为临终前作品。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/陆游"
+        }
+      ],
+      "works": [
+        {
+          "title": "示儿",
+          "genre": "七言绝句",
+          "dateLabel": "1210年前后，临终前作",
+          "text": "死去元知万事空，但悲不见九州同。\n王师北定中原日，家祭无忘告乃翁。",
+          "context": "通常视为陆游晚年留给儿子的诗。文本“元知”亦常写作“原知”，此处依所列原文采用“元”。",
+          "analysis": "开头似乎把身后万事放下，第二句“但悲”又集中到唯一未能放下的愿望。后两句将无法亲见的未来交给儿孙，以家祭这个日常礼俗连接个人死亡与国家命运。读者也可比较他的田园诗，理解庄严愿望之外的完整生活。",
+          "source": {
+            "title": "示儿·原文",
+            "url": "https://zh.wikisource.org/wiki/示兒_(陸游)",
+            "institution": "维基文库·古代作品（公有领域）"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "title": "陆游·生平与参考文献",
+          "url": "https://zh.wikipedia.org/wiki/陆游",
+          "institution": "维基百科·含原始文献索引"
+        },
+        {
+          "title": "示儿·原文",
+          "url": "https://zh.wikisource.org/wiki/示兒_(陸游)",
+          "institution": "维基文库·古代作品（公有领域）"
+        }
+      ],
+      "relatedNames": [
+        "辛弃疾",
+        "杨万里",
+        "赵昚",
+        "郾城之战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "poet-xin-qiji",
+      "kind": "poets",
+      "name": "辛弃疾",
+      "title": "辛弃疾",
+      "lifeLabel": "1140—1207年",
+      "sortYear": 1140,
+      "eraIds": [
+        "song"
+      ],
+      "aliases": [
+        "幼安",
+        "稼轩"
+      ],
+      "certainty": "史实",
+      "summary": "从金统治区参加抗金活动后南归的词人，词中兼有军事记忆、政治议论、乡村生活和自我反思。",
+      "sections": [
+        {
+          "title": "青年行动与南归",
+          "text": "辛弃疾生于金统治下的济南地区，青年参加耿京领导的抗金武装，1162年南归。其早年有突袭擒叛者等行动，正史记载体现其军事经验，但后世戏剧化细节仍需审慎处理。"
+        },
+        {
+          "title": "任官、建议与闲居",
+          "text": "南宋任官期间，他整顿军队、治安与地方事务，撰《美芹十论》等论述抗金策略。政治起伏使他长期闲居江西，恢复中原的愿望与无从施展的处境形成矛盾。晚年虽再获任用，也未实现主要抱负。"
+        },
+        {
+          "title": "豪放之外的复杂声音",
+          "text": "辛词善于用典，也能写田园儿童和口语化对话。《破阵子》把醉中、梦中和想象中的军旅画面叠合，结尾突然回到白发。理解其力量，关键是看理想场景如何被现实打断，而非把整首词当作真实作战日志。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1162,
+          "dateLabel": "1162年",
+          "title": "南归",
+          "text": "从北方抗金武装进入南宋仕途。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/辛弃疾"
+        },
+        {
+          "year": 1165,
+          "dateLabel": "1165年前后",
+          "title": "进《美芹十论》",
+          "text": "系统讨论抗金形势与策略。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/辛弃疾"
+        },
+        {
+          "year": 1181,
+          "dateLabel": "1181年后",
+          "title": "闲居江西",
+          "text": "多次罢居与复任，创作持续。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/辛弃疾"
+        },
+        {
+          "year": 1207,
+          "dateLabel": "1207年",
+          "title": "去世",
+          "text": "未能实现北伐恢复的愿望。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/辛弃疾"
+        }
+      ],
+      "works": [
+        {
+          "title": "破阵子·为陈同甫赋壮词以寄之",
+          "genre": "词",
+          "dateLabel": "闲居时期，具体系年有讨论",
+          "text": "醉里挑灯看剑，梦回吹角连营。\n八百里分麾下炙，五十弦翻塞外声，沙场秋点兵。\n马作的卢飞快，弓如霹雳弦惊。\n了却君王天下事，赢得生前身后名，可怜白发生。",
+          "context": "寄陈亮，字同甫，表达共同的政治理想。“八百里”在这里用牛的典故，“五十弦”泛指乐器，不是地图距离和实测军乐编制。",
+          "analysis": "前九句用灯、剑、号角、烤肉、乐声、奔马和弓弦把军营写得可感，读者随节奏进入想象中的功业。末句骤然缩回个人衰老，使此前越热烈、结尾越沉痛。这种结构比简单解释为歌颂胜利更能说明作品。",
+          "source": {
+            "title": "破阵子·为陈同甫赋壮词以寄之·原文",
+            "url": "https://zh.wikisource.org/wiki/破陣子_(辛棄疾)",
+            "institution": "维基文库·古代作品（公有领域）"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "title": "辛弃疾·生平与参考文献",
+          "url": "https://zh.wikipedia.org/wiki/辛弃疾",
+          "institution": "维基百科·含原始文献索引"
+        },
+        {
+          "title": "破阵子·为陈同甫赋壮词以寄之·原文",
+          "url": "https://zh.wikisource.org/wiki/破陣子_(辛棄疾)",
+          "institution": "维基文库·古代作品（公有领域）"
+        }
+      ],
+      "relatedNames": [
+        "陆游",
+        "赵昚",
+        "郾城之战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "poet-yang-wanli",
+      "kind": "poets",
+      "name": "杨万里",
+      "title": "杨万里",
+      "lifeLabel": "1127—1206年",
+      "sortYear": 1127,
+      "eraIds": [
+        "song"
+      ],
+      "aliases": [
+        "廷秀",
+        "诚斋"
+      ],
+      "certainty": "史实",
+      "summary": "南宋诗人，以观察日常自然、捕捉瞬间变化形成活泼的诚斋诗风。",
+      "sections": [
+        {
+          "title": "科举与任官",
+          "text": "杨万里1154年进士及第，曾任地方和中央官职，与张浚等人的交往影响其学问和人格理想。他并非只在田园闲游的诗人，也关心边事、财政和官员责任，政论与诗歌共同构成其作品面貌。"
+        },
+        {
+          "title": "从学习前人到自成面目",
+          "text": "早年学习江西诗派、王安石及晚唐诗，后来逐渐强调直接观察与自得。所谓诚斋体不是完全不用典故，而是让自然万物和生活细节具有新鲜的动作、声音与趣味，常借幽默视角改变熟悉景象。"
+        },
+        {
+          "title": "观察也是一种阅读方法",
+          "text": "杨万里写荷花、雨、山路和儿童，常把人对自然的感受转写为自然似乎主动回应人。《小池》把泉眼、树阴、荷尖和蜻蜓安排成微小世界，适合练习从一个字、一处动作读出整首诗的组织。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1154,
+          "dateLabel": "1154年",
+          "title": "进士及第",
+          "text": "进入官僚生涯。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/杨万里"
+        },
+        {
+          "year": 1163,
+          "dateLabel": "1163年前后",
+          "title": "获荐临安府教授",
+          "text": "离开零陵后获张浚推荐，随后经历服丧与再度出仕。",
+          "sourceUrl": "https://tt.jxnews.com.cn/news/2293203"
+        },
+        {
+          "year": 1192,
+          "dateLabel": "1192年后",
+          "title": "退居故里",
+          "text": "晚年继续写作并关注国事。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/杨万里"
+        },
+        {
+          "year": 1206,
+          "dateLabel": "1206年",
+          "title": "去世",
+          "text": "留下数量丰富的诗文。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/杨万里"
+        }
+      ],
+      "works": [
+        {
+          "title": "小池",
+          "genre": "七言绝句",
+          "dateLabel": "南宋，确切写作年不详",
+          "text": "泉眼无声惜细流，树阴照水爱晴柔。\n小荷才露尖尖角，早有蜻蜓立上头。",
+          "context": "描写初夏小池景物，无法仅凭文本确定某一处园林或某一天的实地记录。作品的自然观察与人格化表达相结合。",
+          "analysis": "“惜”“爱”让泉眼与树阴仿佛有意照料这一池水；“才”“早”抓住荷尖初出的短暂时刻。四句没有宏大议论，却把声音、光影和生物动作放在同一视野内。它的趣味来自观察尺度的缩小及时间感的敏锐。",
+          "source": {
+            "title": "小池·原文",
+            "url": "https://zh.wikisource.org/wiki/小池",
+            "institution": "维基文库·古代作品（公有领域）"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "title": "杨万里·生平与参考文献",
+          "url": "https://zh.wikipedia.org/wiki/杨万里",
+          "institution": "维基百科·含原始文献索引"
+        },
+        {
+          "title": "小池·原文",
+          "url": "https://zh.wikisource.org/wiki/小池",
+          "institution": "维基文库·古代作品（公有领域）"
+        },
+        {
+          "title": "一代诗宗杨万里·仕宦经历",
+          "url": "https://tt.jxnews.com.cn/news/2293203",
+          "institution": "当代江西·大江网"
+        }
+      ],
+      "relatedNames": [
+        "陆游",
+        "范成大"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "poet-wen-tianxiang",
+      "kind": "poets",
+      "name": "文天祥",
+      "title": "文天祥",
+      "lifeLabel": "1236—1283年",
+      "sortYear": 1236,
+      "eraIds": [
+        "song",
+        "yuan"
+      ],
+      "aliases": [
+        "宋瑞",
+        "履善",
+        "文山"
+      ],
+      "certainty": "史实",
+      "summary": "南宋末年官员、抗元组织者与诗人，作品记录败亡、囚禁和道德选择。",
+      "sections": [
+        {
+          "title": "入仕与募兵抗元",
+          "text": "文天祥1256年以殿试第一入仕，早年官场经历屡有起伏。元军大举南下时，他在江西募兵赴援，1276年参与与元军交涉后被拘，逃脱后继续在东南组织抵抗。其行动需要放在宋廷崩溃与地方力量分散的背景中理解。"
+        },
+        {
+          "title": "失败、被俘与拒降",
+          "text": "1278年在海丰一带兵败被俘，随后被押至海上前线及大都，长期囚禁。拒绝降元是其生平中明确的政治与道德选择，不能将其诗中的全部夸张意象都当作逐日生活实录。"
+        },
+        {
+          "title": "诗歌与后世记忆",
+          "text": "《过零丁洋》《正气歌》等将个人处境写入王朝兴亡的叙事。文天祥在1283年公历年初遇害，古历仍属宋历前一年，故常见1282年的不同标法。作品后来被不断引用，应分清原始处境与后世赋予的象征意义。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1256,
+          "dateLabel": "1256年",
+          "title": "状元及第",
+          "text": "开启仕途。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/文天祥"
+        },
+        {
+          "year": 1275,
+          "dateLabel": "1275年",
+          "title": "募兵赴援",
+          "text": "投入抗元战争。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/文天祥"
+        },
+        {
+          "year": 1278,
+          "dateLabel": "1278年",
+          "title": "兵败被俘",
+          "text": "东南抵抗遭重挫。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/文天祥"
+        },
+        {
+          "year": 1283,
+          "dateLabel": "1283年1月（公历）",
+          "title": "在大都遇害",
+          "text": "按古历标法亦常记为1282年末。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/文天祥"
+        }
+      ],
+      "works": [
+        {
+          "title": "过零丁洋",
+          "genre": "七言律诗",
+          "dateLabel": "1279年，被俘后",
+          "text": "辛苦遭逢起一经，干戈寥落四周星。\n山河破碎风飘絮，身世浮沉雨打萍。\n惶恐滩头说惶恐，零丁洋里叹零丁。\n人生自古谁无死，留取丹心照汗青。",
+          "context": "写于被俘后经过零丁洋的处境，传世记载联系到元军要求其招降宋军的行动。“四周星”回望数年的抗元经历，不是说诗人只有四岁。",
+          "analysis": "诗从读书入仕和战争经历写起，中间将破碎山河与个人漂泊并置；地名“惶恐”“零丁”又同时成为情绪词。结尾把无法避免的死亡转为可以选择的精神立场。阅读时既可感受其坚决，也应看到前文真实的失落与孤独。",
+          "source": {
+            "title": "过零丁洋·原文",
+            "url": "https://zh.wikisource.org/wiki/過零丁洋",
+            "institution": "维基文库·古代作品（公有领域）"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "title": "文天祥·生平与参考文献",
+          "url": "https://zh.wikipedia.org/wiki/文天祥",
+          "institution": "维基百科·含原始文献索引"
+        },
+        {
+          "title": "过零丁洋·原文",
+          "url": "https://zh.wikisource.org/wiki/過零丁洋",
+          "institution": "维基文库·古代作品（公有领域）"
+        }
+      ],
+      "relatedNames": [
+        "赵㬎",
+        "赵昰",
+        "赵昺",
+        "忽必烈",
+        "崖山海战"
+      ],
+      "legacyNodeIds": []
+    }
+  ]
+}

@@ -219,6 +219,11 @@ export default function DetailPanel({
             </>
           )}
           <StoryNotes eraId={era.id} nodeId={node?.id} onNode={onNode} />
+          <nav className="panel-learning-links" aria-label="继续系统学习">
+            <a href={`/learn?kind=rulers&era=${era.id}`}>本时期君主世系</a>
+            <a href={`/learn?kind=battles&era=${era.id}`}>战役档案</a>
+            <a href={`/learn?kind=poets&era=${era.id}`}>诗人与作品</a>
+          </nav>
           {node && (
             <section className="related-section">
               <h3>

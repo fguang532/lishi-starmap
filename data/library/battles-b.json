@@ -1,0 +1,1165 @@
+{
+  "battles": [
+    {
+      "id": "battle-baideng",
+      "kind": "battles",
+      "name": "白登之围",
+      "title": "白登之围",
+      "lifeLabel": "前200年",
+      "sortYear": -200,
+      "eraIds": [
+        "western-han"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "汉初出兵北方后遇围，暴露新帝国在骑兵、侦察和远距离作战方面的压力。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "汉匈战争中的围困"
+        },
+        {
+          "label": "交战双方",
+          "value": "汉／匈奴"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "刘邦／冒顿单于"
+        },
+        {
+          "label": "战场范围",
+          "value": "平城、白登一带，今山西大同附近"
+        },
+        {
+          "label": "直接结果",
+          "value": "刘邦解围，汉转向和亲与边境防御"
+        }
+      ],
+      "sections": [
+        {
+          "title": "新王朝的北方问题",
+          "text": "楚汉战争结束后，汉仍需处置诸侯王与边疆势力的关系。韩王信在北方与匈奴相联，刘邦亲自出征，战争由内部叛乱扩大为汉与匈奴的正面较量。长期战争后的汉朝资源尚未充分恢复。"
+        },
+        {
+          "title": "追击中的风险",
+          "text": "《史记》记汉军在严寒中北进，刘邦所率先头部队与主力衔接不足，在白登被冒顿军包围。所谓陈平秘计在正史中未完整公开，后世关于画像和美人计的具体情节不能直接视为可靠事实。"
+        },
+        {
+          "title": "从战争到和亲",
+          "text": "刘邦脱围后，汉与匈奴采取和亲、赠送物资与边防相结合的政策。和亲不是边境自此没有战争，而是力量条件下的外交安排。与汉武帝时期的漠北战役相对照，可观察财政、马匹与动员能力的长期变化。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": -200,
+          "dateLabel": "前200年",
+          "title": "刘邦亲征北方",
+          "text": "韩王信问题与匈奴活动交织。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷110"
+        },
+        {
+          "year": -200,
+          "dateLabel": "白登被围期间",
+          "title": "汉先头部队受困",
+          "text": "古代记载称围困数日，具体脱围细节不宜补成传奇。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷110"
+        },
+        {
+          "year": -198,
+          "dateLabel": "前198年前后",
+          "title": "和亲政策形成",
+          "text": "汉以外交与防御争取恢复时间。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷110"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《史记》卷110",
+          "url": "https://zh.wikisource.org/wiki/史記/卷110",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "《史记》卷8",
+          "url": "https://zh.wikisource.org/wiki/史記/卷008",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "刘邦",
+        "漠北之战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-mobei",
+      "kind": "battles",
+      "name": "漠北之战",
+      "title": "漠北之战",
+      "lifeLabel": "前119年",
+      "sortYear": -119,
+      "eraIds": [
+        "western-han"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "卫青、霍去病分别率军越过大漠，重创匈奴主力；这也是后勤成本极高的远距离战争。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "汉匈战争中的两路远征"
+        },
+        {
+          "label": "交战双方",
+          "value": "西汉／匈奴"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "卫青、霍去病／伊稚斜单于及左贤王部"
+        },
+        {
+          "label": "战场范围",
+          "value": "大漠以北，具体古地名对应仍有讨论"
+        },
+        {
+          "label": "直接结果",
+          "value": "汉军取得重要胜利，双方消耗巨大"
+        }
+      ],
+      "sections": [
+        {
+          "title": "为什么向大漠以北进军",
+          "text": "汉武帝时期，汉在河南地与河西方向连续用兵，匈奴部分力量向北转移。汉廷认为仅在边境反击不足以解除威胁，决定投入大量骑兵、战马及转运人员深入漠北。远征依赖此前积累的财政和畜力。"
+        },
+        {
+          "title": "两路作战的不同经历",
+          "text": "卫青一路与单于主力相遇，利用武刚车等组织防御后反击，单于突围。霍去病一路深入打击左贤王方面，并举行祭天礼仪。《史记》记李广部失道、李广自杀，说明大漠导航与各部会合也是关键风险。"
+        },
+        {
+          "title": "战功与代价同时阅读",
+          "text": "战役削弱匈奴在漠南活动的能力，但并未消灭匈奴政权。大量战马损失、补给支出和持续动员加重汉朝负担。“封狼居胥”后来成为功业象征；其地理定位和政治意象，应与实际控制范围分开理解。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": -119,
+          "dateLabel": "前119年春",
+          "title": "两路大军出塞",
+          "text": "卫青、霍去病分路越过大漠。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷111"
+        },
+        {
+          "year": -119,
+          "dateLabel": "会战阶段",
+          "title": "分别打击单于与左贤王方面",
+          "text": "两军并非在同一地点参加同一场会战。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷111"
+        },
+        {
+          "year": -119,
+          "dateLabel": "班师之后",
+          "title": "战功封赏与资源消耗",
+          "text": "汉廷奖赏军功，同时面临补充战马与财政压力。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷111"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《史记》卷111",
+          "url": "https://zh.wikisource.org/wiki/史記/卷111",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "《史记》卷110",
+          "url": "https://zh.wikisource.org/wiki/史記/卷110",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "刘彻",
+        "白登之围"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-kunyang",
+      "kind": "battles",
+      "name": "昆阳之战",
+      "title": "昆阳之战",
+      "lifeLabel": "23年",
+      "sortYear": 23,
+      "eraIds": [
+        "xin",
+        "eastern-han"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "刘秀当时仍是更始政权的将领；昆阳胜利不能直接写成东汉已在这一年建立。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "反新战争中的解围战役"
+        },
+        {
+          "label": "交战双方",
+          "value": "更始政权一方的绿林等军／新朝军"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "刘秀、王凤、王常／王邑、王寻"
+        },
+        {
+          "label": "战场范围",
+          "value": "昆阳，今河南叶县一带"
+        },
+        {
+          "label": "直接结果",
+          "value": "新军大败，新朝军事支柱遭重创"
+        }
+      ],
+      "sections": [
+        {
+          "title": "新末危机与更始政权",
+          "text": "王莽时期的制度调整、灾害与地方反抗叠加，绿林等武装兴起。23年刘玄被拥立为更始帝，刘秀及其兄刘縯参与这一联盟。新朝组织大军进攻，昆阳成为阻挡其推进的重要城邑。"
+        },
+        {
+          "title": "城内外协同反击",
+          "text": "刘秀出城集结援军，王凤、王常等留守。按《后汉书》记载，刘秀率突击部队攻击新军中坚，王寻被杀，城中守军同时出击，使新軍陷入混乱。史书中的天象与风雨描写带有天命叙事色彩，不宜改成刘秀会施法的故事。"
+        },
+        {
+          "title": "从胜利到再建帝国",
+          "text": "昆阳使新朝失去重要野战力量，长安随后陷落、王莽身死。但更始、赤眉和其他地方势力继续竞争，刘秀直到25年才称帝，统一过程更延续多年。此役应放在新末群雄并起的政治地图中理解。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 23,
+          "dateLabel": "23年初",
+          "title": "刘玄称更始帝",
+          "text": "反新力量建立政权，刘秀尚非皇帝。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷1上"
+        },
+        {
+          "year": 23,
+          "dateLabel": "23年夏",
+          "title": "昆阳解围",
+          "text": "城内外军队反击，王寻战死，新军溃退。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷1上"
+        },
+        {
+          "year": 23,
+          "dateLabel": "23年秋",
+          "title": "新朝覆亡",
+          "text": "长安失守；新末战争并未立即结束。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷1上"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《后汉书》光武帝纪上",
+          "url": "https://zh.wikisource.org/wiki/後漢書/卷1上",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "刘秀",
+        "王莽",
+        "刘玄"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-guandu",
+      "kind": "battles",
+      "name": "官渡之战",
+      "title": "官渡之战",
+      "lifeLabel": "200年",
+      "sortYear": 200,
+      "eraIds": [
+        "eastern-han",
+        "three-kingdoms"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "曹操通过前沿交战、阵地对峙和袭击粮屯战胜袁绍；统一北方仍用了数年。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "汉末诸侯战争中的战略会战"
+        },
+        {
+          "label": "交战双方",
+          "value": "曹操集团／袁绍集团"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "曹操／袁绍"
+        },
+        {
+          "label": "战场范围",
+          "value": "白马、延津、官渡、乌巢，今河南地区"
+        },
+        {
+          "label": "直接结果",
+          "value": "袁绍主力败退，曹操取得北方竞争优势"
+        }
+      ],
+      "sections": [
+        {
+          "title": "北方两大集团的对抗",
+          "text": "袁绍控制河北多州，曹操则控制汉献帝所在的许，并在中原组织屯田与军政体系。双方争夺黄河两岸通道和政治号召力。资源总量不是唯一因素，联盟稳定、将领协同和粮食运输同样关键。"
+        },
+        {
+          "title": "粮道改变战局",
+          "text": "曹军先在白马、延津等地作战，随后与袁军在官渡相持。粮食紧张使曹操承受压力，许攸来投提供袁军粮屯信息，曹军夜袭乌巢，摧毁关键补给。前线军心与指挥失衡使袁军败退，不能把整个战局归结为某一个人的临阵失言。"
+        },
+        {
+          "title": "从官渡到北方整合",
+          "text": "袁绍战后仍据河北，202年去世后其子争位，为曹操继续扩张创造机会。曹操随后取邺、平定袁氏残余。官渡是转折点，却不是“天下从此归曹”的终点，南方势力仍将构成新的挑战。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 200,
+          "dateLabel": "200年春",
+          "title": "白马、延津作战",
+          "text": "两军围绕渡河通道与前沿据点交战。",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/三國志/卷01"
+        },
+        {
+          "year": 200,
+          "dateLabel": "200年秋",
+          "title": "官渡对峙与袭乌巢",
+          "text": "曹军攻击袁军粮屯，迫使战局转向。",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/三國志/卷01"
+        },
+        {
+          "year": 204,
+          "dateLabel": "204年",
+          "title": "曹操攻取邺城",
+          "text": "北方整合继续，显示官渡与最终控制河北之间的时间差。",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/三國志/卷01"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《三国志》武帝纪",
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷01",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "曹操",
+        "赤壁之战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-chibi",
+      "kind": "battles",
+      "name": "赤壁之战",
+      "title": "赤壁之战",
+      "lifeLabel": "208年",
+      "sortYear": 208,
+      "eraIds": [
+        "eastern-han",
+        "three-kingdoms"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "孙刘联合抵御曹操南征。火攻、疾病、水战条件与联盟决策共同影响结果。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "汉末南征中的水陆战役"
+        },
+        {
+          "label": "交战双方",
+          "value": "孙权、刘备联军／曹操军"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "周瑜、程普、黄盖、刘备／曹操"
+        },
+        {
+          "label": "战场范围",
+          "value": "长江中游赤壁至乌林一带，具体战场对应有讨论"
+        },
+        {
+          "label": "直接结果",
+          "value": "曹军撤退，南方形成分立局势"
+        }
+      ],
+      "sections": [
+        {
+          "title": "荆州变化与联盟形成",
+          "text": "刘表死后刘琮降曹，曹操迅速取得荆州部分资源。刘备南撤并寻求孙权合作，孙权集团内部对降战有不同意见。联盟使两方能够集中力量，但各自对荆州的利益并不完全一致。"
+        },
+        {
+          "title": "水战、火攻与撤退",
+          "text": "《三国志》相关传记记周瑜等迎战，黄盖建议火攻，曹军又受疾病与不适水战等因素影响。草船借箭、诸葛亮借东风及关羽华容道义释曹操等通俗情节，不能直接代替史料记载。各传对撤军与焚船的叙述也需互相参照。"
+        },
+        {
+          "title": "三分形势的起点之一",
+          "text": "赤壁阻止曹操迅速统一南方。刘备随后争取荆州和益州，孙权巩固江东，曹操继续控制北方。魏、蜀、吴正式建国还在多年之后，所以赤壁是促成三方格局的重要条件，而非三国同日诞生。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 208,
+          "dateLabel": "208年秋",
+          "title": "曹操南下、荆州降附",
+          "text": "刘备退走，孙刘开始联合。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷54"
+        },
+        {
+          "year": 208,
+          "dateLabel": "208年冬",
+          "title": "赤壁、乌林交战",
+          "text": "联军火攻与曹军自身困难共同造成败退。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷54"
+        },
+        {
+          "year": 209,
+          "dateLabel": "208年末—209年",
+          "title": "荆州继续争夺",
+          "text": "赤壁后仍有江陵等战事，各方重新划分势力范围。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷54"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《三国志》周瑜、鲁肃、吕蒙传",
+          "url": "https://zh.wikisource.org/wiki/三國志/卷54",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "《三国志》武帝纪",
+          "url": "https://zh.wikisource.org/zh-hant/三國志/卷01",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "曹操",
+        "刘备",
+        "孙权",
+        "苏轼",
+        "官渡之战",
+        "夷陵之战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-yiling",
+      "kind": "battles",
+      "name": "夷陵之战",
+      "title": "夷陵之战",
+      "lifeLabel": "221—222年",
+      "sortYear": 221,
+      "eraIds": [
+        "three-kingdoms"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "战争不仅缘于关羽之死，更涉及荆州控制权和长江上游的安全。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "蜀汉与孙吴的荆州争夺战"
+        },
+        {
+          "label": "交战双方",
+          "value": "蜀汉／孙权政权"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "刘备／陆逊"
+        },
+        {
+          "label": "战场范围",
+          "value": "夷陵、猇亭一带，今湖北宜昌附近"
+        },
+        {
+          "label": "直接结果",
+          "value": "蜀军大败，刘备退至白帝城"
+        }
+      ],
+      "sections": [
+        {
+          "title": "荆州失守后的战略冲突",
+          "text": "219年孙权袭取刘备控制的荆州地区，关羽败亡。刘备称帝后东征，既有为关羽复仇的政治情感，也试图改变蜀汉失去荆州通道的局面。孙权同时需要应对北方曹魏，因而对外关系也影响双方选择。"
+        },
+        {
+          "title": "相持之后的集中反击",
+          "text": "陆逊避免过早决战，待蜀军深入、驻营分散后发动进攻，火攻成为反击手段之一。所谓“连营七百里”多带有后世夸张表达，不宜画成一条精确长度的连续营墙。长江沿岸地形、粮道与水陆配合都制约蜀军。"
+        },
+        {
+          "title": "重建联盟的必要",
+          "text": "刘备退守白帝城，223年去世，诸葛亮辅佐刘禅。蜀吴此后恢复合作以对抗更强的曹魏。夷陵改变了蜀汉的扩张条件，也说明盟友之间存在领土冲突，联盟并不是永久稳定的道德承诺。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 221,
+          "dateLabel": "221年",
+          "title": "刘备东征",
+          "text": "蜀汉试图夺回荆州方面的主动权。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷58"
+        },
+        {
+          "year": 222,
+          "dateLabel": "222年夏",
+          "title": "陆逊反击",
+          "text": "蜀军营地被击破，战线崩溃。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷58"
+        },
+        {
+          "year": 223,
+          "dateLabel": "223年",
+          "title": "刘备病逝、蜀吴修好",
+          "text": "蜀汉转入新君与辅政结构，联盟重新调整。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷58"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《三国志》陆逊传",
+          "url": "https://zh.wikisource.org/wiki/三國志/卷58",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "《三国志》先主传",
+          "url": "https://zh.wikisource.org/wiki/三國志/卷32",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "刘备",
+        "刘禅",
+        "孙权",
+        "赤壁之战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-wei-shu",
+      "kind": "battles",
+      "name": "魏灭蜀之战",
+      "title": "魏灭蜀之战",
+      "lifeLabel": "263年",
+      "sortYear": 263,
+      "eraIds": [
+        "three-kingdoms"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "正面牵制与迂回突入共同造成蜀汉崩溃；随后的魏军内部变乱属于另一阶段。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "政权兼并战争"
+        },
+        {
+          "label": "交战双方",
+          "value": "曹魏／蜀汉"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "钟会、邓艾／姜维、诸葛瞻"
+        },
+        {
+          "label": "战场范围",
+          "value": "汉中、剑阁、阴平至成都"
+        },
+        {
+          "label": "直接结果",
+          "value": "刘禅投降，蜀汉灭亡"
+        }
+      ],
+      "sections": [
+        {
+          "title": "两国长期消耗与决策",
+          "text": "蜀汉北伐和边防持续消耗有限资源。曹魏政权实际由司马昭掌握，灭蜀既可消除军事对手，也有助于提高司马氏威望。双方在汉中防御方式、兵力分配与情报反应上的选择影响战争走向。"
+        },
+        {
+          "title": "剑阁与阴平两条路线",
+          "text": "钟会进入汉中后在剑阁受到姜维阻挡，邓艾另从阴平险道推进，绕开主要防线。邓艾击败诸葛瞻所部后逼近成都，刘禅决定投降。险道突进是一种高风险行动，不能仅归结为蜀军完全没有抵抗。"
+        },
+        {
+          "title": "亡国与胜利者的危机",
+          "text": "264年钟会起兵、姜维谋恢复蜀汉，最终兵变失败，钟会、姜维被杀，邓艾也遭杀害。这些事说明军事胜利并不立即带来稳定接管。蜀地进入魏晋秩序，三国格局开始走向结束。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 263,
+          "dateLabel": "263年秋",
+          "title": "魏军分路进攻",
+          "text": "钟会、邓艾等进入蜀汉防区。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷28"
+        },
+        {
+          "year": 263,
+          "dateLabel": "263年冬",
+          "title": "成都投降",
+          "text": "邓艾绕道突进并获胜，刘禅降魏。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷28"
+        },
+        {
+          "year": 264,
+          "dateLabel": "264年",
+          "title": "成都兵变",
+          "text": "钟会、姜维的行动失败，接管蜀地出现重大动荡。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷28"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《三国志》王毌丘诸葛邓钟传",
+          "url": "https://zh.wikisource.org/wiki/三國志/卷28",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "刘禅",
+        "曹奂",
+        "晋灭吴之战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-jin-wu",
+      "kind": "battles",
+      "name": "晋灭吴之战",
+      "title": "晋灭吴之战",
+      "lifeLabel": "279—280年",
+      "sortYear": 279,
+      "eraIds": [
+        "three-kingdoms",
+        "western-jin"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "西晋多路并进，利用上游水军和沿江进攻突破吴的防线。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "统一战争"
+        },
+        {
+          "label": "交战双方",
+          "value": "西晋／孙吴"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "杜预、王濬、王浑等／孙皓、张悌等"
+        },
+        {
+          "label": "战场范围",
+          "value": "长江上中下游至建业"
+        },
+        {
+          "label": "直接结果",
+          "value": "孙皓投降，三国分立结束"
+        }
+      ],
+      "sections": [
+        {
+          "title": "长期准备与两国局势",
+          "text": "西晋代魏后，控制巴蜀及北方，具备从长江上游造船顺流进攻的条件。羊祜等人在军事和政治上准备伐吴，杜预继任后继续推动。吴国内政与军事资源面临压力，但江面屏障仍需要具体作战才能突破。"
+        },
+        {
+          "title": "水陆协同破防",
+          "text": "王濬率上游水军东下，杜预等从中游进攻，王浑等在下游推进。吴沿江防线被分割，各支晋军既相互配合，也存在争功与指挥协调问题。长江并非天然保证政权安全的绝对屏障，关键在两岸据点、舰队与纵深防御。"
+        },
+        {
+          "title": "统一后的隐患",
+          "text": "孙皓降晋，魏蜀吴鼎立结束。晋获得广阔疆域，但宗室权力、继承制度、地方利益与军事部署的问题仍在累积。短期统一不能被直接等同于长期安定，可继续阅读西晋君主档案和八王之乱背景。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 279,
+          "dateLabel": "279年冬",
+          "title": "晋发多路军",
+          "text": "伐吴进入全面实施阶段。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/晉書/卷034"
+        },
+        {
+          "year": 280,
+          "dateLabel": "280年初",
+          "title": "长江防线被突破",
+          "text": "上游水军与中下游各军相继取胜。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/晉書/卷034"
+        },
+        {
+          "year": 280,
+          "dateLabel": "280年",
+          "title": "孙皓降晋",
+          "text": "建业归晋，三国格局终结。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/晉書/卷034"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《晋书》杜预等传",
+          "url": "https://zh.wikisource.org/wiki/晉書/卷034",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "《晋书》王濬等传",
+          "url": "https://zh.wikisource.org/wiki/晉書/卷042",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "司马炎",
+        "孙皓",
+        "魏灭蜀之战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-feishui",
+      "kind": "battles",
+      "name": "淝水之战",
+      "title": "淝水之战",
+      "lifeLabel": "383年",
+      "sortYear": 383,
+      "eraIds": [
+        "eastern-jin"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "前秦虽统一北方大部，内部整合仍有限；淝水失败放大了原有政治裂痕。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "前秦南征中的会战"
+        },
+        {
+          "label": "交战双方",
+          "value": "东晋／前秦"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "谢石、谢玄、刘牢之／苻坚、苻融"
+        },
+        {
+          "label": "战场范围",
+          "value": "寿阳、淝水一线，今安徽寿县附近"
+        },
+        {
+          "label": "直接结果",
+          "value": "前秦败退，东晋保持江南统治"
+        }
+      ],
+      "sections": [
+        {
+          "title": "大举南征的条件与风险",
+          "text": "苻坚消灭前燕、控制多个地区后，希望进一步统一南方。前秦动员广泛，却包含许多新近归附的地方集团，军队展开距离也很长。东晋内部虽有权力竞争，仍能在长江下游组织以北府兵为骨干的防御。"
+        },
+        {
+          "title": "前沿胜利与渡河混乱",
+          "text": "刘牢之先在洛涧获胜，东晋随后与前秦军隔淝水对峙。传世记载称前秦同意后退以让晋军渡河，却在移动中失去秩序，苻融战死。“风声鹤唳”“草木皆兵”呈现败军恐惧，但不能代替具体兵力部署的证据。"
+        },
+        {
+          "title": "南北格局持续",
+          "text": "苻坚返回北方后，原先被压制的慕容氏、姚氏等势力重新起事，前秦迅速分裂。东晋没有因此直接统一北方。战役延长南北分立，也说明一个庞大但整合不足的政权可能在军事挫败后遭遇连锁危机。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 383,
+          "dateLabel": "383年",
+          "title": "苻坚大举南征",
+          "text": "各地军队被动员，前锋向寿阳推进。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/晉書/卷114"
+        },
+        {
+          "year": 383,
+          "dateLabel": "383年秋冬",
+          "title": "洛涧、淝水接连交战",
+          "text": "晋军获胜，苻融战死，前秦军撤退。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/晉書/卷114"
+        },
+        {
+          "year": 384,
+          "dateLabel": "384年起",
+          "title": "北方多方重新独立",
+          "text": "前秦统治基础迅速分裂，南北仍未统一。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/晉書/卷114"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《晋书》苻坚载记下",
+          "url": "https://zh.wikisource.org/wiki/晉書/卷114",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "《晋书》谢安等传",
+          "url": "https://zh.wikisource.org/wiki/晉書/卷079",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "苻坚",
+        "司马曜",
+        "晋灭吴之战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-yubi",
+      "kind": "battles",
+      "name": "玉壁之战",
+      "title": "玉壁之战",
+      "lifeLabel": "546年",
+      "sortYear": 546,
+      "eraIds": [
+        "northern-southern"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "韦孝宽守玉壁挫败高欢进攻，是北朝攻城、防御和资源消耗的重要战例。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "东西魏战争中的攻城战"
+        },
+        {
+          "label": "交战双方",
+          "value": "东魏／西魏"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "高欢／韦孝宽"
+        },
+        {
+          "label": "战场范围",
+          "value": "玉壁，今山西稷山一带"
+        },
+        {
+          "label": "直接结果",
+          "value": "东魏久攻不下而撤军"
+        }
+      ],
+      "sections": [
+        {
+          "title": "分裂后的战略要地",
+          "text": "北魏分裂为东魏与西魏后，高欢和宇文泰争夺黄河中游通道。玉壁的位置使其能够影响汾河下游与河东交通。围绕这座堡垒的战斗，关系到双方进入对方腹地的能力，不只是孤立的城池争夺。"
+        },
+        {
+          "title": "工程攻防的反复较量",
+          "text": "《周书·韦孝宽传》记东魏筑土山、挖地道等攻城方法，守军则加高防御、掘沟截断地道并以烟火应对。记载凸显守将机变，也提示城防工程、材料储备与士兵组织的重要性，不能只把古代战争想象成骑兵冲阵。"
+        },
+        {
+          "title": "撤军与北朝权力变化",
+          "text": "东魏伤亡和疾病累积，最终撤军，高欢不久去世，但不宜断言他只因一场败仗而死。东西两集团的竞争延续至北齐、北周。玉壁显示攻守双方即使总实力不同，也会受到据点地形和围城时间的限制。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 546,
+          "dateLabel": "546年秋",
+          "title": "东魏围攻玉壁",
+          "text": "高欢试图拔除西魏重要据点。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/周書/卷31"
+        },
+        {
+          "year": 546,
+          "dateLabel": "围城阶段",
+          "title": "土山、地道与反制",
+          "text": "韦孝宽组织城防与工程反击。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/周書/卷31"
+        },
+        {
+          "year": 546,
+          "dateLabel": "546年战末",
+          "title": "东魏撤退",
+          "text": "长期进攻未能破城，双方格局暂未改变。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/周書/卷31"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《周书》韦孝宽传",
+          "url": "https://zh.wikisource.org/wiki/周書/卷31",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "元善见",
+        "元宝炬"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-sui-chen",
+      "kind": "battles",
+      "name": "隋灭陈之战",
+      "title": "隋灭陈之战",
+      "lifeLabel": "588—589年",
+      "sortYear": 588,
+      "eraIds": [
+        "northern-southern",
+        "sui"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "隋以多路水陆军突破长江防线，结束延续数百年的南北政权对峙。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "统一战争"
+        },
+        {
+          "label": "交战双方",
+          "value": "隋／陈"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "杨广名义统率；贺若弼、韩擒虎、杨素等／陈后主及诸将"
+        },
+        {
+          "label": "战场范围",
+          "value": "长江沿线、建康与江南各地"
+        },
+        {
+          "label": "直接结果",
+          "value": "陈朝灭亡，南北重新统一"
+        }
+      ],
+      "sections": [
+        {
+          "title": "南北力量重新集中",
+          "text": "北周灭北齐后，隋接收较为完整的北方军政资源，又控制巴蜀上游。陈疆域与资源相对有限，朝廷对北军行动判断失误。隋不仅准备军队和舟船，也通过外交、招抚与反复调动削弱陈的警戒。"
+        },
+        {
+          "title": "渡江与都城陷落",
+          "text": "隋军多路展开，杨素在上游作战，贺若弼、韩擒虎等从下游渡江并逼近建康。杨广为名义上的统帅，各将承担具体战场任务，不能把全部功劳归为一人指挥的单场战斗。陈后主被俘，首都抵抗结束。"
+        },
+        {
+          "title": "征服之后仍需治理",
+          "text": "统一后隋要整合江南官僚、赋役与文化传统，部分地区随后仍发生反抗。南北统一为经济与制度交流提供新条件，但不意味着战争创伤和区域差异立即消失。可与隋文帝、隋炀帝档案连读，观察统一资源怎样被使用。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 588,
+          "dateLabel": "588年",
+          "title": "隋部署多路伐陈",
+          "text": "水陆军由长江上中下游展开。",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/隋書/卷02"
+        },
+        {
+          "year": 589,
+          "dateLabel": "589年初",
+          "title": "下游渡江与攻取建康",
+          "text": "陈后主被俘，陈朝中央政权覆亡。",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/隋書/卷02"
+        },
+        {
+          "year": 589,
+          "dateLabel": "589年及以后",
+          "title": "接管江南",
+          "text": "隋继续处理各地归附与反抗，统一进入治理阶段。",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/隋書/卷02"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《隋书》高祖纪下",
+          "url": "https://zh.wikisource.org/zh-hant/隋書/卷02",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "杨坚",
+        "杨广",
+        "陈叔宝"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-hulao",
+      "kind": "battles",
+      "name": "虎牢之战",
+      "title": "虎牢之战",
+      "lifeLabel": "621年",
+      "sortYear": 621,
+      "eraIds": [
+        "sui",
+        "tang"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "唐军在围洛阳同时击败援军，一次战役链条消除了中原两个主要对手。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "唐统一战争中的围城打援"
+        },
+        {
+          "label": "交战双方",
+          "value": "唐／王世充郑、窦建德夏"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "李世民、李元吉等／窦建德、王世充"
+        },
+        {
+          "label": "战场范围",
+          "value": "洛阳至虎牢关，今河南地区"
+        },
+        {
+          "label": "直接结果",
+          "value": "窦建德被俘，王世充投降"
+        }
+      ],
+      "sections": [
+        {
+          "title": "三个集团的战略选择",
+          "text": "唐占据关中与河东，王世充控制洛阳，窦建德经营河北。唐攻洛阳后，窦建德意识到郑亡会危及自身，于是出兵援救。战争体现地方政权之间互相依赖又难以充分协调的处境。"
+        },
+        {
+          "title": "围城与阻援并行",
+          "text": "李世民留下部队继续围洛阳，自己率军据虎牢阻挡窦建德。夏军久留后补给与士气受影响，唐军选择时机出击并俘获窦建德。古代史书对人数和神勇形象有夸饰可能，应把关隘地形、等待与部队状态纳入解释。"
+        },
+        {
+          "title": "胜利与新的反抗",
+          "text": "王世充在外援失败后投降。窦建德被处死，其旧部随后拥立刘黑闼继续反唐，说明战场胜利并未立即取得地方社会认同。李世民的军功大增，也进一步影响唐朝皇室内部的权力竞争。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 620,
+          "dateLabel": "620年",
+          "title": "唐围洛阳",
+          "text": "王世充向河北的窦建德求援。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/虎牢之戰"
+        },
+        {
+          "year": 621,
+          "dateLabel": "621年",
+          "title": "虎牢击败夏军",
+          "text": "窦建德被俘，洛阳失去重要外援。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷189"
+        },
+        {
+          "year": 621,
+          "dateLabel": "621年战后",
+          "title": "郑降唐、河北再起兵",
+          "text": "唐扩大控制，但统一战争继续。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/資治通鑑/卷189"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《资治通鉴》卷一百八十九",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷189",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "虎牢之战·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/虎牢之戰",
+          "institution": "维基百科·含参考文献"
+        }
+      ],
+      "relatedNames": [
+        "李世民",
+        "李渊"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-eastern-turks",
+      "kind": "battles",
+      "name": "唐灭东突厥之战",
+      "title": "唐灭东突厥之战",
+      "lifeLabel": "629—630年",
+      "sortYear": 629,
+      "eraIds": [
+        "tang"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "唐利用东突厥内部矛盾与灾害造成的困境北征，此后草原治理仍不断变化。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "多路北征与政权解体"
+        },
+        {
+          "label": "交战双方",
+          "value": "唐及盟友／东突厥颉利可汗部"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "李靖、李勣等／颉利可汗"
+        },
+        {
+          "label": "战场范围",
+          "value": "定襄、阴山至漠南地区"
+        },
+        {
+          "label": "直接结果",
+          "value": "颉利被俘，东突厥汗国暂时瓦解"
+        }
+      ],
+      "sections": [
+        {
+          "title": "从渭水之盟到形势逆转",
+          "text": "唐初仍受到东突厥军事压力，626年突厥兵临渭水。随后草原灾害、附属部落离心及汗国内部冲突削弱颉利。唐在国内局势趋稳后，选择多路出兵，战争与外交分化相结合。"
+        },
+        {
+          "title": "突袭与追击",
+          "text": "李靖从马邑等方向出兵，突袭定襄，随后向阴山推进；李勣等分路配合。颉利在退却中失去支持，最终被俘。战役不是仅靠一次夜袭完成，情报、道路、盟友和诸军衔接决定其能否扩大成果。"
+        },
+        {
+          "title": "草原秩序并未永久定型",
+          "text": "唐安排降众、设置羁縻机构，并获得部分北方首领认可。对降众迁置与边防的处理在朝廷引发争论，东突厥后来还出现复兴。应把“灭国”理解为特定汗国政权在当时瓦解，而非民族和草原政治从此消失。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 629,
+          "dateLabel": "629年",
+          "title": "唐部署北征",
+          "text": "多个方向军队开始行动。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/舊唐書/卷67"
+        },
+        {
+          "year": 630,
+          "dateLabel": "630年初",
+          "title": "定襄、阴山连战",
+          "text": "李靖等击破颉利方面的防御。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/舊唐書/卷67"
+        },
+        {
+          "year": 630,
+          "dateLabel": "630年",
+          "title": "颉利被俘与降众安置",
+          "text": "军事胜利转入复杂的边疆治理问题。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/舊唐書/卷67"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《旧唐书》李靖传",
+          "url": "https://zh.wikisource.org/wiki/舊唐書/卷67",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "唐灭东突厥之战·资料索引",
+          "url": "https://zh.wikipedia.org/wiki/唐滅東突厥之戰",
+          "institution": "维基百科·含正史索引"
+        }
+      ],
+      "relatedNames": [
+        "李世民"
+      ],
+      "legacyNodeIds": []
+    }
+  ]
+}

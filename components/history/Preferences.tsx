@@ -68,6 +68,7 @@ export default function Preferences({
           </button>
         </div>
         <div className="preferences-scroll">
+          <a className="preferences-learning-link" href={`/learn?kind=${tags.some(t => ['poet','literature'].includes(t)) ? 'poets' : tags.some(t => ['battle','event'].includes(t)) ? 'battles' : 'rulers'}`}>打开完整世系与学习档案</a>
           <div className="preference-reset">
             <span>选择任一标签即可匹配</span>
             <button

@@ -1,0 +1,758 @@
+{
+  "battles": [
+    {
+      "id": "battle-poyang",
+      "kind": "battles",
+      "name": "鄱阳湖之战",
+      "title": "鄱阳湖之战",
+      "lifeLabel": "1363年",
+      "sortYear": 1363,
+      "eraIds": [
+        "yuan",
+        "ming"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "朱元璋与陈友谅争夺江南，是元末各支反元力量彼此兼并的一部分。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "元末群雄战争中的水战"
+        },
+        {
+          "label": "交战双方",
+          "value": "朱元璋集团／陈友谅汉政权"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "朱元璋、徐达、常遇春等／陈友谅"
+        },
+        {
+          "label": "战场范围",
+          "value": "鄱阳湖及湖口水域"
+        },
+        {
+          "label": "直接结果",
+          "value": "陈友谅战死，朱元璋取得长江中游竞争优势"
+        }
+      ],
+      "sections": [
+        {
+          "title": "洪都受围与两强竞争",
+          "text": "陈友谅控制长江中游，朱元璋以应天为中心，双方争夺江西及长江通道。陈军围攻洪都，朱文正等守城，为朱元璋调动援军争取时间。战争并不是明朝与元朝的直接决战，双方此时都是元末竞争势力。"
+        },
+        {
+          "title": "舰船、火攻与封锁",
+          "text": "朱元璋援洪都后，两军在鄱阳湖连续交战。陈军楼船高大，朱军利用机动与火攻应对，随后控制湖口迫使对手在补给困境中突围。史籍对军队规模和奇迹式险胜的记载需谨慎对待，水位、航道与粮食同样决定作战。"
+        },
+        {
+          "title": "通向建国的优势",
+          "text": "陈友谅战死，其子陈理不久投降，朱元璋逐步控制中游，之后继续对付张士诚等力量。1368年建立明朝尚在数年之后。把鄱阳湖、平江和北伐相连，才能理解朱元璋如何从区域首领取得帝国统治权。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1363,
+          "dateLabel": "1363年春夏",
+          "title": "陈友谅围洪都",
+          "text": "守军坚持，朱元璋组织救援。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/明史/卷123"
+        },
+        {
+          "year": 1363,
+          "dateLabel": "1363年夏秋",
+          "title": "鄱阳湖交战与封锁",
+          "text": "多次水战后，陈军试图突围。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/明史/卷123"
+        },
+        {
+          "year": 1363,
+          "dateLabel": "1363年秋",
+          "title": "陈友谅战死",
+          "text": "其政权随后由陈理短暂继承。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/明史/卷123"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《明史》卷123",
+          "url": "https://zh.wikisource.org/wiki/明史/卷123",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "《明史》卷129",
+          "url": "https://zh.wikisource.org/wiki/明史/卷129",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "鄱阳湖之战·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/鄱陽湖之戰",
+          "institution": "维基百科·含参考文献"
+        }
+      ],
+      "relatedNames": [
+        "朱元璋",
+        "陈友谅",
+        "陈理"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-jingnan",
+      "kind": "battles",
+      "name": "靖难之役",
+      "title": "靖难之役",
+      "lifeLabel": "1399—1402年",
+      "sortYear": 1399,
+      "eraIds": [
+        "ming"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "“靖难”是朱棣为战争使用的政治名义，实质涉及皇权、宗室兵权与皇位合法性。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "皇室继承与削藩引发的内战"
+        },
+        {
+          "label": "交战双方",
+          "value": "燕王朱棣集团／建文朝廷"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "朱棣、姚广孝等／耿炳文、李景隆、盛庸等"
+        },
+        {
+          "label": "战场范围",
+          "value": "北平、河北、山东至南京"
+        },
+        {
+          "label": "直接结果",
+          "value": "朱棣夺位，建文政权结束"
+        }
+      ],
+      "sections": [
+        {
+          "title": "削藩与燕王起兵",
+          "text": "朱元璋分封诸子镇守各地，部分亲王掌握军队。建文帝即位后削夺藩王权力，朱棣在北平起兵，以清除皇帝身边奸臣、恢复祖制为号召。解释冲突要同时考虑中央集权与强藩自保，不能直接接受胜利者的宣传作为结论。"
+        },
+        {
+          "title": "反复拉锯到直趋南京",
+          "text": "战争初期双方在河北、山东多次交战，朱棣并非战战皆胜。朝廷兵力虽广，指挥协调与将帅使用存在问题。朱棣后来绕过部分坚城，南下威胁首都，最终进入南京；政治瓦解与军事突破相互作用。"
+        },
+        {
+          "title": "夺位后的记忆重写",
+          "text": "朱棣登基后改用永乐年号，并重整有关建文朝的历史记录。建文帝在宫城火灾后的结局缺乏足以定论的证据，出家远游等说法属于后世传闻。此例适合学习史料立场：胜利者的诏书与后世追忆，需要互相对读。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1399,
+          "dateLabel": "1399年",
+          "title": "朱棣在北平起兵",
+          "text": "削藩冲突转为公开内战。",
+          "sourceUrl": "https://www.dpm.org.cn/court/lineage/226245.html"
+        },
+        {
+          "year": 1400,
+          "dateLabel": "1400—1401年",
+          "title": "河北山东反复交战",
+          "text": "战争呈拉锯态势，双方都有胜负。",
+          "sourceUrl": "https://www.dpm.org.cn/court/lineage/226245.html"
+        },
+        {
+          "year": 1402,
+          "dateLabel": "1402年",
+          "title": "燕军入南京、朱棣即位",
+          "text": "建文政权覆亡，皇位传承发生武力中断。",
+          "sourceUrl": "https://www.dpm.org.cn/court/lineage/226245.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "建文皇帝及靖难之役",
+          "url": "https://www.dpm.org.cn/court/lineage/226245.html",
+          "institution": "故宫博物院"
+        },
+        {
+          "title": "《明史》卷005",
+          "url": "https://zh.wikisource.org/wiki/明史/卷005",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "靖难之役·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/靖難之役",
+          "institution": "维基百科·含参考文献"
+        }
+      ],
+      "relatedNames": [
+        "朱棣",
+        "朱允炆",
+        "朱元璋"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-tumu",
+      "kind": "battles",
+      "name": "土木堡之变",
+      "title": "土木堡之变",
+      "lifeLabel": "1449年",
+      "sortYear": 1449,
+      "eraIds": [
+        "ming"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "仓促亲征、补给和指挥失当使明军遭遇重大失败，继而引发北京防御与皇位安排的危机。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "明蒙战争中的亲征与溃败"
+        },
+        {
+          "label": "交战双方",
+          "value": "明／瓦剌等蒙古军"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "明英宗朱祁镇、王振等／也先"
+        },
+        {
+          "label": "战场范围",
+          "value": "大同至土木堡，今河北怀来一带"
+        },
+        {
+          "label": "直接结果",
+          "value": "明军主力惨败，明英宗被俘"
+        }
+      ],
+      "sections": [
+        {
+          "title": "边境压力下的仓促决策",
+          "text": "瓦剌势力增强，与明在贸易、朝贡和边境方面发生冲突。也先南下时，英宗在王振等影响下决定亲征。大军迅速出发，却缺乏相应准备，文武官员之间的意见不能有效约束决策，后勤与行军路线问题不断累积。"
+        },
+        {
+          "title": "撤退中的围困",
+          "text": "明军北上后形势不利，转而回师。在土木堡附近，水源、营地和部队秩序均处不利条件，军队受到蒙古军围攻并溃败。王振专权是传统解释的重要部分，但应同时检查整个指挥、情报和行军保障体系。"
+        },
+        {
+          "title": "皇帝被俘后的制度选择",
+          "text": "英宗被俘，大批官员与士卒死伤，北京陷入危机。朝廷没有因俘虏皇帝而停止运作，而拥立朱祁钰并组织守城。这场灾难既影响明的北方军事政策，也使皇位与皇帝个人分离的问题变得具体。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1449,
+          "dateLabel": "1449年夏",
+          "title": "英宗亲征",
+          "text": "明军仓促出发应对北方进攻。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/明史/卷010"
+        },
+        {
+          "year": 1449,
+          "dateLabel": "1449年八月（农历）",
+          "title": "土木堡溃败",
+          "text": "英宗被俘，明军与朝廷官员损失严重。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/明史/卷010"
+        },
+        {
+          "year": 1449,
+          "dateLabel": "1449年秋",
+          "title": "朱祁钰即位、北京备战",
+          "text": "王朝转入守城与重建军力。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/明史/卷010"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《明史》卷010",
+          "url": "https://zh.wikisource.org/wiki/明史/卷010",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "于谦与土木之变后的京师防御",
+          "url": "https://www.dpm.org.cn/lemmas/243960.html",
+          "institution": "故宫博物院"
+        },
+        {
+          "title": "土木堡之变·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/土木堡之變",
+          "institution": "维基百科·含参考文献"
+        }
+      ],
+      "relatedNames": [
+        "朱祁镇",
+        "朱祁钰",
+        "于谦",
+        "北京保卫战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-beijing-1449",
+      "kind": "battles",
+      "name": "北京保卫战",
+      "title": "北京保卫战",
+      "lifeLabel": "1449年",
+      "sortYear": 1449,
+      "eraIds": [
+        "ming"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "土木之变后，明廷在新皇帝主持下重整防御；守城成功使王朝免于立即崩溃。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "京师防御战"
+        },
+        {
+          "label": "交战双方",
+          "value": "明／瓦剌军"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "于谦、石亨等／也先"
+        },
+        {
+          "label": "战场范围",
+          "value": "北京城及周边各门外"
+        },
+        {
+          "label": "直接结果",
+          "value": "瓦剌撤退，明朝守住京师"
+        }
+      ],
+      "sections": [
+        {
+          "title": "留下守城还是迁都",
+          "text": "明英宗被俘后，朝廷出现南迁等意见，于谦等主张保卫北京。朱祁钰即位使政府能够发出新的军事命令。补充守军、调运粮食和武器、稳定民心，是危机应对的核心，不只是临战激励。"
+        },
+        {
+          "title": "城防与外线作战",
+          "text": "也先挟英宗进逼北京，试图利用俘虏皇帝迫使明廷让步。明军以城池为依托，在各门外组织作战，火器与步骑配合发挥作用。于谦负责重要统筹，但实际战斗由多位将领与守军共同完成。"
+        },
+        {
+          "title": "危机化解后的政治悲剧",
+          "text": "也先退兵后，英宗于1450年被送回，成为太上皇。1457年夺门之变使英宗复位，于谦随后被杀。把战争与后续世系一起阅读，可以看到保卫国家的功绩不一定保障个人在宫廷斗争中的安全。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1449,
+          "dateLabel": "1449年九月（农历）",
+          "title": "朱祁钰即位、整备京师",
+          "text": "朝廷集中资源守卫北京。",
+          "sourceUrl": "https://www.dpm.org.cn/lemmas/243960.html"
+        },
+        {
+          "year": 1449,
+          "dateLabel": "1449年十月（农历）",
+          "title": "瓦剌进攻与明军反击",
+          "text": "北京防线得以守住。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/明史/卷170"
+        },
+        {
+          "year": 1450,
+          "dateLabel": "1450年",
+          "title": "英宗被送还",
+          "text": "皇位问题转入太上皇与在位皇帝并存阶段。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/明史/卷170"
+        }
+      ],
+      "sources": [
+        {
+          "title": "于谦",
+          "url": "https://www.dpm.org.cn/lemmas/243960.html",
+          "institution": "故宫博物院"
+        },
+        {
+          "title": "《明史》卷170",
+          "url": "https://zh.wikisource.org/wiki/明史/卷170",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "北京保卫战·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/北京保衛戰",
+          "institution": "维基百科·含参考文献"
+        }
+      ],
+      "relatedNames": [
+        "朱祁钰",
+        "朱祁镇",
+        "于谦",
+        "土木堡之变"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-sarhu",
+      "kind": "battles",
+      "name": "萨尔浒之战",
+      "title": "萨尔浒之战",
+      "lifeLabel": "1619年",
+      "sortYear": 1619,
+      "eraIds": [
+        "ming",
+        "qing"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "后金集中兵力打击分路进军的明军，是理解辽东战争转折的重要战役。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "明与后金的多路进攻与反击"
+        },
+        {
+          "label": "交战双方",
+          "value": "明、叶赫与朝鲜援军／后金"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "杨镐；杜松、马林、刘綎、李如柏／努尔哈赤"
+        },
+        {
+          "label": "战场范围",
+          "value": "萨尔浒及赫图阿拉周边，今辽宁地区"
+        },
+        {
+          "label": "直接结果",
+          "value": "明军三路遭击败，后金优势扩大"
+        }
+      ],
+      "sections": [
+        {
+          "title": "抚顺失守后的反攻",
+          "text": "努尔哈赤建立后金并攻取抚顺后，明廷组织大规模反攻，联合叶赫和朝鲜力量，计划分路会攻赫图阿拉。多路进攻可以形成包围，也要求准确协调行军日程和情报；辽东山川与道路使配合尤其困难。"
+        },
+        {
+          "title": "集中兵力逐路应战",
+          "text": "后金利用对地形和敌军行动的了解，先后攻击杜松、马林、刘綎等路，李如柏一路撤回。所谓“凭尔几路来，我只一路去”是后世常用概括，具体战局仍包含侦察、行军速度及明军各路互不支援的问题。"
+        },
+        {
+          "title": "辽东攻守形势转换",
+          "text": "明军失败削弱在辽东主动进攻的能力，后金继续扩大控制。朝鲜援军的处境也影响明、朝鲜、后金三方关系。萨尔浒不意味着明军此后完全不能获胜，宁远等守城战仍显示火器和坚城能够限制后金推进。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1618,
+          "dateLabel": "1618年",
+          "title": "后金攻取抚顺",
+          "text": "明廷筹划反攻。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/明史/卷259"
+        },
+        {
+          "year": 1619,
+          "dateLabel": "1619年春",
+          "title": "明军分路进攻",
+          "text": "不同进军方向在山地中展开。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/明史/卷259"
+        },
+        {
+          "year": 1619,
+          "dateLabel": "1619年春战末",
+          "title": "后金逐路获胜",
+          "text": "三路明军遭重创，辽东态势转变。",
+          "sourceUrl": "https://zh.wikisource.org/wiki/明史/卷259"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《明史》卷259",
+          "url": "https://zh.wikisource.org/wiki/明史/卷259",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "萨尔浒之战·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/薩爾滸之戰",
+          "institution": "维基百科·含参考文献"
+        }
+      ],
+      "relatedNames": [
+        "努尔哈赤",
+        "朱翊钧",
+        "宁远之战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-ningyuan",
+      "kind": "battles",
+      "name": "宁远之战",
+      "title": "宁远之战",
+      "lifeLabel": "1626年",
+      "sortYear": 1626,
+      "eraIds": [
+        "ming",
+        "qing"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "宁远防守利用坚城与火器，给持续扩张的后金造成挫折；努尔哈赤是否因炮伤致死并无定论。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "城池防御战"
+        },
+        {
+          "label": "交战双方",
+          "value": "明／后金"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "袁崇焕、满桂、祖大寿等／努尔哈赤"
+        },
+        {
+          "label": "战场范围",
+          "value": "宁远，今辽宁兴城"
+        },
+        {
+          "label": "直接结果",
+          "value": "明军守城成功，后金退兵"
+        }
+      ],
+      "sections": [
+        {
+          "title": "辽西防线的选择",
+          "text": "辽东大片地区失守后，明军在关外建设宁远等据点。朝廷和前线对守哪些城、撤到何处存在分歧。袁崇焕坚持守宁远，需要协调城防、兵员、民众和储粮，坚城本身只是防御体系的一部分。"
+        },
+        {
+          "title": "火器与城墙共同作用",
+          "text": "后金军围攻宁远，明军利用城墙、火炮及近距离防御抵御攻击。红夷炮等重型火器在守城中具有优势，但不能把胜利解释为某一门炮独立决定战争。攻城方缺乏有效破城办法，最终撤退。"
+        },
+        {
+          "title": "胜利的限度与后世传说",
+          "text": "宁远提升明军士气，却没有收复辽东。努尔哈赤同年去世，史料对其是否在宁远受伤、受何种伤以及与死亡的关系存在争论。1627年的宁锦之战是皇太极继位后的另一战役，不应与本役混在一起。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1626,
+          "dateLabel": "1626年初",
+          "title": "后金进攻宁远",
+          "text": "关外明军面临新一轮压力。",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/明史/卷259"
+        },
+        {
+          "year": 1626,
+          "dateLabel": "1626年正月（农历）",
+          "title": "明军守城、后金撤退",
+          "text": "火炮和城防发挥作用。",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/明史/卷259"
+        },
+        {
+          "year": 1626,
+          "dateLabel": "1626年稍后",
+          "title": "努尔哈赤去世、皇太极继位",
+          "text": "死亡与战伤的因果关系需保留史料分歧。",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/明史/卷259"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《明史》袁崇焕传",
+          "url": "https://zh.wikisource.org/zh-hant/明史/卷259",
+          "institution": "古代史籍·公有领域"
+        },
+        {
+          "title": "宁远之战·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/宁远之战",
+          "institution": "维基百科·含参考文献"
+        }
+      ],
+      "relatedNames": [
+        "努尔哈赤",
+        "皇太极",
+        "朱由校",
+        "萨尔浒之战",
+        "松锦之战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-songjin",
+      "kind": "battles",
+      "name": "松锦之战",
+      "title": "松锦之战",
+      "lifeLabel": "1640—1642年",
+      "sortYear": 1640,
+      "eraIds": [
+        "ming",
+        "qing"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "明最后一批重要关外野战力量在松锦作战中受重创，关宁防线日益收缩。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "围城、援救与合围战役"
+        },
+        {
+          "label": "交战双方",
+          "value": "明／清"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "洪承畴、祖大寿等／皇太极"
+        },
+        {
+          "label": "战场范围",
+          "value": "锦州、松山及辽西沿线"
+        },
+        {
+          "label": "直接结果",
+          "value": "明援军崩溃，洪承畴被俘，锦州降清"
+        }
+      ],
+      "sections": [
+        {
+          "title": "围锦州与援军动员",
+          "text": "清军围困锦州，明廷组织洪承畴等率军救援。明同时受到内地起义、财政枯竭和边防压力，难以无限维持远征。前线希望稳进，中央又催促速战，形成战略节奏与补给条件的矛盾。"
+        },
+        {
+          "title": "粮道被截与部队溃散",
+          "text": "皇太极集中兵力切断明军后路和补给线，援军陷入困境。部分明将分散突围，削弱整体组织，洪承畴退守松山，最终城陷被俘。锦州祖大寿失去援助后投降，围城与援军覆灭是彼此联系的过程。"
+        },
+        {
+          "title": "清入关前的关键变化",
+          "text": "战役使明在辽西的机动军力严重削弱，清获得降将与军事资源。但1644年入关还涉及李自成攻占北京、吴三桂选择以及清内部权力安排。松锦是重要前提，不能独自解释明清更替的全部过程。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1640,
+          "dateLabel": "1640年起",
+          "title": "清围锦州",
+          "text": "辽西重镇陷入持续封锁。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/松錦之戰"
+        },
+        {
+          "year": 1641,
+          "dateLabel": "1641年",
+          "title": "明援军受围与溃退",
+          "text": "补给线遭截，诸军难以统一行动。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/松錦之戰"
+        },
+        {
+          "year": 1642,
+          "dateLabel": "1642年",
+          "title": "松山陷落、锦州投降",
+          "text": "洪承畴被俘，辽西态势决定性改变。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/松錦之戰"
+        }
+      ],
+      "sources": [
+        {
+          "title": "松锦之战·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/松錦之戰",
+          "institution": "维基百科·含参考文献"
+        }
+      ],
+      "relatedNames": [
+        "皇太极",
+        "朱由检",
+        "宁远之战",
+        "山海关之战"
+      ],
+      "legacyNodeIds": []
+    },
+    {
+      "id": "battle-shanhaiguan",
+      "kind": "battles",
+      "name": "山海关之战",
+      "title": "山海关之战",
+      "lifeLabel": "1644年",
+      "sortYear": 1644,
+      "eraIds": [
+        "ming",
+        "qing"
+      ],
+      "aliases": [],
+      "certainty": "史实",
+      "summary": "吴三桂与清合作改变战局，不能用一段爱情传说解释多方政治选择。",
+      "facts": [
+        {
+          "label": "事件性质",
+          "value": "明清更替中的联盟会战"
+        },
+        {
+          "label": "交战双方",
+          "value": "清与吴三桂军／李自成大顺军"
+        },
+        {
+          "label": "主要指挥者",
+          "value": "多尔衮、吴三桂／李自成"
+        },
+        {
+          "label": "战场范围",
+          "value": "山海关及一片石附近"
+        },
+        {
+          "label": "直接结果",
+          "value": "大顺军败退，清军随后进入北京"
+        }
+      ],
+      "sections": [
+        {
+          "title": "北京陷落后的多方选择",
+          "text": "李自成攻入北京，崇祯帝自缢。吴三桂掌握关宁军，面临大顺、清及明朝覆亡造成的权力真空。吴与各方交涉的过程涉及军队安全、家族、地位与对形势的判断，“冲冠一怒为红颜”属于后世文学化解释。"
+        },
+        {
+          "title": "战场上的结盟",
+          "text": "吴军与大顺军交战时，清军在多尔衮率领下介入，形成战场优势，李自成败退。清朝此时皇帝是幼年的福临，多尔衮以摄政王身份掌握军政，不能将他误列为当时的清帝。"
+        },
+        {
+          "title": "入北京与长期征服",
+          "text": "清军随后进入北京并以此为都城，但南明、李自成余部、张献忠余部及其他势力继续抵抗多年。山海关是清入关的关键战役，不等于1644年全国各地已全部接受清统治。"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 1644,
+          "dateLabel": "1644年春",
+          "title": "李自成进入北京",
+          "text": "明中央政权崩溃，吴三桂作出新的政治选择。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/山海关之战"
+        },
+        {
+          "year": 1644,
+          "dateLabel": "1644年四月（农历）",
+          "title": "山海关交战",
+          "text": "清军与吴军击败大顺军。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/山海关之战"
+        },
+        {
+          "year": 1644,
+          "dateLabel": "1644年稍后",
+          "title": "清进入北京",
+          "text": "入关战争转为更大范围的政权整合与抵抗。",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/山海关之战"
+        }
+      ],
+      "sources": [
+        {
+          "title": "山海关之战·史料与研究索引",
+          "url": "https://zh.wikipedia.org/wiki/山海关之战",
+          "institution": "维基百科·含参考文献"
+        },
+        {
+          "title": "《清史稿》世祖本纪一",
+          "url": "https://zh.wikisource.org/wiki/清史稿/卷4",
+          "institution": "古代史籍·公有领域"
+        }
+      ],
+      "relatedNames": [
+        "福临",
+        "李自成",
+        "朱由检",
+        "松锦之战"
+      ],
+      "legacyNodeIds": []
+    }
+  ]
+}
