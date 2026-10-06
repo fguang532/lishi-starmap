@@ -1,12 +1,14 @@
 # 华夏星图
 
-以夜间三维星图和日间古风长卷探索中国历史。中文内容覆盖文明起源至1912年清帝退位，分为22个专题、220个精选节点。每个专题包含概览、真实历史图像、有出处的史间小故事，以及带来源的关系。
+以夜间三维星图和日间古风长卷探索中国历史。中文内容覆盖文明起源至1912年清帝退位，分为22个专题、918个历史入口（含220个精选节点）。每个专题包含概览、真实历史图像、有出处的史间小故事，以及带来源的关系。
 
 新增 `/learn` 历史学堂：君主按人物和在位经历分开建档，政权各自成支；战役提供交战信息和过程年表；诗人提供生平、古代作品原文、背景与赏析。全部内容在项目中可直接编辑。
 
 本版历史学堂收录140个政权及支系、570位君主和执政者、573段在位记录及20段称制/监国/摄政记录、54篇战役档案、56位诗人和56篇古代作品。复位人物只计一人；战役与诗人是代表性选集。
 
-文明全景直接复用学堂的680篇档案，并保留原来的220个精选节点。构建时合并经过核对的同一人物、事件，跨时期阅读入口各有稳定ID。帝王标签根据实际在位经历判定，摄政与称制分开；西汉世系筛选为14位君主。日间列表展示所有匹配项，夜间三维及二维星图每组12个节点，可翻组或打开完整名单。详情读取同一份学堂正文、年表、作品和来源。
+文明全景直接复用学堂的680篇档案，并保留原来的220个精选节点。构建时合并经过核对的同一人物、事件，跨时期阅读入口各有稳定ID。帝王标签根据实际在位经历判定，摄政与称制分开；西汉世系筛选为14位君主。日间列表展示所有匹配项，夜间三维及二维星图每组12个节点，可翻组或打开完整名单；跨组的关系会在分页条上标明数量。详情读取同一份学堂正文、年表、作品和来源。
+
+首屏只下载 `public/library/exploration.json` 索引（约 85KB gzip，仅含标题、年代、标签与关系端点），正文、来源、在位记录按专题从 `public/library/exploration/{专题}.json` 按需读取。星图与学堂各自加载样式，互不牵连；图像由 `scripts/build-images.mjs` 生成 WebP 缩放版本，页面按显示尺寸选取并带固有宽高防跳动，原始 JPEG 保留为回退。`data/history.json` 是编辑源，不打包进前端。精选节点保留自己的 `startYear`（生年），不被档案的 `sortYear`（即位年）覆盖；绝对年代未定的君主用 `seq` 维持世次顺序，避免退化成按 ID 字母排序。
 
 ## 本地运行
 
@@ -23,7 +25,9 @@ npm run dev
 npm run check:content
 npm run compile:library
 node scripts/check-exploration.mjs
+npm run build:images
 npx tsc --noEmit
+npm run lint
 npm run build
 ```
 
@@ -41,8 +45,10 @@ npm run build
 - `components/history/DayGallery.tsx`：日间古风长卷与朝代卡片。
 - `components/history/Preferences.tsx`：兴趣筛选和排序。
 - `components/history/HeritageImage.tsx`：图像说明、授权和全图查看。
-- `app/globals.css`：颜色、字体、布局及手机适配。
-- `app/exploration.css`：日间配色、长卷布局、筛选与图像样式。
+- `app/globals.css`：颜色、字体、布局及手机适配，全站共用。
+- `app/theme-tokens.css`：星图与学堂共用的 `--explore-*` 夜间/日间配色。
+- `app/exploration.css`：日间配色、长卷布局、筛选与图像样式，仅由星图加载。
+- `app/site.ts`、`app/sitemap.ts`、`app/robots.ts`：站点地址、站点地图与抓取规则；部署到正式域名时设置环境变量 `SITE_URL`。
 
 专题用于阅读导航，时间允许重叠。不得根据专题顺序生成“取代”关系。传说、约年、争议结论应在节点certainty、日期和正文中明确。引用来源应指向可核验的相关页面。页面呈现精选内容，不是完整史料库。
 
@@ -51,10 +57,11 @@ npm run build
 - `data/library/*.json`：君主、政权、战役、诗人与作品的源数据。
 - `data/library-types.ts`：档案、在位、监国及目录的类型定义。
 - `scripts/compile-library.mjs`：验证 ID、引用、日期、来源和必需内容，生成静态目录与逐篇档案。
+- `scripts/build-images.mjs`：从 `public/history/*.jpg` 生成 `derived/` 下的 WebP 与 `data/image-sizes.json` 尺寸表；构建时自动运行，产物不入库。
 - `scripts/build-exploration.mjs`：将学堂资料接入文明全景；同一实体映射须逐项核对，不能把主题关联当成同一人物。
-- `scripts/check-exploration.mjs`：检查全量档案可达、原节点保留、关系端点、西汉世系及双身份人物合并。
+- `scripts/check-exploration.mjs`：合并索引与详情后检查全量档案可达、原节点保留、关系端点、`startYear` 未被覆盖、同年君主有 `seq`、西汉世系、双身份人物合并及索引体积上限。
 - `components/history/AcademyArchive.tsx`：在星图详情中读取学堂原档案，支持身份切换、年表和作品赏析。
-- `public/library/`：编译结果，避免直接编辑；每次构建自动重新生成。
+- `public/library/`：编译结果，避免直接编辑；每次构建自动重新生成。`exploration.json` 为首屏索引，`exploration/` 为按专题的正文详情。
 - `components/history/LearningLibrary.tsx` 和 `app/learning.css`：学习目录、任期序列、继承关系与响应式阅读界面。
 
 人物 ID 与任次 ID 独立；复位复用人物，另建任次。`predecessorIds` 指向有据的政治前任，不代表血缘。称制和摄政单列 `regencies`，不自动插入皇帝继承链。早期不可靠的绝对年代用 `null`；内部排序借用所属时代起点，不在页面冒充具体在位年代。政权可以重叠存在。
@@ -62,6 +69,10 @@ npm run build
 每个档案包含传记或战事分节、带来源的年表和资料索引。诗词原文为公有领域古代作品，正文和赏析为重新整理；异文与年代分歧单独说明。史料稀少的君主保留简短的可考记录，不虚构生平来凑字数。政权收录范围见各自 `scopeNote`；战役与诗人采用列明的代表性条目，不宣称穷尽所有历史记录。
 
 编辑后运行 `npm run compile:library`，刷新浏览器即可读取新内容。搜索同时检索姓名、名号、简介、交战信息和已收录作品原文；分类、时期、排序、档案和任期均保存在 URL，支持直接分享及浏览器返回。
+
+## 地址与分享
+
+星图的专题与档案都有地址：`/?era=tang` 打开专题，`/?era=tang&node=tang-li-bai` 直接打开一篇档案。浏览器前进后退、新标签页打开和复制链接均可用，站点地图收录全部 942 个地址。
 
 ## 交互
 

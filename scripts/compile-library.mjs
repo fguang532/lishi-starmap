@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
-import { buildExploration } from "./build-exploration.mjs";
+import { buildExploration, splitExploration } from "./build-exploration.mjs";
 const base = path.resolve("data/library");
 const files = fs
   .readdirSync(base)
@@ -337,5 +337,31 @@ const counts = {
   works: records.reduce((n, r) => n + (r.works?.length || 0), 0),
   version,
 };
-fs.writeFileSync(path.join(target, "exploration.json"), JSON.stringify(buildExploration(eras, records, polities)) + "\n");
-console.log(JSON.stringify({ ...counts, errors: [] }, null, 2));
+const exploration = buildExploration(eras, records, polities);
+const { index: explorationIndex, details } = splitExploration(exploration);
+fs.mkdirSync(path.join(target, "exploration"), { recursive: true });
+for (const file of fs.readdirSync(path.join(target, "exploration"))) {
+  if (file.endsWith(".json") && !details.has(file.slice(0, -5)))
+    fs.unlinkSync(path.join(target, "exploration", file));
+}
+for (const [id, detail] of details)
+  fs.writeFileSync(
+    path.join(target, "exploration", `${id}.json`),
+    JSON.stringify(detail) + "\n",
+  );
+fs.writeFileSync(
+  path.join(target, "exploration.json"),
+  JSON.stringify(explorationIndex) + "\n",
+);
+console.log(
+  JSON.stringify(
+    {
+      ...counts,
+      explorationEntries: exploration.reduce((n, e) => n + e.nodes.length, 0),
+      explorationIndexKb: Math.round(JSON.stringify(explorationIndex).length / 1024),
+      errors: [],
+    },
+    null,
+    2,
+  ),
+);

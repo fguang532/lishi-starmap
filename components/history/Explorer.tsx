@@ -1,4 +1,5 @@
 "use client";
+import "@/app/exploration.css";
 import {
   Component,
   lazy,
@@ -10,7 +11,6 @@ import {
   useState,
 } from "react";
 import {
-  Compass,
   Orbit,
   Pause,
   Play,
@@ -39,7 +39,12 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { eras as curatedEras } from "@/data/eras";
+import {
+  ERA_COUNT,
+  loadEraIndex,
+  loadEraDetail,
+  mergeEraDetail,
+} from "@/data/eras";
 import type { CameraPose, Era, HistoryNode, ViewState } from "@/data/types";
 import { eraColor, TYPE_COLORS } from "@/data/types";
 import DetailPanel from "./DetailPanel";
@@ -95,11 +100,66 @@ function Control({
   );
 }
 const ROOT: ViewState = { eraId: null, nodeId: null };
+const EMPTY_ERAS: Era[] = [];
+const EMPTY_NODES: HistoryNode[] = [];
+const PAGE_SIZE = 12;
+/** Builds the shareable address for a view: /?era=tang&node=tang-li-bai */
+function viewHref(view: ViewState): string {
+  const params = new URLSearchParams();
+  if (view.eraId) params.set("era", view.eraId);
+  if (view.nodeId) params.set("node", view.nodeId);
+  const query = params.toString();
+  return query ? `/?${query}` : "/";
+}
+/** Reads a view back out of the current address. */
+function readView(): ViewState {
+  if (typeof window === "undefined") return ROOT;
+  const params = new URLSearchParams(window.location.search);
+  return {
+    eraId: params.get("era") || null,
+    nodeId: params.get("node") || null,
+  };
+}
+const STORAGE_KEY = "huaxia-exploration-v2";
+const SORT_MODES: SortMode[] = ["chronological", "reverse", "relevance"];
+type SavedPreferences = { theme: ThemeMode; tags: string[]; sort: SortMode };
+/** Reads saved preferences during the first render; never throws. */
+function readPreferences(): SavedPreferences {
+  const fallback: SavedPreferences = {
+    theme: "night",
+    tags: [],
+    sort: "chronological",
+  };
+  if (typeof window === "undefined") return fallback;
+  try {
+    const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
+    if (!saved) return fallback;
+    return {
+      theme: saved.theme === "day" ? "day" : "night",
+      tags: Array.isArray(saved.tags)
+        ? [
+            ...new Set<string>(
+              saved.tags.filter(
+                (t: unknown) => typeof t === "string" && t in TAG_LABELS,
+              ),
+            ),
+          ]
+        : [],
+      sort: SORT_MODES.includes(saved.sort) ? saved.sort : "chronological",
+    };
+  } catch {
+    // Storage may be unavailable in private browsing.
+    return fallback;
+  }
+}
 export default function Explorer() {
-  const [eras, setEras] = useState<Era[]>(curatedEras);
-  const [libraryStatus, setLibraryStatus] = useState<"loading" | "ready" | "error">("loading");
+  const [eras, setEras] = useState<Era[] | null>(null);
+  const [libraryStatus, setLibraryStatus] = useState<
+    "loading" | "ready" | "error"
+  >("loading");
   const [libraryRetry, setLibraryRetry] = useState(0);
   const [pageChoice, setPageChoice] = useState({ key: "", page: 0 });
+  const [historyDepth, setHistoryDepth] = useState(0);
   const [view, setView] = useState<ViewState>(ROOT);
   const [panelOpen, setPanelOpen] = useState(false);
   const [indexOpen, setIndexOpen] = useState(false);
@@ -117,85 +177,166 @@ export default function Explorer() {
   const [reset, setReset] = useState(0);
   const [zoom, setZoom] = useState(0);
   const [restore, setRestore] = useState<CameraPose | null>(null);
-  const history = useRef<{ view: ViewState; pose: CameraPose | null; pageChoice: { key: string; page: number } }[]>([]);
   const pose = useRef<CameraPose | null>(null);
   const timelineRef = useRef<HTMLDivElement>(null);
+  const indexEras = eras ?? EMPTY_ERAS;
   const allNodes = useMemo(
     () =>
       new Map<string, { node: HistoryNode; era: Era }>(
-        eras.flatMap((e) =>
+        indexEras.flatMap((e) =>
           e.nodes.map((n) => [n.id, { node: n, era: e }] as const),
         ),
       ),
-    [eras],
+    [indexEras],
   );
-  const allRelations = useMemo(() => eras.flatMap((e) => e.relations), [eras]);
-  const era = eras.find((e) => e.id === view.eraId);
+  const allRelations = useMemo(
+    () => indexEras.flatMap((e) => e.relations),
+    [indexEras],
+  );
+  const era = indexEras.find((e) => e.id === view.eraId);
   const node = view.nodeId ? allNodes.get(view.nodeId)?.node : undefined;
   const totalNodes = allNodes.size;
+  const eraCount = indexEras.length || ERA_COUNT;
   const is3D = theme === "night" && webgl === true && !flat;
   const motionStopped = paused || reduced;
   const matchingIds = useMemo(
     () =>
       tags.length
-        ? eras.flatMap((e) =>
+        ? indexEras.flatMap((e) =>
             e.nodes.filter((n) => matchesInterest(n, tags)).map((n) => n.id),
           )
         : null,
-    [eras, tags],
+    [indexEras, tags],
   );
   const filteredEras = useMemo(
-    () => sortedEras(eras, tags, sort),
-    [eras, tags, sort],
+    () => sortedEras(indexEras, tags, sort),
+    [indexEras, tags, sort],
   );
-  const filteredNodes = era ? sortedNodes(era.nodes, tags, sort) : [];
+  const filteredNodes = useMemo(
+    () => (era ? sortedNodes(era.nodes, tags, sort) : EMPTY_NODES),
+    [era, tags, sort],
+  );
   const pageKey = `${view.eraId}:${tags.join(",")}:${sort}`;
-  const pageSize = 12;
-  const pageCount = Math.max(1, Math.ceil(filteredNodes.length / pageSize));
-  const selectedPage = node ? Math.floor(filteredNodes.findIndex(n => n.id === node.id) / pageSize) : -1;
-  const graphPage = Math.min(pageCount - 1, pageChoice.key === pageKey ? pageChoice.page : Math.max(0, selectedPage));
-  const sceneEras = useMemo(() => {
-    if (!era) return eras;
-    const nodes = sortedNodes(era.nodes, tags, sort).slice(graphPage * pageSize, (graphPage + 1) * pageSize);
-    if (node && !nodes.some(n => n.id === node.id)) nodes.push(node);
-    return eras.map(e => e.id === era.id ? { ...e, nodes } : e);
-  }, [eras, era, tags, sort, graphPage, node]);
+  const pageCount = Math.max(1, Math.ceil(filteredNodes.length / PAGE_SIZE));
+  const selectedPage = node
+    ? Math.floor(filteredNodes.findIndex((n) => n.id === node.id) / PAGE_SIZE)
+    : -1;
+  const graphPage = Math.min(
+    pageCount - 1,
+    pageChoice.key === pageKey ? pageChoice.page : Math.max(0, selectedPage),
+  );
+  const pageNodes = useMemo(() => {
+    if (!era) return [];
+    const slice = filteredNodes.slice(
+      graphPage * PAGE_SIZE,
+      (graphPage + 1) * PAGE_SIZE,
+    );
+    if (node && !slice.some((n) => n.id === node.id)) slice.push(node);
+    return slice;
+  }, [era, filteredNodes, graphPage, node]);
+  // Relations whose other end sits on a different page cannot be drawn. Count
+  // them so the pager can say so instead of silently losing the connections.
+  const hiddenRelations = useMemo(() => {
+    if (!era) return 0;
+    const shown = new Set(pageNodes.map((n) => n.id));
+    return era.relations.filter(
+      (r) =>
+        (shown.has(r.source) || shown.has(r.target)) &&
+        !(shown.has(r.source) && shown.has(r.target)),
+    ).length;
+  }, [era, pageNodes]);
+  const sceneEras = useMemo(
+    () =>
+      era
+        ? indexEras.map((e) =>
+            e.id === era.id ? { ...e, nodes: pageNodes } : e,
+          )
+        : indexEras,
+    [indexEras, era, pageNodes],
+  );
   useEffect(() => {
     const controller = new AbortController();
-    setLibraryStatus("loading");
-    fetch("/library/exploration.json", { signal: controller.signal })
-      .then(response => { if (!response.ok) throw new Error("学堂档案载入失败"); return response.json(); })
-      .then(raw => {
-        const value = raw as Era[];
-        if (!Array.isArray(value) || value.length !== curatedEras.length) throw new Error("学堂目录不完整");
-        if (!controller.signal.aborted) { setEras(value); setLibraryStatus("ready"); }
+    loadEraIndex(controller.signal)
+      .then((value) => {
+        if (controller.signal.aborted) return;
+        setEras(value);
+        setLibraryStatus("ready");
       })
-      .catch(() => { if (!controller.signal.aborted) setLibraryStatus("error"); });
+      .catch((error: unknown) => {
+        if (controller.signal.aborted) return;
+        if (error instanceof DOMException && error.name === "AbortError")
+          return;
+        setLibraryStatus("error");
+      });
     return () => controller.abort();
   }, [libraryRetry]);
+  // Article bodies, evidence and reign records for the open topic only.
   useEffect(() => {
-    try {
-      const saved = JSON.parse(
-        localStorage.getItem("huaxia-exploration-v2") || "null",
-      );
-      if (saved) {
-        if (saved.theme === "day" || saved.theme === "night")
-          setTheme(saved.theme);
-        if (Array.isArray(saved.tags))
-          setTags([
-            ...new Set<string>(
-              saved.tags.filter(
-                (t: unknown) => typeof t === "string" && t in TAG_LABELS,
-              ),
-            ),
-          ]);
-        if (["chronological", "reverse", "relevance"].includes(saved.sort))
-          setSort(saved.sort);
-      }
-    } catch {
-      /* Storage may be unavailable in private browsing. */
-    }
+    if (!view.eraId || !eras) return;
+    const target = eras.find((e) => e.id === view.eraId);
+    if (!target || target.summary !== undefined) return;
+    let active = true;
+    loadEraDetail(view.eraId)
+      .then((detail) => {
+        if (!active) return;
+        setEras(
+          (current) =>
+            current?.map((e) =>
+              e.id === detail.id && e.summary === undefined
+                ? mergeEraDetail(e, detail)
+                : e,
+            ) ?? current,
+        );
+      })
+      .catch(() => {
+        /* The index already carries titles, dates and summaries to read. */
+      });
+    return () => {
+      active = false;
+    };
+  }, [view.eraId, eras]);
+  // This component is server rendered, so stored preferences cannot seed the
+  // initial state without a hydration mismatch. They are applied once after
+  // mount instead, and `preferencesLoaded` gates the controls until then.
+  useEffect(() => {
+    const saved = readPreferences();
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setTheme(saved.theme);
+    setTags(saved.tags);
+    setSort(saved.sort);
     setPreferencesLoaded(true);
+  }, []);
+  // Adopts the address the reader arrived on, then follows the browser's back
+  // and forward buttons. The same handler covers a shared link and a reload.
+  useEffect(() => {
+    const opened = readView();
+    if (opened.eraId) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setView(opened);
+      setPanelOpen(true);
+      setReset((n) => n + 1);
+    }
+    const step = window.history.state?.huaxiaStep;
+    const depth = Number.isInteger(step) && step > 0 ? step : 0;
+    window.history.replaceState(
+      { ...window.history.state, huaxiaStep: depth },
+      "",
+    );
+    setHistoryDepth(depth);
+    const onPop = () => {
+      const next = readView();
+      const state = window.history.state;
+      setView(next);
+      setPanelOpen(!!next.eraId);
+      setPageChoice({ key: "", page: 0 });
+      setRestore(state?.huaxiaPose ?? null);
+      setHistoryDepth(
+        Number.isInteger(state?.huaxiaStep) ? state.huaxiaStep : 0,
+      );
+      setReset((n) => n + 1);
+    };
+    window.addEventListener("popstate", onPop);
+    return () => window.removeEventListener("popstate", onPop);
   }, []);
   useEffect(() => {
     document.documentElement.dataset.theme = theme;
@@ -203,7 +344,7 @@ export default function Explorer() {
     if (preferencesLoaded) {
       try {
         localStorage.setItem(
-          "huaxia-exploration-v2",
+          STORAGE_KEY,
           JSON.stringify({ theme, tags, sort }),
         );
       } catch {
@@ -223,9 +364,12 @@ export default function Explorer() {
     small.addEventListener("change", updateSize);
     motion.addEventListener("change", updateMotion);
     document.addEventListener("visibilitychange", updateVisible);
+    // Probing the browser for WebGL 2 is exactly the kind of external lookup an
+    // effect is for; it runs once and decides between the 3D and 2D views.
     try {
       const canvas = document.createElement("canvas");
       const gl = canvas.getContext("webgl2");
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setWebgl(!!gl);
       gl?.getExtension("WEBGL_lose_context")?.loseContext();
     } catch {
@@ -253,29 +397,41 @@ export default function Explorer() {
         inline: "center",
       });
   }, [view.eraId, motionStopped]);
+  // Every move is a real history entry, so a topic or an article can be linked,
+  // reloaded and reached with the browser's own back and forward buttons. The
+  // camera pose rides along in history.state to restore the view on the way back.
   const navigate = useCallback(
     (next: ViewState) => {
       if (next.eraId === view.eraId && next.nodeId === view.nodeId) {
         setPanelOpen(!!next.eraId);
         return;
       }
-      history.current.push({
-        view,
-        pageChoice: { key: pageKey, page: graphPage },
-        pose: pose.current
-          ? {
-              position: [...pose.current.position],
-              target: [...pose.current.target],
-            }
-          : null,
-      });
+      const depth = (window.history.state?.huaxiaStep ?? 0) + 1;
+      window.history.replaceState(
+        {
+          ...window.history.state,
+          huaxiaPose: pose.current
+            ? {
+                position: [...pose.current.position],
+                target: [...pose.current.target],
+              }
+            : null,
+        },
+        "",
+      );
+      window.history.pushState(
+        { huaxiaStep: depth, huaxiaPose: null },
+        "",
+        viewHref(next),
+      );
+      setHistoryDepth(depth);
       setRestore(null);
       setView(next);
       setPanelOpen(!!next.eraId);
       setReset((n) => n + 1);
       setIndexOpen(false);
     },
-    [view, pageKey, graphPage],
+    [view],
   );
   const goEra = useCallback(
     (id: string) => navigate({ eraId: id, nodeId: null }),
@@ -285,29 +441,18 @@ export default function Explorer() {
     (id: string) => {
       const entry = allNodes.get(id);
       if (entry) {
+        // Let the page follow the selection rather than keeping a stale choice.
         setPageChoice({ key: "", page: 0 });
         navigate({ eraId: entry.era.id, nodeId: id });
-      }
-      else if (eras.some((e) => e.id === id)) goEra(id);
+      } else if (indexEras.some((e) => e.id === id)) goEra(id);
     },
-    [allNodes, navigate, goEra],
+    [allNodes, indexEras, navigate, goEra],
   );
+  // Defers to the browser so the in-page button and the browser button do the
+  // same thing; popstate below applies the resulting view.
   const goBack = useCallback(() => {
-    setPageChoice({ key: "", page: 0 });
-    const prev = history.current.pop();
-    if (prev) {
-      setPageChoice(prev.pageChoice);
-      setView(prev.view);
-      setRestore(prev.pose);
-      setPanelOpen(!!prev.view.eraId);
-      setReset((n) => n + 1);
-    } else {
-      setView(ROOT);
-      setRestore(null);
-      setPanelOpen(false);
-      setReset((n) => n + 1);
-    }
-  }, []);
+    if (historyDepth > 0) window.history.back();
+  }, [historyDepth]);
   const goGlobal = useCallback(() => {
     if (view.eraId) navigate(ROOT);
     else {
@@ -315,13 +460,12 @@ export default function Explorer() {
       setReset((n) => n + 1);
     }
   }, [view.eraId, navigate]);
-  const changeGraphPage = (page: number) => {
-    if (node && era) {
-      navigate({ eraId: era.id, nodeId: null });
-      setPanelOpen(false);
-    }
-    setPageChoice({ key: pageKey, page });
-  };
+  // Paging only changes which nodes the graph draws. The open archive stays
+  // open, and this is not a navigation step, so it never enters the back stack.
+  const changeGraphPage = useCallback(
+    (page: number) => setPageChoice({ key: pageKey, page }),
+    [pageKey],
+  );
   useEffect(() => {
     function keys(e: KeyboardEvent) {
       if (
@@ -342,7 +486,7 @@ export default function Explorer() {
     pose.current = p;
   }, []);
   const onSceneError = useCallback(() => setWebgl(false), []);
-  const selectedIndex = era ? eras.indexOf(era) : -1;
+  const selectedIndex = era ? indexEras.indexOf(era) : -1;
   return (
     <TooltipProvider delayDuration={200}>
       <main
@@ -364,7 +508,9 @@ export default function Explorer() {
             </span>
           </button>
           <nav className="main-nav" aria-label="主导航">
-            <a href="/learn" className="learning-nav-link">系统学习</a>
+            <a href="/learn" className="learning-nav-link">
+              系统学习
+            </a>
             <button className={!era ? "active" : ""} onClick={goGlobal}>
               文明全景
             </button>
@@ -400,14 +546,23 @@ export default function Explorer() {
         </header>
         <section className="universe" aria-label="中国历史交互星图">
           {libraryStatus !== "ready" && (
-            <div className="academy-status" role="status">
-              {libraryStatus === "loading" ? "正在载入历史学堂的完整档案…" : "完整档案未载入，当前仅显示精选内容。"}
-              {libraryStatus === "error" && <button onClick={() => setLibraryRetry(n => n + 1)}>重新载入</button>}
+            <div
+              className="academy-status"
+              role={libraryStatus === "error" ? "alert" : "status"}
+            >
+              {libraryStatus === "loading"
+                ? "正在载入历史目录…"
+                : "历史目录未能载入，请检查网络后重试。"}
+              {libraryStatus === "error" && (
+                <button onClick={() => setLibraryRetry((n) => n + 1)}>
+                  重新载入
+                </button>
+              )}
             </div>
           )}
           {theme === "day" ? (
             <DayGallery
-              eras={eras}
+              eras={indexEras}
               era={era}
               node={node}
               tags={tags}
@@ -528,7 +683,7 @@ export default function Explorer() {
                     </p>
                     <div className="overview-stats">
                       <span>
-                        <b>22</b>历史专题
+                        <b>{eraCount}</b>历史专题
                       </span>
                       <i />
                       <span>
@@ -541,8 +696,8 @@ export default function Explorer() {
               <div className="stage-index">
                 <span>{era ? "当前历史专题" : "中国历史 · 精选专题"}</span>
                 <strong>
-                  {String(era ? selectedIndex + 1 : 22).padStart(2, "0")}
-                  <i>/ 22</i>
+                  {String(era ? selectedIndex + 1 : eraCount).padStart(2, "0")}
+                  <i>/ {eraCount}</i>
                 </strong>
                 {era && <span className="era-english">{era.englishTitle}</span>}
               </div>
@@ -562,10 +717,38 @@ export default function Explorer() {
               )}
               {era && pageCount > 1 && (
                 <nav className="graph-pagination" aria-label="星图节点分页">
-                  <button aria-label="上一组节点" disabled={graphPage === 0} onClick={() => changeGraphPage(graphPage - 1)}>上一组</button>
-                  <span>{graphPage + 1} / {pageCount} · 共 {filteredNodes.length} 个节点</span>
-                  <button aria-label="下一组节点" disabled={graphPage === pageCount - 1} onClick={() => changeGraphPage(graphPage + 1)}>下一组</button>
-                  <button onClick={() => { if (node) goEra(era.id); else setPanelOpen(true); }}>完整名单</button>
+                  <button
+                    aria-label="上一组节点"
+                    disabled={graphPage === 0}
+                    onClick={() => changeGraphPage(graphPage - 1)}
+                  >
+                    上一组
+                  </button>
+                  <span>
+                    第 {graphPage + 1} / {pageCount} 组 · 共{" "}
+                    {filteredNodes.length} 个节点
+                  </span>
+                  <button
+                    aria-label="下一组节点"
+                    disabled={graphPage === pageCount - 1}
+                    onClick={() => changeGraphPage(graphPage + 1)}
+                  >
+                    下一组
+                  </button>
+                  <button
+                    onClick={() => {
+                      if (node) goEra(era.id);
+                      else setPanelOpen(true);
+                    }}
+                  >
+                    完整名单
+                  </button>
+                  {hiddenRelations > 0 && (
+                    <span className="graph-pagination-note">
+                      另有 {hiddenRelations}{" "}
+                      条关系连向其他组，可在档案中沿关系继续阅读
+                    </span>
+                  )}
                 </nav>
               )}
               {tags.length > 0 && (
@@ -690,21 +873,35 @@ export default function Explorer() {
             tabIndex={-1}
             aria-label="选择历史时期"
           >
-            {eras.map((e, i) => (
-              <button
+            {/* Real links: each topic has an address, so they can be opened in
+                a new tab, copied, and followed by a crawler. A plain click is
+                handled in-page to keep the scene and camera alive. */}
+            {indexEras.map((e, i) => (
+              <a
                 key={e.id}
+                href={viewHref({ eraId: e.id, nodeId: null })}
                 aria-label={`探索${e.title}`}
                 aria-current={view.eraId === e.id ? "true" : undefined}
                 style={{ "--era-color": eraColor(i) } as React.CSSProperties}
                 className={`timeline-era ${view.eraId === e.id ? "selected" : ""} ${tags.length && !e.nodes.some((n) => matchesInterest(n, tags)) ? "unmatched" : ""}`}
-                onClick={() => goEra(e.id)}
+                onClick={(event) => {
+                  if (
+                    event.metaKey ||
+                    event.ctrlKey ||
+                    event.shiftKey ||
+                    event.button !== 0
+                  )
+                    return;
+                  event.preventDefault();
+                  goEra(e.id);
+                }}
               >
                 <span className="timeline-dot" />
                 <span className="era-number">
                   {String(i + 1).padStart(2, "0")}
                 </span>
                 <strong>{e.shortTitle}</strong>
-              </button>
+              </a>
             ))}
           </div>
         </footer>
@@ -718,7 +915,7 @@ export default function Explorer() {
           onClose={() => setPanelOpen(false)}
           onNode={goNode}
           onBack={goBack}
-          canBack={history.current.length > 0}
+          canBack={historyDepth > 0}
           filteredNodes={filteredNodes}
           filterActive={tags.length > 0}
           onClearFilter={() => setTags([])}
@@ -730,7 +927,7 @@ export default function Explorer() {
           onTags={setTags}
           sort={sort}
           onSort={setSort}
-          eras={eras}
+          eras={indexEras}
           onEra={goEra}
         />
         <Sheet open={indexOpen} onOpenChange={setIndexOpen}>
@@ -764,12 +961,14 @@ export default function Explorer() {
                   }}
                   style={
                     {
-                      "--era-color": eraColor(eras.indexOf(e)),
+                      "--era-color": eraColor(indexEras.indexOf(e)),
                     } as React.CSSProperties
                   }
                   aria-current={view.eraId === e.id ? "true" : undefined}
                 >
-                  <span>{String(eras.indexOf(e) + 1).padStart(2, "0")}</span>
+                  <span>
+                    {String(indexEras.indexOf(e) + 1).padStart(2, "0")}
+                  </span>
                   <div>
                     <strong>{e.title}</strong>
                     <small>{e.dateLabel}</small>
@@ -791,7 +990,7 @@ export default function Explorer() {
             ? `正在阅读${node.title}`
             : era
               ? `已进入${era.title}，包含${era.nodes.length}个历史节点`
-              : "中国历史全景，22个历史专题"}
+              : `中国历史全景，${eraCount}个历史专题`}
         </span>
       </main>
     </TooltipProvider>

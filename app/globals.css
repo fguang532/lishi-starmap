@@ -466,6 +466,9 @@ a {
 .timeline-era {
   background: none;
   border: 0;
+  /* Rendered as an anchor so topics are linkable; keep the button look. */
+  text-decoration: none;
+  cursor: pointer;
   position: relative;
   flex: 1;
   min-width: 44px;

@@ -1,4 +1,5 @@
 "use client";
+import "@/app/learning.css";
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowLeft,
@@ -117,6 +118,11 @@ function ReignCard({
   );
 }
 
+// next/link is intentionally avoided. vinext 1.0.0-beta.5 throws
+// "TypeError: e is not a function" from its RSC prefetch pipeline on client-side
+// navigation, with or without prefetch={false}, so plain anchors are used until
+// the framework is upgraded. They cost a full page load between / and /learn.
+/* eslint-disable @next/next/no-html-link-for-pages */
 export default function LearningLibrary() {
   const [selection, setSelection] = useState<Selection>(initial);
   const [ready, setReady] = useState(false);
@@ -128,7 +134,10 @@ export default function LearningLibrary() {
   const [recordError, setRecordError] = useState(false);
   const [retry, setRetry] = useState(0);
   const focusNext = useRef<"archive" | "dynasty" | null>(null);
+  // The query string is an external source that is unavailable during SSR, so
+  // it is read after mount rather than seeded into useState.
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setSelection(readSelection());
     const savedStep = window.history.state?.huaxiaStudyStep;
     const initialStep =
@@ -168,6 +177,7 @@ export default function LearningLibrary() {
   }, [theme, ready]);
   useEffect(() => {
     const controller = new AbortController();
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setCatalogError(false);
     fetch("/library/catalog.json", {
       signal: controller.signal,
@@ -195,6 +205,7 @@ export default function LearningLibrary() {
   const selectedFile = selected?.file;
   useEffect(() => {
     if (!selectedFile) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setRecord(null);
       return;
     }

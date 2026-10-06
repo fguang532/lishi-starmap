@@ -71,8 +71,15 @@ export function sortedNodes(
         const delta = score(b) - score(a);
         if (delta) return delta;
       }
+      const direction = mode === "reverse" ? -1 : 1;
+      // Many early rulers share a borrowed startYear because no absolute date is
+      // established. Documented succession order keeps them in a readable order
+      // instead of collapsing to an alphabetical ID sort.
       return (
-        (mode === "reverse" ? -1 : 1) * (a.startYear - b.startYear) ||
+        direction * (a.startYear - b.startYear) ||
+        (a.seq !== undefined && b.seq !== undefined
+          ? direction * (a.seq - b.seq)
+          : 0) ||
         a.id.localeCompare(b.id)
       );
     });

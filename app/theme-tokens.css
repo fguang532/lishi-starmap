@@ -1,0 +1,21 @@
+/* Palette shared by the star map and the learning library.
+ *
+ * These tokens live apart from exploration.css so /learn can use them without
+ * pulling in the star map stylesheet. The day values are applied by the theme
+ * toggle, which sets data-theme on <html> from either page. */
+:root {
+  --explore-ink: #dce7f4;
+  --explore-muted: #8fa2bb;
+  --explore-paper: #0d1726;
+  --explore-wash: #142236;
+  --explore-line: #283b52;
+  --explore-accent: #8ce0ea;
+}
+html[data-theme="day"] {
+  --explore-ink: #382e24;
+  --explore-muted: #7b6a57;
+  --explore-paper: #faf5e9;
+  --explore-wash: #eee3cd;
+  --explore-line: #dbccb2;
+  --explore-accent: #8d332c;
+}

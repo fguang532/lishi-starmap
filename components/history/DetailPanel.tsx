@@ -161,37 +161,58 @@ export default function DetailPanel({
           {node ? (
             <>
               <p className="detail-lead">{node.summary}</p>
-              {!!node.affiliations?.length && <p className="academy-affiliation">{node.affiliations.join(" · ")}</p>}
-              {node.archives?.length ? <AcademyArchive key={node.id} node={node} eraId={era.id} onNode={onNode} /> : <>
-              <section className="prose-section">
-                <h3>
-                  <span>01</span>时代背景
-                </h3>
-                <p>{node.background}</p>
-              </section>
-              <section className="prose-section">
-                <h3>
-                  <span>02</span>历史脉络
-                </h3>
-                <p>{node.story}</p>
-              </section>
-              <section className="prose-section">
-                <h3>
-                  <span>03</span>影响与回响
-                </h3>
-                <p>{node.legacy}</p>
-              </section>
-              </>}
+              {!!node.affiliations?.length && (
+                <p className="academy-affiliation">
+                  {node.affiliations.join(" · ")}
+                </p>
+              )}
+              {node.archives?.length ? (
+                <AcademyArchive
+                  key={node.id}
+                  node={node}
+                  eraId={era.id}
+                  onNode={onNode}
+                />
+              ) : node.background === undefined ? (
+                <p className="panel-loading" role="status">
+                  正在载入这一篇的正文…
+                </p>
+              ) : (
+                <>
+                  <section className="prose-section">
+                    <h3>
+                      <span>01</span>时代背景
+                    </h3>
+                    <p>{node.background}</p>
+                  </section>
+                  <section className="prose-section">
+                    <h3>
+                      <span>02</span>历史脉络
+                    </h3>
+                    <p>{node.story}</p>
+                  </section>
+                  <section className="prose-section">
+                    <h3>
+                      <span>03</span>影响与回响
+                    </h3>
+                    <p>{node.legacy}</p>
+                  </section>
+                </>
+              )}
             </>
           ) : (
             <>
               <div className="overview-copy">
-                {era.summary
-                  .split(/\n+/)
-                  .filter(Boolean)
-                  .map((p, i) => (
-                    <p key={i}>{p}</p>
-                  ))}
+                {era.summary === undefined ? (
+                  <p className="panel-loading" role="status">
+                    正在载入时期概览…
+                  </p>
+                ) : (
+                  era.summary
+                    .split(/\n+/)
+                    .filter(Boolean)
+                    .map((p, i) => <p key={i}>{p}</p>)
+                )}
               </div>
               <section className="era-node-list">
                 <h3>
@@ -267,27 +288,29 @@ export default function DetailPanel({
               </button>
             </section>
           )}
-          <section className="source-section">
-            <h3>
-              <BookOpen size={14} />
-              资料来源
-            </h3>
-            <ol>
-              {item.sources.map((s, i) => (
-                <li key={s.url + i}>
-                  <a href={s.url} target="_blank" rel="noreferrer">
-                    <span>{String(i + 1).padStart(2, "0")}</span>
-                    <div>
-                      <strong>{s.title}</strong>
-                      <small>{s.institution}</small>
-                    </div>
-                    <ExternalLink size={13} />
-                  </a>
-                </li>
-              ))}
-            </ol>
-            <p>精选资料经归纳撰写；有争议的年代与说法会在正文中标明。</p>
-          </section>
+          {!!item.sources?.length && (
+            <section className="source-section">
+              <h3>
+                <BookOpen size={14} />
+                资料来源
+              </h3>
+              <ol>
+                {item.sources.map((s, i) => (
+                  <li key={s.url + i}>
+                    <a href={s.url} target="_blank" rel="noreferrer">
+                      <span>{String(i + 1).padStart(2, "0")}</span>
+                      <div>
+                        <strong>{s.title}</strong>
+                        <small>{s.institution}</small>
+                      </div>
+                      <ExternalLink size={13} />
+                    </a>
+                  </li>
+                ))}
+              </ol>
+              <p>精选资料经归纳撰写；有争议的年代与说法会在正文中标明。</p>
+            </section>
+          )}
         </div>
       </SheetContent>
     </Sheet>

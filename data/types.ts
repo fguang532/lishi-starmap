@@ -1,5 +1,18 @@
 export type Source = { title: string; url: string; institution: string };
-export type HistoryNode = {
+export type ArchiveLink = {
+  id: string;
+  kind: "rulers" | "battles" | "poets";
+  title: string;
+};
+export type ReignTerm = {
+  title: string;
+  polity: string;
+  dateLabel: string;
+  note: string;
+  sourceUrl: string;
+};
+/** Fields the star map needs to draw and filter a node. Always loaded. */
+export type NodeIndex = {
   id: string;
   title: string;
   type: "人物" | "事件" | "制度" | "文化" | "遗址" | "政权";
@@ -8,23 +21,33 @@ export type HistoryNode = {
   endYear: number;
   certainty: "史实" | "约年" | "传说" | "有争议";
   summary: string;
+  tags?: string[];
+  affiliations?: string[];
+  /** Documented order inside a polity; breaks ties when rulers share a sortYear. */
+  seq?: number;
+};
+/** Article body, evidence and reign records. Fetched when a topic is opened. */
+export type NodeDetail = {
+  id: string;
   background: string;
   story: string;
   legacy: string;
   sources: Source[];
-  tags?: string[];
-  archives?: { id: string; kind: "rulers" | "battles" | "poets"; title: string }[];
-  affiliations?: string[];
+  archives?: ArchiveLink[];
+  terms?: ReignTerm[];
   relatedReading?: { id: string; title: string }[];
-  terms?: { title: string; polity: string; dateLabel: string; note: string; sourceUrl: string }[];
 };
-export type Relation = {
+/** An index node, enriched in place once its era detail has been loaded. */
+export type HistoryNode = NodeIndex & Partial<Omit<NodeDetail, "id">>;
+export type RelationIndex = {
   id: string;
   source: string;
   target: string;
   type: string;
-  explanation: string;
-  sourceUrl: string;
+};
+export type Relation = RelationIndex & {
+  explanation?: string;
+  sourceUrl?: string;
 };
 export type Era = {
   id: string;
@@ -36,10 +59,18 @@ export type Era = {
   endYear: number;
   dateLabel: string;
   kicker: string;
-  summary: string;
-  sources: Source[];
+  summary?: string;
+  sources?: Source[];
   nodes: HistoryNode[];
   relations: Relation[];
+};
+/** Shape of /library/exploration/{eraId}.json */
+export type EraDetail = {
+  id: string;
+  summary: string;
+  sources: Source[];
+  nodes: NodeDetail[];
+  relations: { id: string; explanation: string; sourceUrl: string }[];
 };
 export type ViewState = { eraId: string | null; nodeId: string | null };
 export type CameraPose = {

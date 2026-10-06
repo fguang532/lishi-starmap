@@ -49,3 +49,7 @@ next-env.d.ts
 *.tsbuildinfo
 
 /output/playwright/
+
+# Build output: WebP renditions and the compiled library are regenerated
+# by `npm run build`; only the sources in data/ and the JPEGs are tracked.
+/public/history/derived/

@@ -61,9 +61,19 @@ const dualIdentities = [
 export function buildExploration(eras, records, polities) {
   const result = structuredClone(eras);
   const byRecord = new Map(records.map(r => [r.id, r]));
+  // `seq` is a reading order for rulers that share one borrowed year because no
+  // absolute date is established. It must order across polities as well as
+  // inside them, so parallel houses are grouped rather than interleaved: the
+  // key is the polity's own position, then the documented order of its terms.
+  const polityRank = new Map(
+    [...polities]
+      .sort((a, b) => a.sortYear - b.sortYear || a.id.localeCompare(b.id))
+      .map((p, i) => [p.id, i]),
+  );
+  const seqOf = (p, i) => polityRank.get(p.id) * 1000 + i;
   const allTerms = polities.flatMap(p => [
-    ...p.reigns.map(t => ({ ...t, polity: p, sovereign: true })),
-    ...(p.regencies || []).map(t => ({ ...t, polity: p, sovereign: false })),
+    ...p.reigns.map((t, i) => ({ ...t, polity: p, sovereign: true, seq: seqOf(p, i) })),
+    ...(p.regencies || []).map((t, i) => ({ ...t, polity: p, sovereign: false, seq: seqOf(p, p.reigns.length + i) })),
   ]);
   const byTerm = new Map(allTerms.map(t => [t.id, t]));
   const nodeFor = new Map();
@@ -98,8 +108,13 @@ export function buildExploration(eras, records, polities) {
         story: r.sections[1].text, legacy: r.sections[2].text,
         sources: r.sources,
       };
-      if (!node.archives?.length) node.startYear = r.sortYear;
+      // A curated node keeps its own startYear: it is a birth year, while sortYear
+      // is an accession or polity year, and overwriting it contradicts dateLabel.
       node.tags = [...new Set([...(node.tags || []), ...tags])];
+      // Documented succession order, used only to break ties between rulers that
+      // share a borrowed sortYear. Absent for battles, poets and curated nodes.
+      const seq = ownTerms.length ? Math.min(...ownTerms.map(t => t.seq)) : undefined;
+      if (seq !== undefined && node.seq === undefined) node.seq = seq;
       node.archives = [...(node.archives || []), { id: r.id, kind: r.kind, title: r.title }];
       node.affiliations = [...new Set([...(node.affiliations || []), ...ownTerms.map(t => `${t.polity.title}${t.sovereign ? "" : ` · ${t.role}`}`)])];
       node.terms = [...(node.terms || []), ...ownTerms.map(t => ({ title: t.title, polity: t.polity.title, dateLabel: t.dateLabel, note: t.note, sourceUrl: t.sourceUrl }))];
@@ -130,4 +145,61 @@ export function buildExploration(eras, records, polities) {
     }
   }
   return result;
+}
+
+// The star map only needs identity, dates, tags and relation endpoints. Prose,
+// sources, reign records and relation evidence are read from the era detail file
+// when a topic is opened, so the first screen no longer carries every article.
+export function splitExploration(eras) {
+  const index = eras.map(era => ({
+    id: era.id,
+    country: era.country,
+    title: era.title,
+    shortTitle: era.shortTitle,
+    englishTitle: era.englishTitle,
+    startYear: era.startYear,
+    endYear: era.endYear,
+    dateLabel: era.dateLabel,
+    kicker: era.kicker,
+    nodes: era.nodes.map(n => ({
+      id: n.id,
+      title: n.title,
+      type: n.type,
+      dateLabel: n.dateLabel,
+      startYear: n.startYear,
+      endYear: n.endYear,
+      certainty: n.certainty,
+      summary: n.summary,
+      ...(n.tags?.length ? { tags: n.tags } : {}),
+      ...(n.seq === undefined ? {} : { seq: n.seq }),
+      ...(n.affiliations?.length ? { affiliations: n.affiliations } : {}),
+    })),
+    relations: era.relations.map(r => ({
+      id: r.id,
+      source: r.source,
+      target: r.target,
+      type: r.type,
+    })),
+  }));
+  const details = new Map(eras.map(era => [era.id, {
+    id: era.id,
+    summary: era.summary,
+    sources: era.sources,
+    nodes: era.nodes.map(n => ({
+      id: n.id,
+      background: n.background,
+      story: n.story,
+      legacy: n.legacy,
+      sources: n.sources,
+      ...(n.archives?.length ? { archives: n.archives } : {}),
+      ...(n.terms?.length ? { terms: n.terms } : {}),
+      ...(n.relatedReading?.length ? { relatedReading: n.relatedReading } : {}),
+    })),
+    relations: era.relations.map(r => ({
+      id: r.id,
+      explanation: r.explanation,
+      sourceUrl: r.sourceUrl,
+    })),
+  }]));
+  return { index, details };
 }

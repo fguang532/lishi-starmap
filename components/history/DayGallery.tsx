@@ -90,12 +90,16 @@ export default function DayGallery({
           <span className="day-cover-foot">
             {era
               ? `${list.length} 个${tags.length ? "匹配" : "历史"}入口 · 已接入历史学堂`
-              : `22 个历史专题 · 文明精选与学堂档案`}
+              : `${eras.length} 个历史专题 · 文明精选与学堂档案`}
           </span>
         </div>
         {cover && (
           <div className="day-cover-art">
-            <ArtImage image={cover} eager />
+            <ArtImage
+              image={cover}
+              eager
+              sizes="(max-width: 767px) 100vw, 46vw"
+            />
             <span className="cover-vertical-title">{cover.title}</span>
             <div className="cover-attribution">
               <a href={cover.sourceUrl} target="_blank" rel="noreferrer">
@@ -152,7 +156,11 @@ export default function DayGallery({
                   .join(" · ") || n.type}
               </span>
               <strong>{n.title}</strong>
-              {!!n.affiliations?.length && <span className="academy-affiliation">{n.affiliations.join(" · ")}</span>}
+              {!!n.affiliations?.length && (
+                <span className="academy-affiliation">
+                  {n.affiliations.join(" · ")}
+                </span>
+              )}
               <small>{n.dateLabel}</small>
               <p>{n.summary}</p>
               <span className="day-card-link">
@@ -173,7 +181,12 @@ export default function DayGallery({
                 aria-label={`翻阅${e.title}`}
               >
                 <div className="day-era-art">
-                  {im && <ArtImage image={im} />}
+                  {im && (
+                    <ArtImage
+                      image={im}
+                      sizes="(max-width: 767px) 50vw, 320px"
+                    />
+                  )}
                   <span>
                     第{String(eras.indexOf(e) + 1).padStart(2, "0")}卷
                   </span>

@@ -1,0 +1,264 @@
+{
+  "image-eastern-han": {
+    "width": 830,
+    "height": 893,
+    "variants": [
+      {
+        "label": "sm",
+        "width": 640,
+        "src": "/history/derived/image-eastern-han-sm.webp"
+      }
+    ]
+  },
+  "image-eastern-jin": {
+    "width": 1920,
+    "height": 2519,
+    "variants": [
+      {
+        "label": "sm",
+        "width": 640,
+        "src": "/history/derived/image-eastern-jin-sm.webp"
+      },
+      {
+        "label": "lg",
+        "width": 1280,
+        "src": "/history/derived/image-eastern-jin-lg.webp"
+      }
+    ]
+  },
+  "image-five-dynasties": {
+    "width": 900,
+    "height": 501,
+    "variants": [
+      {
+        "label": "sm",
+        "width": 640,
+        "src": "/history/derived/image-five-dynasties-sm.webp"
+      }
+    ]
+  },
+  "image-late-qing": {
+    "width": 1920,
+    "height": 1431,
+    "variants": [
+      {
+        "label": "sm",
+        "width": 640,
+        "src": "/history/derived/image-late-qing-sm.webp"
+      },
+      {
+        "label": "lg",
+        "width": 1280,
+        "src": "/history/derived/image-late-qing-lg.webp"
+      }
+    ]
+  },
+  "image-ming-palace-hero": {
+    "width": 1920,
+    "height": 1216,
+    "variants": [
+      {
+        "label": "sm",
+        "width": 640,
+        "src": "/history/derived/image-ming-palace-hero-sm.webp"
+      },
+      {
+        "label": "lg",
+        "width": 1280,
+        "src": "/history/derived/image-ming-palace-hero-lg.webp"
+      }
+    ]
+  },
+  "image-northern-southern": {
+    "width": 670,
+    "height": 893,
+    "variants": [
+      {
+        "label": "sm",
+        "width": 640,
+        "src": "/history/derived/image-northern-southern-sm.webp"
+      }
+    ]
+  },
+  "image-origins": {
+    "width": 1030,
+    "height": 893,
+    "variants": [
+      {
+        "label": "sm",
+        "width": 640,
+        "src": "/history/derived/image-origins-sm.webp"
+      }
+    ]
+  },
+  "image-qin": {
+    "width": 1920,
+    "height": 2880,
+    "variants": [
+      {
+        "label": "sm",
+        "width": 640,
+        "src": "/history/derived/image-qin-sm.webp"
+      },
+      {
+        "label": "lg",
+        "width": 1280,
+        "src": "/history/derived/image-qin-lg.webp"
+      }
+    ]
+  },
+  "image-qing": {
+    "width": 1263,
+    "height": 854,
+    "variants": [
+      {
+        "label": "sm",
+        "width": 640,
+        "src": "/history/derived/image-qing-sm.webp"
+      }
+    ]
+  },
+  "image-shang": {
+    "width": 637,
+    "height": 893,
+    "variants": [
+      {
+        "label": "sm",
+        "width": 637,
+        "src": "/history/derived/image-shang-sm.webp"
+      }
+    ]
+  },
+  "image-song": {
+    "width": 900,
+    "height": 850,
+    "variants": [
+      {
+        "label": "sm",
+        "width": 640,
+        "src": "/history/derived/image-song-sm.webp"
+      }
+    ]
+  },
+  "image-spring-autumn": {
+    "width": 1091,
+    "height": 893,
+    "variants": [
+      {
+        "label": "sm",
+        "width": 640,
+        "src": "/history/derived/image-spring-autumn-sm.webp"
+      }
+    ]
+  },
+  "image-sui": {
+    "width": 830,
+    "height": 893,
+    "variants": [
+      {
+        "label": "sm",
+        "width": 640,
+        "src": "/history/derived/image-sui-sm.webp"
+      }
+    ]
+  },
+  "image-tang": {
+    "width": 655,
+    "height": 893,
+    "variants": [
+      {
+        "label": "sm",
+        "width": 640,
+        "src": "/history/derived/image-tang-sm.webp"
+      }
+    ]
+  },
+  "image-three-kingdoms": {
+    "width": 871,
+    "height": 893,
+    "variants": [
+      {
+        "label": "sm",
+        "width": 640,
+        "src": "/history/derived/image-three-kingdoms-sm.webp"
+      }
+    ]
+  },
+  "image-warring-states": {
+    "width": 770,
+    "height": 900,
+    "variants": [
+      {
+        "label": "sm",
+        "width": 640,
+        "src": "/history/derived/image-warring-states-sm.webp"
+      }
+    ]
+  },
+  "image-western-han": {
+    "width": 662,
+    "height": 900,
+    "variants": [
+      {
+        "label": "sm",
+        "width": 640,
+        "src": "/history/derived/image-western-han-sm.webp"
+      }
+    ]
+  },
+  "image-western-jin": {
+    "width": 645,
+    "height": 893,
+    "variants": [
+      {
+        "label": "sm",
+        "width": 640,
+        "src": "/history/derived/image-western-jin-sm.webp"
+      }
+    ]
+  },
+  "image-western-zhou": {
+    "width": 880,
+    "height": 893,
+    "variants": [
+      {
+        "label": "sm",
+        "width": 640,
+        "src": "/history/derived/image-western-zhou-sm.webp"
+      }
+    ]
+  },
+  "image-xia": {
+    "width": 828,
+    "height": 893,
+    "variants": [
+      {
+        "label": "sm",
+        "width": 640,
+        "src": "/history/derived/image-xia-sm.webp"
+      }
+    ]
+  },
+  "image-xin": {
+    "width": 1046,
+    "height": 893,
+    "variants": [
+      {
+        "label": "sm",
+        "width": 640,
+        "src": "/history/derived/image-xin-sm.webp"
+      }
+    ]
+  },
+  "image-yuan": {
+    "width": 900,
+    "height": 861,
+    "variants": [
+      {
+        "label": "sm",
+        "width": 640,
+        "src": "/history/derived/image-yuan-sm.webp"
+      }
+    ]
+  }
+}

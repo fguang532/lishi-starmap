@@ -40,6 +40,13 @@ export default function Preferences({
     (sum, e) => sum + e.nodes.filter((n) => matchesInterest(n, tags)).length,
     0,
   );
+  // Opens the learning library on the section closest to the chosen interests.
+  const learnKind = tags.some((t) => ["poet", "literature"].includes(t))
+    ? "poets"
+    : tags.some((t) => ["battle", "event"].includes(t))
+      ? "battles"
+      : "rulers";
+  const learnHref = `/learn?kind=${learnKind}`;
   const toggle = (tag: string) =>
     onTags(tags.includes(tag) ? tags.filter((t) => t !== tag) : [...tags, tag]);
   return (
@@ -68,7 +75,9 @@ export default function Preferences({
           </button>
         </div>
         <div className="preferences-scroll">
-          <a className="preferences-learning-link" href={`/learn?kind=${tags.some(t => ['poet','literature'].includes(t)) ? 'poets' : tags.some(t => ['battle','event'].includes(t)) ? 'battles' : 'rulers'}`}>打开完整世系与学习档案</a>
+          <a className="preferences-learning-link" href={learnHref}>
+            打开完整世系与学习档案
+          </a>
           <div className="preference-reset">
             <span>选择任一标签即可匹配</span>
             <button

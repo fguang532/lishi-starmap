@@ -1,12 +1,5 @@
-/* Shared exploration controls and source-backed imagery. */
-:root {
-  --explore-ink: #dce7f4;
-  --explore-muted: #8fa2bb;
-  --explore-paper: #0d1726;
-  --explore-wash: #142236;
-  --explore-line: #283b52;
-  --explore-accent: #8ce0ea;
-}
+/* Star map controls and source-backed imagery.
+ * The --explore-* palette lives in theme-tokens.css, which both pages load. */
 .country-label {
   display: flex !important;
   gap: 12px;
@@ -501,12 +494,6 @@ html[data-theme="day"] {
   --border: #dacdb7;
   --input: #d7c5a9;
   --ring: #91352f;
-  --explore-ink: #382e24;
-  --explore-muted: #7b6a57;
-  --explore-paper: #faf5e9;
-  --explore-wash: #eee3cd;
-  --explore-line: #dbccb2;
-  --explore-accent: #8d332c;
 }
 html[data-theme="day"] body {
   color: #382e24;
