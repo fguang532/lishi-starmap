@@ -89,8 +89,8 @@ export default function DayGallery({
           </button>
           <span className="day-cover-foot">
             {era
-              ? `${era.nodes.length} 篇精选档案`
-              : `22 个历史专题 · ${eras.reduce((n, e) => n + e.nodes.length, 0)} 篇精选档案`}
+              ? `${list.length} 个${tags.length ? "匹配" : "历史"}入口 · 已接入历史学堂`
+              : `22 个历史专题 · 文明精选与学堂档案`}
           </span>
         </div>
         {cover && (
@@ -152,6 +152,7 @@ export default function DayGallery({
                   .join(" · ") || n.type}
               </span>
               <strong>{n.title}</strong>
+              {!!n.affiliations?.length && <span className="academy-affiliation">{n.affiliations.join(" · ")}</span>}
               <small>{n.dateLabel}</small>
               <p>{n.summary}</p>
               <span className="day-card-link">

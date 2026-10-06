@@ -12,6 +12,7 @@ import { TYPE_COLORS } from "@/data/types";
 import { imagesFor, TAG_LABELS } from "@/data/exploration";
 import HeritageImage from "./HeritageImage";
 import StoryNotes from "./StoryNotes";
+import AcademyArchive from "./AcademyArchive";
 type Props = {
   era: Era | undefined;
   node: HistoryNode | undefined;
@@ -160,6 +161,8 @@ export default function DetailPanel({
           {node ? (
             <>
               <p className="detail-lead">{node.summary}</p>
+              {!!node.affiliations?.length && <p className="academy-affiliation">{node.affiliations.join(" · ")}</p>}
+              {node.archives?.length ? <AcademyArchive key={node.id} node={node} eraId={era.id} onNode={onNode} /> : <>
               <section className="prose-section">
                 <h3>
                   <span>01</span>时代背景
@@ -178,6 +181,7 @@ export default function DetailPanel({
                 </h3>
                 <p>{node.legacy}</p>
               </section>
+              </>}
             </>
           ) : (
             <>
@@ -203,7 +207,7 @@ export default function DetailPanel({
                     <span>
                       <strong>{n.title}</strong>
                       <small>
-                        {n.type} · {n.dateLabel}
+                        {n.affiliations?.join(" · ") || n.type} · {n.dateLabel}
                       </small>
                     </span>
                     <span className="open-node-mark">＋</span>

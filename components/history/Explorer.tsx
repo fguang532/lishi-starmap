@@ -39,7 +39,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { eras } from "@/data/eras";
+import { eras as curatedEras } from "@/data/eras";
 import type { CameraPose, Era, HistoryNode, ViewState } from "@/data/types";
 import { eraColor, TYPE_COLORS } from "@/data/types";
 import DetailPanel from "./DetailPanel";
@@ -96,6 +96,10 @@ function Control({
 }
 const ROOT: ViewState = { eraId: null, nodeId: null };
 export default function Explorer() {
+  const [eras, setEras] = useState<Era[]>(curatedEras);
+  const [libraryStatus, setLibraryStatus] = useState<"loading" | "ready" | "error">("loading");
+  const [libraryRetry, setLibraryRetry] = useState(0);
+  const [pageChoice, setPageChoice] = useState({ key: "", page: 0 });
   const [view, setView] = useState<ViewState>(ROOT);
   const [panelOpen, setPanelOpen] = useState(false);
   const [indexOpen, setIndexOpen] = useState(false);
@@ -113,7 +117,7 @@ export default function Explorer() {
   const [reset, setReset] = useState(0);
   const [zoom, setZoom] = useState(0);
   const [restore, setRestore] = useState<CameraPose | null>(null);
-  const history = useRef<{ view: ViewState; pose: CameraPose | null }[]>([]);
+  const history = useRef<{ view: ViewState; pose: CameraPose | null; pageChoice: { key: string; page: number } }[]>([]);
   const pose = useRef<CameraPose | null>(null);
   const timelineRef = useRef<HTMLDivElement>(null);
   const allNodes = useMemo(
@@ -138,13 +142,37 @@ export default function Explorer() {
             e.nodes.filter((n) => matchesInterest(n, tags)).map((n) => n.id),
           )
         : null,
-    [tags],
+    [eras, tags],
   );
   const filteredEras = useMemo(
     () => sortedEras(eras, tags, sort),
-    [tags, sort],
+    [eras, tags, sort],
   );
   const filteredNodes = era ? sortedNodes(era.nodes, tags, sort) : [];
+  const pageKey = `${view.eraId}:${tags.join(",")}:${sort}`;
+  const pageSize = 12;
+  const pageCount = Math.max(1, Math.ceil(filteredNodes.length / pageSize));
+  const selectedPage = node ? Math.floor(filteredNodes.findIndex(n => n.id === node.id) / pageSize) : -1;
+  const graphPage = Math.min(pageCount - 1, pageChoice.key === pageKey ? pageChoice.page : Math.max(0, selectedPage));
+  const sceneEras = useMemo(() => {
+    if (!era) return eras;
+    const nodes = sortedNodes(era.nodes, tags, sort).slice(graphPage * pageSize, (graphPage + 1) * pageSize);
+    if (node && !nodes.some(n => n.id === node.id)) nodes.push(node);
+    return eras.map(e => e.id === era.id ? { ...e, nodes } : e);
+  }, [eras, era, tags, sort, graphPage, node]);
+  useEffect(() => {
+    const controller = new AbortController();
+    setLibraryStatus("loading");
+    fetch("/library/exploration.json", { signal: controller.signal })
+      .then(response => { if (!response.ok) throw new Error("学堂档案载入失败"); return response.json(); })
+      .then(raw => {
+        const value = raw as Era[];
+        if (!Array.isArray(value) || value.length !== curatedEras.length) throw new Error("学堂目录不完整");
+        if (!controller.signal.aborted) { setEras(value); setLibraryStatus("ready"); }
+      })
+      .catch(() => { if (!controller.signal.aborted) setLibraryStatus("error"); });
+    return () => controller.abort();
+  }, [libraryRetry]);
   useEffect(() => {
     try {
       const saved = JSON.parse(
@@ -233,6 +261,7 @@ export default function Explorer() {
       }
       history.current.push({
         view,
+        pageChoice: { key: pageKey, page: graphPage },
         pose: pose.current
           ? {
               position: [...pose.current.position],
@@ -246,7 +275,7 @@ export default function Explorer() {
       setReset((n) => n + 1);
       setIndexOpen(false);
     },
-    [view],
+    [view, pageKey, graphPage],
   );
   const goEra = useCallback(
     (id: string) => navigate({ eraId: id, nodeId: null }),
@@ -255,14 +284,19 @@ export default function Explorer() {
   const goNode = useCallback(
     (id: string) => {
       const entry = allNodes.get(id);
-      if (entry) navigate({ eraId: entry.era.id, nodeId: id });
+      if (entry) {
+        setPageChoice({ key: "", page: 0 });
+        navigate({ eraId: entry.era.id, nodeId: id });
+      }
       else if (eras.some((e) => e.id === id)) goEra(id);
     },
     [allNodes, navigate, goEra],
   );
   const goBack = useCallback(() => {
+    setPageChoice({ key: "", page: 0 });
     const prev = history.current.pop();
     if (prev) {
+      setPageChoice(prev.pageChoice);
       setView(prev.view);
       setRestore(prev.pose);
       setPanelOpen(!!prev.view.eraId);
@@ -281,6 +315,13 @@ export default function Explorer() {
       setReset((n) => n + 1);
     }
   }, [view.eraId, navigate]);
+  const changeGraphPage = (page: number) => {
+    if (node && era) {
+      navigate({ eraId: era.id, nodeId: null });
+      setPanelOpen(false);
+    }
+    setPageChoice({ key: pageKey, page });
+  };
   useEffect(() => {
     function keys(e: KeyboardEvent) {
       if (
@@ -358,6 +399,12 @@ export default function Explorer() {
           </div>
         </header>
         <section className="universe" aria-label="中国历史交互星图">
+          {libraryStatus !== "ready" && (
+            <div className="academy-status" role="status">
+              {libraryStatus === "loading" ? "正在载入历史学堂的完整档案…" : "完整档案未载入，当前仅显示精选内容。"}
+              {libraryStatus === "error" && <button onClick={() => setLibraryRetry(n => n + 1)}>重新载入</button>}
+            </div>
+          )}
           {theme === "day" ? (
             <DayGallery
               eras={eras}
@@ -383,7 +430,7 @@ export default function Explorer() {
                     <Suspense
                       fallback={
                         <FlatGraph
-                          eras={eras}
+                          eras={sceneEras}
                           eraId={view.eraId}
                           nodeId={view.nodeId}
                           onEra={goEra}
@@ -393,7 +440,7 @@ export default function Explorer() {
                       }
                     >
                       <StarScene
-                        eras={eras}
+                        eras={sceneEras}
                         eraId={view.eraId}
                         nodeId={view.nodeId}
                         paused={paused}
@@ -413,7 +460,7 @@ export default function Explorer() {
                   </SceneBoundary>
                 ) : (
                   <FlatGraph
-                    eras={eras}
+                    eras={sceneEras}
                     eraId={view.eraId}
                     nodeId={view.nodeId}
                     onEra={goEra}
@@ -485,7 +532,7 @@ export default function Explorer() {
                       </span>
                       <i />
                       <span>
-                        <b>{totalNodes}</b>精选节点
+                        <b>{totalNodes}</b>历史入口
                       </span>
                     </div>
                   </>
@@ -512,6 +559,14 @@ export default function Explorer() {
                     有据关系
                   </span>
                 </div>
+              )}
+              {era && pageCount > 1 && (
+                <nav className="graph-pagination" aria-label="星图节点分页">
+                  <button aria-label="上一组节点" disabled={graphPage === 0} onClick={() => changeGraphPage(graphPage - 1)}>上一组</button>
+                  <span>{graphPage + 1} / {pageCount} · 共 {filteredNodes.length} 个节点</span>
+                  <button aria-label="下一组节点" disabled={graphPage === pageCount - 1} onClick={() => changeGraphPage(graphPage + 1)}>下一组</button>
+                  <button onClick={() => { if (node) goEra(era.id); else setPanelOpen(true); }}>完整名单</button>
+                </nav>
               )}
               {tags.length > 0 && (
                 <div className="active-preferences">
@@ -651,14 +706,6 @@ export default function Explorer() {
                 <strong>{e.shortTitle}</strong>
               </button>
             ))}
-          </div>
-          <div className="footer-note">
-            <span>文明起源至清末 · 专题可能包含并存政权</span>
-            <span>
-              {theme === "night"
-                ? "虚线为时间轨道 · 星图距离不代表年代间隔"
-                : "图像年代、馆藏来源与授权可在档案中查阅"}
-            </span>
           </div>
         </footer>
         <DetailPanel

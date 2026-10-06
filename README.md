@@ -6,6 +6,8 @@
 
 本版历史学堂收录140个政权及支系、570位君主和执政者、573段在位记录及20段称制/监国/摄政记录、54篇战役档案、56位诗人和56篇古代作品。复位人物只计一人；战役与诗人是代表性选集。
 
+文明全景直接复用学堂的680篇档案，并保留原来的220个精选节点。构建时合并经过核对的同一人物、事件，跨时期阅读入口各有稳定ID。帝王标签根据实际在位经历判定，摄政与称制分开；西汉世系筛选为14位君主。日间列表展示所有匹配项，夜间三维及二维星图每组12个节点，可翻组或打开完整名单。详情读取同一份学堂正文、年表、作品和来源。
+
 ## 本地运行
 
 需要 Node.js 22.13 或以上及 npm。
@@ -20,6 +22,7 @@ npm run dev
 ```sh
 npm run check:content
 npm run compile:library
+node scripts/check-exploration.mjs
 npx tsc --noEmit
 npm run build
 ```
@@ -48,6 +51,9 @@ npm run build
 - `data/library/*.json`：君主、政权、战役、诗人与作品的源数据。
 - `data/library-types.ts`：档案、在位、监国及目录的类型定义。
 - `scripts/compile-library.mjs`：验证 ID、引用、日期、来源和必需内容，生成静态目录与逐篇档案。
+- `scripts/build-exploration.mjs`：将学堂资料接入文明全景；同一实体映射须逐项核对，不能把主题关联当成同一人物。
+- `scripts/check-exploration.mjs`：检查全量档案可达、原节点保留、关系端点、西汉世系及双身份人物合并。
+- `components/history/AcademyArchive.tsx`：在星图详情中读取学堂原档案，支持身份切换、年表和作品赏析。
 - `public/library/`：编译结果，避免直接编辑；每次构建自动重新生成。
 - `components/history/LearningLibrary.tsx` 和 `app/learning.css`：学习目录、任期序列、继承关系与响应式阅读界面。
 

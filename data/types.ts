@@ -13,6 +13,10 @@ export type HistoryNode = {
   legacy: string;
   sources: Source[];
   tags?: string[];
+  archives?: { id: string; kind: "rulers" | "battles" | "poets"; title: string }[];
+  affiliations?: string[];
+  relatedReading?: { id: string; title: string }[];
+  terms?: { title: string; polity: string; dateLabel: string; note: string; sourceUrl: string }[];
 };
 export type Relation = {
   id: string;

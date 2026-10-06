@@ -1374,3 +1374,47 @@ html[data-theme="day"] .overview-copy p {
 html[data-theme="day"] .panel-scroll {
   scrollbar-color: #b29a75 transparent;
 }
+/* Compact timeline and shared academy archives. */
+.atlas-app .chronology { height: 140px; padding-top: 14px; padding-bottom: 8px; }
+.atlas-app .chronology-top { margin-bottom: 12px; }
+.history-panel:not(.history-panel-mobile) { bottom: 140px !important; }
+.academy-status { position: absolute; z-index: 22; left: 50%; top: 12px; transform: translateX(-50%); padding: 8px 14px; background: #15263c; color: #d4e4ef; border: 1px solid #466276; font-size: 12px; }
+.academy-status button { margin-left: 12px; text-decoration: underline; }
+.graph-pagination { position: absolute; left: 42px; bottom: 150px; z-index: 14; display: flex; align-items: center; gap: 8px; font-size: 12px; color: #cbd9e9; }
+.graph-pagination button { padding: 7px 9px; border: 1px solid #314761; background: #0b1525ed; border-radius: 4px; }
+.graph-pagination span { padding: 5px; background: #081221d9; }
+.academy-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0; }
+.academy-tabs button, .academy-reading button { border: 1px solid #3c5770; padding: 8px 12px; color: #aad8e6; font-size: 13px; border-radius: 4px; }
+.academy-tabs button[aria-pressed=true] { background: #173446; border-color: #82ccd9; }
+.academy-certainty, .academy-affiliation { color: #93acbf; font-size: 12px; line-height: 1.8; }
+.day-node-card .academy-affiliation { display: block; margin: 6px 0; }
+.academy-facts { display: grid; gap: 12px; padding: 15px 0; font-size: 13px; }
+.academy-facts dt { color: #acc7db; }
+.academy-facts dd { color: #c7d4df; line-height: 1.9; }
+.academy-archive .prose-section p, .academy-work blockquote { white-space: pre-line; }
+.academy-timeline ol { list-style: none; padding: 0 0 0 15px; border-left: 1px solid #3c5770; }
+.academy-timeline li { margin: 0 0 25px; }
+.academy-timeline small, .academy-work small { color: #92b4ca; }
+.academy-timeline h4, .academy-work h4 { margin: 8px 0; font-weight: 600; }
+.academy-archive a { color: #8ac9d9; font-size: 12px; line-height: 1.9; }
+.academy-work blockquote { margin: 20px 0; padding: 15px; background: #132131; font-family: serif; line-height: 2.1; }
+.academy-sources a { display: block; margin: 8px 0; }
+.academy-curated { color: #afc2d5; font-size: 13px; line-height: 1.9; margin: 24px 0; }
+.academy-curated summary { cursor: pointer; }
+.academy-curated p { margin-top: 16px; }
+.academy-reading { display: flex; flex-wrap: wrap; gap: 8px; }
+.academy-reading h3 { width: 100%; }
+:root[data-theme=day] .academy-tabs button, :root[data-theme=day] .academy-reading button { color: #913d2e; border-color: #cbb78d; }
+:root[data-theme=day] .academy-tabs button[aria-pressed=true] { background: #ede1ca; border-color: #a4533b; }
+:root[data-theme=day] .academy-certainty, :root[data-theme=day] .academy-affiliation, :root[data-theme=day] .academy-curated, :root[data-theme=day] .academy-facts dd { color: #75634b; }
+:root[data-theme=day] .academy-archive a, :root[data-theme=day] .academy-facts dt { color: #994732; }
+:root[data-theme=day] .academy-timeline small, :root[data-theme=day] .academy-work small { color: #8b704a; }
+:root[data-theme=day] .academy-timeline ol { border-color: #cbb78d; }
+:root[data-theme=day] .academy-work blockquote { background: #efe4ce; }
+@media (max-width: 767px) {
+  .atlas-app .chronology { height: 124px; padding-top: 10px; padding-bottom: 6px; }
+  .atlas-app .chronology-top { margin-bottom: 8px; }
+  .graph-pagination { left: 16px; right: 16px; bottom: 149px; gap: 5px; font-size: 10px; flex-wrap: wrap; }
+  .graph-pagination button { padding: 6px 8px; }
+  .academy-status { width: calc(100% - 24px); text-align: center; }
+}

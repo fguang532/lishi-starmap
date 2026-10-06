@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
+import { buildExploration } from "./build-exploration.mjs";
 const base = path.resolve("data/library");
 const files = fs
   .readdirSync(base)
@@ -336,4 +337,5 @@ const counts = {
   works: records.reduce((n, r) => n + (r.works?.length || 0), 0),
   version,
 };
+fs.writeFileSync(path.join(target, "exploration.json"), JSON.stringify(buildExploration(eras, records, polities)) + "\n");
 console.log(JSON.stringify({ ...counts, errors: [] }, null, 2));
