@@ -56,6 +56,10 @@
             "url": "https://doi.org/10.1086/659308",
             "institution": "Current Anthropology"
           }
+        ],
+        "tags": [
+          "archaeology",
+          "artifact"
         ]
       },
       {
@@ -76,6 +80,9 @@
             "url": "https://www.nature.com/articles/s41598-018-26218-6",
             "institution": "Scientific Reports"
           }
+        ],
+        "tags": [
+          "society"
         ]
       },
       {
@@ -96,6 +103,9 @@
             "url": "https://www.nature.com/articles/srep28136",
             "institution": "Scientific Reports"
           }
+        ],
+        "tags": [
+          "society"
         ]
       },
       {
@@ -116,6 +126,9 @@
             "url": "https://www.metmuseum.org/essays/neolithic-period-in-china",
             "institution": "大都会艺术博物馆"
           }
+        ],
+        "tags": [
+          "artifact"
         ]
       },
       {
@@ -136,6 +149,9 @@
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2851873/",
             "institution": "PNAS"
           }
+        ],
+        "tags": [
+          "artifact"
         ]
       },
       {
@@ -156,6 +172,9 @@
             "url": "https://whc.unesco.org/en/list/1592",
             "institution": "联合国教科文组织"
           }
+        ],
+        "tags": [
+          "archaeology"
         ]
       },
       {
@@ -176,6 +195,9 @@
             "url": "https://kaogu.cssn.cn/xwzx/kgdt/201512/t20151215_5943668.shtml",
             "institution": "中国社会科学院考古研究所"
           }
+        ],
+        "tags": [
+          "archaeology"
         ]
       },
       {
@@ -196,7 +218,65 @@
             "url": "https://www.cssn.cn/lsx/lsx_kgx/202210/t20221024_5552637.shtml",
             "institution": "中国社会科学网"
           }
+        ],
+        "tags": [
+          "archaeology"
         ]
+      },
+      {
+        "id": "origins-extra-painted-jar",
+        "title": "鹳鱼石斧图彩陶缸",
+        "type": "文化",
+        "startYear": -4000,
+        "endYear": -3000,
+        "dateLabel": "约前4000—前3000年",
+        "tags": [
+          "painting",
+          "artifact",
+          "archaeology"
+        ],
+        "summary": "一幅画在葬具上的鸟、鱼与石斧，让仰韶时代的图像世界变得可见。",
+        "background": "这件彩陶缸出土于河南阎村，属于仰韶文化。它原来处在瓮棺葬的环境中，不能只按今天的花瓶或画框理解。容器的形状、埋藏方式和图像同样重要，共同提示当时人怎样安置死者、赋予器物特殊意义。",
+        "story": "画面上，白色的大鸟衔着一尾鱼，旁边竖立着装柄石斧。鸟身主要用色块表现，石斧则以线条交代轮廓与绑缚，画者已经能选择不同手法组织形象。器物留存下来，制作它的人、观看它的场面和口头讲述的故事却没有文字记录。",
+        "legacy": "有人把图案解释为氏族标志或战争纪念，但这些仍是解释方案。可靠的观察首先是绘画技法与葬俗背景：史前艺术已有复杂表达，读者也需要把眼前可见的证据和现代人的联想分开。",
+        "sources": [
+          {
+            "title": "鹳鱼石斧图彩绘陶缸",
+            "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202008/t20200824_247232.shtml",
+            "institution": "中国国家博物馆"
+          },
+          {
+            "title": "每周一品：鹳鱼石斧图彩陶缸",
+            "url": "https://www.chnmus.net/sitesources/hnsbwy/page_pc/dzjp/mzyp/gysftctg/list1.html",
+            "institution": "河南博物院"
+          }
+        ],
+        "certainty": "约年"
+      },
+      {
+        "id": "origins-extra-hemudu-spade",
+        "title": "河姆渡骨耜",
+        "type": "文化",
+        "startYear": -5000,
+        "endYear": -4000,
+        "dateLabel": "约前5000—前4000年",
+        "tags": [
+          "artifact",
+          "society",
+          "archaeology"
+        ],
+        "summary": "一片牛肩胛骨经过加工，成为适应湿地生活的农具。",
+        "background": "河姆渡人居住在水网和湿地密布的江南，稻作需要处理泥土与水分。骨耜利用大型动物的肩胛骨制作，宽阔的骨片适合作为工作面。动物资源因此既能提供食物，也能转化为长期使用的生产工具。",
+        "story": "出土骨耜保留了削切、磨制和装柄的痕迹，有的开孔，有的刻槽，便于用绳索固定木柄。刃部的磨损说明它们经历过劳动。人们可能用它翻整泥土、开沟理水，也可能挖掘干栏建筑所需的柱洞，具体用途仍须结合磨损和出土位置分析。",
+        "legacy": "这类器物让农业史落实到身体与工具的配合：合适的材料、牢固的绑缚和反复维修，都是技术。骨耜也提醒我们，新石器时代的生产并非只有石器，木、骨、竹等材料同样参与了日常劳动。",
+        "sources": [
+          {
+            "title": "骨耜",
+            "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202008/t20200824_247228.shtml",
+            "institution": "中国国家博物馆"
+          }
+        ],
+        "certainty": "约年"
       }
     ],
     "relations": [
@@ -247,6 +327,22 @@
         "type": "比较稻作",
         "explanation": "贾湖稻作遗存可与长江流域的早期稻作材料比较；此线不代表已确定传播路线。",
         "sourceUrl": "https://doi.org/10.1086/659308"
+      },
+      {
+        "id": "origins-extra-r1",
+        "source": "origins-extra-painted-jar",
+        "target": "origins-yangshao",
+        "type": "属于",
+        "explanation": "彩陶缸是仰韶文化图像与葬俗的重要实物例证。",
+        "sourceUrl": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202008/t20200824_247232.shtml"
+      },
+      {
+        "id": "origins-extra-r2",
+        "source": "origins-extra-hemudu-spade",
+        "target": "origins-rice",
+        "type": "服务于",
+        "explanation": "河姆渡骨耜与长江下游湿地稻作的生产环境相联系。",
+        "sourceUrl": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202008/t20200824_247228.shtml"
       }
     ]
   },
@@ -302,6 +398,9 @@
             "url": "https://asia-archive.si.edu/wp-content/uploads/2020/05/Art-and-Archaeology-of-Ancient-China.pdf",
             "institution": "史密森学会亚洲艺术博物馆"
           }
+        ],
+        "tags": [
+          "emperor"
         ]
       },
       {
@@ -327,6 +426,9 @@
             "url": "https://www.nga.gov/sites/default/files/migrate_images/content/dam/ngaweb/education/learning-resources/teaching-packets/pdfs/chinese-archaeology-tp.pdf",
             "institution": "美国国家美术馆"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -352,6 +454,9 @@
             "url": "https://paper.people.com.cn/rmrbhwb/page/2019-10/29/07/rmrbhwb2019102907.pdf",
             "institution": "人民日报海外版"
           }
+        ],
+        "tags": [
+          "archaeology"
         ]
       },
       {
@@ -372,6 +477,9 @@
             "url": "https://paper.people.com.cn/rmrbhwb/page/2019-10/29/07/rmrbhwb2019102907.pdf",
             "institution": "人民日报海外版"
           }
+        ],
+        "tags": [
+          "archaeology"
         ]
       },
       {
@@ -397,6 +505,9 @@
             "url": "https://www.nga.gov/sites/default/files/migrate_images/content/dam/ngaweb/education/learning-resources/teaching-packets/pdfs/chinese-archaeology-tp.pdf",
             "institution": "美国国家美术馆"
           }
+        ],
+        "tags": [
+          "artifact"
         ]
       },
       {
@@ -417,6 +528,9 @@
             "url": "https://paper.people.com.cn/rmrbhwb/page/2019-10/29/07/rmrbhwb2019102907.pdf",
             "institution": "人民日报海外版"
           }
+        ],
+        "tags": [
+          "artifact"
         ]
       },
       {
@@ -437,6 +551,9 @@
             "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/en/detail2.html",
             "institution": "中国国家博物馆"
           }
+        ],
+        "tags": [
+          "artifact"
         ]
       },
       {
@@ -462,7 +579,58 @@
             "url": "https://www.nga.gov/sites/default/files/migrate_images/content/dam/ngaweb/education/learning-resources/teaching-packets/pdfs/chinese-archaeology-tp.pdf",
             "institution": "美国国家美术馆"
           }
+        ],
+        "tags": [
+          "institution"
         ]
+      },
+      {
+        "id": "xia-extra-copper-bells",
+        "title": "二里头铜铃",
+        "type": "文化",
+        "startYear": -1750,
+        "endYear": -1500,
+        "dateLabel": "约前1750—前1500年",
+        "tags": [
+          "artifact",
+          "archaeology"
+        ],
+        "summary": "小巧的铜铃与玉质铃舌，留下了早期礼仪活动的声音线索。",
+        "background": "二里头遗址出土的铜器不只有盛酒容器，还有可以摇动发声的铃。已发表的数件铜铃来自不同期别的墓葬，多数器壁较薄，上部设钮或穿孔。这些结构使它们可以悬挂，也显示工匠已能铸成细小的中空器物。",
+        "story": "几座墓里，铜铃出现在墓主人胸腰附近，旁边或内部留有管状玉铃舌；器表有时还附着纺织品痕迹。这组铜铃与玉舌通过碰撞发声，织物又与包裹或佩系有关。位置和材料组合为研究使用方式提供线索，但不能据此复原某一场祭祀的完整程序。",
+        "legacy": "铜铃把青铜技术、身体装饰和礼仪声音连在一起。它的年代依据考古分期，不能反过来证明墓主人就是文献里的某位夏王。对早期国家的认识，也需要这些不起眼的小物件补充宫殿和大型礼器。",
+        "sources": [
+          {
+            "title": "带翼铜铃：二里头铜铃比较研究",
+            "url": "https://www.chnmus.net/ch/collection/appraise/details.html?id=512156456758489230",
+            "institution": "河南博物院"
+          }
+        ],
+        "certainty": "约年"
+      },
+      {
+        "id": "xia-extra-xinzhaigrain",
+        "title": "新砦的谷物加工",
+        "type": "遗址",
+        "startYear": -1850,
+        "endYear": -1750,
+        "dateLabel": "约前1850—前1750年",
+        "tags": [
+          "archaeology",
+          "society"
+        ],
+        "summary": "炭化谷粒与微小植硅体，揭示早期中心聚落怎样储粮和安排劳动。",
+        "background": "河南新砦遗址处在中原从新石器时代晚期走向青铜时代的研究链条中。除了建筑与陶器，遗址里的粟、黍、水稻和大豆遗存也能回答社会问题：粮食在哪一步进入聚落，谁承担后续加工，需要多少日常劳动。",
+        "story": "研究者同时比较谷粒、杂草种子和植物产生的微小硅质结构，推测粟黍与水稻采取了不同的收获、加工方式。部分粮食以尚未完全加工的状态储存，随后才脱壳、分拣。这意味着收获季之后，家户仍须持续投入劳动，粮仓里的谷物并不等于随时可吃的饭。",
+        "legacy": "从种子研究社会组织，需要经过明确的推理，不能把某一种残留直接等同于一种政治制度。新砦的价值正在于提供另一种尺度：城市与国家的形成，既发生在公共建筑中，也发生在每天处理食物的家庭里。",
+        "sources": [
+          {
+            "title": "以新砦遗址为例理解新砦时期的农作物加工及其社会意义",
+            "url": "https://rlesa.qd.sdu.edu.cn/info/1020/2785.htm",
+            "institution": "山东大学环境与社会考古国际合作联合实验室"
+          }
+        ],
+        "certainty": "约年"
       }
     ],
     "relations": [
@@ -513,6 +681,22 @@
         "type": "同时代工艺",
         "explanation": "齐家与二里头均有早期金属器物，各具工艺和用途；此线用于比较，不断言直接传播。",
         "sourceUrl": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/en/detail2.html"
+      },
+      {
+        "id": "xia-extra-r1",
+        "source": "xia-extra-copper-bells",
+        "target": "xia-erlitou",
+        "type": "出土于",
+        "explanation": "二里头墓葬中发现的铜铃，为都邑内的礼仪与工艺研究提供材料。",
+        "sourceUrl": "https://www.chnmus.net/ch/collection/appraise/details.html?id=512156456758489230"
+      },
+      {
+        "id": "xia-extra-r2",
+        "source": "xia-extra-xinzhaigrain",
+        "target": "xia-erlitou",
+        "type": "年代衔接",
+        "explanation": "新砦时期材料用于讨论中原由龙山晚期走向二里头时期的社会变化，并非把两个遗址视作同一政权。",
+        "sourceUrl": "https://rlesa.qd.sdu.edu.cn/info/1020/2785.htm"
       }
     ]
   },
@@ -573,6 +757,9 @@
             "url": "https://www.metmuseum.org/essays/shang-and-zhou-dynasties-the-bronze-age-of-china",
             "institution": "大都会艺术博物馆"
           }
+        ],
+        "tags": [
+          "archaeology"
         ]
       },
       {
@@ -593,6 +780,9 @@
             "url": "https://whc.unesco.org/en/list/1114",
             "institution": "联合国教科文组织"
           }
+        ],
+        "tags": [
+          "archaeology"
         ]
       },
       {
@@ -613,6 +803,10 @@
             "url": "https://www.chnmuseum.cn/portals/0/web/zt/20191022jiagu/",
             "institution": "中国国家博物馆"
           }
+        ],
+        "tags": [
+          "artifact",
+          "literature"
         ]
       },
       {
@@ -643,6 +837,9 @@
             "url": "https://en.wikipedia.org/wiki/Wu_Ding",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "emperor"
         ]
       },
       {
@@ -668,6 +865,9 @@
             "url": "https://www.chnmuseum.cn/portals/0/web/zt/20191022jiagu/",
             "institution": "中国国家博物馆"
           }
+        ],
+        "tags": [
+          "battle"
         ]
       },
       {
@@ -688,6 +888,9 @@
             "url": "https://www.metmuseum.org/essays/shang-and-zhou-dynasties-the-bronze-age-of-china",
             "institution": "大都会艺术博物馆"
           }
+        ],
+        "tags": [
+          "artifact"
         ]
       },
       {
@@ -713,6 +916,9 @@
             "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/en/detail2.html",
             "institution": "中国国家博物馆"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -733,7 +939,59 @@
             "url": "https://whc.unesco.org/en/tentativelists/5816/",
             "institution": "联合国教科文组织世界遗产中心"
           }
+        ],
+        "tags": [
+          "archaeology",
+          "artifact"
         ]
+      },
+      {
+        "id": "shang-extra-houmuwu",
+        "title": "后母戊鼎",
+        "type": "文化",
+        "startYear": -1200,
+        "endYear": -1046,
+        "dateLabel": "约前12—前11世纪",
+        "tags": [
+          "artifact",
+          "archaeology"
+        ],
+        "summary": "巨大的祭祀铜鼎，保存着晚商铸造协作与祖先纪念的证据。",
+        "background": "后母戊鼎出土于安阳，属于晚商青铜礼器。器内铭文以“母戊”指向受祭者，器名中的文字释读也经历过学术讨论。它的重量超过八百公斤，规模使原料筹集、熔炼和现场配合都成为必须解决的实际问题。",
+        "story": "器身与四足的铸造、两耳的后续接铸，显示大器制作需要分阶段安排。腹部的兽面纹和足部纹饰又要求陶范准确成形。如此庞大的铜器既是容器，也是一项集体工程：任何局部失误，都可能使大量材料与劳动付诸东流。",
+        "legacy": "观看巨鼎时，除了感叹大小，还可以追问谁组织生产、谁获得祭祀资格、铭文为何只留下极少文字。它与甲骨文和墓葬材料共同说明王室礼仪的力量，但不能仅凭一件器物复原整个商代社会。",
+        "sources": [
+          {
+            "title": "“后母戊”青铜方鼎",
+            "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202008/t20200824_247255.shtml",
+            "institution": "中国国家博物馆"
+          }
+        ],
+        "certainty": "约年"
+      },
+      {
+        "id": "shang-extra-four-rams",
+        "title": "四羊方尊",
+        "type": "文化",
+        "startYear": -1400,
+        "endYear": -1046,
+        "dateLabel": "约前14—前11世纪",
+        "tags": [
+          "artifact",
+          "archaeology"
+        ],
+        "summary": "四只羊构成器物的转角，把动物形象与青铜容器融为一体。",
+        "background": "四羊方尊出土于湖南宁乡，是商代南方青铜器的重要代表。尊属于礼仪用的盛酒器，四面器壁本来容易显得平直，制作者却把羊放在四角，使动物形象同时承担了整体轮廓和装饰节奏。",
+        "story": "羊头向外伸出，身体与尊的腹部衔接，前腿则与圈足相连。羊身纹饰、龙形装饰和凸起的棱线彼此配合，近看能发现工匠把不同层次安排得十分紧密。这样的设计需要在造型和陶范制作阶段统筹，不能等铜液凝固后再随意拼成。",
+        "legacy": "它使我们看到青铜礼器传统在长江流域的创造性发展，也打破商代文明只有安阳一种面貌的印象。相似器类与工艺显示地区之间存在联系，但器物不能直接替主人说出族名，更不能把出土地简单等同于某一古代族群。",
+        "sources": [
+          {
+            "title": "四羊青铜方尊",
+            "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202108/t20210806_250991.shtml",
+            "institution": "中国国家博物馆"
+          }
+        ],
+        "certainty": "约年"
       }
     ],
     "relations": [
@@ -792,6 +1050,22 @@
         "type": "出土",
         "explanation": "殷墟车马坑与相关马具为晚商车马使用提供考古证据。",
         "sourceUrl": "https://whc.unesco.org/en/list/1114"
+      },
+      {
+        "id": "shang-extra-r1",
+        "source": "shang-extra-houmuwu",
+        "target": "shang-casting",
+        "type": "体现",
+        "explanation": "巨鼎的铸造规模与分阶段工艺体现晚商青铜生产的组织能力。",
+        "sourceUrl": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202008/t20200824_247255.shtml"
+      },
+      {
+        "id": "shang-extra-r2",
+        "source": "shang-extra-four-rams",
+        "target": "shang-casting",
+        "type": "体现",
+        "explanation": "四羊方尊的立体造型体现陶范铸造与装饰设计的结合。",
+        "sourceUrl": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202108/t20210806_250991.shtml"
       }
     ]
   },
@@ -852,6 +1126,10 @@
             "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202108/t20210802_250931.shtml",
             "institution": "中国国家博物馆"
           }
+        ],
+        "tags": [
+          "event",
+          "battle"
         ]
       },
       {
@@ -872,6 +1150,10 @@
             "url": "https://resources.saylor.org/wwwresources/archived/site/wp-content/uploads/2012/10/HIST101-3.2.2-ZhouDynasty-FINAL1.pdf",
             "institution": "Saylor Academy"
           }
+        ],
+        "tags": [
+          "minister",
+          "politician"
         ]
       },
       {
@@ -892,6 +1174,9 @@
             "url": "https://orias.berkeley.edu/mandate-heaven",
             "institution": "加州大学伯克利分校 ORIAS"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -917,6 +1202,9 @@
             "url": "https://resources.saylor.org/wwwresources/archived/site/wp-content/uploads/2012/10/HIST101-3.2.2-ZhouDynasty-FINAL1.pdf",
             "institution": "Saylor Academy"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -942,6 +1230,9 @@
             "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202108/t20210802_250931.shtml",
             "institution": "中国国家博物馆"
           }
+        ],
+        "tags": [
+          "artifact"
         ]
       },
       {
@@ -967,6 +1258,10 @@
             "url": "https://www.metmuseum.org/essays/shang-and-zhou-dynasties-the-bronze-age-of-china",
             "institution": "大都会艺术博物馆"
           }
+        ],
+        "tags": [
+          "institution",
+          "artifact"
         ]
       },
       {
@@ -992,6 +1287,10 @@
             "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/en/detail2.html",
             "institution": "中国国家博物馆"
           }
+        ],
+        "tags": [
+          "institution",
+          "society"
         ]
       },
       {
@@ -1022,7 +1321,63 @@
             "url": "https://zh.wikipedia.org/wiki/%E5%91%A8%E5%B9%B3%E7%8E%8B%E4%B8%9C%E8%BF%81",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "event"
         ]
+      },
+      {
+        "id": "western-zhou-extra-he-zun",
+        "title": "何尊与“中国”二字",
+        "type": "文化",
+        "startYear": -1030,
+        "endYear": -1000,
+        "dateLabel": "约前11世纪，西周早期",
+        "tags": [
+          "artifact",
+          "institution"
+        ],
+        "summary": "何尊铭文中的“中国”，记录了周人关于统治中心的构想。",
+        "background": "何尊是西周早期青铜器，因作器者名“何”而得名，出土于今天的宝鸡。器物外表延续青铜礼器的庄重形制，内部却保存了一篇较长的铭文，把王室训诰、赏赐与先王事迹写在同一件纪念物上。",
+        "story": "铭文追述武王克商后的言说，也记下成王对宗族成员的告诫，其中出现“宅兹中国”。这里的“中国”应放回周初营建和统治中心的语境理解，不能直接套上今日国家边界。刻写或铸写文字的对象，是具有政治记忆的礼器，而非面向人人阅读的公告。",
+        "legacy": "何尊让传世文献之外又多了一份周人自己的声音。文字的早期形态、赏赐仪式与都邑观念可以互相参照。它的重要性也在于提醒读者，同一个词可以沿用很久，具体含义却会随着政治格局和时代经验逐渐变化。",
+        "sources": [
+          {
+            "title": "首批禁止出国（境）展览文物——何尊",
+            "url": "https://wwj.baoji.gov.cn/col1892/col17273/202505/t20250512_1147496.html",
+            "institution": "宝鸡市文物局"
+          },
+          {
+            "title": "何尊：穿越千年的“中国”之源",
+            "url": "https://www.bjqtm.com/gzzx/gnyw/%E4%BD%95%E5%B0%8A%EF%BC%9A%E7%A9%BF%E8%B6%8A%E5%8D%83%E5%B9%B4%E7%9A%84%E4%B8%AD%E5%9B%BD%E4%B9%8B%E6%BA%90",
+            "institution": "宝鸡青铜器博物院"
+          }
+        ],
+        "certainty": "约年"
+      },
+      {
+        "id": "western-zhou-extra-shao-gong",
+        "title": "召公奭",
+        "type": "人物",
+        "startYear": -1046,
+        "endYear": -1000,
+        "dateLabel": "约前11世纪活动",
+        "tags": [
+          "minister",
+          "politician"
+        ],
+        "summary": "召公参与周初治理，在后世记忆中成为体恤民情的政治人物。",
+        "background": "召公奭是周初重要贵族，传世文献把他与武王、周公和成王时代的政治联系起来。《史记》记载他受封于燕，又把周公与召公分理事务的安排作为周初秩序的一部分。具体生卒年份缺乏可靠的连续记录。",
+        "story": "关于召公最有名的故事，不是朝堂上的争论，而是在甘棠树下听取诉讼。据《史记》追述，从贵族到普通人都得到了合宜处置；召公去世后，人们爱护那棵树，并作诗怀念。这是一种借地点和树木保存政治评价的叙事。",
+        "legacy": "召公形象在经史传统中体现了治理应回应民情的期待。不过，汉代《史记》距周初已久，树下断狱的细节属于后出记载。把人物活动、诗歌记忆与后世阐释分别阅读，才能理解这个形象怎样逐层形成并影响政治语言。",
+        "sources": [
+          {
+            "title": "史记·燕召公世家",
+            "url": "https://zh.wikisource.org/wiki/史記/卷034",
+            "institution": "维基文库（《史记》原文）"
+          }
+        ],
+        "certainty": "约年"
       }
     ],
     "relations": [
@@ -1073,6 +1428,30 @@
         "type": "诸侯支持",
         "explanation": "周室东迁依赖晋、郑等诸侯支持，体现王室与分封诸侯之间力量关系的变化。",
         "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%91%A8%E5%B9%B3%E7%8E%8B%E4%B8%9C%E8%BF%81"
+      },
+      {
+        "id": "western-zhou-extra-r1",
+        "source": "western-zhou-extra-he-zun",
+        "target": "western-zhou-inscriptions",
+        "type": "例证",
+        "explanation": "何尊铭文把王室训诰、先王事迹与赏赐记录在礼器上。",
+        "sourceUrl": "https://wwj.baoji.gov.cn/col1892/col17273/202505/t20250512_1147496.html"
+      },
+      {
+        "id": "western-zhou-extra-r2",
+        "source": "western-zhou-extra-shao-gong",
+        "target": "western-zhou-duke",
+        "type": "共同辅政",
+        "explanation": "《史记》将召公与周公并记为周初政治整合的重要参与者。",
+        "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷034"
+      },
+      {
+        "id": "western-zhou-extra-r3",
+        "source": "western-zhou-extra-shao-gong",
+        "target": "western-zhou-enfeoffment",
+        "type": "受封",
+        "explanation": "《燕召公世家》记载武王克商后封召公于北燕。",
+        "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷034"
       }
     ]
   },
@@ -1133,6 +1512,9 @@
             "url": "https://en.wikipedia.org/wiki/Duke_Huan_of_Qi",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "emperor"
         ]
       },
       {
@@ -1158,6 +1540,10 @@
             "url": "https://confucius-analects.org/en/read/14/",
             "institution": "Confucius Analects 经典文本项目"
           }
+        ],
+        "tags": [
+          "minister",
+          "politician"
         ]
       },
       {
@@ -1178,6 +1564,10 @@
             "url": "https://en.wikipedia.org/wiki/Battle_of_Chengpu",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "event",
+          "battle"
         ]
       },
       {
@@ -1198,6 +1588,10 @@
             "url": "https://plato.stanford.edu/entries/confucius/",
             "institution": "斯坦福哲学百科"
           }
+        ],
+        "tags": [
+          "thinker",
+          "literature"
         ]
       },
       {
@@ -1218,6 +1612,9 @@
             "url": "https://m.chnmuseum.cn/portals/0/web/zt/gudai/detail3.html",
             "institution": "中国国家博物馆"
           }
+        ],
+        "tags": [
+          "artifact"
         ]
       },
       {
@@ -1243,6 +1640,10 @@
             "url": "https://www.chnmuseum.cn/zp/zpml/hb/202202/t20220228_253678.shtml",
             "institution": "中国国家博物馆"
           }
+        ],
+        "tags": [
+          "institution",
+          "society"
         ]
       },
       {
@@ -1268,6 +1669,10 @@
             "url": "https://news.museum.cn/article/1e3ffe549dd74990881c8d312d868c2d",
             "institution": "山西博物院（中国博物馆协会转载）"
           }
+        ],
+        "tags": [
+          "event",
+          "battle"
         ]
       },
       {
@@ -1293,7 +1698,65 @@
             "url": "https://zh.wikipedia.org/wiki/%E4%BE%AF%E9%A6%AC%E7%9B%9F%E6%9B%B8",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "artifact",
+          "literature"
         ]
+      },
+      {
+        "id": "spring-autumn-extra-zichan",
+        "title": "子产与铸刑书",
+        "type": "人物",
+        "startYear": -536,
+        "endYear": -536,
+        "dateLabel": "前536年",
+        "tags": [
+          "politician",
+          "minister",
+          "institution"
+        ],
+        "summary": "郑国公布刑书，引出一场关于法律、礼制和治理方式的争论。",
+        "background": "春秋的郑国位于大国之间，国内贵族与民众的关系也需要不断协调。执政者子产面对的难题，并非抽象地选择严或宽，而是怎样让秩序持续运作。鲁昭公六年，《左传》记载郑人铸刑书，留下了成文规则公开化的重要事例。",
+        "story": "晋国叔向写信批评子产，担心民众知道刑条后便据文争辩，削弱礼制和贵族权威。子产的回复较短，强调自己要应对眼下局面。双方并非一个重法律、一个完全不要规则，而是对于规则应如何呈现、由谁解释，存在深刻分歧。",
+        "legacy": "刑书具体条文没有完整传下来，不能据这次记载编造一部郑国法典。但争论本身显示，政治知识已不只掌握在习惯和身份之中。把它与侯马盟书对照，可以看见春秋晚期如何用不同形式的书面文字约束社会关系。",
+        "sources": [
+          {
+            "title": "春秋左氏传·昭公六年",
+            "url": "https://zh.wikisource.org/wiki/春秋左氏傳/昭公",
+            "institution": "维基文库（《左传》原文）"
+          }
+        ],
+        "certainty": "史实"
+      },
+      {
+        "id": "spring-autumn-extra-odes",
+        "title": "《诗经》与春秋读诗",
+        "type": "文化",
+        "startYear": -770,
+        "endYear": -479,
+        "dateLabel": "前8世纪至前5世纪的流传与运用",
+        "tags": [
+          "literature",
+          "society"
+        ],
+        "summary": "诗歌既能表达个人情感，也是春秋教育与交往中的共同语言。",
+        "background": "后来称为《诗经》的诗歌，在春秋人那里常被简称为《诗》。它包含祭祀、宴饮、劳作、战争与情感等多种经验。不同篇章各有形成背景，不能把整部诗集当成同一位作者在同一年写出的作品。",
+        "story": "《左传》记录贵族在会见和宴享中赋诗，借现成诗句表达当下意图，听者还要判断对方取的是哪一层意思。《论语》则把学诗与激发感受、观察世情、交往和表达怨意相联系，甚至提到认识鸟兽草木名称，展现诗歌教育的宽广用途。",
+        "legacy": "这些运用使诗超出了私人抒情，也让后来读者面对双重距离：既要理解作品最初写了什么，也要理解引用者后来拿它做什么。今天保留下来的诗句与用诗记录，因而是研究早期文学、礼仪沟通和日常世界的相互补充材料。",
+        "sources": [
+          {
+            "title": "论语·阳货",
+            "url": "https://zh.wikisource.org/wiki/論語/陽貨第十七",
+            "institution": "维基文库（《论语》原文）"
+          },
+          {
+            "title": "春秋左氏传·襄公",
+            "url": "https://zh.wikisource.org/wiki/春秋左氏傳/襄公",
+            "institution": "维基文库（《左传》原文）"
+          }
+        ],
+        "certainty": "史实"
       }
     ],
     "relations": [
@@ -1344,6 +1807,22 @@
         "type": "盟誓比较",
         "explanation": "齐桓公的诸侯会盟与侯马盟书的贵族盟誓可比较誓约的政治作用；二者规模与参与者不同。",
         "sourceUrl": "https://www.zgbk.com/ecph/words?ID=772490&SiteID=1&Type=bkzyb"
+      },
+      {
+        "id": "spring-autumn-extra-r1",
+        "source": "spring-autumn-extra-zichan",
+        "target": "spring-autumn-houma",
+        "type": "制度比较",
+        "explanation": "铸刑书与盟书都显示春秋晚期文字参与规范关系，但刑律与盟誓的效力和使用场景不同。",
+        "sourceUrl": "https://zh.wikisource.org/wiki/春秋左氏傳/昭公"
+      },
+      {
+        "id": "spring-autumn-extra-r2",
+        "source": "spring-autumn-extra-odes",
+        "target": "spring-autumn-confucius",
+        "type": "用于教学",
+        "explanation": "《论语》保存孔子谈论学诗用途的记载。",
+        "sourceUrl": "https://zh.wikisource.org/wiki/論語/陽貨第十七"
       }
     ]
   },
@@ -1409,6 +1888,9 @@
             "url": "https://renwen.shnu.edu.cn/ee/99/c30165a126617/page.htm",
             "institution": "上海师范大学人文学院"
           }
+        ],
+        "tags": [
+          "event"
         ]
       },
       {
@@ -1434,6 +1916,11 @@
             "url": "https://plato.stanford.edu/archives/spr2021/entries/chinese-legalism/index.html",
             "institution": "斯坦福哲学百科"
           }
+        ],
+        "tags": [
+          "institution",
+          "minister",
+          "politician"
         ]
       },
       {
@@ -1459,6 +1946,10 @@
             "url": "https://en.wikipedia.org/wiki/Mozi",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "thinker",
+          "literature"
         ]
       },
       {
@@ -1489,6 +1980,10 @@
             "url": "https://en.wikipedia.org/wiki/Mencius",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "thinker",
+          "literature"
         ]
       },
       {
@@ -1514,6 +2009,10 @@
             "url": "https://www.zgbk.com/ecph/words?ID=401611&Preview=false&SiteID=1&Type=bkzyb",
             "institution": "中国大百科全书"
           }
+        ],
+        "tags": [
+          "thinker",
+          "literature"
         ]
       },
       {
@@ -1534,6 +2033,9 @@
             "url": "https://whc.unesco.org/en/list/1001",
             "institution": "联合国教科文组织"
           }
+        ],
+        "tags": [
+          "archaeology"
         ]
       },
       {
@@ -1559,6 +2061,9 @@
             "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E4%BE%AF%E4%B9%99%E5%A2%93",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "artifact"
         ]
       },
       {
@@ -1579,7 +2084,59 @@
             "url": "https://en.chnmuseum.cn/Portals/0/web/exhibition/exhibitions/161120Chines-Epic/",
             "institution": "中国国家博物馆"
           }
+        ],
+        "tags": [
+          "poet",
+          "literature"
         ]
+      },
+      {
+        "id": "warring-states-extra-xunzi",
+        "title": "荀子与后天学习",
+        "type": "人物",
+        "startYear": -310,
+        "endYear": -238,
+        "dateLabel": "约前310年生，前238年以后仍在世",
+        "tags": [
+          "thinker",
+          "literature"
+        ],
+        "summary": "荀子把学习、礼乐和制度视为塑造人的关键力量。",
+        "background": "荀子活跃于战国后期，曾在齐国和楚地活动，面对的是各国争强、诸子互相批评的思想环境。他继承儒家对礼的重视，却不把秩序寄托于人自然而然就会做好事，而是追问教育和共同规范怎样形成。",
+        "story": "所谓性恶，指未经引导的欲望可能造成争夺，并不等于认为人注定无可救药。荀子强调学习、师法与实践可以改变行为，也为礼乐辩护，反对只用耗费与否来判断音乐。他讨论天的运行时，又把自然变化与人应承担的治理责任区分开来。",
+        "legacy": "与孟子并读，可以看到儒家内部对人性和成德道路的真实分歧。荀子的文字既有严密论辩，也有鲜明譬喻，使学习成为主动积累的过程。后世对他的评价几经变化，其关于教育、制度和语言的讨论仍提供了理解战国思想的重要路径。",
+        "sources": [
+          {
+            "title": "Xunzi",
+            "url": "https://plato.stanford.edu/entries/xunzi/",
+            "institution": "斯坦福哲学百科"
+          }
+        ],
+        "certainty": "约年"
+      },
+      {
+        "id": "warring-states-extra-changping",
+        "title": "长平之战",
+        "type": "事件",
+        "startYear": -260,
+        "endYear": -260,
+        "dateLabel": "前260年",
+        "tags": [
+          "battle",
+          "event"
+        ],
+        "summary": "秦赵在长平的决战，显示大规模战争对国家与人的沉重消耗。",
+        "background": "长平之战发生在秦国向东扩张、上党归属引发冲突的背景下。赵国是三晋之一，也是当时能够与秦交战的强国。战争牵动兵员、粮运、外交与决策，不能仅用一名将领是否熟读兵书解释全部胜败。",
+        "story": "《史记》记载赵军起初由廉颇主持防守，后来改用赵括，秦方则由白起指挥。赵军被截断联系与粮道，突围失败。史书还记述大量降卒被杀，并给出极大的伤亡数字；事件的残酷性需要正视，具体人数则应明确属于传世记载。",
+        "legacy": "长平削弱了赵国军事力量，却没有使秦立即完成统一。此后仍有新的战争、抵抗与外交变动。把战役放回较长进程，可以同时理解秦国优势的扩大和战争带来的生命损失，避免把历史变成只记赢家的战术故事。",
+        "sources": [
+          {
+            "title": "史记·白起王翦列传",
+            "url": "https://zh.wikisource.org/wiki/史記/卷073",
+            "institution": "维基文库（《史记》原文）"
+          }
+        ],
+        "certainty": "史实"
       }
     ],
     "relations": [
@@ -1630,6 +2187,30 @@
         "type": "政权背景",
         "explanation": "魏是三家分晋形成的诸侯国；孟子曾向魏国的梁惠王论述仁义与政治。",
         "sourceUrl": "https://ctext.org/mengzi/liang-hui-wang-i/zhs"
+      },
+      {
+        "id": "warring-states-extra-r1",
+        "source": "warring-states-extra-xunzi",
+        "target": "warring-states-mencius",
+        "type": "观点分歧",
+        "explanation": "荀子与孟子同在儒家传统中，对人性与道德形成的说明存在分歧。",
+        "sourceUrl": "https://plato.stanford.edu/entries/xunzi/"
+      },
+      {
+        "id": "warring-states-extra-r2",
+        "source": "warring-states-extra-xunzi",
+        "target": "warring-states-mozi",
+        "type": "论辩",
+        "explanation": "荀子为礼乐辩护，与墨家非乐立场展开论辩。",
+        "sourceUrl": "https://plato.stanford.edu/entries/xunzi/"
+      },
+      {
+        "id": "warring-states-extra-r3",
+        "source": "warring-states-extra-changping",
+        "target": "warring-states-three-jin",
+        "type": "政权承接",
+        "explanation": "长平的交战方赵国，是从晋国政治分裂过程中形成的三晋政权之一。",
+        "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷073"
       }
     ]
   },
@@ -1680,6 +2261,9 @@
             "url": "https://en.wikipedia.org/wiki/Qin_Shi_Huang",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "emperor"
         ]
       },
       {
@@ -1700,6 +2284,10 @@
             "url": "https://en.wikipedia.org/wiki/Qin%27s_wars_of_unification",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "event",
+          "battle"
         ]
       },
       {
@@ -1725,6 +2313,9 @@
             "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail4.html",
             "institution": "中国国家博物馆"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -1750,6 +2341,9 @@
             "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail4.html",
             "institution": "中国国家博物馆"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -1775,6 +2369,9 @@
             "url": "https://en.wikipedia.org/wiki/Qin_Shi_Huang",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "archaeology"
         ]
       },
       {
@@ -1795,6 +2392,9 @@
             "url": "https://whc.unesco.org/en/list/441/",
             "institution": "联合国教科文组织"
           }
+        ],
+        "tags": [
+          "archaeology"
         ]
       },
       {
@@ -1815,6 +2415,10 @@
             "url": "https://en.wikipedia.org/wiki/Chen_Sheng_and_Wu_Guang_uprising",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "event",
+          "battle"
         ]
       },
       {
@@ -1845,7 +2449,66 @@
             "url": "https://en.wikipedia.org/wiki/Emperor_Gaozu_of_Han",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "event",
+          "battle"
         ]
+      },
+      {
+        "id": "qin-extra-li-si",
+        "title": "李斯与《谏逐客书》",
+        "type": "人物",
+        "startYear": -237,
+        "endYear": -208,
+        "dateLabel": "前237年上书，前208年卒",
+        "tags": [
+          "minister",
+          "politician",
+          "literature"
+        ],
+        "summary": "李斯以一篇劝谏参与秦国用人争论，后来又深度介入帝国政治。",
+        "background": "李斯来自楚地，在秦国任职。统一以前，秦廷曾因对外来者的不信任而议逐客，李斯也在被逐之列。他的上书针对一个现实问题：倘若只按出生地域选人，秦国会不会把有用的力量送给竞争者。",
+        "story": "《史记》保存的劝谏列举历代秦君任用外来人才的事例，又把君主喜爱的异地珍宝、音乐与遭排斥的客卿并置，通过鲜明对照推进论证。李斯后来成为丞相，参与统一后的制度安排；始皇死后又卷入继承权变动，最终在秦二世时被杀。",
+        "legacy": "《谏逐客书》既是政治文章，也是理解战国人才流动的窗口。李斯的一生则让文章与行动形成复杂对照：有说服力的言辞，并不能保证作者此后的每次选择都符合它。阅读时应把上书的具体目的与帝国后期的政治处境分别放回时代。",
+        "sources": [
+          {
+            "title": "史记·李斯列传",
+            "url": "https://zh.wikisource.org/wiki/史記/卷087",
+            "institution": "维基文库（《史记》原文）"
+          }
+        ],
+        "certainty": "史实"
+      },
+      {
+        "id": "qin-extra-shuihudi",
+        "title": "睡虎地秦简",
+        "type": "文化",
+        "startYear": -250,
+        "endYear": -217,
+        "dateLabel": "约前3世纪，记事下及前217年",
+        "tags": [
+          "artifact",
+          "institution",
+          "archaeology"
+        ],
+        "summary": "一位基层秦吏墓中的竹简，让帝国治理呈现出日常细节。",
+        "background": "湖北云梦睡虎地十一号墓出土的一千余枚竹简，与墓主人“喜”的生活和工作联系密切。竹简包含法律、行政和日书等内容，时间横跨秦统一前后。帝国的许多规则，因此通过一个地方官吏保存的书写材料留了下来。",
+        "story": "田地、仓储、徭役、官员职责和案件处理，都能在这类材料中找到具体问题。读者看到的不再只是史书里的皇帝命令，而是文书怎样分类、责任怎样落实、事情怎样被记录。简上的文字还展现日常书写的变化，与刻石上整齐的小篆并非同一种面貌。",
+        "legacy": "秦简为理解郡县行政提供了直接材料，也使研究者能够校正只凭后世史书形成的印象。不过，墓中保存的是特定个人选择的文本，并非秦朝所有法律的完整档案。把竹简放回年代、地域和使用者的背景，才能读出制度真正运转的层次。",
+        "sources": [
+          {
+            "title": "“惠此简书——睡虎地秦墓出土简牍展”在湖北省博物馆开幕",
+            "url": "https://wlt.hubei.gov.cn/bmdt/xydt/202404/t20240430_5177893.shtml",
+            "institution": "湖北省文化和旅游厅"
+          },
+          {
+            "title": "湖北省博物馆发布云梦睡虎地M11最新研究成果",
+            "url": "https://wlt.hubei.gov.cn/bmdt/xydt/202403/t20240326_5133527.shtml",
+            "institution": "湖北省文化和旅游厅"
+          }
+        ],
+        "certainty": "约年"
       }
     ],
     "relations": [
@@ -1896,6 +2559,22 @@
         "type": "先导",
         "explanation": "陈胜吴广起事是秦末反秦战争的重要开端，后来起兵者接续扩大战局。",
         "sourceUrl": "https://en.wikipedia.org/wiki/Chen_Sheng_and_Wu_Guang_uprising"
+      },
+      {
+        "id": "qin-extra-r1",
+        "source": "qin-extra-li-si",
+        "target": "qin-first-emperor",
+        "type": "辅佐",
+        "explanation": "李斯在秦王政及其称帝后任职，参与用人和制度议论。",
+        "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷087"
+      },
+      {
+        "id": "qin-extra-r2",
+        "source": "qin-extra-shuihudi",
+        "target": "qin-commanderies",
+        "type": "提供实证",
+        "explanation": "睡虎地秦简保存基层法律和行政文本，有助于理解郡县治理的实际操作。",
+        "sourceUrl": "https://wlt.hubei.gov.cn/bmdt/xydt/202404/t20240430_5177893.shtml"
       }
     ]
   },
@@ -1951,6 +2630,9 @@
             "url": "https://en.wikipedia.org/wiki/Emperor_Gaozu_of_Han",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "emperor"
         ]
       },
       {
@@ -1976,6 +2658,9 @@
             "url": "https://en.wikipedia.org/wiki/Han_dynasty",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "event"
         ]
       },
       {
@@ -2001,6 +2686,9 @@
             "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail4.html",
             "institution": "中国国家博物馆"
           }
+        ],
+        "tags": [
+          "emperor"
         ]
       },
       {
@@ -2021,6 +2709,11 @@
             "url": "https://en.chnmuseum.cn/Portals/0/web/exhibition/exhibitions/161120Chines-Epic/",
             "institution": "中国国家博物馆"
           }
+        ],
+        "tags": [
+          "event",
+          "minister",
+          "politician"
         ]
       },
       {
@@ -2046,6 +2739,10 @@
             "url": "https://en.wikipedia.org/wiki/Records_of_the_Grand_Historian",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "thinker",
+          "literature"
         ]
       },
       {
@@ -2066,6 +2763,9 @@
             "url": "https://www.chinakongzi.org/baike/DIANGU/201708/t20170823_141806.htm",
             "institution": "中国孔子网"
           }
+        ],
+        "tags": [
+          "event"
         ]
       },
       {
@@ -2091,6 +2791,9 @@
             "url": "https://www.gjrwls.com/jinghua/20250613/1118271975198818304.html",
             "institution": "国家人文历史"
           }
+        ],
+        "tags": [
+          "artifact"
         ]
       },
       {
@@ -2111,7 +2814,64 @@
             "url": "https://en.wikipedia.org/wiki/Mawangdui",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "archaeology"
         ]
+      },
+      {
+        "id": "western-han-extra-huo-qubing",
+        "title": "霍去病与河西战争",
+        "type": "人物",
+        "startYear": -123,
+        "endYear": -117,
+        "dateLabel": "前123—前117年主要活动",
+        "tags": [
+          "minister",
+          "battle",
+          "event"
+        ],
+        "summary": "霍去病的远征改变了河西地区的军事格局，也依赖庞大的人员与物资投入。",
+        "background": "汉武帝时期，汉与匈奴的战争逐步从边境攻守转为远距离出击。年轻的霍去病以骑兵作战受到重用，河西走廊成为重要战场。这条连接不同地理区域的通道，关系到草原力量的联系，也关系到汉朝向西发展的空间。",
+        "story": "前一二一年，霍去病先后向河西出兵，之后又奉命接应匈奴浑邪王部众归汉。《史记》详细记录行军、封赏和各军配合，也写到失道、损耗及安置降众的问题。胜负因此不仅取决于冲锋，还涉及情报、补给和战争结束后的管理。",
+        "legacy": "河西局势改变，为汉朝随后经营西部地区提供了条件，但道路与交流并非由一场战争突然创造。将霍去病与张骞的活动联系起来，更能看到军事、外交和不同群体迁徙的交错。其英年早逝，也使短暂生涯在后世叙事中格外突出。",
+        "sources": [
+          {
+            "title": "史记·卫将军骠骑列传",
+            "url": "https://zh.wikisource.org/wiki/史記/卷111",
+            "institution": "维基文库（《史记》原文）"
+          }
+        ],
+        "certainty": "史实"
+      },
+      {
+        "id": "western-han-extra-changxin-lamp",
+        "title": "长信宫灯",
+        "type": "文化",
+        "startYear": -200,
+        "endYear": -100,
+        "dateLabel": "约前2世纪，西汉",
+        "tags": [
+          "artifact",
+          "artist"
+        ],
+        "summary": "一盏人物造型铜灯，把照明、调光和清理烟尘融入了雕塑。",
+        "background": "长信宫灯出土于满城中山靖王刘胜妻窦绾墓，今藏河北博物院。跪坐宫女手持灯盘，通体鎏金，温和的神态让它看起来近似人物雕塑。灯体铭文记录重量、容量及所属者，也给器物经历留下了可以追索的线索。",
+        "story": "宫女抬起的右臂和下垂的衣袖，同时构成导烟的通道；中空身体可容纳烟尘。灯罩由弧形铜板组成，可以推动以改变光线方向和开口大小。若干部件能够拆卸，便于清洁维护，造型、结构和使用动作在设计中互相配合。",
+        "legacy": "这件铜灯展示贵族生活所能动员的工艺水平，也使照明史从抽象的“点灯”变成一组具体操作。它能收集部分烟尘，却不宜被夸张成具有现代净化效率的设备。与其他汉墓器物并读，可以理解审美、生活习惯和器物管理怎样相互联系。",
+        "sources": [
+          {
+            "title": "长信宫灯：国宝特展",
+            "url": "https://www.chnmus.net/sitesources/hnsbwy/page_pc/bwzl/zxgd/index.html",
+            "institution": "河南博物院（河北博物院藏品特展）"
+          },
+          {
+            "title": "何以中国：长信宫灯",
+            "url": "https://ggzl.dpm.org.cn/pages/exhibit_works/details?id=10933",
+            "institution": "故宫博物院"
+          }
+        ],
+        "certainty": "约年"
       }
     ],
     "relations": [
@@ -2170,6 +2930,22 @@
         "type": "同时期",
         "explanation": "马王堆三号墓葬于前168年，属于汉文帝统治时期。",
         "sourceUrl": "https://en.wikipedia.org/wiki/Mawangdui"
+      },
+      {
+        "id": "western-han-extra-r1",
+        "source": "western-han-extra-huo-qubing",
+        "target": "western-han-emperor-wu",
+        "type": "受命出征",
+        "explanation": "霍去病的河西与漠北军事行动由汉武帝部署并授予将军职任。",
+        "sourceUrl": "https://zh.wikisource.org/wiki/史記/卷111"
+      },
+      {
+        "id": "western-han-extra-r2",
+        "source": "western-han-extra-changxin-lamp",
+        "target": "western-han-mawangdui",
+        "type": "墓葬对读",
+        "explanation": "满城与马王堆保存了不同地区汉代上层家庭的器用，可比较贵族生活、工艺和随葬选择。",
+        "sourceUrl": "https://www.chnmus.net/sitesources/hnsbwy/page_pc/bwzl/zxgd/index.html"
       }
     ]
   },
@@ -2240,6 +3016,9 @@
             "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33125.shtml",
             "institution": "中国国家博物馆"
           }
+        ],
+        "tags": [
+          "emperor"
         ]
       },
       {
@@ -2265,6 +3044,9 @@
             "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33125.shtml",
             "institution": "中国国家博物馆"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -2290,6 +3072,10 @@
             "url": "https://zh.wikisource.org/wiki/漢書/卷099下",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "institution",
+          "artifact"
         ]
       },
       {
@@ -2320,6 +3106,10 @@
             "url": "https://zh.wikisource.org/wiki/後漢書/卷1上",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "event",
+          "battle"
         ]
       },
       {
@@ -2345,6 +3135,10 @@
             "url": "https://zh.wikisource.org/wiki/後漢書/卷11",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "event",
+          "battle"
         ]
       },
       {
@@ -2370,6 +3164,10 @@
             "url": "https://zh.wikisource.org/wiki/漢書/卷099下",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "event",
+          "battle"
         ]
       },
       {
@@ -2395,6 +3193,9 @@
             "url": "https://zh.wikisource.org/wiki/後漢書/卷1上",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -2415,7 +3216,64 @@
             "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33125.shtml",
             "institution": "中国国家博物馆"
           }
+        ],
+        "tags": [
+          "artifact"
         ]
+      },
+      {
+        "id": "xin-extra-liu-xin",
+        "title": "刘歆与经籍整理",
+        "type": "人物",
+        "startYear": -26,
+        "endYear": 23,
+        "dateLabel": "约前1世纪后期至23年活动",
+        "tags": [
+          "thinker",
+          "minister",
+          "literature"
+        ],
+        "summary": "刘歆的校书、历法与度量研究，显示汉新之际学术和政治的密切关系。",
+        "background": "西汉后期，朝廷整理收藏的经书与诸子文献，刘歆接续父亲刘向参与这一工作。不同版本需要比勘，散乱篇章需要编次，书籍还需要分类介绍。今人眼中的一部“古书”，往往经过这样的选择、校定和保存才得以流传。",
+        "story": "刘歆支持古文经学，曾因推动有关经典进入官方学术体系而与博士发生争论。他还研究历法，三统历的内容保存于《汉书·律历志》。到王莽时期，他参与考定制度与尺度，把古代经典、计算方法和当时改革联结在一起。",
+        "legacy": "刘歆曾改名刘秀，与建立东汉的光武帝并非一人。其政治结局不应遮蔽整理文献的贡献，学术贡献也不能自动证明每一项托古主张。阅读他的工作，可以看到知识怎样在书库中被组织，又怎样被征用来说明新政权的秩序。",
+        "sources": [
+          {
+            "title": "汉书·楚元王传附刘歆传",
+            "url": "https://zh.wikisource.org/wiki/漢書/卷036",
+            "institution": "维基文库（《汉书》原文）"
+          },
+          {
+            "title": "汉书·律历志",
+            "url": "https://zh.wikisource.org/wiki/漢書/卷021",
+            "institution": "维基文库（《汉书》原文）"
+          }
+        ],
+        "certainty": "约年"
+      },
+      {
+        "id": "xin-extra-jialiang",
+        "title": "新莽嘉量",
+        "type": "文化",
+        "startYear": 9,
+        "endYear": 9,
+        "dateLabel": "9年，始建国元年",
+        "tags": [
+          "artifact",
+          "institution"
+        ],
+        "summary": "一件铜器集合五种量器，将统一度量衡的要求铸成可检验的实物。",
+        "background": "新朝建立后，王莽试图以复古改制重整制度。嘉量依据经典中的制度观念，由刘歆考订制作，用于提供容量标准。它外形朴素，却在器体与侧部组合了斛、斗、升、合、龠五种量测容器。",
+        "story": "器表铭文说明尺寸、容量和计算办法，还铸有颁行度量衡的诏书。使用者既可以面对具体容积，也可以读到它为何被朝廷确立。大部分单位逐级采用十进关系，合与龠之间却是一合二龠，提醒人们古代量制不能只凭今天习惯猜测。",
+        "legacy": "嘉量把政治理念落实为可以重复比对的标准，是观察改革技术层面的好入口。新朝短命，并不意味着当时每一项技术都没有价值；反过来，一件设计精密的标准器，也不能证明整个社会已经顺利执行所有改革。器物与制度效果仍须分别考察。",
+        "sources": [
+          {
+            "title": "嘉量",
+            "url": "https://digitalarchive.npm.gov.tw/Collection/Detail/422?dep=U",
+            "institution": "台北故宫博物院"
+          }
+        ],
+        "certainty": "史实"
       }
     ],
     "relations": [
@@ -2474,6 +3332,30 @@
         "type": "重创军队",
         "explanation": "昆阳之战击败王莽派出的围城军队，削弱新朝军力。",
         "sourceUrl": "https://zh.wikisource.org/wiki/漢書/卷099下"
+      },
+      {
+        "id": "xin-extra-r1",
+        "source": "xin-extra-liu-xin",
+        "target": "xin-extra-jialiang",
+        "type": "考订",
+        "explanation": "馆藏说明将嘉量的考订与刘歆依据经典制定容量标准的工作相联系。",
+        "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/422?dep=U"
+      },
+      {
+        "id": "xin-extra-r2",
+        "source": "xin-extra-jialiang",
+        "target": "xin-reforms",
+        "type": "制度实物",
+        "explanation": "嘉量铭文和容量设计体现新朝以经典为依据统一制度的改革方向。",
+        "sourceUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/422?dep=U"
+      },
+      {
+        "id": "xin-extra-r3",
+        "source": "xin-extra-liu-xin",
+        "target": "xin-wang-mang",
+        "type": "任职",
+        "explanation": "刘歆在王莽时期参与经学、历法与制度考订。",
+        "sourceUrl": "https://zh.wikisource.org/wiki/漢書/卷036"
       }
     ]
   },
@@ -2549,6 +3431,9 @@
             "url": "https://zh.wikisource.org/wiki/後漢書/卷1下",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "emperor"
         ]
       },
       {
@@ -2569,6 +3454,9 @@
             "url": "https://zh.wikisource.org/wiki/後漢書/卷1下",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "event"
         ]
       },
       {
@@ -2589,6 +3477,9 @@
             "url": "https://zh.wikisource.org/wiki/後漢書/卷47",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "minister"
         ]
       },
       {
@@ -2609,6 +3500,10 @@
             "url": "https://zh.wikipedia.org/wiki/蔡伦",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "minister",
+          "thinker"
         ]
       },
       {
@@ -2629,6 +3524,10 @@
             "url": "https://zh.wikisource.org/wiki/後漢書/卷59",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "poet",
+          "thinker"
         ]
       },
       {
@@ -2654,6 +3553,9 @@
             "url": "https://wgl.xuchang.gov.cn/zcfg/004006/20221228/d1fe2a74-9452-4c05-a7fc-332f0e86e1cf.html",
             "institution": "许昌市文化广电和旅游局"
           }
+        ],
+        "tags": [
+          "archaeology"
         ]
       },
       {
@@ -2679,6 +3581,9 @@
             "url": "https://zh.wikisource.org/wiki/後漢書/卷8",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "event"
         ]
       },
       {
@@ -2699,7 +3604,70 @@
             "url": "https://zh.wikisource.org/wiki/後漢書/卷8",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "event",
+          "battle"
         ]
+      },
+      {
+        "id": "eastern-han-extra-ban-gu",
+        "title": "班固与《汉书》",
+        "type": "人物",
+        "startYear": 32,
+        "endYear": 92,
+        "dateLabel": "32—92年",
+        "tags": [
+          "literature",
+          "thinker"
+        ],
+        "summary": "班固承接家学写作《汉书》，为一代历史建立了长期沿用的叙述框架。",
+        "background": "班固出身史学家庭，父亲班彪曾接续前史搜集汉代材料。父亲去世后，班固继续整理写作，并在官方支持下接触更多文献。他与弟弟班超走上不同道路，一人主要以著述留名，一人长期在西域从事政治和军事活动。",
+        "story": "《汉书》以汉代为主要范围，结合帝纪、表、志和列传，既写人物，也保存礼制、经济、地理和学术材料。班固并未独自完成全部篇章，去世后，妹妹班昭等人继续参与补成。史书因此既有作者的判断，也有家庭传承与宫廷藏书机构的共同作用。",
+        "legacy": "这套组织一代史事的方式深刻影响后来的正史编纂。阅读《汉书》时，人物故事可以与制度篇章互相核对，也应留意作者对汉朝秩序的立场。书中保存了大量珍贵文字，但历史书写的取舍，本身同样是值得研究的历史。",
+        "sources": [
+          {
+            "title": "后汉书·班彪列传附班固传",
+            "url": "https://zh.wikisource.org/wiki/後漢書/卷40上",
+            "institution": "维基文库（《后汉书》原文）"
+          },
+          {
+            "title": "后汉书·列女传：曹世叔妻",
+            "url": "https://zh.wikisource.org/wiki/後漢書/卷84",
+            "institution": "维基文库（《后汉书》原文）"
+          }
+        ],
+        "certainty": "史实"
+      },
+      {
+        "id": "eastern-han-extra-cai-yong",
+        "title": "蔡邕与熹平石经",
+        "type": "人物",
+        "startYear": 175,
+        "endYear": 183,
+        "dateLabel": "175—183年刻经工程",
+        "tags": [
+          "artist",
+          "literature",
+          "institution"
+        ],
+        "summary": "蔡邕等人校定经文并刻石，为读书人提供可以共同核对的文本。",
+        "background": "东汉经书依靠抄写流传，不同师承与版本之间常有字句差异。熹平四年，蔡邕等人奏请校定经文，在朝廷支持下展开刻经工程。石碑立于洛阳太学前，让读者能够到同一处检验自己手中书本的文字。",
+        "story": "这项工程涉及《诗》《书》《易》《仪礼》《春秋》《公羊传》《论语》等经典，历时多年完成。经文以隶书书写，再由工匠刻上石面；选字、书写、布局和镌刻，每一步都关系到是否便于辨认与传抄。它既是学术校勘，也是公共书写工程。",
+        "legacy": "原碑后来遭到破坏，传世残石成为研究文字、书法和经学的重要材料。残缺并不只是遗憾，保存下来的行列与字形仍能与抄本互相参照。熹平石经说明，在印刷普及以前，人们已经尝试用耐久而公开的载体维护文本的共同标准。",
+        "sources": [
+          {
+            "title": "“熹平石经”残石",
+            "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202008/t20200824_247256.shtml",
+            "institution": "中国国家博物馆"
+          },
+          {
+            "title": "黄易与东汉熹平石经",
+            "url": "https://www.dpm.org.cn/study_detail/100168.html",
+            "institution": "故宫博物院"
+          }
+        ],
+        "certainty": "史实"
       }
     ],
     "relations": [
@@ -2750,6 +3718,22 @@
         "type": "朝廷联系",
         "explanation": "班超在西域任职期间通过奏报与使者保持和东汉朝廷的联系。",
         "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷47"
+      },
+      {
+        "id": "eastern-han-extra-r1",
+        "source": "eastern-han-extra-ban-gu",
+        "target": "eastern-han-ban-chao",
+        "type": "兄弟",
+        "explanation": "班固与班超同为班彪之子，分别以著述和西域活动留名。",
+        "sourceUrl": "https://zh.wikisource.org/wiki/後漢書/卷40上"
+      },
+      {
+        "id": "eastern-han-extra-r2",
+        "source": "eastern-han-extra-cai-yong",
+        "target": "eastern-han-luoyang",
+        "type": "设置于",
+        "explanation": "熹平石经立于洛阳太学前，供学者观摩并校核经文。",
+        "sourceUrl": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202008/t20200824_247256.shtml"
       }
     ]
   },
@@ -2835,6 +3819,9 @@
             "url": "https://zh.wikipedia.org/wiki/曹魏",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -2870,6 +3857,9 @@
             "url": "https://zh.wikisource.org/wiki/三國志/卷58",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -2900,6 +3890,9 @@
             "url": "https://zh.wikisource.org/wiki/晉書/卷003",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -2920,6 +3913,10 @@
             "url": "https://zh.wikisource.org/wiki/三國志/卷02",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "emperor",
+          "poet"
         ]
       },
       {
@@ -2945,6 +3942,9 @@
             "url": "https://zh.wikisource.org/wiki/三國志/卷58",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "emperor"
         ]
       },
       {
@@ -2965,6 +3965,9 @@
             "url": "https://zh.wikisource.org/wiki/三國志/卷47",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "emperor"
         ]
       },
       {
@@ -2985,6 +3988,10 @@
             "url": "https://zh.wikisource.org/wiki/三國志/卷35",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "minister",
+          "politician"
         ]
       },
       {
@@ -3015,7 +4022,74 @@
             "url": "https://zh.wikisource.org/wiki/三國志/卷47",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "event",
+          "battle"
         ]
+      },
+      {
+        "id": "three-kingdoms-extra-cao-zhi",
+        "title": "曹植与《洛神赋》",
+        "type": "人物",
+        "startYear": 192,
+        "endYear": 232,
+        "dateLabel": "192—232年；《洛神赋》作于222年",
+        "tags": [
+          "poet",
+          "literature"
+        ],
+        "summary": "曹植以诗赋书写理想、失落与想象，《洛神赋》又成为后世书画的重要题材。",
+        "background": "曹植是曹操之子、曹丕之弟，文学才华在早年已受到关注。魏国建立后，宗室身份并未使他获得自由施展政治抱负的空间。封地变动与受到限制的生活，为理解其作品中的期待和失落提供了背景，却不能替每一篇作品指定唯一寓意。",
+        "story": "《洛神赋》自序把创作放在黄初三年返程渡过洛水的情境中。作品铺写与洛水女神相逢、倾慕和离别，以细密的动作、服饰和景物构成流动场景。这是文学想象，不能把女神相遇当作实录，也不宜把后出的恋情故事直接当成写作原因。",
+        "legacy": "曹植推动了五言诗和辞赋的表达，个人声音在华美语言中保持鲜明。后来书家反复抄写《洛神赋》，画家又把连续情节转化为手卷。诗文由此跨越媒介不断再生，欣赏时也要分清三国原作、后代图像和今天所见摹本的年代。",
+        "sources": [
+          {
+            "title": "三国志·陈思王植传",
+            "url": "https://zh.wikisource.org/wiki/三國志/卷19",
+            "institution": "维基文库（《三国志》原文）"
+          },
+          {
+            "title": "《洛神赋》",
+            "url": "https://www.dpm.org.cn/lemmas/240633.html",
+            "institution": "故宫博物院"
+          },
+          {
+            "title": "顾恺之洛神赋图卷（宋摹）",
+            "url": "https://www.dpm.org.cn/collection/paint/234597.html",
+            "institution": "故宫博物院"
+          }
+        ],
+        "certainty": "史实"
+      },
+      {
+        "id": "three-kingdoms-extra-wang-bi",
+        "title": "王弼与玄学注释",
+        "type": "人物",
+        "startYear": 226,
+        "endYear": 249,
+        "dateLabel": "226—249年",
+        "tags": [
+          "thinker",
+          "literature"
+        ],
+        "summary": "王弼通过解释《老子》《周易》，重新讨论万物、语言与秩序的根据。",
+        "background": "王弼生活在曹魏，去世时还很年轻，却留下影响深远的经典注释。汉代以来的经学积累十分丰厚，魏晋学人又开始重新追问：经典中的话彼此怎样贯通，纷繁现象之下是否有可把握的原则，人的行动应如何与这些原则相合。",
+        "story": "在解释《老子》时，王弼重视“无”作为万物根本的意义，并不把它当成又一种可以看见、触摸的物体。他也注释《周易》，力求从卦爻文字中说明事物变化的道理。这样的阅读方式重视整体义理，注释因而成为提出新思想的空间。",
+        "legacy": "王弼通常被列为魏晋玄学的重要代表，但玄学并非人人观点一致的单一学派。他的著作又经历后世传抄、校订与解释，今本不能简单视作原稿。短暂生命和漫长文本影响之间的反差，显示思想史的时间有时与政治兴亡很不相同。",
+        "sources": [
+          {
+            "title": "三国志·钟会传注引王弼传",
+            "url": "https://zh.wikisource.org/wiki/三國志/卷28",
+            "institution": "维基文库（《三国志》及裴松之注原文）"
+          },
+          {
+            "title": "Laozi：王弼注本与玄学",
+            "url": "https://plato.stanford.edu/entries/laozi/",
+            "institution": "斯坦福哲学百科"
+          }
+        ],
+        "certainty": "史实"
       }
     ],
     "relations": [
@@ -3082,6 +4156,22 @@
         "type": "军事对抗",
         "explanation": "蜀汉多次北伐曹魏，最终于263年被魏军攻灭。",
         "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷33"
+      },
+      {
+        "id": "three-kingdoms-extra-r1",
+        "source": "three-kingdoms-extra-cao-zhi",
+        "target": "three-kingdoms-cao-pi",
+        "type": "兄弟",
+        "explanation": "曹植与曹丕是兄弟，魏国建立后的宗室处境构成曹植生涯的重要背景。",
+        "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷19"
+      },
+      {
+        "id": "three-kingdoms-extra-r2",
+        "source": "three-kingdoms-extra-wang-bi",
+        "target": "three-kingdoms-wei",
+        "type": "活动于",
+        "explanation": "王弼生活、任职及著述发生在曹魏时期，是正始思想讨论的重要人物。",
+        "sourceUrl": "https://zh.wikisource.org/wiki/三國志/卷28"
       }
     ]
   },
@@ -3147,6 +4237,9 @@
             "url": "https://zh.wikisource.org/wiki/晉書/卷003",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "emperor"
         ]
       },
       {
@@ -3172,6 +4265,10 @@
             "url": "https://www.dpm.org.cn/lemmas/240419.html",
             "institution": "故宫博物院"
           }
+        ],
+        "tags": [
+          "event",
+          "battle"
         ]
       },
       {
@@ -3197,6 +4294,10 @@
             "url": "https://www.dpm.org.cn/lemmas/240419.html",
             "institution": "故宫博物院"
           }
+        ],
+        "tags": [
+          "event",
+          "battle"
         ]
       },
       {
@@ -3217,6 +4318,10 @@
             "url": "https://zh.wikisource.org/wiki/晉書/卷005",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "event",
+          "battle"
         ]
       },
       {
@@ -3242,6 +4347,10 @@
             "url": "https://zh.wikisource.org/wiki/晉書/卷065",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "event",
+          "society"
         ]
       },
       {
@@ -3267,6 +4376,11 @@
             "url": "https://www.dpm.org.cn/collection/handwriting/234553.html",
             "institution": "故宫博物院"
           }
+        ],
+        "tags": [
+          "poet",
+          "artist",
+          "literature"
         ]
       },
       {
@@ -3287,6 +4401,10 @@
             "url": "https://www.dpm.org.cn/collection/handwriting/234553.html",
             "institution": "故宫博物院"
           }
+        ],
+        "tags": [
+          "artifact",
+          "painting"
         ]
       },
       {
@@ -3307,6 +4425,60 @@
             "url": "https://zh.wikisource.org/wiki/晉書/卷051",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "event",
+          "literature"
+        ]
+      },
+      {
+        "id": "western-jin-du-yu",
+        "title": "杜预",
+        "type": "人物",
+        "startYear": 222,
+        "endYear": 285,
+        "certainty": "史实",
+        "dateLabel": "222—285年",
+        "summary": "杜预兼具军事统筹与经学研究两种面貌，是西晋灭吴的重要将领。",
+        "background": "杜预出身京兆杜氏，在曹魏晚期进入仕途，西晋建立后参与政务。他接替羊祜镇守荆州时，晋吴仍隔江对峙，朝廷对是否立即进攻意见不一。筹划战争既要估计江防与季节，也要协调上游水军和各路陆军。",
+        "story": "他赞成抓住时机伐吴，整备军队并经营地方水利。二百八十年，杜预所部向江陵等地推进，与其他晋军共同瓦解吴的防线。平吴后，他又投入《春秋左氏经传集解》等著述，把分散的经文、传文和解释组织成能够互相参照的体系。",
+        "legacy": "军事功业和注释工作都需要辨别材料、安排次序，但两者不能简单归为同一种才能。《晋书》还记载他长于器械和政事，因此被称为杜武库。杜预的经历让西晋的短暂统一呈现出另一面：国家组织与知识整理，可以由同一批士人共同承担。",
+        "sources": [
+          {
+            "title": "《晋书》卷三十四：杜预",
+            "url": "https://zh.wikisource.org/wiki/晉書/卷034",
+            "institution": "维基文库（史籍原文）"
+          }
+        ],
+        "tags": [
+          "minister",
+          "politician",
+          "thinker"
+        ]
+      },
+      {
+        "id": "western-jin-pan-yue",
+        "title": "潘岳",
+        "type": "人物",
+        "startYear": 247,
+        "endYear": 300,
+        "certainty": "史实",
+        "dateLabel": "247—300年",
+        "summary": "潘岳的诗赋保存了亲情与仕途感受，也映出西晋文士的政治处境。",
+        "background": "潘岳字安仁，出身荥阳中牟，少时以文才闻名。他先后做过县令及中央官员，在洛阳的文学交游中活跃。西晋士人可以凭文章获得声名，也常依靠权贵引荐进入政治网络；文坛的相互唱和与朝廷的人事关系并不分离。",
+        "story": "他的《悼亡诗》以亡妻留下的生活痕迹抒写哀思，《秋兴赋》则将季节感受、年龄与仕途焦虑交织。潘岳曾依附贾谧，与陆机等文士同在这一交游圈内。三百年政局突变，孙秀掌权后构陷潘岳，他与石崇等人一同遇害。",
+        "legacy": "后世常以美貌和才情谈论潘安，这个熟悉的称呼容易遮住作品之外的政治经历。他的诗赋为悼亡文学留下重要范例，而结交权门并未带来长久安全。把文章与生平并读，能看到西晋繁盛文坛如何卷入皇族及朝臣的权力争夺。",
+        "sources": [
+          {
+            "title": "《晋书》卷五十五：潘岳",
+            "url": "https://zh.wikisource.org/wiki/晉書/卷055",
+            "institution": "维基文库（史籍原文）"
+          }
+        ],
+        "tags": [
+          "poet",
+          "literature",
+          "politician"
         ]
       }
     ],
@@ -3366,6 +4538,22 @@
         "type": "在位时期",
         "explanation": "汲冢竹书出土和整理发生于晋武帝统治时期。",
         "sourceUrl": "https://zh.wikisource.org/wiki/晉書/卷051"
+      },
+      {
+        "id": "western-jin-expand-r1",
+        "source": "western-jin-du-yu",
+        "target": "western-jin-conquest-wu",
+        "type": "参与指挥",
+        "explanation": "杜预率荆州方向晋军进攻吴国，是晋灭吴战争的主要将领之一。",
+        "sourceUrl": "https://zh.wikisource.org/wiki/晉書/卷034"
+      },
+      {
+        "id": "western-jin-expand-r2",
+        "source": "western-jin-pan-yue",
+        "target": "western-jin-eight-princes",
+        "type": "卷入政争",
+        "explanation": "潘岳在三百年赵王伦集团掌权后的政治清洗中遇害。",
+        "sourceUrl": "https://zh.wikisource.org/wiki/晉書/卷055"
       }
     ]
   },
@@ -3461,6 +4649,9 @@
             "url": "https://zh.wikipedia.org/wiki/东晋",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -3486,6 +4677,9 @@
             "url": "https://zh.wikisource.org/wiki/晉書/卷065",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "emperor"
         ]
       },
       {
@@ -3506,6 +4700,10 @@
             "url": "https://zh.wikisource.org/wiki/晉書/卷065",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "minister",
+          "politician"
         ]
       },
       {
@@ -3536,6 +4734,9 @@
             "url": "https://zh.wikisource.org/wiki/晉書/卷112",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -3561,6 +4762,9 @@
             "url": "https://zh.wikisource.org/wiki/晉書/卷114",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "emperor"
         ]
       },
       {
@@ -3586,6 +4790,10 @@
             "url": "https://zh.wikisource.org/wiki/晉書/卷079",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "event",
+          "battle"
         ]
       },
       {
@@ -3611,6 +4819,10 @@
             "url": "https://www.dpm.org.cn/collection/impres/233456.html",
             "institution": "故宫博物院"
           }
+        ],
+        "tags": [
+          "artist",
+          "painting"
         ]
       },
       {
@@ -3631,6 +4843,64 @@
             "url": "https://zh.wikisource.org/wiki/宋書/卷93",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "poet",
+          "literature"
+        ]
+      },
+      {
+        "id": "eastern-jin-xie-an",
+        "title": "谢安",
+        "type": "人物",
+        "startYear": 320,
+        "endYear": 385,
+        "certainty": "史实",
+        "dateLabel": "320—385年",
+        "summary": "谢安在门阀政治与军事危机之间协调力量，主持抵御前秦的部署。",
+        "background": "谢安出身陈郡谢氏，年轻时长期寓居会稽，与名士往来，四十岁左右才正式进入政坛。东晋皇室必须与拥有军队、庄园和声望的士族合作，重臣的工作不仅是处理政令，也包括维持不同家族与地方军事势力之间的平衡。",
+        "story": "桓温势力强大时，谢安与王坦之等人维护朝廷局面。前秦南下后，他承担统筹之责，谢石、谢玄等率军迎敌，取得淝水之战胜利。战后谢氏声望大增，谢安仍需顾及其他家族及皇室的疑虑，北伐和地方任命都受到这种关系的影响。",
+        "legacy": "后世以东山再起来概括谢安的仕途，以临危从容赞美他的风度。真正维持战局的还包括军队训练、将领判断和后方协调。他的经历说明，名士形象与政治能力可以并存，但史书中的镇定神态不应取代对具体制度和战争条件的理解。",
+        "sources": [
+          {
+            "title": "《晋书》卷七十九：谢安",
+            "url": "https://zh.wikisource.org/wiki/晉書/卷079",
+            "institution": "维基文库（史籍原文）"
+          }
+        ],
+        "tags": [
+          "minister",
+          "politician"
+        ]
+      },
+      {
+        "id": "eastern-jin-gu-kaizhi",
+        "title": "顾恺之",
+        "type": "人物",
+        "startYear": 345,
+        "endYear": 406,
+        "certainty": "约年",
+        "dateLabel": "约345—406年",
+        "summary": "顾恺之的人物画观念与后世摹传作品，留下早期绘画重视传神的线索。",
+        "background": "顾恺之出身晋陵无锡，活动于东晋士族文化繁盛的时代，曾在桓温等人的幕府任职。绘画既服务于人物品评和历史故事，也参与宫廷、宗教与社会生活。关于他的生平，主要依据后来的史传及画学文献，年代采用常见约年。",
+        "story": "《晋书》记载他擅长人物画，重视眼神与精神状态的表达。传为其画稿系统的《女史箴图》《洛神赋图》，将文字叙事转化为连续画面，但今天所见并非都可认定为亲笔。大英博物馆藏《女史箴图》被断在五至七世纪，应与画家的生活年代区别。",
+        "legacy": "顾恺之的价值既在具体图像传统，也在传神等观念对后世的影响。摹本保留早期构图线索，同时混入后代材料和笔法。辨认这一层次，不会削弱作品的意义，反而能看见古画如何经过复制、收藏和重新解释，跨越漫长时间继续流传。",
+        "sources": [
+          {
+            "title": "《晋书》卷九十二：顾恺之",
+            "url": "https://zh.wikisource.org/wiki/晉書/卷092",
+            "institution": "维基文库（史籍原文）"
+          },
+          {
+            "title": "顾恺之与《女史箴图》",
+            "url": "https://www.britishmuseum.org/exhibitions/admonitions-instructress-court-ladies",
+            "institution": "大英博物馆"
+          }
+        ],
+        "tags": [
+          "artist",
+          "painting",
+          "thinker"
         ]
       }
     ],
@@ -3698,6 +4968,22 @@
         "type": "仕隐经历",
         "explanation": "陶渊明曾在东晋出仕，后归田生活。",
         "sourceUrl": "https://zh.wikisource.org/wiki/宋書/卷93"
+      },
+      {
+        "id": "eastern-jin-expand-r1",
+        "source": "eastern-jin-xie-an",
+        "target": "eastern-jin-feishui",
+        "type": "统筹部署",
+        "explanation": "谢安负责朝廷应战部署，谢石、谢玄等率军参加淝水之战。",
+        "sourceUrl": "https://zh.wikisource.org/wiki/晉書/卷079"
+      },
+      {
+        "id": "eastern-jin-expand-r2",
+        "source": "eastern-jin-gu-kaizhi",
+        "target": "eastern-jin-jin-state",
+        "type": "任职",
+        "explanation": "顾恺之曾任东晋桓温等人的参军，其绘画活动与士族幕府生活相连。",
+        "sourceUrl": "https://zh.wikisource.org/wiki/晉書/卷092"
       }
     ]
   },
@@ -3798,6 +5084,9 @@
             "url": "https://zh.wikisource.org/wiki/宋書/卷3",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -3838,6 +5127,9 @@
             "url": "https://zh.wikipedia.org/wiki/北魏",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -3868,6 +5160,10 @@
             "url": "https://whc.unesco.org/en/list/1003/",
             "institution": "联合国教科文组织世界遗产中心"
           }
+        ],
+        "tags": [
+          "event",
+          "emperor"
         ]
       },
       {
@@ -3888,6 +5184,9 @@
             "url": "https://zh.wikisource.org/wiki/魏書/卷110",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -3908,6 +5207,9 @@
             "url": "https://whc.unesco.org/en/list/1039/",
             "institution": "联合国教科文组织世界遗产中心"
           }
+        ],
+        "tags": [
+          "archaeology"
         ]
       },
       {
@@ -3928,6 +5230,9 @@
             "url": "https://whc.unesco.org/en/list/1003/",
             "institution": "联合国教科文组织世界遗产中心"
           }
+        ],
+        "tags": [
+          "archaeology"
         ]
       },
       {
@@ -3948,6 +5253,9 @@
             "url": "https://zh.wikisource.org/wiki/南齊書/卷52",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "thinker"
         ]
       },
       {
@@ -3973,6 +5281,60 @@
             "url": "https://en.chnmuseum.cn/Portals/0/web/exhibition/exhibitions/161120Chines-Epic/",
             "institution": "中国国家博物馆"
           }
+        ],
+        "tags": [
+          "thinker",
+          "literature"
+        ]
+      },
+      {
+        "id": "northern-southern-xie-lingyun",
+        "title": "谢灵运",
+        "type": "人物",
+        "startYear": 385,
+        "endYear": 433,
+        "certainty": "史实",
+        "dateLabel": "385—433年",
+        "summary": "谢灵运把山川游历写成细密诗篇，成为山水诗发展的重要人物。",
+        "background": "谢灵运是谢玄之孙，袭封康乐公，经历东晋向刘宋的政权更替。家族地位使他拥有教育、庄园和出游资源，但在新朝中的政治期待并未得到充分满足。他曾任永嘉太守，地方山川由此成为诗歌中反复观察和描写的对象。",
+        "story": "诗中常从行程、山势、水流与光色写起，再转入内心感受或玄理思考。精细的字句把自然景物变成独立的审美对象。与此同时，他与地方官员及朝廷关系紧张，先后被迁徙和治罪，最终在四百三十三年被处死，文学声誉未能保护其政治处境。",
+        "legacy": "山水诗并非由一人凭空创造，谢灵运的重要贡献在于扩大了写景的篇幅、细节和表现能力。其豪族身份也提醒读者，悠游山林背后有土地、随从及劳动条件。把诗篇放回这种生活中，能更完整地理解自然审美与士族社会的联系。",
+        "sources": [
+          {
+            "title": "《宋书》卷六十七：谢灵运",
+            "url": "https://zh.wikisource.org/wiki/宋書/卷67",
+            "institution": "维基文库（史籍原文）"
+          }
+        ],
+        "tags": [
+          "poet",
+          "literature",
+          "politician"
+        ]
+      },
+      {
+        "id": "northern-southern-chen-qingzhi",
+        "title": "陈庆之北伐",
+        "type": "事件",
+        "startYear": 529,
+        "endYear": 529,
+        "certainty": "史实",
+        "dateLabel": "529年",
+        "summary": "陈庆之护送元颢进入洛阳，一度改变北魏政局，最终未能守住战果。",
+        "background": "北魏在六镇起事和宫廷政变之后内争不断，宗室元颢南投梁朝，试图借梁军返回北方争夺帝位。梁武帝派陈庆之率军护送。这次行动兼有军事进攻和扶植竞争皇帝的目的，不能只看作南北两个整齐阵营之间的较量。",
+        "story": "五百二十九年，陈庆之沿途取得多次胜利，元颢进入洛阳称帝。随后北魏方面重新集结，尔朱荣等反攻，元颢政权迅速败亡，陈庆之部众也在撤退中溃散。南朝史书强调他兵少而屡胜的事迹，具体兵力与战果数字宜与北朝记录对照阅读。",
+        "legacy": "这场远征显示北魏内部裂缝可以让规模有限的部队迅速推进，也说明战场突破不等于建立稳固统治。白袍将军的形象因史传而广为流传，真实的历史重点还在联盟、补给与地方支持为何不足以维持洛阳的新政权。",
+        "sources": [
+          {
+            "title": "《梁书》卷三十二：陈庆之",
+            "url": "https://zh.wikisource.org/wiki/梁書/卷32",
+            "institution": "维基文库（史籍原文）"
+          }
+        ],
+        "tags": [
+          "battle",
+          "event",
+          "politician"
         ]
       }
     ],
@@ -4032,6 +5394,22 @@
         "type": "活动时代",
         "explanation": "贾思勰的农业知识整理与北魏末年至东魏的北方社会有关。",
         "sourceUrl": "https://en.chnmuseum.cn/Portals/0/web/exhibition/exhibitions/161120Chines-Epic/"
+      },
+      {
+        "id": "northern-southern-expand-r1",
+        "source": "northern-southern-xie-lingyun",
+        "target": "northern-southern-liu-song",
+        "type": "任官",
+        "explanation": "谢灵运在刘宋任永嘉太守、秘书监等职，其仕途与文学活动在同一政治环境中展开。",
+        "sourceUrl": "https://zh.wikisource.org/wiki/宋書/卷67"
+      },
+      {
+        "id": "northern-southern-expand-r2",
+        "source": "northern-southern-chen-qingzhi",
+        "target": "northern-southern-northern-wei",
+        "type": "介入内争",
+        "explanation": "陈庆之护送北魏宗室元颢北上，进入洛阳后遭北魏反攻而败退。",
+        "sourceUrl": "https://zh.wikisource.org/wiki/梁書/卷32"
       }
     ]
   },
@@ -4107,6 +5485,9 @@
             "url": "https://zh.wikisource.org/wiki/隋書/卷02",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "emperor"
         ]
       },
       {
@@ -4132,6 +5513,10 @@
             "url": "https://zh.wikisource.org/wiki/隋書/卷03",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "event",
+          "battle"
         ]
       },
       {
@@ -4157,6 +5542,9 @@
             "url": "https://www.chnmuseum.cn/zl/lszl/lswh/202010/t20201030_247970.shtml",
             "institution": "中国国家博物馆"
           }
+        ],
+        "tags": [
+          "emperor"
         ]
       },
       {
@@ -4182,6 +5570,9 @@
             "url": "https://zh.wikisource.org/wiki/隋書/卷03",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "archaeology"
         ]
       },
       {
@@ -4202,6 +5593,9 @@
             "url": "https://zh.wikisource.org/wiki/隋書/卷28",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -4232,6 +5626,9 @@
             "url": "https://zh.wikisource.org/wiki/隋書/卷03",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -4257,6 +5654,9 @@
             "url": "https://zh.wikisource.org/wiki/隋書/卷68",
             "institution": "维基文库（古籍全文）"
           }
+        ],
+        "tags": [
+          "archaeology"
         ]
       },
       {
@@ -4277,6 +5677,63 @@
             "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202111/t20211112_252139.shtml",
             "institution": "中国国家博物馆"
           }
+        ],
+        "tags": [
+          "archaeology"
+        ]
+      },
+      {
+        "id": "sui-gao-jiong",
+        "title": "高颎",
+        "type": "人物",
+        "startYear": 541,
+        "endYear": 607,
+        "certainty": "史实",
+        "dateLabel": "541—607年",
+        "summary": "高颎参与隋初政务与灭陈筹划，是统一过程中的重要组织者。",
+        "background": "高颎早年仕北周，杨坚掌权时进入其幕府，隋朝建立后长期参与中枢政务。新王朝需要整合北方制度、补充财政并准备南征，许多工作并不表现为一次战役，而是户籍、官吏任用和资源调集的连续安排。",
+        "story": "筹划伐陈时，高颎建议反复扰动陈朝农时和备战节奏，削弱其长期防御能力。五百八十九年隋军灭陈，他随军处理事务并收集文籍。此后他卷入皇储和宫廷分歧，先被罢免；杨广即位后再次任用他，却又因议论朝政在六百零七年将其处死。",
+        "legacy": "高颎的生平连接隋初的制度建设、军事准备与权力斗争。他的贡献不能被压缩成皇帝身边的谋士故事，失势也并非个人才干突然消失。观察这类重臣的起落，可以看到皇权如何倚重行政经验，又如何限制大臣表达不同意见的空间。",
+        "sources": [
+          {
+            "title": "《隋书》卷四十一：高颎",
+            "url": "https://zh.wikisource.org/wiki/隋書/卷41",
+            "institution": "维基文库（史籍原文）"
+          },
+          {
+            "title": "《隋书》卷六十七：裴矩",
+            "url": "https://zh.wikisource.org/wiki/隋書/卷67",
+            "institution": "维基文库（史籍原文）"
+          }
+        ],
+        "tags": [
+          "minister",
+          "politician",
+          "institution"
+        ]
+      },
+      {
+        "id": "sui-pei-ju",
+        "title": "裴矩",
+        "type": "人物",
+        "startYear": 547,
+        "endYear": 627,
+        "certainty": "史实",
+        "dateLabel": "547—627年；本期聚焦隋代活动",
+        "summary": "裴矩通过访询商旅编绘西域资料，也深度参与隋炀帝的对外经营。",
+        "background": "裴矩经历北齐、北周、隋与唐的政权更替，隋朝统一后曾参与安抚岭南。隋廷希望拓展西方交往，张掖等贸易中心因汇集各地商旅而成为重要的信息来源。官员能够借市场认识远方，但商人的见闻需要反复比对。",
+        "story": "裴矩访询来往胡商，编成三卷《西域图记》，记录诸国风俗、服饰和道路，原书后来散佚，序文保存在《隋书》中。他又为杨广招徕使团，参与河西巡行和边疆谋划。展示帝国繁盛的盛会与持续军事经营，均消耗大量人力物力。",
+        "legacy": "他的工作展示了地理知识如何由交易场所进入国家决策，也暴露知识服务扩张政策时的偏向。书序承认有些地方无法查明，留下了信息边界的自觉。裴矩后来转仕唐朝，但理解隋代的他，应同时考察记录远方的努力与迎合君意的选择。",
+        "sources": [
+          {
+            "title": "《隋书》卷六十七：裴矩",
+            "url": "https://zh.wikisource.org/wiki/隋書/卷67",
+            "institution": "维基文库（史籍原文）"
+          }
+        ],
+        "tags": [
+          "minister",
+          "politician"
         ]
       }
     ],
@@ -4336,6 +5793,30 @@
         "type": "父子与继位",
         "explanation": "杨广为杨坚之子，604年继承皇位。",
         "sourceUrl": "https://zh.wikisource.org/wiki/隋書/卷03"
+      },
+      {
+        "id": "sui-expand-r1",
+        "source": "sui-gao-jiong",
+        "target": "sui-yang-jian",
+        "type": "辅佐",
+        "explanation": "高颎长期参与隋文帝朝政，并为统一战争筹划方略。",
+        "sourceUrl": "https://zh.wikisource.org/wiki/隋書/卷41"
+      },
+      {
+        "id": "sui-expand-r2",
+        "source": "sui-pei-ju",
+        "target": "sui-yang-guang",
+        "type": "参与西域经营",
+        "explanation": "裴矩向隋炀帝提供西域资料，并招徕使团、参与巡行及边疆谋划。",
+        "sourceUrl": "https://zh.wikisource.org/wiki/隋書/卷67"
+      },
+      {
+        "id": "sui-expand-r3",
+        "source": "sui-gao-jiong",
+        "target": "sui-pei-ju",
+        "type": "共同收集图籍",
+        "explanation": "隋军攻下陈都后，杨广命高颎与裴矩收集陈朝图籍。",
+        "sourceUrl": "https://zh.wikisource.org/wiki/隋書/卷67"
       }
     ]
   },
@@ -4401,6 +5882,9 @@
             "url": "https://www.lvliang.gov.cn/zjll/mlll/lsmr/200702/t20070201_231958.html",
             "institution": "吕梁市人民政府"
           }
+        ],
+        "tags": [
+          "emperor"
         ]
       },
       {
@@ -4421,6 +5905,9 @@
             "url": "https://www.lvliang.gov.cn/zjll/mlll/lsmr/200702/t20070201_231958.html",
             "institution": "吕梁市人民政府"
           }
+        ],
+        "tags": [
+          "emperor"
         ]
       },
       {
@@ -4441,6 +5928,10 @@
             "url": "https://english.scio.gov.cn/m/featured/chinakeywords/2025-06/12/content_117925455.htm",
             "institution": "国务院新闻办公室"
           }
+        ],
+        "tags": [
+          "thinker",
+          "literature"
         ]
       },
       {
@@ -4461,6 +5952,10 @@
             "url": "https://xadfz.xa.gov.cn/xadq/yxxa/2064527733514407937.html",
             "institution": "西安市地方志办公室"
           }
+        ],
+        "tags": [
+          "institution",
+          "literature"
         ]
       },
       {
@@ -4486,6 +5981,9 @@
             "url": "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/tang-dynasty/",
             "institution": "史密森尼国家亚洲艺术博物馆"
           }
+        ],
+        "tags": [
+          "archaeology"
         ]
       },
       {
@@ -4511,6 +6009,10 @@
             "url": "https://czj.yancheng.gov.cn/art/2024/4/29/art_21282_4181844.html",
             "institution": "盐城市财政局"
           }
+        ],
+        "tags": [
+          "event",
+          "battle"
         ]
       },
       {
@@ -4536,6 +6038,10 @@
             "url": "https://czj.yancheng.gov.cn/art/2024/4/29/art_21282_4181844.html",
             "institution": "盐城市财政局"
           }
+        ],
+        "tags": [
+          "institution",
+          "minister"
         ]
       },
       {
@@ -4556,6 +6062,65 @@
             "url": "https://en.wikipedia.org/wiki/Du_Fu",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "poet",
+          "literature"
+        ]
+      },
+      {
+        "id": "tang-li-bai",
+        "title": "李白",
+        "type": "人物",
+        "startYear": 701,
+        "endYear": 762,
+        "certainty": "史实",
+        "dateLabel": "701—762年",
+        "summary": "李白以充沛想象拓展唐诗表现力，其人生也与朝廷、游历和战乱相连。",
+        "background": "李白青年时期离蜀漫游，交游、干谒和诗歌写作共同构成他的求仕道路。盛唐的交通与城市生活为远游提供条件，名声却不等同于稳定官职。他一面向往山川和隐逸生活，一面希望得到君主重用，这两种愿望长期并存。",
+        "story": "七百四十二年，李白进入长安供奉翰林，后来离京，在洛阳结识杜甫并共同游历。安史之乱中，他加入永王李璘幕府，卷入皇室争斗，获罪流放夜郎，途中遇赦。诗中壮阔山河、宴饮友情与政治失意，都与这些经历有不同程度的联系。",
+        "legacy": "李白善于改造乐府旧题，以夸张、跳跃联想和鲜明节奏开辟诗歌空间。诗仙是后人概括其艺术气质的称呼，不能据此把作品全当作醉酒即兴。传世《上阳台帖》又让人看见他作为书写者的一面，但具体诗篇的作年仍须逐篇考订。",
+        "sources": [
+          {
+            "title": "李白草书上阳台帖",
+            "url": "https://www.dpm.org.cn/collection/handwriting/228280.html",
+            "institution": "故宫博物院"
+          },
+          {
+            "title": "李白",
+            "url": "https://www.gsjn.gov.cn/zjjn/cjmr/art/2022/art_c4a08000425a49e8a1d5f9500b2ae453.html",
+            "institution": "静宁县人民政府"
+          }
+        ],
+        "tags": [
+          "poet",
+          "literature",
+          "artist"
+        ]
+      },
+      {
+        "id": "tang-wei-zheng",
+        "title": "魏徵",
+        "type": "人物",
+        "startYear": 580,
+        "endYear": 643,
+        "certainty": "史实",
+        "dateLabel": "580—643年",
+        "summary": "魏徵以议政和进谏著称，参与塑造贞观时期的君臣讨论方式。",
+        "background": "魏徵经历隋末动乱，曾在李密、窦建德及太子李建成的政治集团中任职。玄武门之变后，唐太宗继续任用这位原先属于对手阵营的官员。新皇帝需要稳定政治并反思前朝覆亡，魏徵由此获得参与重大政策讨论的机会。",
+        "story": "他反复讨论纳谏、节制征发、慎用刑罚与保持民生的重要性，也参与修史和礼制事务。进言并非每次都被接受，君臣之间有争执和反复。六百四十三年去世后，太宗以失去一面镜子表达惋惜，这一比喻后来成为谈论谏臣的常见典故。",
+        "legacy": "魏徵的形象说明唐代政治理想重视官员对君主的劝戒，但纳谏仍依赖皇帝愿意容纳意见，不能等同于不受限制的言论权利。史书集中记录成功的对答，也有塑造明君贤臣范式的作用，阅读时应同时注意制度条件与叙事选择。",
+        "sources": [
+          {
+            "title": "《旧唐书》卷七十一：魏徵",
+            "url": "https://zh.wikisource.org/wiki/舊唐書/卷71",
+            "institution": "维基文库（史籍原文）"
+          }
+        ],
+        "tags": [
+          "minister",
+          "politician",
+          "thinker"
         ]
       }
     ],
@@ -4615,6 +6180,22 @@
         "type": "战后财政背景",
         "explanation": "安史之乱后户籍与赋役基础受损、军费压力加重，是780年改行两税法的背景之一。",
         "sourceUrl": "https://czj.yancheng.gov.cn/art/2024/4/29/art_21282_4181844.html"
+      },
+      {
+        "id": "tang-expand-r1",
+        "source": "tang-li-bai",
+        "target": "tang-du-fu",
+        "type": "交游",
+        "explanation": "李白与杜甫在洛阳结识，随后共同游历梁宋、齐鲁等地。",
+        "sourceUrl": "https://www.gsjn.gov.cn/zjjn/cjmr/art/2022/art_c4a08000425a49e8a1d5f9500b2ae453.html"
+      },
+      {
+        "id": "tang-expand-r2",
+        "source": "tang-wei-zheng",
+        "target": "tang-taizong",
+        "type": "进谏",
+        "explanation": "魏徵在唐太宗朝多次进谏，讨论征发、纳谏与治理等问题。",
+        "sourceUrl": "https://zh.wikisource.org/wiki/舊唐書/卷71"
       }
     ]
   },
@@ -4680,6 +6261,9 @@
             "url": "https://www.nopss.gov.cn/n1/2024/0523/c373410-40242013.html",
             "institution": "全国哲学社会科学工作办公室"
           }
+        ],
+        "tags": [
+          "event"
         ]
       },
       {
@@ -4705,6 +6289,9 @@
             "url": "https://www.hzlz.gov.cn/articles/945.html",
             "institution": "杭州市纪委监委"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -4730,6 +6317,9 @@
             "url": "https://www.hzlz.gov.cn/articles/945.html",
             "institution": "杭州市纪委监委"
           }
+        ],
+        "tags": [
+          "emperor"
         ]
       },
       {
@@ -4755,6 +6345,9 @@
             "url": "https://www.ahjd.gov.cn/News/show/649991.html",
             "institution": "旌德县人民政府"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -4775,6 +6368,11 @@
             "url": "https://en.wikipedia.org/wiki/Li_Yu_(Southern_Tang)",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "emperor",
+          "poet",
+          "literature"
         ]
       },
       {
@@ -4795,6 +6393,9 @@
             "url": "https://en.wikipedia.org/wiki/Chai_Rong",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "emperor"
         ]
       },
       {
@@ -4815,6 +6416,10 @@
             "url": "https://www.nopss.gov.cn/n1/2024/0523/c373410-40242013.html",
             "institution": "全国哲学社会科学工作办公室"
           }
+        ],
+        "tags": [
+          "artifact",
+          "literature"
         ]
       },
       {
@@ -4840,6 +6445,59 @@
             "url": "https://en.wikipedia.org/wiki/Five_Dynasties_and_Ten_Kingdoms_period",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "event"
+        ]
+      },
+      {
+        "id": "five-dynasties-feng-dao",
+        "title": "冯道",
+        "type": "人物",
+        "startYear": 882,
+        "endYear": 954,
+        "certainty": "史实",
+        "dateLabel": "882—954年",
+        "summary": "冯道在多次改朝换代中持续任职，并参与推动经书的校勘与雕印。",
+        "background": "冯道出身瀛州景城，成年后经历唐朝灭亡与北方政权频繁更替。他以文书能力进入幕府，后来多次担任宰相。军队决定君主更替的时代，维持官署、赋税和文教仍需熟悉政务的人，这也是理解其长期任职的重要背景。",
+        "story": "后唐时期，冯道与李愚等建议校定经书，委任学官依据石经等材料刻版印行，工程延续至后周完成。他也在进言时用农民提前售卖丝谷的诗句提醒君主关注生计。然而他先后服务多个政权，包含契丹入据中原后的朝廷，受到不同评价。",
+        "legacy": "后世有人强调他在乱世中保全民众和制度，有人以臣节标准批评他的选择，两种讨论不能混成无争议的定论。九经雕印则留下可辨认的文化成果：一项跨越数朝的工程，表明战乱之中仍存在书籍整理与技术传播的连续性。",
+        "sources": [
+          {
+            "title": "《旧五代史》卷一百二十六：冯道",
+            "url": "https://zh.wikisource.org/wiki/舊五代史/卷126",
+            "institution": "维基文库（史籍原文）"
+          }
+        ],
+        "tags": [
+          "minister",
+          "politician",
+          "institution"
+        ]
+      },
+      {
+        "id": "five-dynasties-night-revels",
+        "title": "《韩熙载夜宴图》",
+        "type": "文化",
+        "startYear": 960,
+        "endYear": 970,
+        "certainty": "约年",
+        "dateLabel": "约10世纪南唐题材；现存卷为宋摹本",
+        "summary": "连续的宴饮场景保存南唐人物画传统，也展示后世复制与叙事的作用。",
+        "background": "韩熙载是南唐重臣，长期活动于金陵宫廷与文人交游圈。传为顾闳中所作的夜宴图，以他的家宴为中心，安排听乐、观舞、休息和送客等场面。此节点的年代标示故事与原作传统，故宫所藏传世卷被定为宋代摹本。",
+        "story": "画家利用屏风、床榻和乐器组织空间，让韩熙载在同一长卷中多次出现。人物动作与目光相互关联，观者随展卷逐步进入不同场景。关于李煜派画家暗访的说法，见于后出的《宣和画谱》等文献，另有讽劝等解释，不能当作已被图像证实的过程。",
+        "legacy": "画卷为研究服饰、家具和音乐活动提供线索，同时也是经过选择与编排的艺术叙述。摹本可能保存早期构图，也会带入后世特征。把创作传说、人物生平和现存实物分别辨认，才能在欣赏夜宴细节时保留对证据边界的判断。",
+        "sources": [
+          {
+            "title": "顾闳中韩熙载夜宴图卷",
+            "url": "https://www.dpm.org.cn/collection/paint/228200.html",
+            "institution": "故宫博物院"
+          }
+        ],
+        "tags": [
+          "painting",
+          "artist",
+          "artifact"
         ]
       }
     ],
@@ -4891,6 +6549,22 @@
         "type": "跨朝编刊",
         "explanation": "九经雕印始于后唐，历经后晋、后汉，至后周完成；文化工程跨越了中原政权的更替。",
         "sourceUrl": "https://www.nopss.gov.cn/n1/2024/0523/c373410-40242013.html"
+      },
+      {
+        "id": "five-dynasties-expand-r1",
+        "source": "five-dynasties-feng-dao",
+        "target": "five-dynasties-nine-classics",
+        "type": "倡议校印",
+        "explanation": "冯道与李愚等在后唐倡议校定、刻版印行经书，工程跨朝延续。",
+        "sourceUrl": "https://zh.wikisource.org/wiki/舊五代史/卷126"
+      },
+      {
+        "id": "five-dynasties-expand-r2",
+        "source": "five-dynasties-night-revels",
+        "target": "five-dynasties-li-yu",
+        "type": "创作缘由见后世记载",
+        "explanation": "宋代《宣和画谱》称李煜曾命画家观察韩熙载夜宴；故宫说明同时列出其他说法，属于传述关系。",
+        "sourceUrl": "https://www.dpm.org.cn/collection/paint/228200.html"
       }
     ]
   },
@@ -4956,6 +6630,9 @@
             "url": "https://en.wikipedia.org/wiki/Liao_dynasty",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -4981,6 +6658,9 @@
             "url": "https://en.wikipedia.org/wiki/Bi_Sheng",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -5001,6 +6681,9 @@
             "url": "https://en.wikipedia.org/wiki/Western_Xia",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -5021,6 +6704,9 @@
             "url": "https://en.wikipedia.org/wiki/Jin_dynasty_(1115%E2%80%931234)",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -5041,6 +6727,9 @@
             "url": "https://en.wikipedia.org/wiki/Chanyuan_Treaty",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "event"
         ]
       },
       {
@@ -5061,6 +6750,11 @@
             "url": "https://en.wikipedia.org/wiki/New_Policies_(Song_dynasty)",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "institution",
+          "minister",
+          "politician"
         ]
       },
       {
@@ -5091,6 +6785,9 @@
             "url": "https://en.wikipedia.org/wiki/New_Policies_(Song_dynasty)",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "society"
         ]
       },
       {
@@ -5111,6 +6808,71 @@
             "url": "https://en.wikipedia.org/wiki/Bi_Sheng",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "artifact",
+          "thinker"
+        ]
+      },
+      {
+        "id": "song-su-shi",
+        "title": "苏轼",
+        "type": "人物",
+        "startYear": 1037,
+        "endYear": 1101,
+        "certainty": "史实",
+        "dateLabel": "1037—1101年",
+        "summary": "苏轼的诗文书画与地方政务相互交织，也记录了北宋党争中的个人处境。",
+        "background": "苏轼出身眉山，与父亲苏洵、弟弟苏辙共同进入宋代文学史。他在科举后步入仕途，曾任多地地方官，也在中央参与议政。北宋士人通过文章、奏议和私人通信讨论公共事务，文学表达与政治身份因此常常难以分开。",
+        "story": "王安石变法时，苏轼对若干新政提出异议；后来旧党掌权，他也并非赞同全部废改。乌台诗案后，他被贬黄州，写下赤壁诗文和寒食诗等作品。此后仕途几度起落，又远谪惠州、儋州，直到晚年获赦北返，病逝于常州。",
+        "legacy": "他的创作拓展了词的题材，也使日常经验、哲理与谐趣进入诗文。书画主张重视精神意趣，对文人艺术影响深远。传世信札还能看到他托人照料家事的具体请求，这些材料使一个经常被概括为旷达的形象，重新具有忧虑、责任与生活细节。",
+        "sources": [
+          {
+            "title": "《宋史》卷三百三十八：苏轼",
+            "url": "https://zh.wikisource.org/wiki/宋史/卷338",
+            "institution": "维基文库（史籍原文）"
+          },
+          {
+            "title": "苏轼",
+            "url": "https://www.dpm.org.cn/lemmas/242068.html",
+            "institution": "故宫博物院"
+          },
+          {
+            "title": "苏轼行书治平帖卷",
+            "url": "https://www.dpm.org.cn/collection/handwriting/231008.html",
+            "institution": "故宫博物院"
+          }
+        ],
+        "tags": [
+          "poet",
+          "literature",
+          "artist",
+          "politician"
+        ]
+      },
+      {
+        "id": "song-qingming-scroll",
+        "title": "《清明上河图》",
+        "type": "文化",
+        "startYear": 1100,
+        "endYear": 1125,
+        "certainty": "约年",
+        "dateLabel": "约12世纪初，北宋后期",
+        "summary": "张择端以长卷描绘汴河沿岸，把城市交通、商业与人物活动组织成画面。",
+        "background": "北宋东京依赖河运获得粮食和物资，城门、桥梁、码头与街市共同支撑都城生活。张择端的生平资料很少，传世画卷及后人题跋是认识他的主要线索。作品的确切作年仍有讨论，这里采用北宋后期的大致定位。",
+        "story": "画面从郊野逐渐进入河岸和城内，船工、商贩、行旅、店铺与各种运输工具相继出现。虹桥附近的船只和人群形成紧张的视觉中心，细小动作使观众仿佛能够追随各人的工作。长卷并非一个固定视点的全景，而是在展开中改变观察距离。",
+        "legacy": "图中的器物与建筑可以同文献、遗存互相参照，为研究城市生活提供丰富材料。不过画家会取舍、组合和强化场景，不能把它当作精确测绘图或某一天的完整记录。后世大量仿本也应与故宫所藏北宋本区分，避免混用细节解释宋代。",
+        "sources": [
+          {
+            "title": "清明上河图卷",
+            "url": "https://minghuaji.dpm.org.cn/paint/detail?id=592d80e225aac624977fee2e19452c1f&topicType=12",
+            "institution": "故宫博物院"
+          }
+        ],
+        "tags": [
+          "painting",
+          "artifact",
+          "society"
         ]
       }
     ],
@@ -5178,6 +6940,22 @@
         "type": "发明于",
         "explanation": "沈括把毕昇试制泥活字记在北宋庆历年间，即1041年至1048年之间。",
         "sourceUrl": "https://en.wikipedia.org/wiki/Bi_Sheng"
+      },
+      {
+        "id": "song-expand-r1",
+        "source": "song-su-shi",
+        "target": "song-new-policies",
+        "type": "提出异议",
+        "explanation": "苏轼对王安石新政的部分措施提出异议，其政治经历与新旧党争密切相关。",
+        "sourceUrl": "https://zh.wikisource.org/wiki/宋史/卷338"
+      },
+      {
+        "id": "song-expand-r2",
+        "source": "song-qingming-scroll",
+        "target": "song-commerce",
+        "type": "描绘",
+        "explanation": "画卷描绘北宋东京汴河沿岸的运输、店铺与行旅，是观察城市商贸的图像材料。",
+        "sourceUrl": "https://minghuaji.dpm.org.cn/paint/detail?id=592d80e225aac624977fee2e19452c1f&topicType=12"
       }
     ]
   },
@@ -5248,6 +7026,9 @@
             "url": "https://afe.easia.columbia.edu/mongols/",
             "institution": "哥伦比亚大学"
           }
+        ],
+        "tags": [
+          "emperor"
         ]
       },
       {
@@ -5268,6 +7049,9 @@
             "url": "https://en.wikipedia.org/wiki/Kublai_Khan",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "emperor"
         ]
       },
       {
@@ -5288,6 +7072,10 @@
             "url": "https://en.wikipedia.org/wiki/Yuan_dynasty",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "event",
+          "battle"
         ]
       },
       {
@@ -5313,6 +7101,9 @@
             "url": "https://www.quanzhou.gov.cn/zfb/zjqz/jzyg/",
             "institution": "泉州市人民政府"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -5338,6 +7129,9 @@
             "url": "https://lssf01.cas.cn/lssf/xwhd/cmsm/201004/t20100420_4508659.html",
             "institution": "中国科学院"
           }
+        ],
+        "tags": [
+          "thinker"
         ]
       },
       {
@@ -5363,6 +7157,9 @@
             "url": "https://whhlyt.hunan.gov.cn/whhlyt/ggwh/201611/t20161129_5428693.html",
             "institution": "湖南省文化和旅游厅／湖南省博物馆"
           }
+        ],
+        "tags": [
+          "literature"
         ]
       },
       {
@@ -5388,6 +7185,10 @@
             "url": "https://www.quanzhou.gov.cn/zfb/zjqz/jzyg/",
             "institution": "泉州市人民政府"
           }
+        ],
+        "tags": [
+          "archaeology",
+          "society"
         ]
       },
       {
@@ -5413,6 +7214,63 @@
             "url": "https://whhlyt.hunan.gov.cn/whhlyt/ggwh/201611/t20161129_5428693.html",
             "institution": "湖南省文化和旅游厅／湖南省博物馆"
           }
+        ],
+        "tags": [
+          "artifact"
+        ]
+      },
+      {
+        "id": "yuan-yelv-chucai",
+        "title": "耶律楚材",
+        "type": "人物",
+        "startYear": 1190,
+        "endYear": 1244,
+        "certainty": "史实",
+        "dateLabel": "1190—1244年",
+        "summary": "耶律楚材在蒙古征服期间主张经营赋税、保护人口与选用文治人才。",
+        "background": "耶律楚材出身契丹贵族后裔家庭，父辈任职金朝，他本人接受广泛的经史教育。蒙古攻入华北后，成吉思汗召见并任用他。征服军队如何从掠取资源转向较稳定的治理，成为熟悉中原制度的官员能够发挥作用的领域。",
+        "story": "他随成吉思汗西行，后来在窝阔台时期参与财政与行政安排，主张按户口土地征税，限制任意杀掠，并倡议选拔儒士。《元史》记录他以能够持续获得赋税说明保留人口和耕地的价值。这类建议在多方角力中推进，并非他一人决定整个政策。",
+        "legacy": "耶律楚材去世早于大元国号建立，适宜放在蒙古兴起到元朝之间的连续过程里理解。后世将他塑造成劝止杀戮的名臣，具体故事仍需分别辨证。他更长久的意义，在于展示被征服地区的知识与行政经验如何进入新的统治结构。",
+        "sources": [
+          {
+            "title": "《元史》卷一百四十六：耶律楚材",
+            "url": "https://zh.wikisource.org/wiki/元史/卷146",
+            "institution": "维基文库（史籍原文）"
+          }
+        ],
+        "tags": [
+          "minister",
+          "politician"
+        ]
+      },
+      {
+        "id": "yuan-zhao-mengfu",
+        "title": "赵孟頫",
+        "type": "人物",
+        "startYear": 1254,
+        "endYear": 1322,
+        "certainty": "史实",
+        "dateLabel": "1254—1322年",
+        "summary": "赵孟頫以复古书画开拓文人艺术，也面对宋室后裔出仕元朝的身份张力。",
+        "background": "赵孟頫出身宋室宗亲，南宋灭亡后居于江南。忽必烈招揽士人时，他接受征召入朝，后来在中央和地方任职。这一选择使他的生平长期伴随出处进退的讨论，也把江南文化经验带入元代多种传统交汇的政治环境。",
+        "story": "他学习晋唐书法，并在绘画中提倡从古代作品寻找新的笔墨方法。《鹊华秋色图》作于一二九五年，为周密描绘祖籍山东的山川，将旅行记忆、朋友情谊与复古形式结合。画中的山势、平坡和树木并非单纯临摹旧作，而是经过重新安排。",
+        "legacy": "赵孟頫影响后世书法与文人画的发展，官员、收藏家和艺术家的身份相互交织。评价其作品不应只剩政治立场，讨论仕元也不能仅凭书画成就免去问题。作品题跋与史传并读，能够看到个人选择、文化传承和新王朝用人的复杂关系。",
+        "sources": [
+          {
+            "title": "《元史》卷一百七十二：赵孟頫",
+            "url": "https://zh.wikisource.org/wiki/元史/卷172",
+            "institution": "维基文库（史籍原文）"
+          },
+          {
+            "title": "鹊华秋色",
+            "url": "https://theme.npm.edu.tw/selection/Article.aspx?sNo=04000974",
+            "institution": "台北故宫博物院"
+          }
+        ],
+        "tags": [
+          "artist",
+          "painting",
+          "politician"
         ]
       }
     ],
@@ -5464,6 +7322,22 @@
         "type": "曾设行省",
         "explanation": "泉州在元初曾设置行中书省，此后反复调整隶属与机构，具体反映行省制度尚在发展中的状态。",
         "sourceUrl": "https://www.quanzhou.gov.cn/zfb/zjqz/jzyg/"
+      },
+      {
+        "id": "yuan-expand-r1",
+        "source": "yuan-yelv-chucai",
+        "target": "yuan-genghis",
+        "type": "受召任用",
+        "explanation": "耶律楚材受成吉思汗召见后随侍并参与事务，后来又服务于窝阔台。",
+        "sourceUrl": "https://zh.wikisource.org/wiki/元史/卷146"
+      },
+      {
+        "id": "yuan-expand-r2",
+        "source": "yuan-zhao-mengfu",
+        "target": "yuan-kublai",
+        "type": "征召入仕",
+        "explanation": "忽必烈遣使搜访江南人才，赵孟頫被荐举入朝任职。",
+        "sourceUrl": "https://zh.wikisource.org/wiki/元史/卷172"
       }
     ]
   },
@@ -5529,6 +7403,9 @@
             "url": "https://en.wikipedia.org/wiki/Hongwu_Emperor",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "emperor"
         ]
       },
       {
@@ -5549,6 +7426,9 @@
             "url": "https://www.dpm.org.cn/court/lineage/226257.html",
             "institution": "故宫博物院"
           }
+        ],
+        "tags": [
+          "emperor"
         ]
       },
       {
@@ -5584,6 +7464,9 @@
             "url": "https://en.wikipedia.org/wiki/Forbidden_City",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "archaeology"
         ]
       },
       {
@@ -5604,6 +7487,9 @@
             "url": "https://en.wikipedia.org/wiki/Ming_treasure_voyages",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "event"
         ]
       },
       {
@@ -5629,6 +7515,10 @@
             "url": "https://en.wikipedia.org/wiki/Single_whip_law",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "minister",
+          "politician"
         ]
       },
       {
@@ -5649,6 +7539,9 @@
             "url": "https://en.wikipedia.org/wiki/Single_whip_law",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -5674,6 +7567,10 @@
             "url": "https://www.dpm.org.cn/Uploads/File/2020/02/16/u5e4924dc1e433.pdf",
             "institution": "故宫博物院"
           }
+        ],
+        "tags": [
+          "artifact",
+          "literature"
         ]
       },
       {
@@ -5699,6 +7596,58 @@
             "url": "https://en.wikipedia.org/wiki/Forbidden_City",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "event"
+        ]
+      },
+      {
+        "id": "ming-yu-qian",
+        "title": "于谦与北京保卫战",
+        "type": "人物",
+        "startYear": 1398,
+        "endYear": 1457,
+        "certainty": "史实",
+        "dateLabel": "1398—1457年；1449年主持京师防务",
+        "summary": "于谦在土木堡战败后组织北京防务，维持了明朝的首都与政治中枢。",
+        "background": "于谦在永乐十九年中进士，后来长期巡抚河南、山西，处理灾荒、粮储与地方军政。一四四九年，明英宗在土木堡被瓦剌军俘获，精锐部队损失惨重，北京出现迁都争论。朝廷必须在皇帝被俘和敌军逼近的情况下迅速重建指挥。",
+        "story": "于谦主张固守北京，支持郕王即位为景泰帝，随后调集军队、粮食和器械，部署城防与城外作战，抵御也先进攻。首都得以保全，战争危机却没有结束皇位之争。一四五七年英宗复辟，于谦被以谋逆罪处死，后来的朝廷又为其平反。",
+        "legacy": "他的经历说明守城并非只有临阵冲杀，平时的粮政与跨地区调度同样关键。后世将于谦视为忠臣典范，这一纪念有明确的政治功绩基础，也带有历代重建评价的过程。北京保卫战与夺门之变应分别理解，不能把军事胜利当作政治安全的保证。",
+        "sources": [
+          {
+            "title": "《明史》卷一百七十：于谦",
+            "url": "https://zh.wikisource.org/wiki/明史/卷170",
+            "institution": "维基文库（史籍原文）"
+          }
+        ],
+        "tags": [
+          "minister",
+          "politician",
+          "battle"
+        ]
+      },
+      {
+        "id": "ming-shen-du",
+        "title": "沈度",
+        "type": "人物",
+        "startYear": 1357,
+        "endYear": 1434,
+        "certainty": "史实",
+        "dateLabel": "1357—1434年",
+        "summary": "沈度的楷书因永乐朝廷的采用而广泛传播，成为台阁体的重要代表。",
+        "background": "沈度出身松江华亭，早年经历征辟、戍云南和地方藩王延请等曲折。永乐朝廷征集擅长书法的人才，文书、碑刻与典籍编纂都需要训练有素的书写者。书法在这里既是个人艺术，也是一项维持宫廷日常运作的专业工作。",
+        "story": "一四零四年，沈度进入翰林院，参与撰修《太祖实录》，并奉命书写多种宫廷文本。朱棣欣赏其端整婉丽的字形，诏诰及御制文字经常交由他书写。他与弟弟沈粲并称二沈，小楷《敬斋箴》等作品保留了匀称、严谨而有节奏的风格。",
+        "legacy": "皇帝的偏好通过翰林和科举书写向士人扩散，沈度因而不仅影响少数收藏家。台阁体能够满足正式文书清晰庄重的要求，也因趋同而受到后世批评。把这种书风放回使用场景，可以理解艺术标准如何由宫廷赞赏、职业要求和个人学习共同形成。",
+        "sources": [
+          {
+            "title": "沈度",
+            "url": "https://www.dpm.org.cn/court/figure/104052.html",
+            "institution": "故宫博物院"
+          }
+        ],
+        "tags": [
+          "artist",
+          "minister"
         ]
       }
     ],
@@ -5750,6 +7699,22 @@
         "type": "宫廷易主",
         "explanation": "1644年李自成军进入紫禁城，此后清廷接管宫城，其用途延续而统治者发生更替。",
         "sourceUrl": "https://en.wikipedia.org/wiki/Forbidden_City"
+      },
+      {
+        "id": "ming-expand-r1",
+        "source": "ming-yu-qian",
+        "target": "ming-yongle",
+        "type": "永乐朝登科",
+        "explanation": "于谦在永乐十九年中进士，仕途起点属于朱棣统治时期。",
+        "sourceUrl": "https://zh.wikisource.org/wiki/明史/卷170"
+      },
+      {
+        "id": "ming-expand-r2",
+        "source": "ming-shen-du",
+        "target": "ming-yongle",
+        "type": "奉诏书写",
+        "explanation": "沈度在永乐朝入翰林，其书法受到朱棣赏识，承担多种宫廷文本书写。",
+        "sourceUrl": "https://www.dpm.org.cn/court/figure/104052.html"
       }
     ]
   },
@@ -5815,6 +7780,9 @@
             "url": "https://en.wikipedia.org/wiki/Hong_Taiji",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "emperor"
         ]
       },
       {
@@ -5835,6 +7803,9 @@
             "url": "https://en.wikipedia.org/wiki/Kangxi_Emperor",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "emperor"
         ]
       },
       {
@@ -5860,6 +7831,9 @@
             "url": "https://en.wikipedia.org/wiki/Canton_System",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "emperor"
         ]
       },
       {
@@ -5885,6 +7859,9 @@
             "url": "https://www.dpm.org.cn/court/lineage/226263.html",
             "institution": "故宫博物院"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -5920,6 +7897,9 @@
             "url": "https://sjj.beijing.gov.cn/tszl/sjsh/201910/t20191025_452565.html",
             "institution": "北京市审计局"
           }
+        ],
+        "tags": [
+          "event"
         ]
       },
       {
@@ -5940,6 +7920,10 @@
             "url": "https://en.wikipedia.org/wiki/Canton_System",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "institution",
+          "society"
         ]
       },
       {
@@ -5965,6 +7949,9 @@
             "url": "https://sjj.beijing.gov.cn/tszl/sjsh/201910/t20191025_452565.html",
             "institution": "北京市审计局"
           }
+        ],
+        "tags": [
+          "literature"
         ]
       },
       {
@@ -5985,6 +7972,63 @@
             "url": "https://en.wikipedia.org/wiki/Siku_Quanshu",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "literature"
+        ]
+      },
+      {
+        "id": "qing-yongzheng",
+        "title": "雍正帝",
+        "type": "人物",
+        "startYear": 1678,
+        "endYear": 1735,
+        "certainty": "史实",
+        "dateLabel": "1678—1735年；1722年即位",
+        "summary": "雍正以财政整顿、密折和中枢调整，加强皇帝对官僚体系的掌握。",
+        "background": "胤禛是康熙第四子，在康熙晚年的皇储竞争之后继位。清朝统治范围扩大，地方财政、官员亏空和信息传递的问题日益突出。新皇帝希望更直接地掌握地方情况，也必须处理宗室、勋臣与各级官员之间的权力关系。",
+        "story": "在位期间，雍正推行耗羡归公、养廉银等财政安排，扩大密折使用，推动改土归流。因西北军务而形成的军机机构，后来发展成处理政务的重要中枢。他对官员要求严厉，同时清除年羹尧、隆科多等权臣，显露高度集中的权力结构。",
+        "legacy": "这些措施增强了朝廷收集信息和调配资源的能力，其效果仍取决于地方执行，也可能增加官员对个人意旨的依附。关于雍正继位的民间故事很多，不能用改字传位等传说取代档案与制度背景。较短的统治时间，却给乾隆朝留下了深刻的行政基础。",
+        "sources": [
+          {
+            "title": "雍正皇帝",
+            "url": "https://www.dpm.org.cn/court/lineage/226259.html",
+            "institution": "故宫博物院"
+          }
+        ],
+        "tags": [
+          "emperor",
+          "politician",
+          "institution"
+        ]
+      },
+      {
+        "id": "qing-lang-shining",
+        "title": "郎世宁",
+        "type": "人物",
+        "startYear": 1688,
+        "endYear": 1766,
+        "certainty": "史实",
+        "dateLabel": "1688—1766年",
+        "summary": "郎世宁在清宫长期作画，将欧洲透视与宫廷审美结合为新的视觉语言。",
+        "background": "郎世宁出生于意大利米兰，受过绘画训练后加入耶稣会，一七一五年来到中国，随后进入清宫供职。他经历康熙、雍正和乾隆三朝，工作的环境既有传教士之间的知识联系，也有中国画家、工匠和内务府的分工。",
+        "story": "他为皇帝绘制肖像、动物与重要活动场面，运用明暗和焦点透视，又调整色彩及面部表现以适应宫廷要求。《百骏图》等作品展示细密观察与长卷构图的配合。他还协助年希尧研究透视，为《视学》所代表的知识交流提供实际经验。",
+        "legacy": "这些作品保存了宫廷希望呈现的秩序和形象，不能直接等同于未经选择的现场记录。郎世宁的艺术也不只是两种技法简单相加，而是在长期委托、修改与合作中形成。作品、档案和合作画家的名字共同揭示清宫艺术生产的集体面貌。",
+        "sources": [
+          {
+            "title": "郎世宁",
+            "url": "https://www.dpm.org.cn/lemmas/240347.html",
+            "institution": "故宫博物院"
+          },
+          {
+            "title": "画马和郎世宁的《百骏图》",
+            "url": "https://www.dpm.org.cn/Uploads/pdf/4635/T00083_00.pdf",
+            "institution": "故宫博物院"
+          }
+        ],
+        "tags": [
+          "artist",
+          "painting"
         ]
       }
     ],
@@ -6052,6 +8096,38 @@
         "type": "家世背景",
         "explanation": "曹雪芹家族曾接待康熙南巡，这是小说作者的家世背景；书中省亲等情节仍属于文学创作。",
         "sourceUrl": "https://sjj.beijing.gov.cn/tszl/sjsh/201910/t20191025_452565.html"
+      },
+      {
+        "id": "qing-expand-r1",
+        "source": "qing-yongzheng",
+        "target": "qing-kangxi",
+        "type": "父子",
+        "explanation": "雍正帝胤禛是康熙帝第四子，于一七二二年继位。",
+        "sourceUrl": "https://www.dpm.org.cn/court/lineage/226259.html"
+      },
+      {
+        "id": "qing-expand-r2",
+        "source": "qing-yongzheng",
+        "target": "qing-grand-council",
+        "type": "形成于其朝",
+        "explanation": "军机机构因雍正朝西北军务而形成，后来扩大为重要中枢。",
+        "sourceUrl": "https://www.dpm.org.cn/court/lineage/226259.html"
+      },
+      {
+        "id": "qing-expand-r3",
+        "source": "qing-lang-shining",
+        "target": "qing-yongzheng",
+        "type": "奉命绘画",
+        "explanation": "造办处档案记录郎世宁受命绘制《百骏图》，作品于雍正六年完成。",
+        "sourceUrl": "https://www.dpm.org.cn/Uploads/pdf/4635/T00083_00.pdf"
+      },
+      {
+        "id": "qing-expand-r4",
+        "source": "qing-lang-shining",
+        "target": "qing-qianlong",
+        "type": "宫廷供职",
+        "explanation": "郎世宁在乾隆朝继续担任宫廷画家，绘制肖像与重大活动等题材。",
+        "sourceUrl": "https://www.dpm.org.cn/lemmas/240347.html"
       }
     ]
   },
@@ -6127,6 +8203,10 @@
             "url": "https://en.wikipedia.org/wiki/Self-Strengthening_Movement",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "event",
+          "battle"
         ]
       },
       {
@@ -6147,6 +8227,10 @@
             "url": "https://en.wikipedia.org/wiki/Taiping_Rebellion",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "event",
+          "battle"
         ]
       },
       {
@@ -6167,6 +8251,9 @@
             "url": "https://en.wikipedia.org/wiki/Self-Strengthening_Movement",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -6187,6 +8274,10 @@
             "url": "https://en.wikipedia.org/wiki/First_Sino-Japanese_War",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "event",
+          "battle"
         ]
       },
       {
@@ -6207,6 +8298,9 @@
             "url": "https://en.wikipedia.org/wiki/Hundred_Days'_Reform",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "event"
         ]
       },
       {
@@ -6227,6 +8321,9 @@
             "url": "https://en.wikipedia.org/wiki/Late_Qing_reforms",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "institution"
         ]
       },
       {
@@ -6247,6 +8344,10 @@
             "url": "https://en.wikipedia.org/wiki/1911_Revolution",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "event",
+          "battle"
         ]
       },
       {
@@ -6272,6 +8373,64 @@
             "url": "https://en.wikipedia.org/wiki/1911_Revolution",
             "institution": "维基百科"
           }
+        ],
+        "tags": [
+          "event"
+        ]
+      },
+      {
+        "id": "late-qing-lin-zexu",
+        "title": "林则徐",
+        "type": "人物",
+        "startYear": 1785,
+        "endYear": 1850,
+        "certainty": "史实",
+        "dateLabel": "1785—1850年",
+        "summary": "林则徐主持虎门销烟，也在地方治理和对外信息搜集方面留下重要实践。",
+        "background": "林则徐出身福建侯官，经过科举进入官僚体系，曾处理水利、赈灾和财政事务。十九世纪三十年代，鸦片走私带来的社会危害、白银问题与官场腐败引发激烈争论。他主张严禁鸦片，并在一八三八年末受命赴广东办理禁烟。",
+        "story": "到广州后，他联合地方官员要求商人交出鸦片，一八三九年六月在虎门集中销毁缴获烟土，同时整顿海防、搜集外国信息。英国发动战争后，清廷把交涉失利的责任转向林则徐，他被革职并遣戍伊犁。后来再获起用，最终在赴任途中去世。",
+        "legacy": "虎门销烟成为近代维护主权的重要历史记忆，但不能据此把战争原因简化为一个人的行动。林则徐仍在传统官僚秩序内寻找应对办法，对海外的认识也有局限。奏折、译述与地方政务记录，使人能够同时看到他的责任意识、求知努力和时代边界。",
+        "sources": [
+          {
+            "title": "虎门一号销烟池出土的铺地石",
+            "url": "https://www.chnmuseum.cn/zp/zpml/gmww/202104/t20210402_249493.shtml",
+            "institution": "中国国家博物馆"
+          },
+          {
+            "title": "《清史稿》卷三百六十九：林则徐",
+            "url": "https://zh.wikisource.org/wiki/清史稿/卷369",
+            "institution": "维基文库（史籍原文）"
+          }
+        ],
+        "tags": [
+          "minister",
+          "politician"
+        ]
+      },
+      {
+        "id": "late-qing-qiu-jin",
+        "title": "秋瑾",
+        "type": "人物",
+        "startYear": 1875,
+        "endYear": 1907,
+        "certainty": "史实",
+        "dateLabel": "1875—1907年",
+        "summary": "秋瑾把妇女教育、报刊写作与反清活动联系起来，参与晚清社会的新政治。",
+        "background": "秋瑾成长于晚清，接受诗文教育，成年后的婚姻生活与个人追求之间存在强烈冲突。留学、报刊和新式学堂给女性提供了新的公共空间。她在一九零四年赴日本，参与革命团体，并把改变妇女处境同国家政治问题一并思考。",
+        "story": "她加入光复会与同盟会，回国后参与教育和出版活动，创办《中国女报》，倡导妇女学习、自立与公共参与。一九零七年主持绍兴大通学堂，与徐锡麟筹划起事。安庆行动失败后，清军包围学堂，秋瑾被捕，同年七月十五日遇害。",
+        "legacy": "她没有活到武昌起义或清帝退位，其意义在于此前的动员与思想表达。诗词、报刊和照片展现了一个主动塑造公共身份的女性，而不只是纪念叙述中的牺牲者。理解秋瑾，需要同时看到革命组织的风险、妇女争取教育的努力以及个人生活的代价。",
+        "sources": [
+          {
+            "title": "秋瑾男装像",
+            "url": "https://www.chnmuseum.cn/zp/zpml/gmww/202112/t20211209_252836.shtml",
+            "institution": "中国国家博物馆"
+          }
+        ],
+        "tags": [
+          "politician",
+          "poet",
+          "literature",
+          "society"
         ]
       }
     ],
@@ -6323,6 +8482,22 @@
         "type": "求强思想的前奏",
         "explanation": "第一次鸦片战争后出现学习西方军备与翻译西方信息的主张，这些讨论先于1860年代展开的洋务事业。",
         "sourceUrl": "https://en.wikipedia.org/wiki/Self-Strengthening_Movement"
+      },
+      {
+        "id": "late-qing-expand-r1",
+        "source": "late-qing-lin-zexu",
+        "target": "late-qing-opium-war",
+        "type": "参与禁烟与海防",
+        "explanation": "林则徐的虎门销烟及海防部署属于鸦片战争爆发前后的直接历史过程。",
+        "sourceUrl": "https://www.chnmuseum.cn/zp/zpml/gmww/202104/t20210402_249493.shtml"
+      },
+      {
+        "id": "late-qing-expand-r2",
+        "source": "late-qing-late-reforms",
+        "target": "late-qing-qiu-jin",
+        "type": "新军参与镇压",
+        "explanation": "清末编练的新军也被用于镇压反清行动；绍兴官方史事记述一九零七年清廷调新军赴绍兴逮捕秋瑾。",
+        "sourceUrl": "https://sxwg.sx.gov.cn/art/2019/8/23/art_1647996_37231589.html"
       }
     ]
   }

@@ -6,6 +6,22 @@ const errors = [];
 const ids = new Set();
 const all = new Map();
 const sourceURLs = new Set();
+const allowedTags = new Set([
+  "emperor",
+  "minister",
+  "politician",
+  "poet",
+  "thinker",
+  "artist",
+  "event",
+  "battle",
+  "literature",
+  "painting",
+  "artifact",
+  "institution",
+  "society",
+  "archaeology",
+]);
 let relations = 0;
 let sources = 0;
 const cjk = (t) => (t.match(/[\u3400-\u9fff]/g) || []).length;
@@ -46,12 +62,18 @@ for (const e of eras) {
   );
   ok(e.country === "china", `${e.id}: missing country`);
   ok(!!e.title && !!e.dateLabel && !!e.kicker, `${e.id}: incomplete overview`);
-  ok(e.nodes.length >= 8, `${e.id}: requires 8 nodes`);
+  ok(e.nodes.length >= 10, `${e.id}: requires 10 nodes`);
   sourcesCheck(e.sources, e.id);
   for (const n of e.nodes) {
     ok(!ids.has(n.id), `Duplicate ID ${n.id}`);
     ids.add(n.id);
     all.set(n.id, n);
+    ok(
+      Array.isArray(n.tags) &&
+        n.tags.length > 0 &&
+        n.tags.every((t) => allowedTags.has(t)),
+      `${n.id}: invalid interest tags`,
+    );
     ok(
       n.startYear <= n.endYear && n.startYear !== 0 && n.endYear !== 0,
       `${n.id}: bad dates`,
@@ -110,12 +132,78 @@ for (const e of eras) {
       );
   }
 }
+const images = JSON.parse(
+  fs.readFileSync(new URL("../data/images.json", import.meta.url), "utf8"),
+);
+const anecdotes = JSON.parse(
+  fs.readFileSync(new URL("../data/anecdotes.json", import.meta.url), "utf8"),
+);
+const extraIds = new Set();
+for (const im of images) {
+  ok(!extraIds.has(im.id), `Duplicate image ${im.id}`);
+  extraIds.add(im.id);
+  ok(
+    im.eraIds.length > 0 &&
+      im.eraIds.every((id) => eras.some((e) => e.id === id)),
+    `${im.id}: invalid era references`,
+  );
+  ok(
+    im.nodeIds.every((id) => all.has(id)),
+    `${im.id}: invalid node references`,
+  );
+  ok(
+    !!im.title &&
+      !!im.dating &&
+      !!im.caption &&
+      !!im.alt &&
+      !!im.credit &&
+      !!im.license,
+    `${im.id}: missing image attribution`,
+  );
+  ok(
+    im.localSrc.startsWith("/history/") &&
+      fs.existsSync(new URL(`../public${im.localSrc}`, import.meta.url)),
+    `${im.id}: missing local image`,
+  );
+  sourcesCheck(
+    [{ title: im.title, institution: im.institution, url: im.sourceUrl }],
+    im.id,
+  );
+}
+for (const a of anecdotes) {
+  ok(!extraIds.has(a.id), `Duplicate anecdote ${a.id}`);
+  extraIds.add(a.id);
+  const era = eras.find((e) => e.id === a.eraId);
+  ok(
+    !!era &&
+      a.nodeIds.length > 0 &&
+      a.nodeIds.every((id) => era.nodes.some((n) => n.id === id)),
+    `${a.id}: invalid anecdote references`,
+  );
+  ok(
+    !!a.title && cjk(a.text) >= 65 && !!a.evidenceLabel,
+    `${a.id}: incomplete anecdote`,
+  );
+  sourcesCheck([a.source], a.id);
+}
+for (const e of eras) {
+  ok(
+    images.some((im) => im.eraIds.includes(e.id)),
+    `${e.id}: requires a historical image`,
+  );
+  ok(
+    anecdotes.some((a) => a.eraId === e.id),
+    `${e.id}: requires a sourced anecdote`,
+  );
+}
 console.log(
   JSON.stringify(
     {
       eras: eras.length,
       nodes: all.size,
       relations,
+      images: images.length,
+      anecdotes: anecdotes.length,
       sources,
       uniqueSourceURLs: sourceURLs.size,
       errors,

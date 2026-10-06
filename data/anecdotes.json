@@ -1,0 +1,338 @@
+[
+  {
+    "id": "western-jin-anecdote-left-commentary",
+    "nodeIds": [
+      "western-jin-du-yu",
+      "western-jin-sima-yan"
+    ],
+    "title": "这位将军说自己有书癖",
+    "text": "《晋书》记载，杜预说王济爱马、和峤爱钱，晋武帝便追问他有什么癖好。杜预回答自己有《左传》癖。他确实留下了影响深远的注释著作。这段对话来自唐代编修的史书，既刻画人物趣味，也让平吴将领显露出书斋中的另一面。",
+    "evidenceLabel": "后出史书记述（唐修《晋书》）",
+    "source": {
+      "title": "《晋书》卷三十四：杜预",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷034",
+      "institution": "维基文库（史籍原文）"
+    },
+    "eraId": "western-jin"
+  },
+  {
+    "id": "eastern-jin-anecdote-chess-news",
+    "nodeIds": [
+      "eastern-jin-xie-an",
+      "eastern-jin-feishui"
+    ],
+    "title": "捷报来了，棋还没下完",
+    "text": "据《晋书》，淝水捷报送到时，谢安正与客人下棋，看信后神色平静，只说子侄们已打败敌军。等客人离去，他跨门槛时高兴得折断木屐齿也没察觉。这是后世史书塑造镇定名相的一段叙述，原文并未说对弈者是王羲之。",
+    "evidenceLabel": "后出史书记述（唐修《晋书》）",
+    "source": {
+      "title": "《晋书》卷七十九：谢安",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷079",
+      "institution": "维基文库（史籍原文）"
+    },
+    "eraId": "eastern-jin"
+  },
+  {
+    "id": "northern-southern-anecdote-hiking-shoes",
+    "nodeIds": [
+      "northern-southern-xie-lingyun"
+    ],
+    "title": "诗人的登山鞋可以拆齿",
+    "text": "《南史》记载，谢灵运登山常穿木屐，上山去掉前齿，下山去掉后齿，以适应不同坡度。他出游时随从很多，还曾开路来到临海，让当地官员误以为有山贼。这些细节出自唐代史书，呈现的是有庄园和随从支撑的士族游山生活。",
+    "evidenceLabel": "后出史书记述（唐修《南史》）",
+    "source": {
+      "title": "《南史》卷十九：谢灵运",
+      "url": "https://zh.wikisource.org/wiki/南史/卷19",
+      "institution": "维基文库（史籍原文）"
+    },
+    "eraId": "northern-southern"
+  },
+  {
+    "id": "sui-anecdote-merchant-interviews",
+    "nodeIds": [
+      "sui-pei-ju"
+    ],
+    "title": "问商人，画出远方世界",
+    "text": "裴矩的《西域图记》并不是亲自走遍各国后写成的。《隋书》保存的序文说，他在关市访问商人，遇到疑点就询问多人，并画出当地人的服饰形貌。对难以查清的遥远地方，他宁可暂缺。这使一部边疆图记也留下了采访与核对信息的方法。",
+    "evidenceLabel": "史籍保存的作者序文",
+    "source": {
+      "title": "《隋书》卷六十七：裴矩",
+      "url": "https://zh.wikisource.org/wiki/隋書/卷67",
+      "institution": "维基文库（史籍原文）"
+    },
+    "eraId": "sui"
+  },
+  {
+    "id": "tang-anecdote-short-calligraphy",
+    "nodeIds": [
+      "tang-li-bai"
+    ],
+    "title": "李白的书迹只有五行",
+    "text": "故宫藏《上阳台帖》的正文只有五行、二十五字，是一首自咏四言诗加题记。短短一帖，后来却添上宋徽宗题签、乾隆题字和许多鉴藏印。画面上不同年代的文字不能都算作李白手笔，它们共同记录了这件书迹被观看和收藏的漫长经历。",
+    "evidenceLabel": "传世实物与题跋（故宫著录）",
+    "source": {
+      "title": "李白草书上阳台帖",
+      "url": "https://www.dpm.org.cn/collection/handwriting/228280.html",
+      "institution": "故宫博物院"
+    },
+    "eraId": "tang"
+  },
+  {
+    "id": "five-dynasties-anecdote-repeated-host",
+    "nodeIds": [
+      "five-dynasties-night-revels"
+    ],
+    "title": "一幅画里，主人出现好几次",
+    "text": "《韩熙载夜宴图》中，同一位主人随着听乐、观舞、休息等场景反复出现。屏风和床榻既是家具，也是分隔段落的线索，展卷便能读出时间的推进。故宫将现存卷著录为宋摹本，因此这些细节首先属于传世画面的证据，不能直接当作某夜的现场记录。",
+    "evidenceLabel": "传世图像可见；现存为宋摹本",
+    "source": {
+      "title": "顾闳中韩熙载夜宴图卷",
+      "url": "https://www.dpm.org.cn/collection/paint/228200.html",
+      "institution": "故宫博物院"
+    },
+    "eraId": "five-dynasties"
+  },
+  {
+    "id": "song-anecdote-family-letter",
+    "nodeIds": [
+      "song-su-shi"
+    ],
+    "title": "名家的法帖也在操心家事",
+    "text": "苏轼《治平帖》不是专为展示书法写成的作品，而是一封托乡僧照管坟茔的信。后人根据卷后的题跋，推测它作于熙宁年间苏轼在京城时。今天被装裱、鉴赏的笔墨，当初承担的是一项具体家事，让远离故乡的牵挂留在了纸上。",
+    "evidenceLabel": "传世信札；作年据后人题跋推定",
+    "source": {
+      "title": "苏轼行书治平帖卷",
+      "url": "https://www.dpm.org.cn/collection/handwriting/231008.html",
+      "institution": "故宫博物院"
+    },
+    "eraId": "song"
+  },
+  {
+    "id": "yuan-anecdote-painted-hometown",
+    "nodeIds": [
+      "yuan-zhao-mengfu"
+    ],
+    "title": "画一幅朋友没见过的故乡",
+    "text": "赵孟頫到过山东，朋友周密却没有亲见祖籍的山川。一二九五年，他为周密画《鹊华秋色图》，用华不注山、鹊山和平坡树木介绍那片地方。画既来自旅行记忆，也经过构图与古法整理；朋友之间的乡土想象，就这样成为一件传世山水作品。",
+    "evidenceLabel": "作品题跋与博物馆研究",
+    "source": {
+      "title": "鹊华秋色",
+      "url": "https://theme.npm.edu.tw/selection/Article.aspx?sNo=04000974",
+      "institution": "台北故宫博物院"
+    },
+    "eraId": "yuan"
+  },
+  {
+    "id": "ming-anecdote-yongle-calligrapher",
+    "nodeIds": [
+      "ming-yongle",
+      "ming-shen-du"
+    ],
+    "title": "朱棣眼里的“本朝王羲之”",
+    "text": "据故宫整理的沈度生平，朱棣很喜欢他的字，称赞他为本朝王羲之。诏诰、御制诗文和碑刻常交给沈度书写，士人也竞相学习这种端整字形。皇帝的喜好不只停在收藏里，还通过宫廷文书和仕途书写要求，推动了一种书风流行。",
+    "evidenceLabel": "博物馆据史料整理的人物记述",
+    "source": {
+      "title": "沈度",
+      "url": "https://www.dpm.org.cn/court/figure/104052.html",
+      "institution": "故宫博物院"
+    },
+    "eraId": "ming"
+  },
+  {
+    "id": "qing-anecdote-hundred-horses",
+    "nodeIds": [
+      "qing-lang-shining",
+      "qing-yongzheng"
+    ],
+    "title": "一卷《百骏图》画了四年",
+    "text": "郎世宁《百骏图》的款识写雍正六年，即一七二八年。造办处档案却能把委托追溯到雍正二年，前后约四年。画卷上的落款因此记录完成时间，未必等于动笔时间；把作品与档案对照，才能看见一件宫廷绘画背后漫长的制作过程。",
+    "evidenceLabel": "宫廷制作档案与作品款识互证",
+    "source": {
+      "title": "画马和郎世宁的《百骏图》",
+      "url": "https://www.dpm.org.cn/Uploads/pdf/4635/T00083_00.pdf",
+      "institution": "故宫博物院"
+    },
+    "eraId": "qing"
+  },
+  {
+    "id": "late-qing-anecdote-red-ink-reply",
+    "nodeIds": [
+      "late-qing-lin-zexu",
+      "late-qing-opium-war"
+    ],
+    "title": "销烟奏折上的红字回应",
+    "text": "虎门销烟之后，林则徐与邓廷桢、怡良共同上奏报告完竣。国博保存的奏折上，道光批下可称大快人心一事、知道了。这份有实物可查的回应，记录了清廷当时的认可；与后来林则徐遭革职的经历并读，更能看出战局如何改变朝廷态度。",
+    "evidenceLabel": "存世奏折与皇帝朱批",
+    "source": {
+      "title": "林则徐、邓廷桢、怡良合奏虎门销烟完竣折",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/fuxing/picture_atc_19.html",
+      "institution": "中国国家博物馆"
+    },
+    "eraId": "late-qing"
+  },
+  {
+    "id": "origins-anecdote-painting-on-burial",
+    "nodeIds": [
+      "origins-extra-painted-jar"
+    ],
+    "title": "名画的画布，原来是一件葬具",
+    "text": "今天常被单独欣赏的鹳鱼石斧图，其实画在一件用于瓮棺葬的陶缸上。大鸟用白色色块塑形，石斧却靠线条刻画，像同一画面里的两种笔法。至于它是否讲述氏族战争，尚无文字可作定论；可以确认的是，画与葬俗原本紧紧相连。",
+    "evidenceLabel": "考古材料与实物",
+    "source": {
+      "title": "每周一品：鹳鱼石斧图彩陶缸",
+      "url": "https://www.chnmus.net/sitesources/hnsbwy/page_pc/dzjp/mzyp/gysftctg/list1.html",
+      "institution": "河南博物院"
+    },
+    "eraId": "origins"
+  },
+  {
+    "id": "xia-anecdote-jade-clapper",
+    "nodeIds": [
+      "xia-extra-copper-bells"
+    ],
+    "title": "铜铃里面，藏着一根玉管",
+    "text": "二里头一些墓葬的铜铃，内部或旁边还留着管状玉铃舌。发声靠的是铜与玉的碰撞，器表又保存了纺织品痕迹。这个组合比孤立的一只铃更有信息：它提示悬挂、包裹或佩系的可能，却还不足以告诉我们古人当时演奏的具体节奏。",
+    "evidenceLabel": "考古材料与实物",
+    "source": {
+      "title": "带翼铜铃：二里头铜铃比较研究",
+      "url": "https://www.chnmus.net/ch/collection/appraise/details.html?id=512156456758489230",
+      "institution": "河南博物院"
+    },
+    "eraId": "xia"
+  },
+  {
+    "id": "shang-anecdote-rams-corners",
+    "nodeIds": [
+      "shang-extra-four-rams"
+    ],
+    "title": "四只羊，并不是摆上去的装饰",
+    "text": "看四羊方尊时，可以顺着羊头往下找：羊身进入器腹，前腿连向器足，动物与容器共用一套轮廓。突出的棱线还参与遮掩范块结合的痕迹。工匠既要让它能作为器物站立，又要使动物形象自然，这种巧思在转角处最容易看清。",
+    "evidenceLabel": "考古材料与实物",
+    "source": {
+      "title": "四羊青铜方尊",
+      "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202108/t20210806_250991.shtml",
+      "institution": "中国国家博物馆"
+    },
+    "eraId": "shang"
+  },
+  {
+    "id": "western-zhou-anecdote-gantan",
+    "nodeIds": [
+      "western-zhou-extra-shao-gong"
+    ],
+    "title": "一棵树，怎么成了政治纪念物",
+    "text": "《史记》追述召公巡行乡邑，在甘棠树下处理政事和诉讼；他去世后，人们因怀念而不忍砍伐这棵树。故事把对官员的评价寄托在一个普通地点上，颇有生活气息。但这是汉代史书对周初的叙述，应当作为后世保存的政治记忆来读。",
+    "evidenceLabel": "后世文献记述",
+    "source": {
+      "title": "史记·燕召公世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷034",
+      "institution": "维基文库（《史记》原文）"
+    },
+    "eraId": "western-zhou"
+  },
+  {
+    "id": "spring-autumn-anecdote-shaomusic",
+    "nodeIds": [
+      "spring-autumn-confucius"
+    ],
+    "title": "孔子也会听音乐听得入迷",
+    "text": "《论语·述而》说孔子在齐国听到韶乐，竟“三月不知肉味”，感叹音乐能够达到这样的境界。这段弟子传统保存的记述，生动表现了他对乐的投入；它不是现代意义的饮食记录，也不宜解释成孔子真的连续三个月没有吃肉。",
+    "evidenceLabel": "后世文献记述",
+    "source": {
+      "title": "论语·述而",
+      "url": "https://zh.wikisource.org/wiki/論語/述而第七",
+      "institution": "维基文库（《论语》原文）"
+    },
+    "eraId": "spring-autumn"
+  },
+  {
+    "id": "warring-states-anecdote-two-tones",
+    "nodeIds": [
+      "warring-states-bells"
+    ],
+    "title": "一口钟，为什么能敲出两个音",
+    "text": "曾侯乙编钟的许多钟体并非正圆，敲击正面和侧面特定位置，可以发出两个不同音高，通常相隔三度。钟上的文字还记录音名及其对应关系。听起来像表演技巧的“一钟双音”，背后其实同时需要控制钟体形状、厚度和整套乐器的音列。",
+    "evidenceLabel": "考古材料与实物",
+    "source": {
+      "title": "曾侯乙编钟",
+      "url": "https://hbww.org.cn/zgzb/p/4695.html",
+      "institution": "湖北省博物馆"
+    },
+    "eraId": "warring-states"
+  },
+  {
+    "id": "qin-anecdote-letters-home",
+    "nodeIds": [
+      "qin-extra-shuihudi"
+    ],
+    "title": "前线家书，也在惦记衣服和钱",
+    "text": "睡虎地四号墓出土的黑夫、惊家书，把秦统一战争中的个人生活带到眼前：写信人向家中询问、索取衣物和钱财，也挂念亲人的安好。它们写在木牍上，与十一号墓的法律竹简不是同一批文书，却共同说明秦人的书写远不只有皇帝诏令。",
+    "evidenceLabel": "考古材料与实物",
+    "source": {
+      "title": "秦军士兵得找家里要衣服和生活费？中国最早家信为你揭秘",
+      "url": "https://news.cjn.cn/bsy/wl_20088/202405/t4888959.htm",
+      "institution": "长江日报、长江网（湖北省博物馆展览采访与家书释文）"
+    },
+    "eraId": "qin"
+  },
+  {
+    "id": "western-han-anecdote-adjustable-lamp",
+    "nodeIds": [
+      "western-han-extra-changxin-lamp"
+    ],
+    "title": "两千多年前，灯光也能调方向",
+    "text": "长信宫灯的灯罩由两片弧形铜板围成，其中的活动部分可以推动，让光线朝需要的方向照射。宫女的衣袖又兼作烟道，部件还能拆开清理。精巧之处不只在“像一个人”，而在人物动作恰好容纳了调光、导烟和维护的实际功能。",
+    "evidenceLabel": "考古材料与实物",
+    "source": {
+      "title": "何以中国：长信宫灯",
+      "url": "https://ggzl.dpm.org.cn/pages/exhibit_works/details?id=10933",
+      "institution": "故宫博物院"
+    },
+    "eraId": "western-han"
+  },
+  {
+    "id": "xin-anecdote-five-measures",
+    "nodeIds": [
+      "xin-extra-jialiang",
+      "xin-extra-liu-xin"
+    ],
+    "title": "一件量器，翻个面就换单位",
+    "text": "新莽嘉量把五种容量装进同一件铜器：主体上部是斛、下部是斗，一侧为升，另一侧分成合与龠。容量换算也写在器物研究资料里，大多逐级十倍，唯独一合等于二龠。观察实物的分区，比把古代单位背成一串名称更容易理解。",
+    "evidenceLabel": "考古材料与实物",
+    "source": {
+      "title": "嘉量",
+      "url": "https://digitalarchive.npm.gov.tw/Collection/Detail/422?dep=U",
+      "institution": "台北故宫博物院"
+    },
+    "eraId": "xin"
+  },
+  {
+    "id": "eastern-han-anecdote-stone-text-crowd",
+    "nodeIds": [
+      "eastern-han-extra-cai-yong"
+    ],
+    "title": "校对一本书，也能把街道挤满",
+    "text": "《后汉书·蔡邕传》形容石经初立时，来看碑和摹写的人很多，每日车乘千余辆，甚至堵塞街道。这个数字应作为史书描写盛况的记载来读。真正耐人寻味的是：在手抄书容易出错的时代，一份可共同核对的文本，竟能吸引这样的关注。",
+    "evidenceLabel": "后世文献记述",
+    "source": {
+      "title": "黄易与东汉熹平石经",
+      "url": "https://www.dpm.org.cn/study_detail/100168.html",
+      "institution": "故宫博物院"
+    },
+    "eraId": "eastern-han"
+  },
+  {
+    "id": "three-kingdoms-anecdote-poem-becomes-scroll",
+    "nodeIds": [
+      "three-kingdoms-extra-cao-zhi"
+    ],
+    "title": "一幅长卷里，主角可以出现好几次",
+    "text": "故宫所藏《洛神赋图》用连续场景表现相逢与离别，同一个人物会在不同段落反复出现，展开手卷就像让故事向前走。现存这卷是宋代摹本，原本传统上归于顾恺之；它描绘三国曹植的文学作品，却不能被当成三国留下的现场图像。",
+    "evidenceLabel": "文献记载",
+    "source": {
+      "title": "顾恺之洛神赋图卷（宋摹）",
+      "url": "https://www.dpm.org.cn/collection/paint/234597.html",
+      "institution": "故宫博物院"
+    },
+    "eraId": "three-kingdoms"
+  }
+]

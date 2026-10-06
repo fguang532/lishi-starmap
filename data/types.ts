@@ -12,6 +12,7 @@ export type HistoryNode = {
   story: string;
   legacy: string;
   sources: Source[];
+  tags?: string[];
 };
 export type Relation = {
   id: string;
@@ -40,6 +41,31 @@ export type ViewState = { eraId: string | null; nodeId: string | null };
 export type CameraPose = {
   position: [number, number, number];
   target: [number, number, number];
+};
+export type ThemeMode = "night" | "day";
+export type HistoricalImage = {
+  id: string;
+  eraIds: string[];
+  nodeIds: string[];
+  title: string;
+  dating: string;
+  caption: string;
+  imageUrl: string;
+  localSrc: string;
+  sourceUrl: string;
+  institution: string;
+  credit: string;
+  license: string;
+  alt: string;
+};
+export type Anecdote = {
+  id: string;
+  eraId: string;
+  nodeIds: string[];
+  title: string;
+  text: string;
+  evidenceLabel: string;
+  source: Source;
 };
 export const ERA_COLORS = [
   "#67e8f9",

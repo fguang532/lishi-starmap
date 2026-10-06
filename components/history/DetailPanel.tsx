@@ -1,5 +1,5 @@
 "use client";
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 import { X, BookOpen, Link2, ExternalLink, ChevronLeft } from "lucide-react";
 import {
   Sheet,
@@ -9,6 +9,9 @@ import {
 } from "@/components/ui/sheet";
 import type { Era, HistoryNode, Relation } from "@/data/types";
 import { TYPE_COLORS } from "@/data/types";
+import { imagesFor, TAG_LABELS } from "@/data/exploration";
+import HeritageImage from "./HeritageImage";
+import StoryNotes from "./StoryNotes";
 type Props = {
   era: Era | undefined;
   node: HistoryNode | undefined;
@@ -20,6 +23,9 @@ type Props = {
   onNode: (id: string) => void;
   onBack: () => void;
   canBack: boolean;
+  filteredNodes: HistoryNode[];
+  filterActive: boolean;
+  onClearFilter: () => void;
 };
 export default function DetailPanel({
   era,
@@ -32,14 +38,19 @@ export default function DetailPanel({
   onNode,
   onBack,
   canBack,
+  filteredNodes,
+  filterActive,
+  onClearFilter,
 }: Props) {
   const body = useRef<HTMLDivElement>(null);
+  const [expandedImage, setExpandedImage] = useState<string | null>(null);
   useEffect(() => {
     body.current?.scrollTo({ top: 0 });
     if (open && node) body.current?.focus({ preventScroll: true });
   }, [era?.id, node?.id, open]);
   if (!era) return null;
   const item = node ?? era;
+  const images = imagesFor(era.id, node?.id);
   const links = node
     ? relations.filter((r) => r.source === node.id || r.target === node.id)
     : [];
@@ -56,7 +67,19 @@ export default function DetailPanel({
         showCloseButton={false}
         className={`history-panel ${mobile ? "history-panel-mobile" : ""}`}
         onInteractOutside={(e) => {
-          if (!mobile) e.preventDefault();
+          // Moving focus into or out of the image dialog should keep this archive open.
+          if (
+            !mobile ||
+            e.detail.originalEvent.type === "focusin" ||
+            document.querySelector(".art-lightbox[data-state=open]")
+          )
+            e.preventDefault();
+        }}
+        onEscapeKeyDown={(e) => {
+          if (expandedImage) {
+            e.preventDefault();
+            setExpandedImage(null);
+          }
         }}
         onOpenAutoFocus={(e) => {
           if (!mobile) e.preventDefault();
@@ -109,9 +132,31 @@ export default function DetailPanel({
                 {node.certainty !== "史实" && (
                   <span className="certainty-badge">{node.certainty}</span>
                 )}
+                {node.tags?.slice(0, 3).map((t) => (
+                  <span key={t} className="interest-badge">
+                    {TAG_LABELS[t]}
+                  </span>
+                ))}
               </div>
             )}
           </div>
+          {node &&
+            filterActive &&
+            !filteredNodes.some((n) => n.id === node.id) && (
+              <p className="filter-notice">
+                正在阅读关联档案，此节点不在当前偏好内。
+                <button onClick={onClearFilter}>显示全部节点</button>
+              </p>
+            )}
+          {images.map((im) => (
+            <HeritageImage
+              key={im.id}
+              image={im}
+              open={expandedImage === im.id}
+              onOpenChange={(value) => setExpandedImage(value ? im.id : null)}
+              context={!!node && !im.nodeIds.includes(node.id)}
+            />
+          ))}
           {node ? (
             <>
               <p className="detail-lead">{node.summary}</p>
@@ -146,9 +191,10 @@ export default function DetailPanel({
               </div>
               <section className="era-node-list">
                 <h3>
-                  这一时期的历史节点 <small>{era.nodes.length}</small>
+                  {filterActive ? "符合偏好的历史节点" : "这一时期的历史节点"}{" "}
+                  <small>{filteredNodes.length}</small>
                 </h3>
-                {era.nodes.map((n) => (
+                {filteredNodes.map((n) => (
                   <button key={n.id} onClick={() => onNode(n.id)}>
                     <span
                       className="node-type-dot"
@@ -163,9 +209,16 @@ export default function DetailPanel({
                     <span className="open-node-mark">＋</span>
                   </button>
                 ))}
+                {!filteredNodes.length && (
+                  <div className="empty-interest">
+                    <p>此时期暂未收录所选类别。</p>
+                    <button onClick={onClearFilter}>显示全部节点</button>
+                  </div>
+                )}
               </section>
             </>
           )}
+          <StoryNotes eraId={era.id} nodeId={node?.id} onNode={onNode} />
           {node && (
             <section className="related-section">
               <h3>

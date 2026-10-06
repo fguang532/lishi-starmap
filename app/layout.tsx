@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "./exploration.css";
 export const metadata: Metadata = {
   title: "华夏星图 · 中国历史宇宙",
   description:

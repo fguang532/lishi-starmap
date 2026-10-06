@@ -21,6 +21,7 @@ export type SceneProps = {
   onError: () => void;
   onEra: (id: string) => void;
   onNode: (id: string) => void;
+  matchingIds: string[] | null;
 };
 type V3 = [number, number, number];
 export function eraPosition(i: number): V3 {
@@ -31,8 +32,8 @@ export function eraPosition(i: number): V3 {
     Math.sin(t) * (6 + i * 0.07),
   ];
 }
-function childPosition(i: number, base: V3): V3 {
-  const a = (i / 8) * Math.PI * 2 - Math.PI / 2;
+function childPosition(i: number, base: V3, count: number): V3 {
+  const a = (i / Math.max(1, count)) * Math.PI * 2 - Math.PI / 2;
   const r = i % 2 ? 5.5 : 5.1;
   return [
     base[0] + Math.cos(a) * r,
@@ -381,14 +382,16 @@ function Epoch({
   i,
   onClick,
   mobile,
+  matchCount,
 }: {
   era: Era;
   i: number;
   onClick: () => void;
   mobile: boolean;
+  matchCount?: number;
 }) {
   const p = eraPosition(i);
-  const color = eraColor(i);
+  const color = matchCount === 0 ? "#374451" : eraColor(i);
   const label = !mobile || i % 3 === 0 || i === 21;
   return (
     <>
@@ -400,13 +403,17 @@ function Epoch({
           zIndexRange={[8, 0]}
         >
           <button
-            className="star-label"
+            className={`star-label ${matchCount === 0 ? "unmatched" : ""}`}
             style={{ "--node-color": color } as React.CSSProperties}
             onClick={onClick}
             aria-label={`进入${era.title}`}
           >
             <span>{era.shortTitle}</span>
-            <small>{era.dateLabel}</small>
+            <small>
+              {matchCount === undefined
+                ? era.dateLabel
+                : `${matchCount} 个匹配节点`}
+            </small>
           </button>
         </Html>
       )}
@@ -531,6 +538,8 @@ function ActiveEra({
       .filter((r) => r.source === props.nodeId || r.target === props.nodeId)
       .flatMap((r) => [r.source, r.target]),
   );
+  const shown = (id: string) =>
+    !props.matchingIds || props.matchingIds.includes(id) || props.nodeId === id;
   const ring = useMemo(
     () =>
       Array.from(
@@ -580,7 +589,7 @@ function ActiveEra({
       {era.relations.map((r) => {
         const a = positions.get(r.source),
           b = positions.get(r.target);
-        if (!a || !b) return null;
+        if (!a || !b || !shown(r.source) || !shown(r.target)) return null;
         return (
           <RelationLine
             key={r.id}
@@ -596,17 +605,21 @@ function ActiveEra({
           />
         );
       })}
-      {era.nodes.map((n) => (
-        <NodeStar
-          key={n.id}
-          node={n}
-          position={positions.get(n.id)!}
-          selected={n.id === props.nodeId}
-          related={!props.nodeId || related.has(n.id) || n.id === props.nodeId}
-          paused={props.paused || props.reduced}
-          onClick={() => props.onNode(n.id)}
-        />
-      ))}
+      {era.nodes
+        .filter((n) => shown(n.id))
+        .map((n) => (
+          <NodeStar
+            key={n.id}
+            node={n}
+            position={positions.get(n.id)!}
+            selected={n.id === props.nodeId}
+            related={
+              !props.nodeId || related.has(n.id) || n.id === props.nodeId
+            }
+            paused={props.paused || props.reduced}
+            onClick={() => props.onNode(n.id)}
+          />
+        ))}
     </>
   );
 }
@@ -627,7 +640,12 @@ function World(props: SceneProps) {
   );
   const positions = useMemo(
     () =>
-      new Map(era?.nodes.map((n, i) => [n.id, childPosition(i, base)]) ?? []),
+      new Map(
+        era?.nodes.map((n, i) => [
+          n.id,
+          childPosition(i, base, era.nodes.length),
+        ]) ?? [],
+      ),
     [era, base],
   );
   const trail = useMemo(
@@ -666,6 +684,12 @@ function World(props: SceneProps) {
               era={e}
               i={i}
               mobile={props.mobile}
+              matchCount={
+                props.matchingIds
+                  ? e.nodes.filter((n) => props.matchingIds!.includes(n.id))
+                      .length
+                  : undefined
+              }
               onClick={() => props.onEra(e.id)}
             />
           ))}

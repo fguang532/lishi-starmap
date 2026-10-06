@@ -1,0 +1,398 @@
+[
+  {
+    "id": "image-origins",
+    "eraIds": [
+      "origins"
+    ],
+    "nodeIds": [
+      "origins-liangzhu"
+    ],
+    "title": "良渚文化玉璧",
+    "dating": "约公元前3300—前2200年，良渚文化",
+    "caption": "这件大型玉璧体现了良渚文化精细的玉器加工与礼仪传统。馆方按文化类型断代；它不是良渚古城某次发掘的指定出土物。",
+    "imageUrl": "https://openaccess-cdn.clevelandart.org/1917.974/1917.974_web.jpg",
+    "sourceUrl": "https://www.clevelandart.org/art/1917.974",
+    "institution": "Cleveland Museum of Art（克利夫兰艺术博物馆）",
+    "credit": "The Cleveland Museum of Art；Worcester R. Warner Collection；藏品号 1917.974",
+    "license": "CC0 1.0（https://creativecommons.org/publicdomain/zero/1.0/）",
+    "alt": "表面呈灰绿与褐色沁斑、中央有圆孔的良渚玉璧",
+    "localSrc": "/history/image-origins.jpg"
+  },
+  {
+    "id": "image-xia",
+    "eraIds": [
+      "xia"
+    ],
+    "nodeIds": [
+      "xia-bronze",
+      "xia-evidence"
+    ],
+    "title": "二里头文化青铜斝",
+    "dating": "约公元前1700—前1500年，馆方归二里头文化",
+    "caption": "馆方将此酒器定为二里头文化，约前1700—前1500年，年代跨越常见的夏商分界。它可说明早期青铜礼器的发展，不能单凭图像认定为夏王朝的直接证据。",
+    "imageUrl": "https://openaccess-cdn.clevelandart.org/1989.150/1989.150_web.jpg",
+    "sourceUrl": "https://www.clevelandart.org/art/1989.150",
+    "institution": "Cleveland Museum of Art（克利夫兰艺术博物馆）",
+    "credit": "The Cleveland Museum of Art；John L. Severance Fund；藏品号 1989.150",
+    "license": "CC0 1.0（https://creativecommons.org/publicdomain/zero/1.0/）",
+    "alt": "三足支撑、腹部圆鼓、口沿有立柱的早期青铜斝",
+    "localSrc": "/history/image-xia.jpg"
+  },
+  {
+    "id": "image-shang",
+    "eraIds": [
+      "shang"
+    ],
+    "nodeIds": [
+      "shang-casting"
+    ],
+    "title": "商代方卣",
+    "dating": "约公元前1250—前1046年，商代殷墟阶段",
+    "caption": "方形器身、提梁和细密纹饰展现晚商青铜礼器的铸造水平。馆方认为可能来自河南安阳地区；不把它误标为妇好墓的指定器物。",
+    "imageUrl": "https://openaccess-cdn.clevelandart.org/1963.103/1963.103_web.jpg",
+    "sourceUrl": "https://www.clevelandart.org/art/1963.103",
+    "institution": "Cleveland Museum of Art（克利夫兰艺术博物馆）",
+    "credit": "The Cleveland Museum of Art；John L. Severance Fund；藏品号 1963.103",
+    "license": "CC0 1.0（https://creativecommons.org/publicdomain/zero/1.0/）",
+    "alt": "带盖和提梁的商代方形青铜酒器，器表布满鸟纹与雷纹",
+    "localSrc": "/history/image-shang.jpg"
+  },
+  {
+    "id": "image-western-zhou",
+    "eraIds": [
+      "western-zhou"
+    ],
+    "nodeIds": [],
+    "title": "西周青铜尊",
+    "dating": "约公元前1000年，西周",
+    "caption": "敞口、扉棱与突出的兽首，将商周延续的青铜礼仪传统与西周器形变化呈现在同一件酒器上。",
+    "imageUrl": "https://openaccess-cdn.clevelandart.org/1951.151/1951.151_web.jpg",
+    "sourceUrl": "https://www.clevelandart.org/art/1951.151",
+    "institution": "Cleveland Museum of Art（克利夫兰艺术博物馆）",
+    "credit": "The Cleveland Museum of Art；Gift from Howard Hollis and Company；藏品号 1951.151",
+    "license": "CC0 1.0（https://creativecommons.org/publicdomain/zero/1.0/）",
+    "alt": "口沿外侈、腹部饰突出兽首和竖向扉棱的西周青铜尊",
+    "localSrc": "/history/image-western-zhou.jpg"
+  },
+  {
+    "id": "image-spring-autumn",
+    "eraIds": [
+      "spring-autumn"
+    ],
+    "nodeIds": [],
+    "title": "春秋青铜簋",
+    "dating": "公元前600—前500年，春秋",
+    "caption": "这件盛食礼器具有方座、盖上镂空装饰和动物形双耳，可用于观察春秋晚期青铜礼器装饰的变化。",
+    "imageUrl": "https://openaccess-cdn.clevelandart.org/1974.73/1974.73_web.jpg",
+    "sourceUrl": "https://www.clevelandart.org/art/1974.73",
+    "institution": "Cleveland Museum of Art（克利夫兰艺术博物馆）",
+    "credit": "The Cleveland Museum of Art；Leonard C. Hanna Jr. Fund；藏品号 1974.73",
+    "license": "CC0 1.0（https://creativecommons.org/publicdomain/zero/1.0/）",
+    "alt": "有盖、双耳与方形底座的青铜簋，盖上环绕镂空纹饰",
+    "localSrc": "/history/image-spring-autumn.jpg"
+  },
+  {
+    "id": "image-warring-states",
+    "eraIds": [
+      "warring-states"
+    ],
+    "nodeIds": [],
+    "title": "战国楚文化鹤蛇漆木雕",
+    "dating": "公元前475—前221年，战国楚文化",
+    "caption": "馆方认为这组彩绘漆木雕可能是鼓架，也讨论其墓葬象征功能；确切用途尚不能完全确定。它展示楚地礼仪艺术，不是屈原本人的遗物。",
+    "imageUrl": "https://openaccess-cdn.clevelandart.org/1938.9/1938.9_web.jpg",
+    "sourceUrl": "https://www.clevelandart.org/art/1938.9",
+    "institution": "Cleveland Museum of Art（克利夫兰艺术博物馆）",
+    "credit": "The Cleveland Museum of Art；Purchase from the J. H. Wade Fund；藏品号 1938.9",
+    "license": "CC0 1.0（https://creativecommons.org/publicdomain/zero/1.0/）",
+    "alt": "两只长颈鸟立于盘曲蛇身之上的黑红色漆木雕",
+    "localSrc": "/history/image-warring-states.jpg"
+  },
+  {
+    "id": "image-qin",
+    "eraIds": [
+      "qin"
+    ],
+    "nodeIds": [
+      "qin-mausoleum"
+    ],
+    "title": "秦始皇陵一号坑陶俑近景",
+    "dating": "秦代，公元前3世纪；照片摄于2011年",
+    "caption": "2011年拍摄的兵马俑一号坑陶俑近景，呈现面部、发式与铠甲细节。陶俑属于秦始皇陵陵园体系，照片记录的是现代考古保护展示中的器物现状。",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Qin_Terracotta_Army%2C_Pit_1_01.jpg/1920px-Qin_Terracotta_Army%2C_Pit_1_01.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Army,_Pit_1_01.jpg",
+    "institution": "秦始皇帝陵博物院；照片由 Wikimedia Commons 提供",
+    "credit": "Gary Lee Todd, Ph.D.；Wikimedia Commons",
+    "license": "CC0 1.0（https://creativecommons.org/publicdomain/zero/1.0/）",
+    "alt": "一名秦代铠甲陶俑的头部与上身近景，面部和甲片可见裂缝与拼接痕迹，背景为其他陶俑局部",
+    "localSrc": "/history/image-qin.jpg"
+  },
+  {
+    "id": "image-western-han",
+    "eraIds": [
+      "western-han"
+    ],
+    "nodeIds": [],
+    "title": "西汉博山炉",
+    "dating": "公元前200—前100年，西汉",
+    "caption": "炉盖塑成山峦，焚香时烟雾从镂空处升出，形成微缩仙山般的视觉效果。这是西汉器物，不是马王堆墓中的指定出土品。",
+    "imageUrl": "https://openaccess-cdn.clevelandart.org/1986.46/1986.46_web.jpg",
+    "sourceUrl": "https://www.clevelandart.org/art/1986.46",
+    "institution": "Cleveland Museum of Art（克利夫兰艺术博物馆）",
+    "credit": "The Cleveland Museum of Art；Severance and Greta Millikin Purchase Fund；藏品号 1986.46",
+    "license": "CC0 1.0（https://creativecommons.org/publicdomain/zero/1.0/）",
+    "alt": "带山形镂空炉盖与高柄底座的青铜博山炉",
+    "localSrc": "/history/image-western-han.jpg"
+  },
+  {
+    "id": "image-xin",
+    "eraIds": [
+      "xin"
+    ],
+    "nodeIds": [],
+    "title": "新莽规矩纹铜镜",
+    "dating": "公元9—23年，新朝",
+    "caption": "镜背的规矩纹、乳钉和铭文保留新朝时期的视觉与观念世界。此镜与国博“始建国二年青铜镜”不是同一件文物。",
+    "imageUrl": "https://openaccess-cdn.clevelandart.org/1995.298/1995.298_web.jpg",
+    "sourceUrl": "https://www.clevelandart.org/art/1995.298",
+    "institution": "Cleveland Museum of Art（克利夫兰艺术博物馆）",
+    "credit": "The Cleveland Museum of Art；Gift of Drs. Thomas and Martha Carter in Honor of Sherman E. Lee；藏品号 1995.298",
+    "license": "CC0 1.0（https://creativecommons.org/publicdomain/zero/1.0/）",
+    "alt": "圆形新莽铜镜背面，中央镜钮外环绕几何纹与乳钉",
+    "localSrc": "/history/image-xin.jpg"
+  },
+  {
+    "id": "image-eastern-han",
+    "eraIds": [
+      "eastern-han"
+    ],
+    "nodeIds": [],
+    "title": "东汉绿釉陶望楼",
+    "dating": "公元25—220年，东汉",
+    "caption": "多层楼阁与人物、动物组成墓葬明器的微缩世界，反映当时建筑和生活的想象。它不是东汉洛阳城建筑的实测复原模型。",
+    "imageUrl": "https://openaccess-cdn.clevelandart.org/1989.71/1989.71_web.jpg",
+    "sourceUrl": "https://www.clevelandart.org/art/1989.71",
+    "institution": "Cleveland Museum of Art（克利夫兰艺术博物馆）",
+    "credit": "The Cleveland Museum of Art；The Severance and Greta Millikin Purchase Fund；藏品号 1989.71",
+    "license": "CC0 1.0（https://creativecommons.org/publicdomain/zero/1.0/）",
+    "alt": "施绿釉的多层陶楼，楼台上塑有人物和动物",
+    "localSrc": "/history/image-eastern-han.jpg"
+  },
+  {
+    "id": "image-three-kingdoms",
+    "eraIds": [
+      "three-kingdoms"
+    ],
+    "nodeIds": [],
+    "title": "三国双龙一虎纹镜",
+    "dating": "公元3世纪；馆方归三国时期",
+    "caption": "馆方将这件青铜镜归入中国三国时期。兽纹与铭文可用于理解同时代工艺，现有记录不足以把它指定为某位君主或某一场战役的遗物。",
+    "imageUrl": "https://openaccess-cdn.clevelandart.org/1995.322/1995.322_web.jpg",
+    "sourceUrl": "https://www.clevelandart.org/art/1995.322",
+    "institution": "Cleveland Museum of Art（克利夫兰艺术博物馆）",
+    "credit": "The Cleveland Museum of Art；Gift of Drs. Thomas and Martha Carter in Honor of Sherman E. Lee；藏品号 1995.322",
+    "license": "CC0 1.0（https://creativecommons.org/publicdomain/zero/1.0/）",
+    "alt": "三国时期青铜镜背面，中央镜钮周围有龙与虎的浮雕纹饰",
+    "localSrc": "/history/image-three-kingdoms.jpg"
+  },
+  {
+    "id": "image-western-jin",
+    "eraIds": [
+      "western-jin"
+    ],
+    "nodeIds": [],
+    "title": "西晋青釉魂瓶",
+    "dating": "公元3世纪晚期，西晋",
+    "caption": "瓶上堆塑楼阁、人物和鸟类，将建筑形象与墓葬观念结合起来，体现汉后南方青瓷的发展。",
+    "imageUrl": "https://openaccess-cdn.clevelandart.org/1988.21/1988.21_web.jpg",
+    "sourceUrl": "https://www.clevelandart.org/art/1988.21",
+    "institution": "Cleveland Museum of Art（克利夫兰艺术博物馆）",
+    "credit": "The Cleveland Museum of Art；Severance and Greta Millikin Purchase Fund；藏品号 1988.21",
+    "license": "CC0 1.0（https://creativecommons.org/publicdomain/zero/1.0/）",
+    "alt": "瓶顶堆塑楼阁、人物和群鸟的高大青釉魂瓶",
+    "localSrc": "/history/image-western-jin.jpg"
+  },
+  {
+    "id": "image-eastern-jin",
+    "eraIds": [
+      "eastern-jin"
+    ],
+    "nodeIds": [],
+    "title": "东晋鸡首龙柄青瓷壶",
+    "dating": "公元317—420年，馆藏照片所标东晋断代；现代文物摄影",
+    "caption": "鸡首流、龙形柄和青釉将东晋陶瓷工艺呈现在一件器物上。年代采用馆藏照片的记录，不据此给器物指定确切制作年。",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Ewer_with_chicken_head_and_dragon_handle%2C_China%2C_Jin_dynasty%2C_317-420_AD%2C_stoneware_with_celadon_glaze_-_Fitchburg_Art_Museum_-_DSC08760.JPG/1920px-Ewer_with_chicken_head_and_dragon_handle%2C_China%2C_Jin_dynasty%2C_317-420_AD%2C_stoneware_with_celadon_glaze_-_Fitchburg_Art_Museum_-_DSC08760.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ewer_with_chicken_head_and_dragon_handle,_China,_Jin_dynasty,_317-420_AD,_stoneware_with_celadon_glaze_-_Fitchburg_Art_Museum_-_DSC08760.JPG",
+    "institution": "Fitchburg Art Museum（菲奇堡艺术博物馆）；Wikimedia Commons",
+    "credit": "摄影 Daderot；Wikimedia Commons",
+    "license": "CC0 1.0（https://creativecommons.org/publicdomain/zero/1.0/）",
+    "alt": "青釉壶肩部饰鸡首形流，另一侧有高起的龙形把手",
+    "localSrc": "/history/image-eastern-jin.jpg"
+  },
+  {
+    "id": "image-northern-southern",
+    "eraIds": [
+      "northern-southern"
+    ],
+    "nodeIds": [
+      "northern-southern-northern-wei"
+    ],
+    "title": "北魏弥勒与侍从造像碑",
+    "dating": "公元500年，北魏",
+    "caption": "背面铭文记载僧人为父母、家族和师长造像的缘起，为北魏佛教信仰与供养活动提供有纪年的实物。",
+    "imageUrl": "https://openaccess-cdn.clevelandart.org/1959.130/1959.130_web.jpg",
+    "sourceUrl": "https://www.clevelandart.org/art/1959.130",
+    "institution": "Cleveland Museum of Art（克利夫兰艺术博物馆）",
+    "credit": "The Cleveland Museum of Art；Gift of Severance and Greta Millikin；藏品号 1959.130",
+    "license": "CC0 1.0（https://creativecommons.org/publicdomain/zero/1.0/）",
+    "alt": "灰色石质造像碑，中央佛像两侧排列侍从与装饰龛像",
+    "localSrc": "/history/image-northern-southern.jpg"
+  },
+  {
+    "id": "image-sui",
+    "eraIds": [
+      "sui"
+    ],
+    "nodeIds": [],
+    "title": "隋代鎏金铜观音像",
+    "dating": "公元581—618年，隋",
+    "caption": "体量小巧的鎏金佛像便于供奉和携带，展示隋代佛教造像传统；未将其附会为特定皇帝的私人物品。",
+    "imageUrl": "https://openaccess-cdn.clevelandart.org/1962.217/1962.217_web.jpg",
+    "sourceUrl": "https://www.clevelandart.org/art/1962.217",
+    "institution": "Cleveland Museum of Art（克利夫兰艺术博物馆）",
+    "credit": "The Cleveland Museum of Art；Gift of Mrs. John Lyon Collyer in memory of her mother, Mrs. G. M. G. Forman；藏品号 1962.217",
+    "license": "CC0 1.0（https://creativecommons.org/publicdomain/zero/1.0/）",
+    "alt": "戴宝冠的鎏金铜观音坐像，一腿弯曲、一腿下垂，右前臂残缺，局部鎏金磨损显露铜色",
+    "localSrc": "/history/image-sui.jpg"
+  },
+  {
+    "id": "image-tang",
+    "eraIds": [
+      "tang"
+    ],
+    "nodeIds": [],
+    "title": "唐代高髻仕女俑",
+    "dating": "约公元700—750年，唐",
+    "caption": "高髻、长裙和披帛保存唐代女性服饰的部分形象。陶俑属于墓葬艺术，并不是某一位宫廷女性的肖像。",
+    "imageUrl": "https://openaccess-cdn.clevelandart.org/1983.25/1983.25_web.jpg",
+    "sourceUrl": "https://www.clevelandart.org/art/1983.25",
+    "institution": "Cleveland Museum of Art（克利夫兰艺术博物馆）",
+    "credit": "The Cleveland Museum of Art；Severance and Greta Millikin Purchase Fund；藏品号 1983.25",
+    "license": "CC0 1.0（https://creativecommons.org/publicdomain/zero/1.0/）",
+    "alt": "盘高髻、身穿长裙并拱手站立的彩绘唐代女俑",
+    "localSrc": "/history/image-tang.jpg"
+  },
+  {
+    "id": "image-five-dynasties",
+    "eraIds": [
+      "five-dynasties"
+    ],
+    "nodeIds": [
+      "five-dynasties-wuyue"
+    ],
+    "title": "五代越窑青瓷盖盒",
+    "dating": "公元907—960年，五代",
+    "caption": "馆方记录产地为浙江余姚上林湖窑场。它与吴越地区的青瓷生产相关，帮助把五代十国的叙事延伸到区域工艺与日常器用。",
+    "imageUrl": "https://openaccess-cdn.clevelandart.org/1972.95/1972.95_web.jpg",
+    "sourceUrl": "https://www.clevelandart.org/art/1972.95",
+    "institution": "Cleveland Museum of Art（克利夫兰艺术博物馆）",
+    "credit": "The Cleveland Museum of Art；Gift of Mary B. Lee, C. Bingham Blossom, Dudley S. Blossom III, Laurel B. Kovacik, and Elizabeth B. Blossom, in memory of Elizabeth B. Blossom；藏品号 1972.95",
+    "license": "CC0 1.0（https://creativecommons.org/publicdomain/zero/1.0/）",
+    "alt": "盖面饰刻划纹样、釉色青绿的扁圆形越窑盖盒",
+    "localSrc": "/history/image-five-dynasties.jpg"
+  },
+  {
+    "id": "image-song",
+    "eraIds": [
+      "song"
+    ],
+    "nodeIds": [
+      "song-commerce"
+    ],
+    "title": "李嵩《货郎图》",
+    "dating": "公元1212年，南宋",
+    "caption": "李嵩以细密笔法描绘货郎、商品与儿童，是南宋绘画中的生活场景。作品有艺术安排，不宜当作对宋代市场的逐项统计记录。",
+    "imageUrl": "https://openaccess-cdn.clevelandart.org/1963.582/1963.582_web.jpg",
+    "sourceUrl": "https://www.clevelandart.org/art/1963.582",
+    "institution": "Cleveland Museum of Art（克利夫兰艺术博物馆）",
+    "credit": "The Cleveland Museum of Art；Andrew R. and Martha Holden Jennings Fund；藏品号 1963.582",
+    "license": "CC0 1.0（https://creativecommons.org/publicdomain/zero/1.0/）",
+    "alt": "绢本设色画中，货郎担具装满商品，儿童在一旁活动",
+    "localSrc": "/history/image-song.jpg"
+  },
+  {
+    "id": "image-yuan",
+    "eraIds": [
+      "yuan"
+    ],
+    "nodeIds": [
+      "yuan-blue-white"
+    ],
+    "title": "元代青花狮首耳罐",
+    "dating": "公元14世纪，馆方归元代",
+    "caption": "青花纹饰和狮首双耳呈现元代景德镇瓷器的典型工艺，也可联系钴料与装饰图案的跨区域传播。",
+    "imageUrl": "https://openaccess-cdn.clevelandart.org/1962.154/1962.154_web.jpg",
+    "sourceUrl": "https://www.clevelandart.org/art/1962.154",
+    "institution": "Cleveland Museum of Art（克利夫兰艺术博物馆）",
+    "credit": "The Cleveland Museum of Art；John L. Severance Fund；藏品号 1962.154",
+    "license": "CC0 1.0（https://creativecommons.org/publicdomain/zero/1.0/）",
+    "alt": "白地青花大罐，罐身布满花卉与云肩纹，肩部有狮首形耳",
+    "localSrc": "/history/image-yuan.jpg"
+  },
+  {
+    "id": "image-ming-palace-hero",
+    "eraIds": [
+      "ming",
+      "qing"
+    ],
+    "nodeIds": [
+      "ming-forbidden-city"
+    ],
+    "title": "紫禁城太和殿",
+    "dating": "明清宫殿建筑；照片摄于2008年10月",
+    "caption": "太和殿前的轴线、白石台基、朱红立柱与金色屋顶适合作为日间首屏建筑图。照片呈现历经清代重建及后世修缮的现状，不是明代原貌的现场影像。",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Hall_of_Supreme_Harmony.JPG/1920px-Hall_of_Supreme_Harmony.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hall_of_Supreme_Harmony.JPG",
+    "institution": "故宫博物院建筑；Wikimedia Commons",
+    "credit": "摄影 Gisling，2008；Wikimedia Commons；CC BY 3.0",
+    "license": "CC BY 3.0（https://creativecommons.org/licenses/by/3.0/；须保留摄影者署名及许可链接，裁切或改动时标明）",
+    "alt": "蓝天下的太和殿正立面，金色重檐、朱红立柱与白石三层台基前聚集参观者",
+    "localSrc": "/history/image-ming-palace-hero.jpg"
+  },
+  {
+    "id": "image-qing",
+    "eraIds": [
+      "qing"
+    ],
+    "nodeIds": [
+      "qing-qianlong"
+    ],
+    "title": "乾隆帝肖像——《乾隆帝及后妃图卷》局部",
+    "dating": "乾隆帝肖像绘于1736年；原卷于1736年至1770年代陆续绘成",
+    "caption": "图中为郎世宁绘制的乾隆帝肖像局部，题记为乾隆元年八月，即1736年。原卷还包括皇后及十一位后妃的肖像，由郎世宁与清宫画家先后绘成。",
+    "imageUrl": "https://openaccess-cdn.clevelandart.org/1969.31/1969.31_web.jpg",
+    "sourceUrl": "https://www.clevelandart.org/art/1969.31",
+    "institution": "Cleveland Museum of Art（克利夫兰艺术博物馆）",
+    "credit": "The Cleveland Museum of Art；John L. Severance Fund；藏品号 1969.31",
+    "license": "CC0 1.0（https://creativecommons.org/publicdomain/zero/1.0/）",
+    "alt": "乾隆帝胸像局部，头戴冠帽、身穿饰龙纹的黄色礼服，旁题“乾隆元年八月吉日”",
+    "localSrc": "/history/image-qing.jpg"
+  },
+  {
+    "id": "image-late-qing",
+    "eraIds": [
+      "late-qing"
+    ],
+    "nodeIds": [],
+    "title": "慈禧与随从在颐和园排云门前",
+    "dating": "公元1903—1905年，晚清",
+    "caption": "勋龄拍摄的同代宫廷合影，原始档案来自 Smithsonian。它记录晚清皇室形象与摄影实践，不是退位仪式或辛亥革命现场。",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Cixi_mit_Hofdamen.jpg/1920px-Cixi_mit_Hofdamen.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cixi_mit_Hofdamen.jpg",
+    "institution": "Smithsonian Institution；Wikimedia Commons",
+    "credit": "勋龄（Yu Xunling / John Yu Shuinling）摄影；Smithsonian，原档案 fsa.a.13/ref19",
+    "license": "Public domain（公有领域；Commons 标记 PD-old-80-expired 与 Smithsonian 开放来源）",
+    "alt": "慈禧居中坐于颐和园排云门前，身穿礼服的后妃、侍从与太监分列左右的黑白合影",
+    "localSrc": "/history/image-late-qing.jpg"
+  }
+]

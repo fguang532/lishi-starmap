@@ -7,6 +7,7 @@ type Props = {
   nodeId: string | null;
   onEra: (id: string) => void;
   onNode: (id: string) => void;
+  matchingIds: string[] | null;
 };
 export default function FlatGraph({
   eras,
@@ -14,6 +15,7 @@ export default function FlatGraph({
   nodeId,
   onEra,
   onNode,
+  matchingIds,
 }: Props) {
   const era = eras.find((e) => e.id === eraId);
   const list = era ? era.nodes : eras;
@@ -22,6 +24,8 @@ export default function FlatGraph({
     return { x: 50 + Math.cos(a) * 36, y: 50 + Math.sin(a) * 34 };
   });
   const relations = era?.relations ?? [];
+  const shown = (id: string) =>
+    !era || !matchingIds || matchingIds.includes(id) || id === nodeId;
   return (
     <div className={`flat-graph ${era ? "flat-detail" : "flat-overview"}`}>
       <svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
@@ -38,7 +42,8 @@ export default function FlatGraph({
         {relations.map((r) => {
           const a = list.findIndex((n) => n.id === r.source),
             b = list.findIndex((n) => n.id === r.target);
-          if (a < 0 || b < 0) return null;
+          if (a < 0 || b < 0 || !shown(r.source) || !shown(r.target))
+            return null;
           return (
             <line
               key={r.id}
@@ -57,26 +62,28 @@ export default function FlatGraph({
         <span>{era?.shortTitle ?? "中国"}</span>
         <small>{era ? "历史关系网" : "文明的轨迹"}</small>
       </div>
-      {list.map((n, i) => (
-        <button
-          className={`flat-node ${nodeId === n.id ? "active" : ""}`}
-          key={n.id}
-          style={
-            {
-              left: `${points[i].x}%`,
-              top: `${points[i].y}%`,
-              "--node-color": era
-                ? TYPE_COLORS[era.nodes[i].type]
-                : eraColor(i),
-            } as React.CSSProperties
-          }
-          onClick={() => (era ? onNode(n.id) : onEra(n.id))}
-        >
-          <i />
-          <span>{"shortTitle" in n ? n.shortTitle : n.title}</span>
-          {era && <small>{era.nodes[i].type}</small>}
-        </button>
-      ))}
+      {list.map((n, i) =>
+        shown(n.id) ? (
+          <button
+            className={`flat-node ${nodeId === n.id ? "active" : ""}`}
+            key={n.id}
+            style={
+              {
+                left: `${points[i].x}%`,
+                top: `${points[i].y}%`,
+                "--node-color": era
+                  ? TYPE_COLORS[era.nodes[i].type]
+                  : eraColor(i),
+              } as React.CSSProperties
+            }
+            onClick={() => (era ? onNode(n.id) : onEra(n.id))}
+          >
+            <i />
+            <span>{"shortTitle" in n ? n.shortTitle : n.title}</span>
+            {era && <small>{era.nodes[i].type}</small>}
+          </button>
+        ) : null,
+      )}
     </div>
   );
 }

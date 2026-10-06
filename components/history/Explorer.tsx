@@ -23,6 +23,9 @@ import {
   X,
   ZoomIn,
   ZoomOut,
+  Sun,
+  Moon,
+  SlidersHorizontal,
 } from "lucide-react";
 import {
   Sheet,
@@ -41,6 +44,16 @@ import type { CameraPose, Era, HistoryNode, ViewState } from "@/data/types";
 import { eraColor, TYPE_COLORS } from "@/data/types";
 import DetailPanel from "./DetailPanel";
 import FlatGraph from "./FlatGraph";
+import DayGallery from "./DayGallery";
+import Preferences from "./Preferences";
+import {
+  TAG_LABELS,
+  matchesInterest,
+  sortedEras,
+  sortedNodes,
+  type SortMode,
+} from "@/data/exploration";
+import type { ThemeMode } from "@/data/types";
 const StarScene = lazy(() => import("./StarScene"));
 class SceneBoundary extends Component<
   { children: React.ReactNode; onError: () => void },
@@ -86,6 +99,11 @@ export default function Explorer() {
   const [view, setView] = useState<ViewState>(ROOT);
   const [panelOpen, setPanelOpen] = useState(false);
   const [indexOpen, setIndexOpen] = useState(false);
+  const [preferencesOpen, setPreferencesOpen] = useState(false);
+  const [theme, setTheme] = useState<ThemeMode>("night");
+  const [tags, setTags] = useState<string[]>([]);
+  const [sort, setSort] = useState<SortMode>("chronological");
+  const [preferencesLoaded, setPreferencesLoaded] = useState(false);
   const [paused, setPaused] = useState(false);
   const [reduced, setReduced] = useState(false);
   const [mobile, setMobile] = useState(false);
@@ -111,8 +129,60 @@ export default function Explorer() {
   const era = eras.find((e) => e.id === view.eraId);
   const node = view.nodeId ? allNodes.get(view.nodeId)?.node : undefined;
   const totalNodes = allNodes.size;
-  const is3D = webgl === true && !flat;
+  const is3D = theme === "night" && webgl === true && !flat;
   const motionStopped = paused || reduced;
+  const matchingIds = useMemo(
+    () =>
+      tags.length
+        ? eras.flatMap((e) =>
+            e.nodes.filter((n) => matchesInterest(n, tags)).map((n) => n.id),
+          )
+        : null,
+    [tags],
+  );
+  const filteredEras = useMemo(
+    () => sortedEras(eras, tags, sort),
+    [tags, sort],
+  );
+  const filteredNodes = era ? sortedNodes(era.nodes, tags, sort) : [];
+  useEffect(() => {
+    try {
+      const saved = JSON.parse(
+        localStorage.getItem("huaxia-exploration-v2") || "null",
+      );
+      if (saved) {
+        if (saved.theme === "day" || saved.theme === "night")
+          setTheme(saved.theme);
+        if (Array.isArray(saved.tags))
+          setTags([
+            ...new Set<string>(
+              saved.tags.filter(
+                (t: unknown) => typeof t === "string" && t in TAG_LABELS,
+              ),
+            ),
+          ]);
+        if (["chronological", "reverse", "relevance"].includes(saved.sort))
+          setSort(saved.sort);
+      }
+    } catch {
+      /* Storage may be unavailable in private browsing. */
+    }
+    setPreferencesLoaded(true);
+  }, []);
+  useEffect(() => {
+    document.documentElement.dataset.theme = theme;
+    document.documentElement.classList.toggle("dark", theme === "night");
+    if (preferencesLoaded) {
+      try {
+        localStorage.setItem(
+          "huaxia-exploration-v2",
+          JSON.stringify({ theme, tags, sort }),
+        );
+      } catch {
+        /* Preferences still work in memory. */
+      }
+    }
+  }, [theme, tags, sort, preferencesLoaded]);
   useEffect(() => {
     const small = window.matchMedia("(max-width: 767px)");
     const motion = window.matchMedia("(prefers-reduced-motion: reduce)");
@@ -213,13 +283,20 @@ export default function Explorer() {
   }, [view.eraId, navigate]);
   useEffect(() => {
     function keys(e: KeyboardEvent) {
-      if (e.key === "Escape" && !panelOpen && !indexOpen && view.eraId) {
+      if (
+        e.key === "Escape" &&
+        !e.defaultPrevented &&
+        !panelOpen &&
+        !indexOpen &&
+        !preferencesOpen &&
+        view.eraId
+      ) {
         goBack();
       }
     }
     window.addEventListener("keydown", keys);
     return () => window.removeEventListener("keydown", keys);
-  }, [goBack, panelOpen, indexOpen, view.eraId]);
+  }, [goBack, panelOpen, indexOpen, preferencesOpen, view.eraId]);
   const onPose = useCallback((p: CameraPose) => {
     pose.current = p;
   }, []);
@@ -228,7 +305,8 @@ export default function Explorer() {
   return (
     <TooltipProvider delayDuration={200}>
       <main
-        className={`atlas-app ${era ? "has-selection" : ""} ${panelOpen && !mobile ? "panel-visible" : ""} ${motionStopped ? "motion-paused" : ""}`}
+        data-preferences-ready={preferencesLoaded}
+        className={`atlas-app theme-${theme} ${era ? "has-selection" : ""} ${panelOpen && !mobile ? "panel-visible" : ""} ${motionStopped ? "motion-paused" : ""}`}
       >
         <header className="topbar">
           <button
@@ -256,217 +334,288 @@ export default function Explorer() {
             </button>
           </nav>
           <div className="country-label">
-            <Compass size={16} />
-            <span>中国</span>
-            <i />
-            <span>CHINA</span>
+            <button
+              className={`preferences-trigger ${tags.length ? "has-preferences" : ""}`}
+              onClick={() => setPreferencesOpen(true)}
+              aria-label="探索偏好"
+            >
+              <SlidersHorizontal size={16} />
+              <span>探索偏好</span>
+              {tags.length > 0 && <b>{tags.length}</b>}
+            </button>
+            <button
+              className="theme-toggle"
+              disabled={!preferencesLoaded}
+              onClick={() => setTheme((t) => (t === "night" ? "day" : "night"))}
+              aria-label={
+                theme === "night" ? "切换白天古风模式" : "切换夜间星图模式"
+              }
+            >
+              {theme === "night" ? <Sun size={18} /> : <Moon size={18} />}
+              <span>{theme === "night" ? "宫阙日景" : "星河夜景"}</span>
+            </button>
           </div>
         </header>
         <section className="universe" aria-label="中国历史交互星图">
-          <div className="scene-holder" data-testid="star-scene">
-            {is3D ? (
-              <SceneBoundary onError={onSceneError}>
-                <Suspense
-                  fallback={
-                    <FlatGraph
-                      eras={eras}
-                      eraId={view.eraId}
-                      nodeId={view.nodeId}
-                      onEra={goEra}
-                      onNode={goNode}
-                    />
-                  }
-                >
-                  <StarScene
+          {theme === "day" ? (
+            <DayGallery
+              eras={eras}
+              era={era}
+              node={node}
+              tags={tags}
+              sort={sort}
+              onEra={goEra}
+              onNode={goNode}
+              onGlobal={goGlobal}
+              onPreferences={() => setPreferencesOpen(true)}
+              onOverview={() => {
+                if (node && era) goEra(era.id);
+                else setPanelOpen(true);
+              }}
+              onClear={() => setTags([])}
+            />
+          ) : (
+            <>
+              <div className="scene-holder" data-testid="star-scene">
+                {is3D ? (
+                  <SceneBoundary onError={onSceneError}>
+                    <Suspense
+                      fallback={
+                        <FlatGraph
+                          eras={eras}
+                          eraId={view.eraId}
+                          nodeId={view.nodeId}
+                          onEra={goEra}
+                          onNode={goNode}
+                          matchingIds={matchingIds}
+                        />
+                      }
+                    >
+                      <StarScene
+                        eras={eras}
+                        eraId={view.eraId}
+                        nodeId={view.nodeId}
+                        paused={paused}
+                        reduced={reduced}
+                        reset={reset}
+                        zoom={zoom}
+                        restore={restore}
+                        mobile={mobile}
+                        visible={visible}
+                        onPose={onPose}
+                        onError={onSceneError}
+                        onEra={goEra}
+                        onNode={goNode}
+                        matchingIds={matchingIds}
+                      />
+                    </Suspense>
+                  </SceneBoundary>
+                ) : (
+                  <FlatGraph
                     eras={eras}
                     eraId={view.eraId}
                     nodeId={view.nodeId}
-                    paused={paused}
-                    reduced={reduced}
-                    reset={reset}
-                    zoom={zoom}
-                    restore={restore}
-                    mobile={mobile}
-                    visible={visible}
-                    onPose={onPose}
-                    onError={onSceneError}
                     onEra={goEra}
                     onNode={goNode}
+                    matchingIds={matchingIds}
                   />
-                </Suspense>
-              </SceneBoundary>
-            ) : (
-              <FlatGraph
-                eras={eras}
-                eraId={view.eraId}
-                nodeId={view.nodeId}
-                onEra={goEra}
-                onNode={goNode}
-              />
-            )}
-          </div>
-          <div className="universe-heading">
-            <span className="eyebrow">
-              <span className="status-light" /> CHINA THROUGH TIME
-            </span>
-            {era ? (
-              <>
-                <div className="explore-breadcrumb">
-                  <button className="back-link" onClick={goBack}>
-                    <ChevronLeft size={15} />
-                    返回
-                  </button>
-                  <span>/</span>
-                  <button onClick={goGlobal}>文明全景</button>
-                  {node && (
-                    <>
-                      <span>/</span>
-                      <button onClick={() => goEra(era.id)}>
-                        {era.shortTitle}
+                )}
+              </div>
+            </>
+          )}
+          {theme === "night" && (
+            <>
+              <div className="universe-heading">
+                <span className="eyebrow">
+                  <span className="status-light" /> CHINA THROUGH TIME
+                </span>
+                {era ? (
+                  <>
+                    <div className="explore-breadcrumb">
+                      <button className="back-link" onClick={goBack}>
+                        <ChevronLeft size={15} />
+                        返回
                       </button>
+                      <span>/</span>
+                      <button onClick={goGlobal}>文明全景</button>
+                      {node && (
+                        <>
+                          <span>/</span>
+                          <button onClick={() => goEra(era.id)}>
+                            {era.shortTitle}
+                          </button>
+                        </>
+                      )}
+                    </div>
+                    <h1>{era.title}</h1>
+                    <p>
+                      {era.dateLabel}
+                      <br />
+                      <span className="era-kicker">{era.kicker}</span>
+                    </p>
+                    <button
+                      className="read-overview"
+                      onClick={() => {
+                        if (node) goEra(era.id);
+                        else setPanelOpen(true);
+                      }}
+                    >
+                      <BookOpen size={14} />
+                      {node
+                        ? "阅读时期概览"
+                        : panelOpen
+                          ? "时期概览"
+                          : "展开时期概览"}
+                    </button>
+                  </>
+                ) : (
+                  <>
+                    <h1>
+                      穿行五千年<span>探索文明的轨迹</span>
+                    </h1>
+                    <p>
+                      从文明初曙，到帝制终章。
+                      <br />
+                      每一个节点，都是一段历史的入口。
+                    </p>
+                    <div className="overview-stats">
+                      <span>
+                        <b>22</b>历史专题
+                      </span>
+                      <i />
+                      <span>
+                        <b>{totalNodes}</b>精选节点
+                      </span>
+                    </div>
+                  </>
+                )}
+              </div>
+              <div className="stage-index">
+                <span>{era ? "当前历史专题" : "中国历史 · 精选专题"}</span>
+                <strong>
+                  {String(era ? selectedIndex + 1 : 22).padStart(2, "0")}
+                  <i>/ 22</i>
+                </strong>
+                {era && <span className="era-english">{era.englishTitle}</span>}
+              </div>
+              {era && (
+                <div className="graph-legend" aria-label="节点类型">
+                  {[...new Set(era.nodes.map((n) => n.type))].map((t) => (
+                    <span key={t}>
+                      <i style={{ background: TYPE_COLORS[t] }} />
+                      {t}
+                    </span>
+                  ))}
+                  <span className="edge-legend">
+                    <i />
+                    有据关系
+                  </span>
+                </div>
+              )}
+              {tags.length > 0 && (
+                <div className="active-preferences">
+                  <button onClick={() => setPreferencesOpen(true)}>
+                    <SlidersHorizontal size={14} />
+                    {tags
+                      .slice(0, 2)
+                      .map((t) => TAG_LABELS[t])
+                      .join(" · ")}
+                    {tags.length > 2 ? ` 等 ${tags.length} 项` : ""}
+                    <span>
+                      {era ? filteredNodes.length : matchingIds?.length} 个匹配
+                    </span>
+                  </button>
+                  <button aria-label="清除所有筛选" onClick={() => setTags([])}>
+                    <X size={14} />
+                  </button>
+                </div>
+              )}
+              {era &&
+                tags.length > 0 &&
+                filteredNodes.length === 0 &&
+                !node && (
+                  <div className="night-empty">
+                    <p>这一时期暂未收录所选类别</p>
+                    <button onClick={() => setTags([])}>显示全部节点</button>
+                  </div>
+                )}
+              {webgl === false && (
+                <p className="fallback-notice" role="status">
+                  当前使用二维星图，历史内容完整可读。
+                </p>
+              )}
+              <div className="scene-bottom">
+                <div className="gesture-help">
+                  {is3D ? (
+                    <>
+                      <span>
+                        <Move size={14} />
+                        {mobile ? "单指旋转" : "拖动旋转"}
+                      </span>
+                      <span>
+                        <MousePointer2 size={14} />
+                        {mobile ? "双指缩放" : "点击探索"}
+                      </span>
+                      <span className="desktop-only">滚轮缩放</span>
                     </>
+                  ) : (
+                    <span>
+                      <MousePointer2 size={14} />
+                      点击节点探索
+                    </span>
                   )}
                 </div>
-                <h1>{era.title}</h1>
-                <p>
-                  {era.dateLabel}
-                  <br />
-                  <span className="era-kicker">{era.kicker}</span>
-                </p>
-                <button
-                  className="read-overview"
-                  onClick={() => {
-                    if (node) goEra(era.id);
-                    else setPanelOpen(true);
-                  }}
-                >
-                  <BookOpen size={14} />
-                  {node
-                    ? "阅读时期概览"
-                    : panelOpen
-                      ? "时期概览"
-                      : "展开时期概览"}
-                </button>
-              </>
-            ) : (
-              <>
-                <h1>
-                  穿行五千年<span>探索文明的轨迹</span>
-                </h1>
-                <p>
-                  从文明初曙，到帝制终章。
-                  <br />
-                  每一个节点，都是一段历史的入口。
-                </p>
-                <div className="overview-stats">
-                  <span>
-                    <b>22</b>历史专题
-                  </span>
-                  <i />
-                  <span>
-                    <b>{totalNodes}</b>精选节点
-                  </span>
+                <div className="scene-controls">
+                  {is3D && (
+                    <>
+                      <Control
+                        label="放大星图"
+                        onClick={() => setZoom((z) => z + 1)}
+                      >
+                        <ZoomIn size={17} />
+                      </Control>
+                      <Control
+                        label="缩小星图"
+                        onClick={() => setZoom((z) => z - 1)}
+                      >
+                        <ZoomOut size={17} />
+                      </Control>
+                    </>
+                  )}
+                  <Control
+                    label={
+                      reduced
+                        ? "系统已启用减少动态效果"
+                        : paused
+                          ? "播放动效"
+                          : "暂停动效"
+                    }
+                    pressed={motionStopped}
+                    onClick={() => setPaused((p) => !p)}
+                  >
+                    {motionStopped ? <Play size={17} /> : <Pause size={17} />}
+                  </Control>
+                  <Control
+                    label="重置视角"
+                    onClick={() => {
+                      setRestore(null);
+                      setReset((n) => n + 1);
+                    }}
+                  >
+                    <RotateCcw size={17} />
+                  </Control>
+                  <button
+                    className="dimension-tag"
+                    aria-label={is3D ? "切换二维视图" : "切换三维视图"}
+                    disabled={webgl === false}
+                    onClick={() => setFlat((f) => !f)}
+                  >
+                    {is3D ? "3D" : "2D"}
+                  </button>
                 </div>
-              </>
-            )}
-          </div>
-          <div className="stage-index">
-            <span>{era ? "当前历史专题" : "中国历史 · 精选专题"}</span>
-            <strong>
-              {String(era ? selectedIndex + 1 : 22).padStart(2, "0")}
-              <i>/ 22</i>
-            </strong>
-            {era && <span className="era-english">{era.englishTitle}</span>}
-          </div>
-          {era && (
-            <div className="graph-legend" aria-label="节点类型">
-              {[...new Set(era.nodes.map((n) => n.type))].map((t) => (
-                <span key={t}>
-                  <i style={{ background: TYPE_COLORS[t] }} />
-                  {t}
-                </span>
-              ))}
-              <span className="edge-legend">
-                <i />
-                有据关系
-              </span>
-            </div>
+              </div>
+            </>
           )}
-          {webgl === false && (
-            <p className="fallback-notice" role="status">
-              当前使用二维星图，历史内容完整可读。
-            </p>
-          )}
-          <div className="scene-bottom">
-            <div className="gesture-help">
-              {is3D ? (
-                <>
-                  <span>
-                    <Move size={14} />
-                    {mobile ? "单指旋转" : "拖动旋转"}
-                  </span>
-                  <span>
-                    <MousePointer2 size={14} />
-                    {mobile ? "双指缩放" : "点击探索"}
-                  </span>
-                  <span className="desktop-only">滚轮缩放</span>
-                </>
-              ) : (
-                <span>
-                  <MousePointer2 size={14} />
-                  点击节点探索
-                </span>
-              )}
-            </div>
-            <div className="scene-controls">
-              {is3D && (
-                <>
-                  <Control
-                    label="放大星图"
-                    onClick={() => setZoom((z) => z + 1)}
-                  >
-                    <ZoomIn size={17} />
-                  </Control>
-                  <Control
-                    label="缩小星图"
-                    onClick={() => setZoom((z) => z - 1)}
-                  >
-                    <ZoomOut size={17} />
-                  </Control>
-                </>
-              )}
-              <Control
-                label={
-                  reduced
-                    ? "系统已启用减少动态效果"
-                    : paused
-                      ? "播放动效"
-                      : "暂停动效"
-                }
-                pressed={motionStopped}
-                onClick={() => setPaused((p) => !p)}
-              >
-                {motionStopped ? <Play size={17} /> : <Pause size={17} />}
-              </Control>
-              <Control
-                label="重置视角"
-                onClick={() => {
-                  setRestore(null);
-                  setReset((n) => n + 1);
-                }}
-              >
-                <RotateCcw size={17} />
-              </Control>
-              <button
-                className="dimension-tag"
-                aria-label={is3D ? "切换二维视图" : "切换三维视图"}
-                disabled={webgl === false}
-                onClick={() => setFlat((f) => !f)}
-              >
-                {is3D ? "3D" : "2D"}
-              </button>
-            </div>
-          </div>
         </section>
         <footer className="chronology">
           <div className="chronology-top">
@@ -491,7 +640,7 @@ export default function Explorer() {
                 aria-label={`探索${e.title}`}
                 aria-current={view.eraId === e.id ? "true" : undefined}
                 style={{ "--era-color": eraColor(i) } as React.CSSProperties}
-                className={`timeline-era ${view.eraId === e.id ? "selected" : ""}`}
+                className={`timeline-era ${view.eraId === e.id ? "selected" : ""} ${tags.length && !e.nodes.some((n) => matchesInterest(n, tags)) ? "unmatched" : ""}`}
                 onClick={() => goEra(e.id)}
               >
                 <span className="timeline-dot" />
@@ -504,7 +653,11 @@ export default function Explorer() {
           </div>
           <div className="footer-note">
             <span>文明起源至清末 · 专题可能包含并存政权</span>
-            <span>虚线为时间轨道 · 星图距离不代表年代间隔</span>
+            <span>
+              {theme === "night"
+                ? "虚线为时间轨道 · 星图距离不代表年代间隔"
+                : "图像年代、馆藏来源与授权可在档案中查阅"}
+            </span>
           </div>
         </footer>
         <DetailPanel
@@ -518,6 +671,19 @@ export default function Explorer() {
           onNode={goNode}
           onBack={goBack}
           canBack={history.current.length > 0}
+          filteredNodes={filteredNodes}
+          filterActive={tags.length > 0}
+          onClearFilter={() => setTags([])}
+        />
+        <Preferences
+          open={preferencesOpen}
+          onOpenChange={setPreferencesOpen}
+          tags={tags}
+          onTags={setTags}
+          sort={sort}
+          onSort={setSort}
+          eras={eras}
+          onEra={goEra}
         />
         <Sheet open={indexOpen} onOpenChange={setIndexOpen}>
           <SheetContent
@@ -529,7 +695,7 @@ export default function Explorer() {
               <div>
                 <SheetTitle>历史索引</SheetTitle>
                 <SheetDescription>
-                  22 个入口，探索中国历史的不同侧面。
+                  {filteredEras.length} 个专题符合当前偏好。
                 </SheetDescription>
               </div>
               <button
@@ -541,23 +707,28 @@ export default function Explorer() {
               </button>
             </div>
             <div className="era-index-list">
-              {eras.map((e, i) => (
+              {filteredEras.map((e) => (
                 <button
                   key={e.id}
                   onClick={() => {
                     goEra(e.id);
                     setIndexOpen(false);
                   }}
-                  style={{ "--era-color": eraColor(i) } as React.CSSProperties}
+                  style={
+                    {
+                      "--era-color": eraColor(eras.indexOf(e)),
+                    } as React.CSSProperties
+                  }
                   aria-current={view.eraId === e.id ? "true" : undefined}
                 >
-                  <span>{String(i + 1).padStart(2, "0")}</span>
+                  <span>{String(eras.indexOf(e) + 1).padStart(2, "0")}</span>
                   <div>
                     <strong>{e.title}</strong>
                     <small>{e.dateLabel}</small>
                   </div>
                   <span className="index-node-count">
-                    {e.nodes.length} 节点
+                    {e.nodes.filter((n) => matchesInterest(n, tags)).length}{" "}
+                    节点
                   </span>
                 </button>
               ))}
